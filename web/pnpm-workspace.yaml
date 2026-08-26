@@ -1,0 +1,8 @@
+# Keep the deployment build-script policy explicit and intentionally narrow.
+# These packages supply the native/runtime tooling required by Vinext and the
+# Cloudflare deployment adapter; no optional platform-only packages are enabled.
+allowBuilds:
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  workerd: true

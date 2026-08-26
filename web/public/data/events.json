@@ -1,0 +1,4510 @@
+[
+ {
+  "id": "bai-ju-yi-xiagui-01",
+  "personId": "bai-ju-yi",
+  "placeId": "xiagui",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至下邽",
+  "summary": "据旧唐书本传，白居易本传记其行至下邽判为行至下邽的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 85,
+     "endLine": 186
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 39,
+     "endLine": 60
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "bai-ju-yi-hanlin-changan-02",
+  "personId": "bai-ju-yi",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "任翰林学士、左拾遗",
+  "title": "召入翰林为学士，拜左拾遗",
+  "summary": "元和二年十一月召入翰林为学士，三年五月拜左拾遗。本传未记确切任职地，按翰林学士与左拾遗皆在京师长安任职的语境定位为长安。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 91,
+     "endLine": 91
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 41,
+     "endLine": 41
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "bai-ju-yi-xiagui-mourning-03",
+  "personId": "bai-ju-yi",
+  "placeId": "xiagui",
+  "lifeStage": "正史本传行迹",
+  "role": "丁母忧退居",
+  "title": "丁母忧，退居下邽",
+  "summary": "元和六年四月丁母陈夫人之丧，退居下邽。下邽为其家族徙居之地，即今陕西渭南一带，本传记此时以守丧退居故里，后亦自下邽入朝。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 117,
+     "endLine": 117
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "bai-ju-yi-changan-return-04",
+  "personId": "bai-ju-yi",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "入朝任职",
+  "title": "九年冬入朝，授太子左赞善大夫",
+  "summary": "元和九年冬入朝，授太子左赞善大夫。按入朝即赴京师长安任职，本传未记其他行迹地点，故定位为长安城中，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 117,
+     "endLine": 117
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第4站（未核定年份）",
+  "sequence": 4
+ },
+ {
+  "id": "bai-ju-yi-jiangzhou-exile-05",
+  "personId": "bai-ju-yi",
+  "placeId": "xunyang",
+  "lifeStage": "正史本传行迹",
+  "role": "贬江州司马",
+  "title": "贬为江州司马",
+  "summary": "元和十年七月因请捕贼雪国耻触怒执政，追诏授江州司马。江州治寻阳，即今九江一带，本传后文亦记自浔阳浮江上峡，故以寻阳定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 119,
+     "endLine": 119
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第5站（未核定年份）",
+  "sequence": 5
+ },
+ {
+  "id": "bai-ju-yi-lushan-hermitage-06",
+  "personId": "bai-ju-yi",
+  "placeId": "lushan",
+  "lifeStage": "正史本传行迹",
+  "role": "庐山营草堂",
+  "title": "在湓城营庐山草堂",
+  "summary": "在江州湓城期间，立隐舍于庐山遗爱寺，并自述游庐山、建草堂事。湓城即江州城，按草堂为其居处，故定位为庐山，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 121,
+     "endLine": 121
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第6站（未核定年份）",
+  "sequence": 6
+ },
+ {
+  "id": "bai-ju-yi-zhongzhou-governor-07",
+  "personId": "bai-ju-yi",
+  "placeId": "zhongzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "量移忠州刺史",
+  "title": "量移忠州刺史",
+  "summary": "元和十三年冬量移忠州刺史，自浔阳浮江上峡赴任。新唐书本传亦记其自忠州入朝，忠州即今重庆忠县一带，故为明确行迹站点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 63,
+     "endLine": 63
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第7站（未核定年份）",
+  "sequence": 7
+ },
+ {
+  "id": "bai-ju-yi-yiling-stop-08",
+  "personId": "bai-ju-yi",
+  "placeId": "yiling",
+  "lifeStage": "正史本传行迹",
+  "role": "舟行停泊",
+  "title": "停舟夷陵",
+  "summary": "元和十四年三月元稹会居易于峡口，停舟夷陵三日，与季弟行简同游。按本传明确记停舟地点为夷陵，即今湖北宜昌一带，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第8站（未核定年份）",
+  "sequence": 8
+ },
+ {
+  "id": "bai-ju-yi-changan-recalled-09",
+  "personId": "bai-ju-yi",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "召还京师任职",
+  "title": "召还京师，拜司门员外郎",
+  "summary": "元和十五年冬召还京师，拜司门员外郎，后转主客郎中、知制诰。按京师即长安，本传未记其他行迹地点，故定位为长安，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 163,
+     "endLine": 163
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第9站（未核定年份）",
+  "sequence": 9
+ },
+ {
+  "id": "bai-ju-yi-hangzhou-governor-10",
+  "personId": "bai-ju-yi",
+  "placeId": "hangzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "除杭州刺史",
+  "title": "除杭州刺史",
+  "summary": "长庆年间因求外任，七月除杭州刺史。本传明确记杭州任职，即今浙江杭州，任满后除太子左庶子分司东都，杭州为其重要行迹站点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第10站（未核定年份）",
+  "sequence": 10
+ },
+ {
+  "id": "bai-ju-yi-luoyang-dongdu-11",
+  "personId": "bai-ju-yi",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "分司东都",
+  "title": "秩满除太子左庶子，分司东都",
+  "summary": "杭州秩满后除太子左庶子，分司东都。东都即洛阳，本传后文记罢杭州归洛阳履道里置宅，故以洛阳定位，分司为东都闲职，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 169,
+     "endLine": 169
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第11站（未核定年份）",
+  "sequence": 11
+ },
+ {
+  "id": "bai-ju-yi-suzhou-governor-12",
+  "personId": "bai-ju-yi",
+  "placeId": "suzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "出为苏州刺史",
+  "title": "复出为苏州刺史",
+  "summary": "宝历中复出为苏州刺史，即今江苏苏州。本传明确记苏州任职，罢任时携太湖石、白莲等归洛阳，苏州为其晚年东归前的行迹站点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 173,
+     "endLine": 173
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第12站（未核定年份）",
+  "sequence": 12
+ },
+ {
+  "id": "bai-ju-yi-changan-secretary-13",
+  "personId": "bai-ju-yi",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "征拜秘书监",
+  "title": "文宗即位，征拜秘书监",
+  "summary": "文宗即位后征拜秘书监，赐金紫，新唐书本传记以秘书监召。按秘书监任职于京师，本传未记其他行迹地点，故定位为长安，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 55,
+     "endLine": 55
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第13站（未核定年份）",
+  "sequence": 13
+ },
+ {
+  "id": "bai-ju-yi-luoyang-henan-yin-14",
+  "personId": "bai-ju-yi",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "除河南尹，归居洛阳",
+  "title": "除河南尹，归居洛阳履道里",
+  "summary": "太和五年除河南尹，后复授太子宾客分司。本传记罢杭州后归洛阳履道里置宅，新唐书本传亦记东都所居履道里，故以洛阳定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 167,
+     "endLine": 167
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 169,
+     "endLine": 169
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 55,
+     "endLine": 55
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 57,
+     "endLine": 57
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第14站（未核定年份）",
+  "sequence": 14
+ },
+ {
+  "id": "bai-ju-yi-luoyang-death-15",
+  "personId": "bai-ju-yi",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "卒于洛阳",
+  "title": "大中元年卒",
+  "summary": "会昌中以刑部尚书致仕，居洛阳香山，与僧如满结香火社，自称香山居士。大中元年卒于洛阳，时年七十六，本传载其卒年与终老之地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 183,
+     "endLine": 183
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 185,
+     "endLine": 185
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第15站（未核定年份）",
+  "sequence": 15
+ },
+ {
+  "id": "cao-cao-born-qiao",
+  "personId": "cao-cao",
+  "placeId": "qiao",
+  "timePrecision": "era-only",
+  "timeLabel": "约155年（据本传卒年六十六推得）",
+  "startYear": 155,
+  "endYear": 155,
+  "sequence": 1,
+  "lifeStage": "早年乡里",
+  "role": "沛国谯人",
+  "title": "生于沛国谯县",
+  "summary": "曹操为沛国谯县人，本纪开篇即记其籍贯。正文又记建安二十五年正月王崩于洛阳、年六十六；出生年份由此推得约为155年。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 19,
+     "endLine": 19
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 989,
+     "endLine": 990
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-luoyang-wei",
+  "personId": "cao-cao",
+  "placeId": "luoyang",
+  "timePrecision": "era-only",
+  "timeLabel": "本传未记确切年份（约灵帝时）",
+  "sequence": 2,
+  "lifeStage": "仕宦起步",
+  "role": "洛阳北部尉",
+  "title": "举孝廉，除洛阳北部尉",
+  "summary": "本传记曹操年二十举孝廉为郎，除洛阳北部尉，迁顿丘令，又征拜议郎。这段京师仕宦的确切年份未记，只按材料顺序呈现，洛阳由此成为他仕途的第一站。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 50,
+     "endLine": 51
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 53,
+     "endLine": 53
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-jinan-xiang",
+  "personId": "cao-cao",
+  "placeId": "jinan",
+  "timePrecision": "era-only",
+  "timeLabel": "光和末（约184年）",
+  "startYear": 184,
+  "endYear": 184,
+  "sequence": 3,
+  "lifeStage": "地方任职",
+  "role": "济南相",
+  "title": "迁济南相，禁断淫祀",
+  "summary": "光和末黄巾起，曹操拜骑都尉讨颍川贼，迁济南相。他到任后奏免贪浊长吏、禁断淫祀，郡内肃然，任满称病归乡里；《让县自明本志令》亦自述济南任上的作为。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 60,
+     "endLine": 66
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-qiao-retreat",
+  "personId": "cao-cao",
+  "placeId": "qiao",
+  "timePrecision": "era-only",
+  "timeLabel": "光和末至中平间（本传未记确切年份）",
+  "sequence": 4,
+  "lifeStage": "辞官归乡",
+  "role": "乡居士人",
+  "title": "称疾归乡里，谯东筑精舍",
+  "summary": "曹操辞官还乡后，在谯东五十里筑精舍，秋夏读书、冬春射猎，以自娱自晦；后应征为都尉、典军校尉，重新出仕，谯东精舍的自叙见于本纪所引令文。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 66,
+     "endLine": 68
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 611,
+     "endLine": 612
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-dianjun-xiaowei",
+  "personId": "cao-cao",
+  "placeId": "luoyang",
+  "timePrecision": "era-only",
+  "timeLabel": "中平六年（189年）前后",
+  "startYear": 189,
+  "endYear": 189,
+  "sequence": 5,
+  "lifeStage": "京师乱局",
+  "role": "典军校尉",
+  "title": "征为典军校尉，值灵帝驾崩",
+  "summary": "灵帝末，曹操以征为典军校尉驻于京师；随即灵帝驾崩、太子即位，董卓入京擅政，天下自此大乱，京师经历把他卷入汉末权力更迭的现场。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 80,
+     "endLine": 84
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-yanzhou-mu",
+  "personId": "cao-cao",
+  "placeId": "yanzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "初平三年（192年）",
+  "startYear": 192,
+  "endYear": 192,
+  "sequence": 6,
+  "lifeStage": "起兵争雄",
+  "role": "兖州牧",
+  "title": "领兖州牧，收编青州黄巾",
+  "summary": "初平三年青州黄巾入兖州，兖州官吏迎曹操领兖州牧。他进兵击黄巾于寿张，受降卒三十余万，选其精锐号为青州兵，兖州成为他群雄逐鹿的第一块根基。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 159,
+     "endLine": 168
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 176,
+     "endLine": 176
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-xu-du",
+  "personId": "cao-cao",
+  "placeId": "xuchang",
+  "timePrecision": "era-only",
+  "timeLabel": "建安元年（196年）",
+  "startYear": 196,
+  "endYear": 196,
+  "sequence": 7,
+  "lifeStage": "定都许下",
+  "role": "大将军、司空",
+  "title": "迎天子都许，始兴屯田",
+  "summary": "建安元年曹操迎天子还都许，任大将军、司空；采纳枣祗、韩浩之议始兴屯田，许下积谷，朝廷制度得以重建，许都自此成为汉末的政治中心。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 228,
+     "endLine": 240
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 250,
+     "endLine": 253
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-guandu-battle",
+  "personId": "cao-cao",
+  "placeId": "guandu",
+  "timePrecision": "era-only",
+  "timeLabel": "建安五年（200年）",
+  "startYear": 200,
+  "endYear": 200,
+  "sequence": 8,
+  "lifeStage": "北方争衡",
+  "role": "汉军统帅",
+  "title": "官渡之战，大破袁绍",
+  "summary": "建安五年袁绍倾众南下，曹操据官渡与之相持；后亲率轻骑夜袭乌巢，焚其粮屯，绍军大溃，奠定统一北方的基础，此战之后袁氏势力走向瓦解。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 333,
+     "endLine": 333
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 371,
+     "endLine": 372
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 384,
+     "endLine": 410
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-ye-capital",
+  "personId": "cao-cao",
+  "placeId": "ye",
+  "timePrecision": "era-only",
+  "timeLabel": "建安九年（204年）起",
+  "startYear": 204,
+  "endYear": 204,
+  "sequence": 9,
+  "lifeStage": "邺城经营",
+  "role": "魏公、冀州牧",
+  "title": "围邺定河北，经营邺城",
+  "summary": "建安九年曹操围邺破袁尚，领冀州牧，以邺为经营中心；此后作铜爵台、金虎台，兴修宫室苑囿，魏国根基在此奠定，邺城因此成为魏国的都城基础。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 458,
+     "endLine": 461
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 489,
+     "endLine": 490
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 608,
+     "endLine": 608
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 803,
+     "endLine": 804
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-chibi",
+  "personId": "cao-cao",
+  "placeId": "chibi",
+  "timePrecision": "era-only",
+  "timeLabel": "建安十三年（208年）",
+  "startYear": 208,
+  "endYear": 208,
+  "sequence": 10,
+  "lifeStage": "南征失利",
+  "role": "南征统帅",
+  "title": "赤壁之战，不利北还",
+  "summary": "建安十三年曹操南征荆州，继而顺江而下；在赤壁与孙权、刘备联军交战不利，军中又遇大疫，只得引军北还，赤壁成为他南征战略的转折点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 585,
+     "endLine": 588
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-hefei-tuntian",
+  "personId": "cao-cao",
+  "placeId": "hefei",
+  "timePrecision": "era-only",
+  "timeLabel": "建安十四年（209年）",
+  "startYear": 209,
+  "endYear": 209,
+  "sequence": 11,
+  "lifeStage": "治军屯田",
+  "role": "治水军统帅",
+  "title": "军谯治水军，出合肥开屯田",
+  "summary": "建安十四年曹操驻谯治水军，自涡入淮、出肥水军合肥；并置扬州郡县长吏，开芍陂屯田，为南下经营作准备，合肥由此成为江淮防线的要点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 593,
+     "endLine": 598
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-changan-hanzhong",
+  "personId": "cao-cao",
+  "placeId": "changan",
+  "timePrecision": "era-only",
+  "timeLabel": "建安二十三年至二十四年（218—219年）",
+  "startYear": 218,
+  "endYear": 219,
+  "sequence": 12,
+  "lifeStage": "晚年征伐",
+  "role": "西征统帅",
+  "title": "西征刘备，至长安临汉中",
+  "summary": "建安二十三年秋，曹操治兵西征刘备，九月至长安；次年出斜谷临汉中，因刘备据险坚守，引军还长安，关中与汉中成为他晚年征伐的西线。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 960,
+     "endLine": 961
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 968,
+     "endLine": 970
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao-luoyang-death",
+  "personId": "cao-cao",
+  "placeId": "luoyang",
+  "timePrecision": "era-only",
+  "timeLabel": "建安二十五年（220年）",
+  "startYear": 220,
+  "endYear": 220,
+  "sequence": 13,
+  "lifeStage": "薨于洛阳",
+  "role": "魏王",
+  "title": "还洛阳，薨后葬高陵",
+  "summary": "建安二十五年正月，曹操还洛阳，随即病逝，年六十六。遗令薄葬、无藏金玉，二月葬于高陵，谥曰武王，洛阳既是起点也是终点，本纪于此收束。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 975,
+     "endLine": 976
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 989,
+     "endLine": 994
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-dali-kuizhou",
+  "personId": "du-fu",
+  "placeId": "kuizhou",
+  "startYear": 766,
+  "endYear": 768,
+  "lifeStage": "晚年行旅",
+  "role": "夔峡寓居者",
+  "title": "南游夔峡，居瀼西作诗",
+  "summary": "大历元年杜甫离成都南游，至夔峡后浮家瀼西；次年写白帝、赤甲等诗，大历三年仍在峡州一带，夔州成为晚年山水与登高诗的阅读节点。",
+  "workIds": [
+   "du-fu-qiu-xing-ba-shou-qi-yi",
+   "du-fu-deng-gao"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 152,
+     "endLine": 170
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0018",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0018_002.txt",
+     "startLine": 459,
+     "endLine": 490
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-dali-yueyang",
+  "personId": "du-fu",
+  "placeId": "yueyang",
+  "startYear": 769,
+  "endYear": 769,
+  "lifeStage": "晚年行旅",
+  "role": "行旅中的诗人",
+  "title": "岳阳、洞庭一带的诗作",
+  "summary": "年谱在这一年列出岳阳、洞庭湖、青草湖、湘夫人祠、乔口、道林和岳麓二寺等题材的诗作；另一部年谱材料列《陪裴使君登岳阳楼》，让地图可以从湖景进入作品阅读。",
+  "workIds": [
+   "du-fu-pei-pei-shijun-deng-yueyang-lou"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 173,
+     "endLine": 175
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0018",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0018_026.txt",
+     "startLine": 652,
+     "endLine": 655
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-guangde-zizhou",
+  "personId": "du-fu",
+  "placeId": "zizhou",
+  "startYear": 763,
+  "endYear": 763,
+  "lifeStage": "蜀中行旅",
+  "role": "行旅中的诗人",
+  "title": "在梓州登楼，并游涪城与阆中",
+  "summary": "年谱记载，春天有《登梓州城楼》，又西北游涪城；夏天回到梓城，秋天进入阆中。发布作品《春日梓州登楼二首》只按同年同地关联，不把不同题名强行合并为同一首。",
+  "workIds": [
+   "du-fu-chun-ri-zizhou-deng-lou"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 137,
+     "endLine": 140
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0018",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0018_026.txt",
+     "startLine": 529,
+     "endLine": 532
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-qianyuan-tonggu",
+  "personId": "du-fu",
+  "placeId": "tonggu",
+  "startYear": 759,
+  "endYear": 759,
+  "lifeStage": "战乱与迁徙",
+  "role": "离开华州后的行旅者",
+  "title": "离开华州，西行至同谷",
+  "summary": "年谱记载，杜甫当时任华州司功参军；关辅饥荒后，他弃官西行。冬十月从秦州出发，经过赤谷、铁堂峡，来到同谷城；同年条下还列出《新安吏》《石壕吏》《新婚别》。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 109,
+     "endLine": 116
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-shangyuan-chengdu-caotang",
+  "personId": "du-fu",
+  "placeId": "chengdu",
+  "startYear": 760,
+  "endYear": 760,
+  "lifeStage": "草堂生活",
+  "role": "草堂主人",
+  "title": "在成都西郭经营草堂",
+  "summary": "年谱以“经营上元始”说明草堂的经营始于这一年，并在同一条下列出浣花、《卜居》《狂夫》《有客》等作品。地图把成都西郭作为阅读这些草堂生活与写作线索的起点。",
+  "workIds": [
+   "du-fu-bu-ju",
+   "du-fu-kuang-fu",
+   "du-fu-you-ke",
+   "du-fu-mao-wu-wei-qiu-feng-suo-po-ge"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-tianbao-fengxian",
+  "personId": "du-fu",
+  "placeId": "fengxian",
+  "startYear": 755,
+  "endYear": 755,
+  "lifeStage": "战乱初起",
+  "role": "行旅中的诗人",
+  "title": "自京赴奉先",
+  "summary": "年谱记载，天宝十四载十一月，杜甫从京城前往奉先；同月发生禄山之乱。这里仅呈现年谱所列的行程和时代背景，不把后来的遭遇倒推为当日的细节。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-zhide-changan-captivity",
+  "personId": "du-fu",
+  "placeId": "changan",
+  "startYear": 756,
+  "endYear": 757,
+  "lifeStage": "战乱与迁徙",
+  "role": "陷贼中的诗人",
+  "title": "陷贼长安与《春望》",
+  "summary": "至德元载杜甫自鄜畤赴朝，渐至彭衙后陷入贼中；次年仍在长安作《春望》，贼退后才脱身前往凤翔，诗作由此与战乱经历相连。长安由此成为战乱经验与诗作相接的阅读主点。",
+  "workIds": [
+   "du-fu-chun-wang"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 93,
+     "endLine": 103
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0018",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0018_002.txt",
+     "startLine": 88,
+     "endLine": 96
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu-zhide-pengya",
+  "personId": "du-fu",
+  "placeId": "pengya",
+  "startYear": 756,
+  "endYear": 756,
+  "lifeStage": "战乱与迁徙",
+  "role": "赴朝途中",
+  "title": "从鄜畤赴朝，渐至彭衙",
+  "summary": "年谱记载，五月杜甫为避乱在左冯翊的鄜畤暂住；后来从鄜地向朝廷行进，渐至彭衙，随后陷入贼中。地图以彭衙标示这一段迁徙的终点，不把整段路线简化成单一居住地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 93,
+     "endLine": 99
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-mu-changan-early-01",
+  "personId": "du-mu",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "历任校书郎、监察御史",
+  "title": "解褐校书郎，真拜监察御史",
+  "summary": "杜牧进士及第后解褐弘文馆校书郎，历试左武卫兵曹参军，真拜监察御史；本传未记确切任职地，按京师长安任职的语境定位为长安。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "du-mu-luoyang-dongdu-02",
+  "personId": "du-mu",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "分司东都",
+  "title": "移疾分司东都",
+  "summary": "俄真拜监察御史，移疾分司东都，以弟顗病目弃官。按分司东都即居洛阳，分司为洛阳闲职，本传未记其他行迹地点，故定位为洛阳。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 65,
+     "endLine": 65
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "du-mu-huangzhou-03",
+  "personId": "du-mu",
+  "placeId": "huangzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "出牧黄州",
+  "title": "出牧黄州",
+  "summary": "旧唐书本传记其出牧黄、池、睦三郡，新唐书历黄、池、睦三州刺史；黄州为三州之一，即今湖北黄冈一带，故定位为黄州，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "du-mu-chizhou-04",
+  "personId": "du-mu",
+  "placeId": "chizhou",
+  "lifeStage": "正史本传行迹",
+  "role": "出牧池州",
+  "title": "出牧池州",
+  "summary": "杜牧出牧黄、池、睦三郡，池州为其一，即今安徽池州一带。本传未记到郡次序与确切年份，按三郡并载定位为池州，未核定到郡年月。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第4站（未核定年份）",
+  "sequence": 4
+ },
+ {
+  "id": "du-mu-muzhou-05",
+  "personId": "du-mu",
+  "placeId": "muzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "出牧睦州",
+  "title": "出牧睦州",
+  "summary": "杜牧出牧黄、池、睦三郡，睦州为其一，即今浙江杭州西南建德一带。本传未记到郡次序与确切年份，按三郡并载定位为睦州，未核定到郡年月。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第5站（未核定年份）",
+  "sequence": 5
+ },
+ {
+  "id": "du-mu-huzhou-01",
+  "personId": "du-mu",
+  "placeId": "huzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "授湖州刺史",
+  "title": "授湖州刺史",
+  "summary": "杜牧授湖州刺史，入拜考功郎中、知制诰，岁中迁中书舍人；本传未记到郡年份，按湖州任职定位为湖州，即今浙江湖州一带，未核定到郡年月。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 89,
+     "endLine": 89
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第6站（未核定年份）",
+  "sequence": 6
+ },
+ {
+  "id": "du-mu-changan-death-07",
+  "personId": "du-mu",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "入拜考功郎中，卒于安仁里",
+  "title": "迁中书舍人，以疾终于安仁里",
+  "summary": "后入拜考功郎中、知制诰，岁中迁中书舍人，以疾终于安仁里。按安仁里在长安，中书舍人亦任职京师，故定位为长安，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 89,
+     "endLine": 89
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第7站（未核定年份）",
+  "sequence": 7
+ },
+ {
+  "id": "gao-shi-hechi-01",
+  "personId": "gao-shi",
+  "placeId": "hechi",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至河池",
+  "summary": "据旧唐书本传，高适图，可云大体；谠言义色，实谓忠臣。宜回纠逖之任，俾超讽谕之职，可谏议大夫，赐绯鱼袋。”适负气敢言，权幸惮之。判为行至河池的行迹候选，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "gao-shi-tongguan-02",
+  "personId": "gao-shi",
+  "placeId": "tongguan",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至潼关",
+  "summary": "据旧唐书本传，高适图，可云大体；谠言义色，实谓忠臣。宜回纠逖之任，俾超讽谕之职，可谏议大夫，赐绯鱼袋。”适负气敢言，权幸惮之。判为行至潼关的行迹候选，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "gao-shi-chengdu-03",
+  "personId": "gao-shi",
+  "placeId": "chengdu",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至成都",
+  "summary": "据旧唐书本传，高适本传记其行至成都判为行至成都的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排列，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "gao-shi-hechi-04",
+  "personId": "gao-shi",
+  "placeId": "hechi",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至河池",
+  "summary": "据旧唐书本传，高适本传记其行至河池判为行至河池的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排列，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第4站（未核定年份）",
+  "sequence": 4
+ },
+ {
+  "id": "huang-ting-jian-born-xiushui",
+  "personId": "huang-ting-jian",
+  "placeId": "xiushui",
+  "timePrecision": "era-only",
+  "timeLabel": "约1045年（据本传卒年推得）",
+  "startYear": 1045,
+  "endYear": 1045,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "洪州分宁人",
+  "title": "生于洪州分宁",
+  "summary": "黄庭坚为洪州分宁人，幼警悟，读书数过辄成诵；舅李常取其架上书问之，无不贯通。本传只记其籍贯与早慧，本页以分宁为早年阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 32,
+     "endLine": 34
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-daming",
+  "personId": "huang-ting-jian",
+  "placeId": "daming",
+  "timePrecision": "era-only",
+  "timeLabel": "熙宁初（史传所载）",
+  "sequence": 2,
+  "lifeStage": "学官任地",
+  "role": "北京国子监教授",
+  "title": "教授北京国子监",
+  "summary": "黄庭坚举进士调叶县尉，熙宁初举四京学官，教授北京国子监；苏轼见其诗文，以为超轶绝尘，声名由是始震。本节点以大名府为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 34,
+     "endLine": 37
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-taihe",
+  "personId": "huang-ting-jian",
+  "placeId": "taihe",
+  "timePrecision": "era-only",
+  "timeLabel": "知太和县时（史传顺序）",
+  "sequence": 3,
+  "lifeStage": "地方治理",
+  "role": "知太和县",
+  "title": "知太和县，以平易为治",
+  "summary": "黄庭坚知太和县，以平易为治；当时课颁盐策，诸县争占多数，独太和县不取，吏不悦而民安之，这是史传详载的一段地方治理，本节点以太和县为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 37,
+     "endLine": 39
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-kaifeng",
+  "personId": "huang-ting-jian",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "哲宗立后（元祐初）",
+  "sequence": 4,
+  "lifeStage": "馆阁任职",
+  "role": "校书郎、实录检讨官",
+  "title": "召为校书郎、实录检讨官",
+  "summary": "哲宗即位后黄庭坚召为校书郎、神宗实录检讨官，历著作佐郎、起居舍人；实录事起，史官被问，他以直辞对答，闻者壮之，本节点以京师为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 39,
+     "endLine": 44
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-qianzhou",
+  "personId": "huang-ting-jian",
+  "placeId": "qianzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "绍圣初（约1094年前后）",
+  "sequence": 5,
+  "lifeStage": "贬谪黔州",
+  "role": "涪州别驾",
+  "title": "贬涪州别驾，黔州安置",
+  "summary": "绍圣初黄庭坚坐实录事贬涪州别驾、黔州安置，言者又以处善地为违法，遂移戎州。他泊然不以迁谪介意，蜀士慕从之游，本节点以黔州为安置地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 44,
+     "endLine": 50
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-rongzhou",
+  "personId": "huang-ting-jian",
+  "placeId": "rongzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "绍圣末（史传顺序）",
+  "sequence": 6,
+  "lifeStage": "移居戎州",
+  "role": "迁谪中的讲学者",
+  "title": "移戎州，蜀士从游讲学",
+  "summary": "黄庭坚由黔州移戎州，蜀地士人慕其学行，从游讲学不倦，凡经指授者下笔皆可观。本节点以戎州为这段讲学流寓的阅读点，戎州即今四川宜宾一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 50,
+     "endLine": 52
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian-yizhou",
+  "personId": "huang-ting-jian",
+  "placeId": "yizhou",
+  "timePrecision": "era-only",
+  "timeLabel": "崇宁间（史传载三年徙永州未闻命而卒）",
+  "sequence": 7,
+  "lifeStage": "羁管宜州",
+  "role": "除名羁管者",
+  "title": "除名羁管宜州，卒于此",
+  "summary": "徽宗即位后黄庭坚起监鄂州税，屡辞不就；后因荆南承天院记被指幸灾，除名羁管宜州，三年徙永州，未闻命而卒，年六十一，本节点以宜州为终焉之地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 52,
+     "endLine": 58
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-minshan-xianghan",
+  "personId": "li-bai",
+  "placeId": "minshan",
+  "timePrecision": "sequence-only",
+  "timeLabel": "早年行旅（具体年代未核定）",
+  "sequence": 1,
+  "lifeStage": "早年行旅",
+  "role": "隐居与游历者",
+  "title": "先隐岷山，后居襄汉",
+  "summary": "《李太白集分类补注》后序称李白先隐岷山，后来居襄汉之间。原文只提供这一段行旅的先后，不把它换算为确定的公元年份。地图仅按材料顺序展示这段先后关系。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 144,
+     "endLine": 145
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-yunmeng-residence",
+  "personId": "li-bai",
+  "placeId": "yunmeng",
+  "timePrecision": "sequence-only",
+  "timeLabel": "早年行旅（具体年代未核定）",
+  "sequence": 2,
+  "lifeStage": "早年行旅",
+  "role": "南游中的诗人",
+  "title": "南游云梦并留居三年",
+  "summary": "后序记李白南游江淮、至楚观云梦，结亲后在云梦留居三年。这是该材料中少数直接给出停留时长的早期节点。本站以云梦作为这段停居经历的阅读主点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 145,
+     "endLine": 147
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-culai-and-wu",
+  "personId": "li-bai",
+  "placeId": "culai-mountain",
+  "timePrecision": "sequence-only",
+  "timeLabel": "早年行旅（具体年代未核定）",
+  "sequence": 3,
+  "lifeStage": "早年行旅",
+  "role": "游历中的诗人",
+  "title": "居徂来山竹溪，继而入吴",
+  "summary": "离开云梦后，后序依次记李白至齐鲁、居徂来山竹溪并入吴。地图以徂来山作这一复合行程的阅读主点，不代替完整路线，并保留其路径并非单点驻留的边界。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 147
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-changan-hanlin",
+  "personId": "li-bai",
+  "placeId": "changan",
+  "timePrecision": "sequence-only",
+  "timeLabel": "天宝年间",
+  "sequence": 4,
+  "lifeStage": "长安任职",
+  "role": "翰林供奉",
+  "title": "在长安受召为翰林供奉",
+  "summary": "后序称李白到长安后受明皇召见，任翰林供奉；另一序文将其置于天宝中金銮殿、翰林出入的宫廷情境。本站以长安为宫廷阶段的阅读主点，不据此补定具体日期。",
+  "workIds": [
+   "li-bai-qing-ping-diao"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 150
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_005.txt",
+     "startLine": 271,
+     "endLine": 280
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-post-hanlin-luoyang",
+  "personId": "li-bai",
+  "placeId": "luoyang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "离开翰林后（具体年代未核定）",
+  "sequence": 5,
+  "lifeStage": "离京游历",
+  "role": "游历中的诗人",
+  "title": "离开朝廷后西涉至洛阳、梁",
+  "summary": "后序说李白与朝廷不合而去，北抵赵魏燕晋，西经岐邠、商于至洛阳，游梁最久。此处仅取洛阳作为长途行旅的地图主点，不把其他途经地压缩为确定驻留。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 149,
+     "endLine": 150
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-southeast-jinling-route",
+  "personId": "li-bai",
+  "placeId": "jinling",
+  "timePrecision": "sequence-only",
+  "timeLabel": "安史之乱前（具体年代未核定）",
+  "sequence": 6,
+  "lifeStage": "东南游历",
+  "role": "游历中的诗人",
+  "title": "再游齐鲁、淮泗与吴地",
+  "summary": "安史之乱前，后序列出李白再游齐鲁、淮泗和吴地，并转徙金陵、秋浦、寻阳。地图以金陵标示这一串多地点的行旅，不把地图主点理解为唯一停居地点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 150,
+     "endLine": 151
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-lushan-yonglin",
+  "personId": "li-bai",
+  "placeId": "lushan",
+  "timePrecision": "sequence-only",
+  "timeLabel": "天宝十五载",
+  "sequence": 7,
+  "lifeStage": "安史之乱",
+  "role": "被征致者",
+  "title": "在庐山被永王璘征致",
+  "summary": "辑注称天宝十五载永王璘至江陵后东巡，李白当时卧庐山而受征致。事件只呈现材料所载关系，不推断其具体参与经过。庐山只作为这一史传关系的阅读主点。",
+  "workIds": [
+   "li-bai-wang-lushan-pubu"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_008.txt",
+     "startLine": 127,
+     "endLine": 129
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_021.txt",
+     "startLine": 145,
+     "endLine": 157
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-xunyang-imprisonment",
+  "personId": "li-bai",
+  "placeId": "xunyang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "永王军败后（具体年月未核定）",
+  "sequence": 8,
+  "lifeStage": "战乱与审理",
+  "role": "系狱者",
+  "title": "在寻阳入狱后获释随军",
+  "summary": "后序记永王军败丹阳后，李白逃至宿松，继而系寻阳狱；崔涣与宋若思验治后认为罪轻，并令其随军赴河南。地图以寻阳标示系狱环节，不延伸为完整行程。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 152,
+     "endLine": 156
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-amnesty-yueyang",
+  "personId": "li-bai",
+  "placeId": "yueyang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "乾元年间后（具体年月未核定）",
+  "sequence": 9,
+  "lifeStage": "流放与获释",
+  "role": "流放途中的诗人",
+  "title": "长流夜郎后因赦停憩岳阳",
+  "summary": "乾元元年后序记李白因永王事长流夜郎；其后泛洞庭、上峡江至巫山，遇赦后停憩岳阳、江夏，地图取岳阳作为获释后的阅读点，不把地图主点视为唯一停留地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 156,
+     "endLine": 159
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-xuancheng-wandering",
+  "personId": "li-bai",
+  "placeId": "xuancheng",
+  "timePrecision": "sequence-only",
+  "timeLabel": "晚年行旅（具体年代未核定）",
+  "sequence": 10,
+  "lifeStage": "晚年行旅",
+  "role": "游历中的诗人",
+  "title": "徘徊历阳、宣城",
+  "summary": "后序称李白由岳阳、江夏再至寻阳、经过金陵，最后徘徊于历阳、宣城二郡。此处以宣城收束材料记载的晚年游历，不把两郡之外的经过地删写为定居地点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 158,
+     "endLine": 160
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-dangtu-final-stay",
+  "personId": "li-bai",
+  "placeId": "dangtu",
+  "timePrecision": "sequence-only",
+  "timeLabel": "宝应元年",
+  "sequence": 11,
+  "lifeStage": "晚年",
+  "role": "病中的诗人",
+  "title": "到当涂访李阳冰，因病去世",
+  "summary": "后序称李白到当涂探访任县令的族人李阳冰，因病去世，并将此事系于宝应元年。本站只呈现该版本后序的记载。当涂在此只承接后序明载的晚年终点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 159,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-emei-work-reading",
+  "personId": "li-bai",
+  "placeId": "emei",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 12,
+  "lifeStage": "作品地点选读",
+  "role": "诗中空间阅读",
+  "title": "《峨眉山月歌》的作品地点",
+  "summary": "本节点只把诗题和诗句中明确出现的峨眉、平羌、清溪、三峡和渝州作为作品空间入口，不据此断定李白的实际行旅时间或路线。",
+  "workIds": [
+   "li-bai-emei-mountain-moon-song"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_006.txt",
+     "startLine": 200,
+     "endLine": 202
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-taohuatan-work-reading",
+  "personId": "li-bai",
+  "placeId": "taohuatan",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 13,
+  "lifeStage": "作品地点选读",
+  "role": "诗中空间阅读",
+  "title": "《赠汪伦》的作品地点",
+  "summary": "题下辑注称李白游泾县桃花潭；本站据此把《赠汪伦》置于作品地点阅读，不把题注单独扩写成完整生平事件，也不据此补定游历年份或往返路线。",
+  "workIds": [
+   "li-bai-zeng-wang-lun"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_010.txt",
+     "startLine": 175,
+     "endLine": 177
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-huanghelou-work-reading",
+  "personId": "li-bai",
+  "placeId": "huanghelou",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 14,
+  "lifeStage": "作品地点选读",
+  "role": "诗中空间阅读",
+  "title": "《黄鹤楼送孟浩然之广陵》的作品地点",
+  "summary": "《黄鹤楼送孟浩然之广陵》题名和诗句呈现黄鹤楼、扬州与长江。此节点用于送别诗的空间阅读，不推断诗作发生的准确年月，也不把送别空间改写为实际行旅年表。",
+  "workIds": [
+   "li-bai-huanghelou-song-meng-haoran"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_012.txt",
+     "startLine": 189,
+     "endLine": 191
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai-baidi-work-reading",
+  "personId": "li-bai",
+  "placeId": "baidi",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 15,
+  "lifeStage": "作品地点选读",
+  "role": "诗中空间阅读",
+  "title": "《早发白帝城》的作品地点",
+  "summary": "《早发白帝城》题名和正文写白帝城、江陵与峡江水路。当前来源没有把它明确系在获赦行程，本节点不作该因果断言，并保留作品空间与获赦经历之间的证据边界。",
+  "workIds": [
+   "li-bai-zao-fa-baidi-cheng"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_019.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-jinan",
+  "personId": "li-qingzhao",
+  "placeId": "jinan",
+  "timePrecision": "era-only",
+  "timeLabel": "约1084年前后（通行说法，史无明文）",
+  "startYear": 1084,
+  "endYear": 1084,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "济南才女",
+  "title": "李清照为济南人",
+  "summary": "李清照为济南人，李格非之女，善属文，诗文有名于时；嫁赵挺之之子赵明诚，自号易安居士，生卒年史无明文，籍贯济南的记载出自《宋史》李格非传。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 286,
+     "endLine": 286
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 302,
+     "endLine": 303
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-kaifeng-marriage",
+  "personId": "li-qingzhao",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "建中辛巳（1101年）",
+  "startYear": 1101,
+  "endYear": 1101,
+  "sequence": 2,
+  "lifeStage": "汴京新婚",
+  "role": "赵明诚之妻",
+  "title": "归赵明诚，居汴京太学",
+  "summary": "建中辛巳，李清照归赵明诚。明诚时在太学，二人常质衣购碑文果实，步至相国寺相对展玩，开始共同收藏金石，汴京的生活为他们日后的收藏奠定基础。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 93,
+     "endLine": 95
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-qingzhou-life",
+  "personId": "li-qingzhao",
+  "placeId": "qingzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "后序追述（确切年份未记）",
+  "sequence": 3,
+  "lifeStage": "青州屏居",
+  "role": "归来堂主人",
+  "title": "归来堂读书藏书生活",
+  "summary": "《金石录后序》追述归来堂生活：饭后烹茶，凭记忆比勘书史卷帙、页数与行数，以决胜负，藏书与治学之乐极盛，这段生活被后人视为夫妇治学的典范。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 99,
+     "endLine": 104
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-zichuan",
+  "personId": "li-qingzhao",
+  "placeId": "zichuan",
+  "timePrecision": "era-only",
+  "timeLabel": "靖康丙午（1126年）",
+  "startYear": 1126,
+  "endYear": 1126,
+  "sequence": 4,
+  "lifeStage": "靖康之变",
+  "role": "随居淄川",
+  "title": "明诚守淄川，金人犯京师",
+  "summary": "靖康丙午，赵明诚守淄川，金人犯京师。李清照与明诚料所藏图书必不能自保，盈箱溢箧，恋恋怅怅，依依不舍，靖康之变由此进入他们的家庭生活。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 105,
+     "endLine": 107
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-qingzhou-loss",
+  "personId": "li-qingzhao",
+  "placeId": "qingzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "建炎丁未（1127年）",
+  "startYear": 1127,
+  "endYear": 1127,
+  "sequence": 5,
+  "lifeStage": "南渡失藏",
+  "role": "南渡中的藏书家",
+  "title": "南渡，青州故第藏书焚毁",
+  "summary": "建炎丁未，李清照奔太夫人丧南渡；青州故第所锁十间屋藏书原拟次年具舟运出，却先化为煨烬，损失惨重，南渡之后她的收藏之路开始处处散失。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 108,
+     "endLine": 112
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-jiankang",
+  "personId": "li-qingzhao",
+  "placeId": "jiankang",
+  "timePrecision": "era-only",
+  "timeLabel": "建炎己酉（1129年）",
+  "startYear": 1129,
+  "endYear": 1129,
+  "sequence": 6,
+  "lifeStage": "丧夫之痛",
+  "role": "奔丧途中的藏书家",
+  "title": "池阳别夫，明诚病卒建康",
+  "summary": "建炎己酉六月，明诚驻家池阳、独赴行都，与李清照江边告别；八月病卒建康，李清照遣所存金石书卷先寄洪州，池阳之别成为《后序》中最沉痛的一段。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 112,
+     "endLine": 117
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-hongzhou",
+  "personId": "li-qingzhao",
+  "placeId": "hongzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "建炎己酉（1129年）",
+  "startYear": 1129,
+  "endYear": 1129,
+  "sequence": 7,
+  "lifeStage": "藏书散失",
+  "role": "流离中的藏书家",
+  "title": "洪州陷落，所寄藏书尽失",
+  "summary": "李清照先遣两万卷书、两千本金石刻寄往洪州；至冬洪州陷落，所寄尽数委弃，连舻渡江的收藏从此散为云烟，这标志着她的金石收藏几乎损失殆尽。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao-yuezhou",
+  "personId": "li-qingzhao",
+  "placeId": "yuezhou",
+  "timePrecision": "era-only",
+  "timeLabel": "建炎庚戌前后（1130年）",
+  "startYear": 1130,
+  "endYear": 1130,
+  "sequence": 8,
+  "lifeStage": "浙东流寓",
+  "role": "浙东流寓者",
+  "title": "转徙台温衢越杭，寓居越城",
+  "summary": "上江既不可往，李清照转徙台州、温州、衢州、越州、杭州，寄物嵊县；后携家寓居越城，一夜又遭盗失五簏藏书，浙东流寓成为她晚年颠沛的一个缩影。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 122,
+     "endLine": 125
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-si-dao-fanyang-01",
+  "personId": "lu-si-dao",
+  "placeId": "fanyang",
+  "lifeStage": "正史本传行迹",
+  "role": "范阳乡里",
+  "title": "范阳人，后以母疾还乡",
+  "summary": "卢思道范阳人，历仕北齐，后以母疾还乡，遇本郡举兵作乱。本传记其乡里为范阳，即今河北涿州一带，故以范阳定位，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "lu-si-dao-changan-01",
+  "personId": "lu-si-dao",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "追赴长安",
+  "title": "周武帝平齐，追赴长安",
+  "summary": "周武帝平齐，授仪同三司，追赴长安，与阳休之等作《听蝉鸣篇》。按追赴长安即至北周京师，北周都长安，故定位为长安，本传未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "lu-si-dao-wuyang-03",
+  "personId": "lu-si-dao",
+  "placeId": "wuyang",
+  "lifeStage": "正史本传行迹",
+  "role": "迁武阳太守",
+  "title": "迁武阳太守",
+  "summary": "隋文帝为丞相时，卢思道迁武阳太守，非其好也，为《孤鸿赋》以寄情。按武阳郡治贵乡，即今河北大名一带，故以武阳定位，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "lu-you-born-yuezhou",
+  "personId": "lu-you",
+  "placeId": "yuezhou",
+  "timePrecision": "era-only",
+  "timeLabel": "约1125年（据本传卒年八十五推得）",
+  "startYear": 1125,
+  "endYear": 1125,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "越州山阴人",
+  "title": "生于越州山阴",
+  "summary": "陆游为越州山阴人，年十二便能诗文，以门荫补登仕郎。本传只记其籍贯与早年才名，本页以越州为早年阅读点，不补写家世细节。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 262,
+     "endLine": 262
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 308,
+     "endLine": 308
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-linan-career",
+  "personId": "lu-you",
+  "placeId": "hangzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "孝宗朝（史传顺序）",
+  "sequence": 2,
+  "lifeStage": "朝官经历",
+  "role": "枢密院编修官",
+  "title": "孝宗朝赐进士出身，历编修官",
+  "summary": "孝宗即位后陆游赐进士出身，历枢密院编修官；他在朝力陈驻跸建康、临安之议，直言龙大渊、曾觌用事。本节点只呈现史传所载的朝官经历。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 272,
+     "endLine": 284
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-jiankang-longxing",
+  "personId": "lu-you",
+  "placeId": "jiankang",
+  "timePrecision": "era-only",
+  "timeLabel": "孝宗朝（史传顺序）",
+  "sequence": 3,
+  "lifeStage": "地方仕宦",
+  "role": "通判建康府",
+  "title": "通判建康府，寻易隆兴府",
+  "summary": "陆游出通判建康府，不久改任隆兴府；因言官论其交结台谏、鼓唱是非而免归。本节点只按史传顺序呈现这段地方仕宦，建康即今南京一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 286,
+     "endLine": 288
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-kuizhou",
+  "personId": "lu-you",
+  "placeId": "kuizhou",
+  "timePrecision": "era-only",
+  "timeLabel": "免归后（史传顺序）",
+  "sequence": 4,
+  "lifeStage": "蜀中任职",
+  "role": "通判夔州",
+  "title": "通判夔州，进入蜀地",
+  "summary": "免归后陆游久之通判夔州；夔州地处江峡，这段任职把他带入蜀地。本节点只呈现史传所载的通判经历，不延伸为具体行期，夔州即今重庆奉节一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 288,
+     "endLine": 288
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-chengdu",
+  "personId": "lu-you",
+  "placeId": "chengdu",
+  "timePrecision": "era-only",
+  "timeLabel": "范成大帅蜀时",
+  "sequence": 5,
+  "lifeStage": "蜀中任职",
+  "role": "参议官",
+  "title": "宣抚川陕、参议成都，自号放翁",
+  "summary": "王炎宣抚川陕时辟陆游为干办公事，他陈述经略中原当自长安始；后范成大帅蜀，他任参议官，因不拘礼法自号放翁，成都为本节点的地图主点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 288,
+     "endLine": 296
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-jiangxi",
+  "personId": "lu-you",
+  "placeId": "nanchang",
+  "timePrecision": "era-only",
+  "timeLabel": "提举江西常平时（史传顺序）",
+  "sequence": 6,
+  "lifeStage": "地方治理",
+  "role": "江西常平提举",
+  "title": "提举江西常平，振济水灾",
+  "summary": "陆游累迁江西常平提举，江西水灾时奏拨义仓、檄诸郡发粟振济。史传未记其驻地，本页以南昌作江西路治的近似阅读点，这是他与民生直接相关的一段经历。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 297,
+     "endLine": 298
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you-yanzhou",
+  "personId": "lu-you",
+  "placeId": "jiande",
+  "timePrecision": "era-only",
+  "timeLabel": "知严州时（约淳熙末）",
+  "sequence": 7,
+  "lifeStage": "晚年外任",
+  "role": "知严州",
+  "title": "知严州，严陵山水赋咏自适",
+  "summary": "陆游起知严州，陛辞时孝宗说严陵山水胜处，职事之暇可以赋咏自适。严州在今浙江建德一带，本节点以其为晚年外任的阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 298,
+     "endLine": 300
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-born-luling",
+  "personId": "ou-yang-xiu",
+  "placeId": "luling",
+  "timePrecision": "era-only",
+  "timeLabel": "约1007年（通行说法）",
+  "startYear": 1007,
+  "endYear": 1007,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "吉州庐陵人",
+  "title": "生于吉州庐陵",
+  "summary": "欧阳修为吉州庐陵人，四岁而孤，母郑氏守节亲诲，家贫以荻画地学书。本传只记其籍贯与早年家世，本页以庐陵为早年阅读点，庐陵即今江西吉安一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 17,
+     "endLine": 18
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 144,
+     "endLine": 148
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-luoyang",
+  "personId": "ou-yang-xiu",
+  "placeId": "luoyang",
+  "timePrecision": "era-only",
+  "timeLabel": "进士及第后（约1030年）",
+  "startYear": 1030,
+  "endYear": 1030,
+  "sequence": 2,
+  "lifeStage": "西京交游",
+  "role": "西京推官",
+  "title": "进士第一，西京推官交游",
+  "summary": "欧阳修举进士第一，调西京推官，始从尹洙游为古文，又与梅尧臣歌诗倡和，遂以文章名冠天下。本节点以洛阳为这段文学交游的阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 24,
+     "endLine": 27
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-yiling",
+  "personId": "ou-yang-xiu",
+  "placeId": "yiling",
+  "timePrecision": "era-only",
+  "timeLabel": "景祐三年（1036年）",
+  "startYear": 1036,
+  "endYear": 1036,
+  "sequence": 3,
+  "lifeStage": "贬谪夷陵",
+  "role": "夷陵县令",
+  "title": "坐贬夷陵令",
+  "summary": "范仲淹以言事贬，欧阳修贻书责司谏高若讷，坐贬夷陵令。他在夷陵翻读旧案，叹荒远小邑枉直错乱如此，自此遇事不敢忽，夷陵即今湖北宜昌一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 27,
+     "endLine": 30
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-jianguan",
+  "personId": "ou-yang-xiu",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "庆历三年（1043年）",
+  "startYear": 1043,
+  "endYear": 1043,
+  "sequence": 4,
+  "lifeStage": "知谏院",
+  "role": "知谏院",
+  "title": "知谏院，作《朋党论》",
+  "summary": "庆历三年欧阳修知谏院，仁宗更用杜衍、富弼、韩琦、范仲淹诸臣；小人以朋党相攻，他作《朋党论》，辨君子之朋与小人之朋，本节点以京师开封为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 33,
+     "endLine": 38
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-chuzhou",
+  "personId": "ou-yang-xiu",
+  "placeId": "chuzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "庆历五年（1045年）",
+  "startYear": 1045,
+  "endYear": 1045,
+  "sequence": 5,
+  "lifeStage": "贬知滁州",
+  "role": "知滁州",
+  "title": "左迁知滁州，始号醉翁",
+  "summary": "欧阳修因孤甥张氏狱被傅致以罪，左迁知制诰、知滁州，居二年徙扬州。他在滁州始号醉翁，晚年更号六一居士，本节点以滁州为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 81,
+     "endLine": 82
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 148,
+     "endLine": 148
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-yangzhou",
+  "personId": "ou-yang-xiu",
+  "placeId": "yangzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "庆历八年（1048年）",
+  "startYear": 1048,
+  "endYear": 1048,
+  "sequence": 6,
+  "lifeStage": "迁转外任",
+  "role": "知扬州、颍州",
+  "title": "徙知扬州、颍州",
+  "summary": "欧阳修自滁州徙知扬州、颍州，复学士留守南京，以母忧去。本节点以扬州为这段迁转仕历的阅读主点，不把各任地简化为单点驻留。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 82,
+     "endLine": 84
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-hanlin",
+  "personId": "ou-yang-xiu",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "嘉祐二年（1057年）",
+  "startYear": 1057,
+  "endYear": 1057,
+  "sequence": 7,
+  "lifeStage": "翰林学士",
+  "role": "翰林学士、知贡举",
+  "title": "翰林学士，知嘉祐二年贡举",
+  "summary": "欧阳修迁翰林学士，奉诏修《唐书》；嘉祐二年知贡举，痛抑险怪奇涩的太学体，场屋之习由此一变；又知开封府，治京畿，本节点以京师为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 87,
+     "endLine": 92
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu-caizhou",
+  "personId": "ou-yang-xiu",
+  "placeId": "caizhou",
+  "timePrecision": "era-only",
+  "timeLabel": "熙宁四年致仕（1071年）",
+  "startYear": 1071,
+  "endYear": 1071,
+  "sequence": 8,
+  "lifeStage": "晚年致仕",
+  "role": "观文殿学士、太子少师",
+  "title": "出知亳青蔡州，致仕而卒",
+  "summary": "欧阳修晚年出知亳州、青州，改判太原府辞不拜，徙蔡州；熙宁四年以太子少师致仕，明年卒，谥文忠。本节点以蔡州为致仕前最后的任地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 142,
+     "endLine": 148
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-born-gaoyou",
+  "personId": "qin-guan",
+  "placeId": "gaoyou",
+  "timePrecision": "era-only",
+  "timeLabel": "约1049年（通行说法）",
+  "startYear": 1049,
+  "endYear": 1049,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "扬州高邮人",
+  "title": "生于扬州高邮",
+  "summary": "秦观为扬州高邮人，少豪隽慷慨，溢于文词；举进士不中后强志盛气，读兵家书。本传只记其籍贯与早岁气象，本页以高邮为早年阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 100,
+     "endLine": 101
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-xuzhou",
+  "personId": "qin-guan",
+  "placeId": "xuzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "见苏轼于徐州时（约1078年）",
+  "startYear": 1078,
+  "endYear": 1078,
+  "sequence": 2,
+  "lifeStage": "知遇苏轼",
+  "role": "受知于苏轼的士人",
+  "title": "见苏轼于徐州，赋《黄楼》",
+  "summary": "秦观见苏轼于徐州，为赋《黄楼》，苏轼以为有屈宋之才；他又介诗于王安石，安石谓其清新似鲍谢。本节点以徐州为这段知遇的阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 101,
+     "endLine": 105
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-kaifeng",
+  "personId": "qin-guan",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "元祐初（史传所载）",
+  "sequence": 3,
+  "lifeStage": "馆阁任职",
+  "role": "太学博士、国史院编修官",
+  "title": "除太学博士，兼国史院编修",
+  "summary": "元祐初苏轼以贤良方正荐秦观于朝，除太学博士，校正秘书省书籍，迁正字，兼国史院编修官，这是他在元祐文苑的一段仕历，本节点以京师为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 105,
+     "endLine": 107
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-hangzhou",
+  "personId": "qin-guan",
+  "placeId": "hangzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "绍圣初（约1094年前后）",
+  "sequence": 4,
+  "lifeStage": "党籍贬逐",
+  "role": "通判杭州",
+  "title": "坐党籍出通判杭州",
+  "summary": "绍圣初秦观坐党籍出通判杭州，御史刘拯又论其增损实录，再遭贬谪。本节点只呈现史传所载的贬谪经过，不补写杭州任内细节。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 107,
+     "endLine": 108
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-hengzhou",
+  "personId": "qin-guan",
+  "placeId": "hengzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "绍圣间（史传顺序）",
+  "sequence": 5,
+  "lifeStage": "编管岭南",
+  "role": "编管横州者",
+  "title": "削秩徙郴州，编管横州",
+  "summary": "秦观因谒告写佛书等事削秩徙郴州，继编管横州，又徙雷州；一路贬逐直至岭南。本节点以横州为这段编管经历的阅读主点，横州即今广西横州一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 108,
+     "endLine": 111
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan-tengzhou",
+  "personId": "qin-guan",
+  "placeId": "tengzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "元符三年（1100年）",
+  "startYear": 1100,
+  "endYear": 1100,
+  "sequence": 6,
+  "lifeStage": "放还卒年",
+  "role": "放还途中的词人",
+  "title": "徽宗立放还，至藤州而卒",
+  "summary": "徽宗即位后秦观复宣德郎放还，行至藤州，出游华光亭，为客道梦中长短句，索水饮之而卒。本节点只呈现史传所载的卒年经过，藤州即今广西藤县一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 112,
+     "endLine": 113
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ruan-ji-weishi-01",
+  "personId": "ruan-ji",
+  "placeId": "weishi",
+  "lifeStage": "正史本传行迹",
+  "role": "陈留尉氏乡里",
+  "title": "陈留尉氏人，谢病归屏于田里",
+  "summary": "阮籍陈留尉氏人也，父瑀为魏丞相掾。后谢病归，屏于田里；本传记其乡里为陈留尉氏，即今河南尉氏县，故以尉氏定位，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 7,
+     "endLine": 7
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "ruan-ji-yanzhou-01",
+  "personId": "ruan-ji",
+  "placeId": "yanzhou",
+  "lifeStage": "正史本传行迹",
+  "role": "随叔父至东郡",
+  "title": "随叔父至东郡，兖州刺史请见",
+  "summary": "阮籍尝随叔父至东郡，兖州刺史王昶请与相见。按东郡属兖州，东郡治濮阳一带，故以兖州定位；本传未记留居时日，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "ruan-ji-luoyang-02",
+  "personId": "ruan-ji",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "历官洛阳，卒于景元四年",
+  "title": "太尉辟为掾，历官，求为步兵校尉",
+  "summary": "太尉蒋济辟阮籍为掾，后历尚书郎、参军、从事中郎、散骑常侍，闻步兵厨营善酿乃求为步兵校尉。按诸职皆在洛阳，景元四年卒，故定位为洛阳。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 13,
+     "endLine": 13
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "ruan-ji-dongping-04",
+  "personId": "ruan-ji",
+  "placeId": "dongping",
+  "lifeStage": "正史本传行迹",
+  "role": "拜东平相",
+  "title": "游东平，拜东平相",
+  "summary": "阮籍言曾游东平乐其风土，文帝即拜东平相，籍乘驴到郡，坏府舍屏障，旬日而还。按到郡即至东平，即今山东东平一带，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 11,
+     "endLine": 11
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第4站（未核定年份）",
+  "sequence": 4
+ },
+ {
+  "id": "su-shi-shaosheng-danzhou-exile",
+  "personId": "su-shi",
+  "placeId": "danzhou",
+  "startYear": 1097,
+  "endYear": 1100,
+  "lifeStage": "贬谪与创作",
+  "role": "昌化军安置",
+  "title": "渡海谪居儋州",
+  "summary": "绍圣四年苏轼由惠州与苏过渡海，途中在藤州会苏辙、雷州作别，七月抵儋州；元符三年获徙廉州，贬居与北归的转折由此展开。本站以儋州标记这段长期贬居的主要地点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1629,
+     "endLine": 1659
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1660,
+     "endLine": 1718
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-shaosheng-huizhou-exile",
+  "personId": "su-shi",
+  "placeId": "huizhou",
+  "startYear": 1094,
+  "endYear": 1097,
+  "lifeStage": "贬谪与创作",
+  "role": "惠州安置",
+  "title": "贬居惠州，营白鹤峰新居",
+  "summary": "绍圣元年苏轼由定州贬途经英州、虔州，于十月抵惠州；他在白鹤峰营新居，绍圣四年再贬昌化军，岭南生活由此转入海南阶段。本站以惠州作为这段贬居生活的地图主点。",
+  "workIds": [
+   "su-shi-he-shiyun-baihefeng"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1542,
+     "endLine": 1568
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1589,
+     "endLine": 1634
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-xining-hangzhou",
+  "personId": "su-shi",
+  "placeId": "hangzhou",
+  "startYear": 1071,
+  "endYear": 1074,
+  "lifeStage": "仕途早期",
+  "role": "杭州通判",
+  "title": "在钱塘任通判",
+  "summary": "苏轼请求外任后到杭州担任通判。年谱连续记下他在杭州任内的政务、出游和写作；这里既是早年仕途的重要一站，也构成《饮湖上初晴后雨》所写西湖景色的背景。",
+  "workIds": [
+   "su-shi-yin-hu-shang-chu-qing-hou-yu"
+  ],
+  "storyIds": [
+   "story-journey-su-shi-hangzhou"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1095,
+     "endLine": 1104
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1105,
+     "endLine": 1143
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_004.txt",
+     "startLine": 282,
+     "endLine": 287
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-xining-mizhou",
+  "personId": "su-shi",
+  "placeId": "mizhou",
+  "startYear": 1074,
+  "endYear": 1077,
+  "lifeStage": "地方任职",
+  "role": "知密州",
+  "title": "由钱塘移守密州",
+  "summary": "苏轼在杭州任满后移守密州。年谱记有他到郡后处理灾伤、盐税等地方事务，也记下他在中秋写作《水调歌头》怀念弟弟苏辙；本次只发布已在同版本原文中逐句核对的作品摘录。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1137,
+     "endLine": 1158
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1164,
+     "endLine": 1168
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1170,
+     "endLine": 1175
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-xining-xuzhou-flood",
+  "personId": "su-shi",
+  "placeId": "xuzhou",
+  "startYear": 1077,
+  "endYear": 1079,
+  "lifeStage": "地方任职",
+  "role": "知徐州",
+  "title": "徐州治水与黄楼",
+  "summary": "苏轼到徐州后遇到河水涨至城下。年谱记载他组织筑堤守城，十月水退、城得以保全；翌年又在东门建黄楼，以黄土象征土能胜水，留下地方治理和防洪的线索。",
+  "workIds": [],
+  "storyIds": [
+   "story-journey-su-shi-xuzhou"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1172,
+     "endLine": 1183
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1184,
+     "endLine": 1202
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanfeng-changzhou-dengzhou",
+  "personId": "su-shi",
+  "placeId": "changzhou",
+  "startYear": 1085,
+  "endYear": 1085,
+  "lifeStage": "北归与再任",
+  "role": "知登州前后",
+  "title": "居常州后知登州，旋被召还",
+  "summary": "苏轼获准居常州后，五月复朝奉郎、知登州；到任仅五日即被召还朝，常州也成为这段由北归转入再任的起点，串联短暂登州任期与后续朝廷召还。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1388,
+     "endLine": 1399
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanfeng-huangzhou",
+  "personId": "su-shi",
+  "placeId": "huangzhou",
+  "startYear": 1080,
+  "endYear": 1084,
+  "lifeStage": "谪居与创作",
+  "role": "黄州团练副使",
+  "title": "谪居黄州与东坡创作",
+  "summary": "苏轼于元丰三年二月到黄州，先寓居定惠院，后迁临皋亭。年谱记有他经营东坡、筑雪堂、自号东坡居士，以及壬戌秋冬两次游赤壁并作《赤壁赋》《后赤壁赋》的线索。",
+  "workIds": [
+   "su-shi-chu-dao-huangzhou",
+   "su-shi-han-shi-yu-er-shou-qi-yi",
+   "su-shi-chibi-fu",
+   "su-shi-hou-chibi-fu"
+  ],
+  "storyIds": [
+   "story-journey-su-shi-huangzhou"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1240,
+     "endLine": 1271
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1291,
+     "endLine": 1326
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1338,
+     "endLine": 1348
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanfeng-huzhou",
+  "personId": "su-shi",
+  "placeId": "huzhou",
+  "startYear": 1079,
+  "endYear": 1079,
+  "lifeStage": "仕途转折",
+  "role": "知湖州",
+  "title": "湖州任上被召赴狱",
+  "summary": "苏轼三月从徐州改任湖州，四月到任。年谱记载，七月因湖州到任谢表被言事者指摘，随后被追摄赴狱；年末被责授黄州团练副使。这一站只按年谱呈现经过，不补写狱中细节。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1203,
+     "endLine": 1239
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanfu-return-changzhou",
+  "personId": "su-shi",
+  "placeId": "changzhou",
+  "startYear": 1100,
+  "endYear": 1101,
+  "lifeStage": "北归与卒年",
+  "role": "北归中的文人",
+  "title": "北归途中病卒常州",
+  "summary": "元符三年苏轼由儋州北归，经琼州、廉州等地；建中靖国元年到真州后病止常州，七月卒于此，年谱保留了归程与终点。常州也因此成为归程的终点与晚年停居地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1716,
+     "endLine": 1746
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1748,
+     "endLine": 1775
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanyou-dingzhou-service",
+  "personId": "su-shi",
+  "placeId": "dingzhou",
+  "startYear": 1091,
+  "endYear": 1094,
+  "lifeStage": "地方任职",
+  "role": "知定州",
+  "title": "历任颍州、扬州后出知定州",
+  "summary": "苏轼先后知颍州、扬州，元祐八年以二学士出知定州；年谱记定州军政荒弛，他整饬军伍，至绍圣元年由此开启贬谪，也是由外任转入贬途的最后一站。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1485,
+     "endLine": 1525
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1526,
+     "endLine": 1544
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi-yuanyou-hangzhou-second-service",
+  "personId": "su-shi",
+  "placeId": "hangzhou",
+  "startYear": 1089,
+  "endYear": 1091,
+  "lifeStage": "地方任职",
+  "role": "知杭州",
+  "title": "再任杭州",
+  "summary": "元祐四年苏轼请郡后出知杭州，七月到任；年谱记其至元祐六年被召离杭。这次再任使西湖治理和地方政务再次成为阅读线索。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1442,
+     "endLine": 1457
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1470,
+     "endLine": 1487
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "tao-yuan-ming-xunyang-01",
+  "personId": "tao-yuan-ming",
+  "placeId": "xunyang",
+  "lifeStage": "正史本传行迹",
+  "role": "归隐浔阳田舍",
+  "title": "起为州祭酒，归隐田舍",
+  "summary": "陶潜起为州祭酒，不堪吏职，少日自解归，躬耕自资。本传所记田舍即其浔阳乡里，浔阳为江州治所，即今江西九江一带，故以寻阳定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 169,
+     "endLine": 169
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "tao-yuan-ming-pengze-02",
+  "personId": "tao-yuan-ming",
+  "placeId": "pengze",
+  "lifeStage": "正史本传行迹",
+  "role": "为彭泽令",
+  "title": "为彭泽令，解印去县",
+  "summary": "以亲老家贫，执事者闻其弦歌之愿，以为彭泽令。在县公田悉令种秫谷，义熙二年解印去县。按彭泽即今江西彭泽县，故以彭泽定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "tao-yuan-ming-lushan-01",
+  "personId": "tao-yuan-ming",
+  "placeId": "lushan",
+  "lifeStage": "正史本传行迹",
+  "role": "游观庐山",
+  "title": "所之唯至田舍及庐山游观",
+  "summary": "陶潜归隐后所之唯至田舍及庐山游观，刺史王弘亦密知其当往庐山，遣故人携酒候于半道。按庐山游观为其常至之处，故定位为庐山。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 169,
+     "endLine": 169
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 171,
+     "endLine": 171
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "wang-an-shi-born-linchuan",
+  "personId": "wang-an-shi",
+  "placeId": "linchuan",
+  "timePrecision": "era-only",
+  "timeLabel": "约1021年（据本传卒年推得）",
+  "startYear": 1021,
+  "endYear": 1021,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "抚州临川人",
+  "title": "生于抚州临川",
+  "summary": "王安石为抚州临川人，父任都官员外郎。本传只记其籍贯家世，本页以临川为早年阅读点，不补写生年以外的细节，临川即今江西抚州一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 232,
+     "endLine": 233
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-yinxian",
+  "personId": "wang-an-shi",
+  "placeId": "yinxian",
+  "timePrecision": "era-only",
+  "timeLabel": "知鄞县时（史传顺序）",
+  "sequence": 2,
+  "lifeStage": "地方治理",
+  "role": "知鄞县",
+  "title": "知鄞县，兴水利贷谷",
+  "summary": "王安石再调知鄞县，起堤堰、决陂塘，兴水陆之利；又贷谷与民、立息以偿，使新陈相易，邑人称便。这是史传详载的一段地方治理，鄞县即今宁波一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 22,
+     "endLine": 23
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-shuzhou",
+  "personId": "wang-an-shi",
+  "placeId": "shuzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "通判舒州时（史传顺序）",
+  "sequence": 3,
+  "lifeStage": "地方仕宦",
+  "role": "通判舒州",
+  "title": "通判舒州，召试馆职不就",
+  "summary": "王安石通判舒州时，文彦博荐其恬退、乞不次进用；他召试馆职不就，以祖母年高辞官。本节点只呈现史传所载的这段仕历与出处态度。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 24,
+     "endLine": 26
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-changzhou",
+  "personId": "wang-an-shi",
+  "placeId": "changzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "请知常州时（史传顺序）",
+  "sequence": 4,
+  "lifeStage": "地方仕宦",
+  "role": "知常州、提点江东刑狱",
+  "title": "请知常州，移提点江东刑狱",
+  "summary": "王安石请知常州，移提点江东刑狱，后入为度支判官。他在此前后上书言事，议论高奇，已有矫世变俗之志，本节点以常州为阅读主点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 26,
+     "endLine": 27
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-wanyanshu",
+  "personId": "wang-an-shi",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "嘉祐三年（1058年）",
+  "startYear": 1058,
+  "endYear": 1058,
+  "sequence": 5,
+  "lifeStage": "京师为官",
+  "role": "度支判官、知制诰",
+  "title": "上万言书，历度支判官知制诰",
+  "summary": "王安石入朝任度支判官，上仁宗万言书，主张法先王之意、更张法度；后累辞美官，终知制诰、纠察在京刑狱。本节点以京师为阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 27,
+     "endLine": 31
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 46,
+     "endLine": 46
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-jiangning",
+  "personId": "wang-an-shi",
+  "placeId": "jiankang",
+  "timePrecision": "era-only",
+  "timeLabel": "神宗即位后（1067—1068年）",
+  "startYear": 1067,
+  "endYear": 1068,
+  "sequence": 6,
+  "lifeStage": "起复入朝",
+  "role": "知江宁府、翰林学士",
+  "title": "知江宁府，召为翰林学士",
+  "summary": "神宗即位后命王安石知江宁府，数月召为翰林学士兼侍讲；熙宁元年入对，主张择术为先、当法尧舜。本节点以江宁府为阅读点，江宁即今南京一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 64,
+     "endLine": 68
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-xinfa",
+  "personId": "wang-an-shi",
+  "placeId": "kaifeng",
+  "timePrecision": "era-only",
+  "timeLabel": "熙宁二年（1069年）起",
+  "startYear": 1069,
+  "endYear": 1069,
+  "sequence": 7,
+  "lifeStage": "主持变法",
+  "role": "参知政事",
+  "title": "拜参知政事，颁行新法",
+  "summary": "熙宁二年王安石拜参知政事，设制置三司条例司；农田水利、青苗、均输、保甲、免役诸法相继颁行天下。本节点只呈现史传所载变法始末。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 86,
+     "endLine": 95
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi-jinling",
+  "personId": "wang-an-shi",
+  "placeId": "jiankang",
+  "timePrecision": "era-only",
+  "timeLabel": "熙宁九年至元祐元年（1076—1086年）",
+  "startYear": 1076,
+  "endYear": 1086,
+  "sequence": 8,
+  "lifeStage": "罢相居金陵",
+  "role": "判江宁府、荆国公",
+  "title": "罢相判江宁府，晚居金陵",
+  "summary": "王安石两度罢相后判江宁府，改封舒国公、荆国公；晚年居金陵，元祐元年卒，年六十八。本节点以江宁府为晚年的地图主点，金陵即江宁府所在。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 183,
+     "endLine": 185
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 230,
+     "endLine": 233
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 239,
+     "endLine": 239
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-bao-jiankang-01",
+  "personId": "wang-bao",
+  "placeId": "jiankang",
+  "lifeStage": "正史本传行迹",
+  "role": "仕梁于建康",
+  "title": "起家秘书郎，侯景乱时辑宁所部",
+  "summary": "王褒琅邪临沂人，起家秘书郎，历太子舍人、秘书丞；侯景渡江，建业扰乱，褒辑宁所部。按梁都建康，建业即建康，故以建康定位，未核定确切年份。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-zhou-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十一·列传第三十三.md",
+     "startLine": 7,
+     "endLine": 7
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "wang-bao-jiangling-02",
+  "personId": "wang-bao",
+  "placeId": "jiangling",
+  "lifeStage": "正史本传行迹",
+  "role": "梁元帝江陵朝任职",
+  "title": "将家西上江陵，拜侍中",
+  "summary": "梁元帝嗣位于江陵，命王僧辩以礼发遣王褒，褒将家西上，拜侍中，累迁吏部尚书、左仆射；城陷后随元帝出降。按江陵即梁元帝都，故以江陵定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-zhou-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十一·列传第三十三.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   },
+   {
+    "sourceId": "github-26-histories-zhou-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十一·列传第三十三.md",
+     "startLine": 13,
+     "endLine": 13
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "wang-bao-changan-01",
+  "personId": "wang-bao",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "至长安仕西魏北周",
+  "title": "江陵平后俱至长安",
+  "summary": "江陵城陷后，王褒与王克、刘瑴等数十人俱至长安，太祖授车骑大将军、仪同三司，常从容上席。按长安为西魏北周京师，故定位为长安。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-zhou-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十一·列传第三十三.md",
+     "startLine": 15,
+     "endLine": 15
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "xie-ling-yun-yunmeng-01",
+  "personId": "xie-ling-yun",
+  "placeId": "yunmeng",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至云梦",
+  "summary": "据宋书本传，谢灵运本传记其行至云梦判为行至云梦的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排列，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷六十七·列传第二十七.md",
+     "startLine": 5,
+     "endLine": 170
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "xie-ling-yun-changan-02",
+  "personId": "xie-ling-yun",
+  "placeId": "changan",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至长安",
+  "summary": "据宋书本传，谢灵运本传记其行至长安判为行至长安的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排列，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷六十七·列传第二十七.md",
+     "startLine": 5,
+     "endLine": 170
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "xie-ling-yun-tongguan-03",
+  "personId": "xie-ling-yun",
+  "placeId": "tongguan",
+  "lifeStage": "正史本传行迹",
+  "role": "行至",
+  "title": "行至潼关",
+  "summary": "据宋书本传，谢灵运本传记其行至潼关判为行至潼关的行迹候选，与前后行程按本传顺序排列，与前后行程按本传顺序排列，与前后行程按本传顺序排列，原文见来源。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷六十七·列传第二十七.md",
+     "startLine": 5,
+     "endLine": 170
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "xin-qiji-jinan-southern-return",
+  "personId": "xin-qiji",
+  "placeId": "jinan",
+  "timePrecision": "sequence-only",
+  "timeLabel": "绍兴三十二年（史传载年）",
+  "sequence": 1,
+  "lifeStage": "北方起事与南归",
+  "role": "义军掌书记",
+  "title": "随耿京聚兵，奉表南归",
+  "summary": "《宋史》称辛弃疾为齐之历城人，随耿京在山东聚兵，随后在绍兴三十二年奉表归宋。地图以济南标示历城及山东义军的近似阅读点，不据此判定单一驻地。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 20,
+     "endLine": 35
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-chuzhou-recovery",
+  "personId": "xin-qiji",
+  "placeId": "chuzhou",
+  "timePrecision": "sequence-only",
+  "timeLabel": "南归后仕宦迁调（史传顺序）",
+  "sequence": 2,
+  "lifeStage": "地方治理",
+  "role": "滁州知州",
+  "title": "出知滁州，宽征薄赋、安集流民",
+  "summary": "《宋史》载其出知滁州时当地罹兵烬、井邑凋残；他宽征薄赋，招集流散，教民兵并议屯田。这些措施呈现他面对战后凋敝的地方治理路径。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 41,
+     "endLine": 49
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-jiangling-defense",
+  "personId": "xin-qiji",
+  "placeId": "jiangling",
+  "timePrecision": "sequence-only",
+  "timeLabel": "南归后仕宦迁调（史传顺序）",
+  "sequence": 3,
+  "lifeStage": "地方治理",
+  "role": "江陵知府、湖北安抚使",
+  "title": "受命知江陵府兼湖北安抚",
+  "summary": "《宋史》在其迁调次序中记有“差知江陵府兼湖北安抚”。本节点只记录史传所载任命，不补写未被来源支持的具体驻留或战事；江陵在此作为任命所指的阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 47,
+     "endLine": 50
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-changsha-flying-tiger",
+  "personId": "xin-qiji",
+  "placeId": "changsha",
+  "timePrecision": "sequence-only",
+  "timeLabel": "南归后仕宦迁调（史传顺序）",
+  "sequence": 4,
+  "lifeStage": "地方治理与军政",
+  "role": "潭州知州、湖南安抚使",
+  "title": "知潭州兼湖南安抚，筹建飞虎军",
+  "summary": "《宋史》说辛弃疾改知潭州兼湖南安抚，平定湖湘盗乱，又筹划并建成湖南飞虎军营；他还提出军政整饬方案，使飞虎军成为湖湘备防的一项线索。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 50,
+     "endLine": 85
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-nanchang-famine-relief",
+  "personId": "xin-qiji",
+  "placeId": "nanchang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "知隆兴府兼江西安抚时",
+  "sequence": 5,
+  "lifeStage": "地方治理",
+  "role": "隆兴府知府、江西安抚使",
+  "title": "知隆兴府兼江西安抚，赈济大饥",
+  "summary": "《宋史》载知隆兴府兼江西安抚时江右大饥，他命出公家钱银，组织运籴平粜，赈济民众。隆兴府以今南昌作为近似展示点；该节点仅据史传呈现赈济措施，不外推具体灾年。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 85,
+     "endLine": 99
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-fuzhou-preparedness",
+  "personId": "xin-qiji",
+  "placeId": "fuzhou",
+  "timePrecision": "sequence-only",
+  "timeLabel": "知福州兼福建安抚时",
+  "sequence": 6,
+  "lifeStage": "地方治理与备防",
+  "role": "福州知府、福建安抚使",
+  "title": "知福州兼福建安抚，筹置备安库",
+  "summary": "《宋史》记其在福州积贮为“备安库”，并筹画籴米、军备与训练；这是地方治理与备防线索，并非词作时间证据。福州在此作为史传所载治理阶段的阅读点。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 99,
+     "endLine": 111
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-zhenjiang-late-appointment",
+  "personId": "xin-qiji",
+  "placeId": "zhenjiang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "晚年仕宦（史传顺序）",
+  "sequence": 7,
+  "lifeStage": "晚年仕宦",
+  "role": "晚年受命的官员",
+  "title": "受命知镇江府等晚年仕宦迁调",
+  "summary": "《宋史》续载其受命知镇江府，后有知绍兴、知江陵等任命，最后未受枢密都承旨命而卒。本节点只记录仕宦经过，不把《永遇乐》归入此时。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 105,
+     "endLine": 111
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-zhenjiang-work-reading",
+  "personId": "xin-qiji",
+  "placeId": "zhenjiang",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 8,
+  "lifeStage": "作品地点选读",
+  "role": "词中空间阅读",
+  "title": "《永遇乐·京口北固亭怀古》的作品地点",
+  "summary": "词题明确标出京口北固亭。本节点仅提供词作空间阅读，不以题中地点断定创作年份、任职经过或实际行旅路线。地图以镇江对应京口的现代展示位置。",
+  "workIds": [
+   "xin-qiji-yong-yu-le-jingkou-beigu-ting-huai-gu"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_002.txt",
+     "startLine": 401,
+     "endLine": 407
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji-zaokou-work-reading",
+  "personId": "xin-qiji",
+  "placeId": "zaokou",
+  "timePrecision": "sequence-only",
+  "timeLabel": "作品地点选读（不按生平排序）",
+  "sequence": 9,
+  "lifeStage": "作品地点选读",
+  "role": "词中空间阅读",
+  "title": "《菩萨蛮·书江西造口壁》的作品地点",
+  "summary": "词题明确标出江西造口壁。本节点仅提供词作空间阅读，不以题中地点断定创作年份、任职经过或实际行旅路线。地图以赣县一带作为造口的近似展示位置。",
+  "workIds": [
+   "xin-qiji-pu-sa-man-shu-jiangxi-zaokou-bi"
+  ],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_004.txt",
+     "startLine": 309,
+     "endLine": 312
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yan-yan-zhi-luoyang-01",
+  "personId": "yan-yan-zhi",
+  "placeId": "luoyang",
+  "lifeStage": "正史本传行迹",
+  "role": "奉使至洛阳",
+  "title": "奉使至洛阳",
+  "summary": "义熙十二年高祖北伐，府遣使庆殊命，颜延之与同府王参军俱奉使至洛阳，道中作诗二首。按奉使至洛阳为明确行迹，故定位为洛阳。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 7,
+     "endLine": 7
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第1站（未核定年份）",
+  "sequence": 1
+ },
+ {
+  "id": "yan-yan-zhi-jiankang-02",
+  "personId": "yan-yan-zhi",
+  "placeId": "jiankang",
+  "lifeStage": "正史本传行迹",
+  "role": "京师任职，屏居里巷",
+  "title": "征为中书侍郎，领步兵校尉，后屏居里巷",
+  "summary": "元嘉三年征为中书侍郎，寻转太子中庶子，顷之领步兵校尉；后出为永嘉太守，事败屏居里巷。按诸职与里巷皆在京师建康，故以建康定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 15,
+     "endLine": 15
+    }
+   },
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第2站（未核定年份）",
+  "sequence": 2
+ },
+ {
+  "id": "yan-yan-zhi-shian-03",
+  "personId": "yan-yan-zhi",
+  "placeId": "shian",
+  "lifeStage": "正史本传行迹",
+  "role": "出为始安太守",
+  "title": "出为始安太守",
+  "summary": "少帝即位，颜延之为正员郎兼中书，寻徙员外常侍，出为始安太守，之郡道经汨潭，为湘州刺史张纪祭屈原文。按始安郡治今广西桂林一带，故以始安定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第3站（未核定年份）",
+  "sequence": 3
+ },
+ {
+  "id": "yan-yan-zhi-yongjia-04",
+  "personId": "yan-yan-zhi",
+  "placeId": "yongjia",
+  "lifeStage": "正史本传行迹",
+  "role": "出为永嘉太守",
+  "title": "出为永嘉太守",
+  "summary": "彭城王义康与刘湛恶其辞旨，言于太祖，出为永嘉太守，延之甚怨愤，作《五君咏》以述竹林七贤。按永嘉郡治今浙江温州一带，故以永嘉定位。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 15,
+     "endLine": 15
+    }
+   }
+  ],
+  "reviewStatus": "published",
+  "timePrecision": "sequence-only",
+  "timeLabel": "本传行迹第4站（未核定年份）",
+  "sequence": 4
+ },
+ {
+  "id": "yang-wan-li-born-jishui",
+  "personId": "yang-wan-li",
+  "placeId": "jishui",
+  "timePrecision": "era-only",
+  "timeLabel": "约1127年（通行说法）",
+  "startYear": 1127,
+  "endYear": 1127,
+  "sequence": 1,
+  "lifeStage": "早年",
+  "role": "吉州吉水人",
+  "title": "生于吉州吉水",
+  "summary": "杨万里为吉州吉水人，绍兴二十四年登进士第。本传只记其籍贯与登第，本页以吉水为早年阅读点，不补写家世细节，吉水即今江西吉水一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 284,
+     "endLine": 285
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li-lingling",
+  "personId": "yang-wan-li",
+  "placeId": "lingling",
+  "timePrecision": "era-only",
+  "timeLabel": "绍兴间（史传顺序）",
+  "sequence": 2,
+  "lifeStage": "师承张浚",
+  "role": "永州零陵丞",
+  "title": "赣州司户，零陵丞师事张浚",
+  "summary": "杨万里初为赣州司户，调永州零陵丞；时张浚谪居永州，杜门谢客，他投书求见，以师礼事之。本节点以零陵为这段师承的阅读点，零陵即今湖南永州一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 286,
+     "endLine": 289
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li-fengxin",
+  "personId": "yang-wan-li",
+  "placeId": "fengxin",
+  "timePrecision": "era-only",
+  "timeLabel": "丁父忧后（史传顺序）",
+  "sequence": 3,
+  "lifeStage": "地方仕宦",
+  "role": "知奉新县",
+  "title": "改知隆兴府奉新县",
+  "summary": "杨万里除临安府教授未赴，丁父忧后改知隆兴府奉新县。本节点以奉新为这段地方仕历的阅读点，不补写县政细节，奉新即今江西奉新县一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 289,
+     "endLine": 289
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li-zhangzhou",
+  "personId": "yang-wan-li",
+  "placeId": "zhangzhou",
+  "timePrecision": "era-only",
+  "timeLabel": "知漳州、提举广东常平时（史传顺序）",
+  "sequence": 4,
+  "lifeStage": "地方治理",
+  "role": "知漳州、提举广东常平",
+  "title": "知漳州改常州，提举广东常平",
+  "summary": "杨万里出知漳州，改常州，寻提举广东常平茶盐；盗沈师犯南恩州，他议发兵扼贼之路。本节点以漳州为这段南宦的阅读主点，漳州即今福建漳州一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 296,
+     "endLine": 296
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li-jiangdong",
+  "personId": "yang-wan-li",
+  "placeId": "jiankang",
+  "timePrecision": "era-only",
+  "timeLabel": "江东转运副使时（史传顺序）",
+  "sequence": 5,
+  "lifeStage": "转运任地",
+  "role": "江东转运副使",
+  "title": "出为江东转运副使",
+  "summary": "杨万里出为江东转运副使，权总领淮西江东军马钱粮。本节点以建康作江东转运司的近似阅读点，不据此补写具体驻留细节，建康即今江苏南京一带。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 428,
+     "endLine": 432
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li-jishui-retirement",
+  "personId": "yang-wan-li",
+  "placeId": "jishui",
+  "timePrecision": "era-only",
+  "timeLabel": "开禧二年卒（1206年）",
+  "startYear": 1206,
+  "endYear": 1206,
+  "sequence": 6,
+  "lifeStage": "晚年致仕",
+  "role": "宝文阁待制",
+  "title": "进宝文阁待制致仕，卒年八十三",
+  "summary": "杨万里召赴行在辞不受，进宝文阁待制致仕；开禧二年卒，年八十三。史传未记卒地，本页以籍贯吉水为阅读点，这是史传所载的晚年归宿。",
+  "workIds": [],
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 432,
+     "endLine": 435
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ }
+]

@@ -1,0 +1,814 @@
+[
+ {
+  "id": "bai-ju-yi",
+  "name": "白居易",
+  "aliases": [],
+  "dynasty": "唐",
+  "birthYear": 772,
+  "deathYear": 846,
+  "intro": "白居易，唐诗人。本页行迹由《旧唐书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 85,
+     "endLine": 186
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 39,
+     "endLine": 60
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "cao-cao",
+  "name": "曹操",
+  "aliases": [
+   "曹孟德",
+   "魏武帝"
+  ],
+  "dynasty": "东汉",
+  "birthYear": 155,
+  "deathYear": 220,
+  "intro": "东汉末年政治家、军事家、诗人曹操，字孟德，沛国谯人。本页行迹依据《三国志·武帝纪》可定位的仕宦、征伐与居停；诗作以古诗词语料库呈现，未收入精选作品表。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 19,
+     "endLine": 19
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 989,
+     "endLine": 990
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-fu",
+  "name": "杜甫",
+  "aliases": [
+   "杜子美",
+   "杜工部"
+  ],
+  "dynasty": "唐",
+  "birthYear": 713,
+  "deathYear": 771,
+  "intro": "杜甫，字子美。本页依《杜工部年谱》能直接定位的行旅记录，并以《分门集注杜工部诗》的题名和短摘录连接战乱、迁徙与草堂生活。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 9,
+     "endLine": 18
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 186,
+     "endLine": 192
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0018",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0018_000.txt",
+     "startLine": 178,
+     "endLine": 180
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "du-mu",
+  "name": "杜牧",
+  "aliases": [],
+  "dynasty": "唐",
+  "birthYear": 803,
+  "deathYear": 852,
+  "intro": "杜牧，唐诗人。本页行迹由《旧唐书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 90
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 65,
+     "endLine": 82
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "gao-shi",
+  "name": "高适",
+  "aliases": [],
+  "dynasty": "唐",
+  "birthYear": 700,
+  "deathYear": 765,
+  "intro": "高适，唐诗人。本页行迹由《旧唐书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huang-ting-jian",
+  "name": "黄庭坚",
+  "aliases": [
+   "黄鲁直",
+   "山谷道人"
+  ],
+  "dynasty": "北宋",
+  "birthYear": 1045,
+  "deathYear": 1105,
+  "intro": "北宋诗人、书法家黄庭坚，字鲁直，号山谷道人，洪州分宁人。本页行迹依据《宋史》本传可定位的仕宦与贬谪；诗作以古诗词语料库呈现。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 32,
+     "endLine": 32
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 57,
+     "endLine": 58
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-bai",
+  "name": "李白",
+  "aliases": [
+   "李太白",
+   "青莲居士"
+  ],
+  "dynasty": "唐",
+  "birthYear": 701,
+  "deathYear": 762,
+  "intro": "唐代诗人李白，字太白。本站以《李太白集分类补注》后序中可精确定位的行旅叙述为主线；作品地点与生平行迹分开标注，避免把诗题中的地名直接当作确切年表。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 45,
+     "endLine": 50
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 144,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-qingzhao",
+  "name": "李清照",
+  "aliases": [
+   "李易安",
+   "易安居士"
+  ],
+  "dynasty": "宋",
+  "birthYear": 1084,
+  "deathYear": 1155,
+  "intro": "宋代女词人李清照，号易安居士，济南人。生卒年史无明文，通行说法约为1084—1155；本页行迹以《漱玉词》所附《金石录后序》与《宋史·李格非传》可定位的记载为主。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 286,
+     "endLine": 286
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 302,
+     "endLine": 303
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 93,
+     "endLine": 93
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-si-dao",
+  "name": "卢思道",
+  "aliases": [],
+  "dynasty": "隋",
+  "birthYear": 0,
+  "deathYear": 0,
+  "intro": "卢思道，隋诗人。本页行迹由《隋书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 22
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lu-you",
+  "name": "陆游",
+  "aliases": [
+   "陆务观",
+   "放翁"
+  ],
+  "dynasty": "南宋",
+  "birthYear": 1125,
+  "deathYear": 1210,
+  "intro": "南宋诗人陆游，字务观，号放翁，越州山阴人。本页行迹依据《宋史》本传可定位的仕宦与游历；诗作以古诗词语料库呈现。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 262,
+     "endLine": 262
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 308,
+     "endLine": 308
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ou-yang-xiu",
+  "name": "欧阳修",
+  "aliases": [
+   "欧阳永叔",
+   "醉翁",
+   "六一居士"
+  ],
+  "dynasty": "北宋",
+  "birthYear": 1007,
+  "deathYear": 1072,
+  "intro": "北宋文学家、史学家欧阳修，字永叔，号醉翁、六一居士，吉州庐陵人。本页行迹依据《宋史》本传可定位的仕宦与贬谪；作品以古诗词语料库呈现。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 144,
+     "endLine": 148
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qin-guan",
+  "name": "秦观",
+  "aliases": [
+   "秦少游",
+   "秦太虚",
+   "淮海居士"
+  ],
+  "dynasty": "北宋",
+  "birthYear": 1049,
+  "deathYear": 1100,
+  "intro": "北宋词人秦观，字少游、太虚，号淮海居士，扬州高邮人。生卒年为通行说法，史传未记；本页行迹依据《宋史》本传可定位的仕宦与贬逐。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 100,
+     "endLine": 100
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 112,
+     "endLine": 113
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ruan-ji",
+  "name": "阮籍",
+  "aliases": [],
+  "dynasty": "三国魏",
+  "birthYear": 210,
+  "deathYear": 263,
+  "intro": "阮籍，三国魏诗人。本页行迹由《晋书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 7,
+     "endLine": 22
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "su-shi",
+  "name": "苏轼",
+  "aliases": [
+   "苏子瞻",
+   "东坡居士"
+  ],
+  "dynasty": "北宋",
+  "birthYear": 1036,
+  "deathYear": 1101,
+  "intro": "北宋文学家苏轼，字子瞻，号东坡居士。本页只收录《东坡全集》年谱和本传能够精确定位的任职、谪居与作品线索。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 930,
+     "endLine": 931
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1748,
+     "endLine": 1775
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1291,
+     "endLine": 1316
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "tao-yuan-ming",
+  "name": "陶渊明",
+  "aliases": [],
+  "dynasty": "东晋",
+  "birthYear": 365,
+  "deathYear": 427,
+  "intro": "陶渊明，东晋诗人。本页行迹由《晋书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 159,
+     "endLine": 174
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-an-shi",
+  "name": "王安石",
+  "aliases": [
+   "王介甫",
+   "半山",
+   "荆公"
+  ],
+  "dynasty": "北宋",
+  "birthYear": 1021,
+  "deathYear": 1086,
+  "intro": "北宋政治家、文学家王安石，字介甫，晚号半山，抚州临川人。本页行迹依据《宋史》本传可定位的仕宦与居停；诗作以古诗词语料库呈现。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 230,
+     "endLine": 233
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-bao",
+  "name": "王褒",
+  "aliases": [],
+  "dynasty": "北周",
+  "birthYear": 0,
+  "deathYear": 0,
+  "intro": "王褒，北周诗人。本页行迹由《周书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-zhou-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十一·列传第三十三.md",
+     "startLine": 5,
+     "endLine": 32
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xie-ling-yun",
+  "name": "谢灵运",
+  "aliases": [],
+  "dynasty": "南朝宋",
+  "birthYear": 385,
+  "deathYear": 433,
+  "intro": "谢灵运，南朝宋诗人。本页行迹由《宋书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷六十七·列传第二十七.md",
+     "startLine": 5,
+     "endLine": 170
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xin-qiji",
+  "name": "辛弃疾",
+  "aliases": [
+   "辛幼安",
+   "稼轩居士"
+  ],
+  "dynasty": "南宋",
+  "birthYear": 1140,
+  "deathYear": 1207,
+  "intro": "南宋词人辛弃疾，字幼安，号稼轩。本站以《宋史》本传所记的南归、任官、赈济和边防经历组织路线，并只把词题中明确出现的地点作为作品阅读入口。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 20,
+     "endLine": 50
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 85,
+     "endLine": 111
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_000.txt",
+     "startLine": 9,
+     "endLine": 11
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yan-yan-zhi",
+  "name": "颜延之",
+  "aliases": [],
+  "dynasty": "南朝宋",
+  "birthYear": 384,
+  "deathYear": 456,
+  "intro": "颜延之，南朝宋诗人。本页行迹由《宋书》本传规则抽取，事件与地点引用见来源，未经逐条人工复核。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 5,
+     "endLine": 50
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yang-wan-li",
+  "name": "杨万里",
+  "aliases": [
+   "杨廷秀",
+   "诚斋"
+  ],
+  "dynasty": "南宋",
+  "birthYear": 1127,
+  "deathYear": 1206,
+  "intro": "南宋诗人杨万里，字廷秀，号诚斋，吉州吉水人。史传载其开禧二年卒，年八十三；通行说法生年为1127年。本页行迹依据《宋史》本传可定位的仕历。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 284,
+     "endLine": 284
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 432,
+     "endLine": 435
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-wei",
+  "name": "王维",
+  "aliases": [
+   "王摩诘",
+   "王右丞"
+  ],
+  "dynasty": "唐",
+  "birthYear": 701,
+  "deathYear": 761,
+  "intro": "王维，唐诗人。本页书—人链依据《旧唐书》《新唐书》本传定位；行迹与交游记录待后续补齐。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 35,
+     "endLine": 37
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百二·列传第一百二十七.md",
+     "startLine": 129,
+     "endLine": 131
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-shang-yin",
+  "name": "李商隐",
+  "aliases": [
+   "李义山"
+  ],
+  "dynasty": "唐",
+  "birthYear": 813,
+  "deathYear": 858,
+  "intro": "李商隐，唐诗人。本页书—人链依据《旧唐书》《新唐书》本传定位；行迹与交游记录待后续补齐。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 205,
+     "endLine": 207
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百三·列传第一百二十八.md",
+     "startLine": 123,
+     "endLine": 125
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "meng-hao-ran",
+  "name": "孟浩然",
+  "aliases": [
+   "孟襄阳"
+  ],
+  "dynasty": "唐",
+  "birthYear": 689,
+  "deathYear": 740,
+  "intro": "孟浩然，唐诗人。本页书—人链依据《旧唐书》《新唐书》本传定位；行迹与交游记录待后续补齐。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 23,
+     "endLine": 25
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百三·列传第一百二十八.md",
+     "startLine": 35,
+     "endLine": 37
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wang-chang-ling",
+  "name": "王昌龄",
+  "aliases": [
+   "王江宁"
+  ],
+  "dynasty": "唐",
+  "birthYear": 698,
+  "deathYear": 757,
+  "intro": "王昌龄，唐诗人。本页书—人链依据《旧唐书》《新唐书》本传定位；行迹与交游记录待后续补齐。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 21,
+     "endLine": 23
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百三·列传第一百二十八.md",
+     "startLine": 43,
+     "endLine": 45
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "li-he",
+  "name": "李贺",
+  "aliases": [
+   "李长吉"
+  ],
+  "dynasty": "唐",
+  "birthYear": 790,
+  "deathYear": 816,
+  "intro": "李贺，唐诗人。本页书—人链依据《旧唐书》《新唐书》本传定位；行迹与交游记录待后续补齐。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百三十七·列传第八十七.md",
+     "startLine": 65,
+     "endLine": 67
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百三·列传第一百二十八.md",
+     "startLine": 99,
+     "endLine": 101
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ }
+]

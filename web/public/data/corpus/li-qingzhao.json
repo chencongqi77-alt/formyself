@@ -1,0 +1,1758 @@
+[
+  {
+    "id": "corpus-li-qingzhao-76ac680d1bbdf76f",
+    "personId": "li-qingzhao",
+    "title": "如梦令·常记溪亭日暮",
+    "genre": "词",
+    "text": [
+      "常记溪亭日暮。",
+      "沉醉不知归路。",
+      "兴尽晚回舟，误入藕花深处。",
+      "争渡。",
+      "争渡。",
+      "惊起一滩鸥鹭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "76ac680d1bbdf76f",
+      "recordKey": "/684"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-d9a85cd9f8c41b25",
+    "personId": "li-qingzhao",
+    "title": "如梦令·昨夜雨疏风骤",
+    "genre": "词",
+    "text": [
+      "昨夜雨疏风骤。",
+      "浓睡不消残酒。",
+      "试问卷帘人，却道海棠依旧。",
+      "知否。",
+      "知否。",
+      "应是绿肥红瘦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "d9a85cd9f8c41b25",
+      "recordKey": "/685"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-0dfb7f94bf2e1188",
+    "personId": "li-qingzhao",
+    "title": "一剪梅・一翦梅·红藕香残玉簟秋",
+    "genre": "词",
+    "text": [
+      "红藕香残玉簟秋。",
+      "轻解罗裳，独上兰舟。",
+      "雪中谁寄锦书来，雁字回时，月满西楼。",
+      "花自飘零水自流。",
+      "一种相思，两处闲愁。",
+      "此情无计可消除，才下眉头，却上心头。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "0dfb7f94bf2e1188",
+      "recordKey": "/693"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-0f59d934210d98cf",
+    "personId": "li-qingzhao",
+    "title": "醉花阴·薄雾浓云愁永昼",
+    "genre": "词",
+    "text": [
+      "薄雾浓云愁永昼。",
+      "瑞脑消金兽。",
+      "佳节又重阳，玉枕纱厨，半夜凉初透。",
+      "东篱把洒黄昏后，有暗香盈袖。",
+      "莫道不消魂，帘卷西风，人似黄花瘦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "0f59d934210d98cf",
+      "recordKey": "/700"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-54487844c2bccea9",
+    "personId": "li-qingzhao",
+    "title": "声声慢·寻寻觅觅冷冷清清凄凄惨惨",
+    "genre": "词",
+    "text": [
+      "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+      "乍暖还寒时候，最难将息。",
+      "三杯两盏淡酒，怎敌他、晚来风急。",
+      "雁过也，正伤心，却是旧时相识。",
+      "满地黄花堆积。",
+      "憔悴损，如今有谁忺摘。",
+      "守著窗儿，独自怎生得黑。",
+      "梧桐更兼细雨，到黄昏、点点滴滴。",
+      "这次第，怎一个、愁字了得。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "54487844c2bccea9",
+      "recordKey": "/716"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-6c29c424dd4bca2d",
+    "personId": "li-qingzhao",
+    "title": "武陵春·风住尘香花已尽日晚倦梳头",
+    "genre": "词",
+    "text": [
+      "风住尘香花已尽，日晚倦梳头。",
+      "物是人非事事休。",
+      "欲语泪先流。",
+      "闻说双溪春尚好，也拟泛轻舟。",
+      "只恐双溪舴艋舟。",
+      "载不动、许多愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "6c29c424dd4bca2d",
+      "recordKey": "/712"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-28b72db9e952f03f",
+    "personId": "li-qingzhao",
+    "title": "渔家傲·天接云涛连晓雾",
+    "genre": "词",
+    "text": [
+      "天接云涛连晓雾。",
+      "星河欲转千帆舞。",
+      "彷佛梦魂归帝所。",
+      "闻天语。",
+      "殷勤问我归何处。",
+      "我报路长嗟日暮。",
+      "学诗谩有惊人句。",
+      "九万里风鹏正举。",
+      "风休住。",
+      "蓬舟吹取三山去。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "28b72db9e952f03f",
+      "recordKey": "/683"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-a198cd0ffff2bcd1",
+    "personId": "li-qingzhao",
+    "title": "渔家傲·雪里已知春信至",
+    "genre": "词",
+    "text": [
+      "雪里已知春信至。",
+      "寒梅点缀琼枝腻。",
+      "香脸半开娇旖旎。",
+      "当庭际。",
+      "玉人浴出新妆洗。",
+      "造化可能偏有意。",
+      "故教明月玲珑地。",
+      "共赏金尊沈绿蚁。",
+      "莫辞醉。",
+      "此花不与群花比。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "a198cd0ffff2bcd1",
+      "recordKey": "/679"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-552b93f8a569aa3b",
+    "personId": "li-qingzhao",
+    "title": "凤凰台上忆吹箫·香冷金猊被翻红浪起来人未",
+    "genre": "词",
+    "text": [
+      "香冷金猊，被翻红浪，起来人未梳头。",
+      "任宝奁闲掩，日上帘钩。",
+      "生怕闲愁暗恨，多少事、欲说还休。",
+      "今年瘦，非干病酒，不是悲秋。",
+      "明朝，这回去也，千万遍阳关，也即难留。",
+      "念武陵春晚，云锁重楼。",
+      "记取楼前绿水，应念我、终日凝眸。",
+      "凝眸处，从今更数，几段新愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "552b93f8a569aa3b",
+      "recordKey": "/692"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-dc48728bd65b003e",
+    "personId": "li-qingzhao",
+    "title": "蝶恋花·泪湿罗衣脂粉满",
+    "genre": "词",
+    "text": [
+      "泪湿罗衣脂粉满。",
+      "四叠阳关，唱到千千遍。",
+      "人道山长山又断。",
+      "萧萧微雨闻孤馆。",
+      "惜别伤离方寸乱。",
+      "忘了临行，酒盏深和浅。",
+      "好把音书凭过雁。",
+      "东来不似蓬莱远。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "dc48728bd65b003e",
+      "recordKey": "/694"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-7dc5f6a367efae79",
+    "personId": "li-qingzhao",
+    "title": "蝶恋花·暖日晴风初破冻",
+    "genre": "词",
+    "text": [
+      "暖日晴风初破冻。",
+      "柳眼眉腮，已觉春心动。",
+      "酒意诗情谁与共。",
+      "泪融残粉花钿重。",
+      "乍试夹衫金缕缝。",
+      "山枕斜敧，枕损钗头凤。",
+      "独抱浓愁无好梦。",
+      "夜阑犹剪灯花弄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "7dc5f6a367efae79",
+      "recordKey": "/695"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-67d6f83824510792",
+    "personId": "li-qingzhao",
+    "title": "蝶恋花·永夜恹恹欢意少",
+    "genre": "词",
+    "text": [
+      "永夜恹恹欢意少。",
+      "空梦长安，认取长安道。",
+      "为报今年春色好。",
+      "花光月影宜相照。",
+      "随意杯盘虽草草。",
+      "酒美梅酸，恰称人怀抱。",
+      "醉莫插花花莫笑。",
+      "可怜春似人将老。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "67d6f83824510792",
+      "recordKey": "/715"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-c13055a4-5fd4-4049-9627-da0c59351de8",
+    "personId": "li-qingzhao",
+    "title": "春残",
+    "genre": "诗",
+    "text": [
+      "春残何事苦思乡，病里梳头恨最长。",
+      "梁燕语多终日在，蔷薇风细一帘香。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "c13055a4-5fd4-4049-9627-da0c59351de8",
+      "recordKey": "/723"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f7bff790-cd8e-4009-9cbe-e540a8b0b582",
+    "personId": "li-qingzhao",
+    "title": "春帖子 贵妃阁",
+    "genre": "诗",
+    "text": [
+      "金环半后礼，钩弋比昭阳。",
+      "春生百子帐，喜入万年觞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "f7bff790-cd8e-4009-9cbe-e540a8b0b582",
+      "recordKey": "/719"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-a3040de0-4233-49b3-aeb0-98a048788a4c",
+    "personId": "li-qingzhao",
+    "title": "春帖子 皇帝阁",
+    "genre": "诗",
+    "text": [
+      "莫进黄金簟，新除玉局床。",
+      "春风送庭燎，不复用沉香。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "a3040de0-4233-49b3-aeb0-98a048788a4c",
+      "recordKey": "/718"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f7779431-f485-402d-b21f-43888b16b2f6",
+    "personId": "li-qingzhao",
+    "title": "打马赋诗",
+    "genre": "诗",
+    "text": [
+      "佛狸定见卯年死，贵贱纷纷尚流徙。",
+      "满眼骅骝杂𫘧駬，时危安得真致此。",
+      "老矣谁能致千里，但愿相将过淮水。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "f7779431-f485-402d-b21f-43888b16b2f6",
+      "recordKey": "/708"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-5272b20b23ba6b1b",
+    "personId": "li-qingzhao",
+    "title": "点绛唇·寂寞深闺柔肠一寸愁千缕",
+    "genre": "词",
+    "text": [
+      "寂寞深闺，柔肠一寸愁千缕。",
+      "惜春春去。",
+      "几点催花雨。",
+      "倚遍阑干，只是无情绪。",
+      "人何处。",
+      "连天衰草，望断归来路。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "5272b20b23ba6b1b",
+      "recordKey": "/717"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-b86a930d-17ca-48c2-a48d-fb6d72908157",
+    "personId": "li-qingzhao",
+    "title": "钓台",
+    "genre": "诗",
+    "text": [
+      "巨舰只缘因利往，扁舟亦是为名来。",
+      "往来有愧先生德，特地通宵过钓台。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "b86a930d-17ca-48c2-a48d-fb6d72908157",
+      "recordKey": "/725"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-c888edf8-feb4-4ca9-9a21-9e21be6f9b38",
+    "personId": "li-qingzhao",
+    "title": "端午帖子 夫人阁",
+    "genre": "诗",
+    "text": [
+      "三宫催解粽，妆罢未天明。",
+      "便面天题字，歌头御赐名。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "c888edf8-feb4-4ca9-9a21-9e21be6f9b38",
+      "recordKey": "/716"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-0964040f-49e5-4025-b84e-776775dfe1cc",
+    "personId": "li-qingzhao",
+    "title": "端午帖子 皇帝阁",
+    "genre": "诗",
+    "text": [
+      "日月尧天大，璇玑舜历长。",
+      "侧闻行殿帐，多集上书囊。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "0964040f-49e5-4025-b84e-776775dfe1cc",
+      "recordKey": "/714"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-73d8ca81-f90d-4955-b9a6-876d25d8f442",
+    "personId": "li-qingzhao",
+    "title": "端午帖子 皇后阁",
+    "genre": "诗",
+    "text": [
+      "意帖初宜夏，金驹已过蚕。",
+      "至尊千万寿，行见百斯男。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "73d8ca81-f90d-4955-b9a6-876d25d8f442",
+      "recordKey": "/715"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-021613147d563885",
+    "personId": "li-qingzhao",
+    "title": "多丽·小楼寒夜长帘幕低垂",
+    "genre": "词",
+    "text": [
+      "小楼寒，夜长帘幕低垂。",
+      "恨萧萧、无情风雨，夜来揉损琼肌。",
+      "也不似、贵妃醉脸，也不似、孙寿愁眉。",
+      "韩令偷香，徐娘傅粉，莫将比拟未新奇。",
+      "细看取、屈平陶令，风韵正相宜。",
+      "微风起，清芬酝籍，不减酴醿。",
+      "渐秋阑、雪清玉瘦，向人无限依依。",
+      "似愁凝、汉皋解佩，似泪洒、纨扇题诗。",
+      "朗月清风，浓烟暗雨，天教憔悴度芳姿。",
+      "纵爱惜、不知从此，留得几多时。",
+      "人情好，何须更忆，泽畔东篱。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "021613147d563885",
+      "recordKey": "/686"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-4da9f457-0793-44c7-a86e-207fbf0a03ea",
+    "personId": "li-qingzhao",
+    "title": "分得知字韵",
+    "genre": "诗",
+    "text": [
+      "学诗三十年，缄口不求知。",
+      "谁遣好奇士，相逢说项斯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "4da9f457-0793-44c7-a86e-207fbf0a03ea",
+      "recordKey": "/721"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-6b5192c1-6d91-4840-bcac-7a7526a1298e",
+    "personId": "li-qingzhao",
+    "title": "感怀",
+    "genre": "诗",
+    "text": [
+      "寒窗败几无书史，公路可怜竟至此。",
+      "青州从事孔方君，终日纷纷喜生事。",
+      "作诗谢绝聊闭门，燕寝凝香有佳思。",
+      "静中我乃得知交，乌有先生子虚子。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "6b5192c1-6d91-4840-bcac-7a7526a1298e",
+      "recordKey": "/724"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f22e8aaf1e11cb26",
+    "personId": "li-qingzhao",
+    "title": "孤雁儿・御街行·藤床纸帐朝眠起",
+    "genre": "词",
+    "text": [
+      "藤床纸帐朝眠起。",
+      "说不尽、无佳思。",
+      "沉香断续玉炉寒，伴我情怀如水。",
+      "笛里三弄，梅心惊破，多少春情意。",
+      "小风疏雨萧萧地。",
+      "又催下、千行泪。",
+      "吹箫人去玉楼空，肠断与谁同倚。",
+      "一枝折得，人间天上，没个人堪寄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "f22e8aaf1e11cb26",
+      "recordKey": "/676"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-337860928ca12898",
+    "personId": "li-qingzhao",
+    "title": "好事近·风定落花深帘外拥红堆雪",
+    "genre": "词",
+    "text": [
+      "风定落花深，帘外拥红堆雪。",
+      "长记海棠开后，正是伤春时节。",
+      "酒阑歌罢玉尊空，青缸暗明灭。",
+      "魂梦不堪幽怨，更一声啼鴂。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "337860928ca12898",
+      "recordKey": "/701"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-85e4e3a1-bfb5-40e4-82e7-4f30c7da2353",
+    "personId": "li-qingzhao",
+    "title": "和张文潜浯溪中兴颂二首  其二",
+    "genre": "诗",
+    "text": [
+      "君不见惊人废兴传天宝，中兴碑上今生草。",
+      "不知负国有奸雄，但说成功尊国老。",
+      "谁令妃子天上来，虢秦韩国皆天才。",
+      "花桑羯鼓玉方响，春风不敢生尘埃。",
+      "姓名谁复知安史，健儿猛将安眠死。",
+      "去天尺五抱瓮峰，峰头凿出开元字。",
+      "时移势去真可哀，奸人心丑深如崖。",
+      "西蜀万里尚能反，南内一闭何时开。",
+      "可怜孝德如天大，反使将军称好在。",
+      "呜呼奴辈乃不能道辅国用事张后尊，乃能念春荠长安作斤卖。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "85e4e3a1-bfb5-40e4-82e7-4f30c7da2353",
+      "recordKey": "/710"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-ff41468f-0600-4483-93d0-4b8413936b72",
+    "personId": "li-qingzhao",
+    "title": "和张文潜浯溪中兴颂二首  其一",
+    "genre": "诗",
+    "text": [
+      "五十年功如电扫，华清花柳咸阳草。",
+      "五坊供奉鬬鸡儿，酒肉堆中不知老。",
+      "胡兵忽自天上来，逆胡亦是奸雄才。",
+      "勤政楼前走胡马，珠翠踏尽香尘埃。",
+      "何为出战辄披靡，传置荔枝多马死。",
+      "尧功舜德本如天，安用区区纪文字。",
+      "著碑铭德真陋哉，乃令神鬼磨山崖。",
+      "子仪光弼不自猜，天心悔祸人心开。",
+      "夏商有鉴当深戒，简策汗青今具在。",
+      "君不见当时张说最多机，虽生已被姚崇卖。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "ff41468f-0600-4483-93d0-4b8413936b72",
+      "recordKey": "/709"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-19e6a249964a4e73",
+    "personId": "li-qingzhao",
+    "title": "浣溪沙·淡荡春光寒食天",
+    "genre": "词",
+    "text": [
+      "淡荡春光寒食天。",
+      "玉炉沈水袅残烟。",
+      "梦回山枕隐花钿。",
+      "海燕未来人斗草，江海已过柳生绵。",
+      "黄昏疏雨湿秋千。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "19e6a249964a4e73",
+      "recordKey": "/691"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-366a9c32ff050576",
+    "personId": "li-qingzhao",
+    "title": "浣溪沙·髻子伤春慵更梳",
+    "genre": "词",
+    "text": [
+      "髻子伤春慵更梳。",
+      "晚风庭院落梅初。",
+      "淡云来往月疏疏。",
+      "玉鸭熏炉闲瑞脑，朱樱斗帐掩流苏。",
+      "通犀还解辟寒无。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "366a9c32ff050576",
+      "recordKey": "/725"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-569fdf7432f3c74c",
+    "personId": "li-qingzhao",
+    "title": "浣溪沙·莫许杯深琥珀浓",
+    "genre": "词",
+    "text": [
+      "莫许杯深琥珀浓。",
+      "未成沉醉意先融。",
+      "□□已应晚来风。",
+      "瑞脑香消魂梦断，辟寒金小髻鬟松。",
+      "醒时空对烛花红。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "569fdf7432f3c74c",
+      "recordKey": "/689"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-e1947407b200c3ee",
+    "personId": "li-qingzhao",
+    "title": "浣溪沙·小院闲窗春色深",
+    "genre": "词",
+    "text": [
+      "小院闲窗春色深。",
+      "重帘未卷影沈沈。",
+      "倚楼无语理瑶琴。",
+      "远岫出山催薄暮，细风吹雨弄轻阴。",
+      "梨花欲谢恐难禁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "e1947407b200c3ee",
+      "recordKey": "/690"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-7101010075597014",
+    "personId": "li-qingzhao",
+    "title": "浣溪沙·绣面芙蓉一笑开",
+    "genre": "词",
+    "text": [
+      "绣面芙蓉一笑开。",
+      "斜飞宝鸭衬香腮。",
+      "眼波才动被人猜。",
+      "一面风情深有韵，半笺娇恨寄幽怀。",
+      "月移花影约重来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "7101010075597014",
+      "recordKey": "/726"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8ff2703c63abfa72",
+    "personId": "li-qingzhao",
+    "title": "减字木兰花·卖花担上",
+    "genre": "词",
+    "text": [
+      "卖花担上。",
+      "买得一枝春欲放。",
+      "泪染轻匀。",
+      "犹带彤霞晓露痕。",
+      "怕郎猜道。",
+      "奴面不如花面好。",
+      "云鬓斜簪。",
+      "徒要教郎比并看。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "8ff2703c63abfa72",
+      "recordKey": "/718"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-15b3ae2a-f529-447b-9bf5-b888830fbf84",
+    "personId": "li-qingzhao",
+    "title": "句  其八",
+    "genre": "诗",
+    "text": [
+      "诗情如夜鹊，三绕未能安。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "15b3ae2a-f529-447b-9bf5-b888830fbf84",
+      "recordKey": "/733"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-fa1b7490-8178-4c44-a54d-8da68782c91e",
+    "personId": "li-qingzhao",
+    "title": "句  其二",
+    "genre": "诗",
+    "text": [
+      "南游尚觉怯吴江冷，北狩应悲易水寒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "fa1b7490-8178-4c44-a54d-8da68782c91e",
+      "recordKey": "/727"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8884c54a-55a6-4f9b-97a1-b7d13177d2ce",
+    "personId": "li-qingzhao",
+    "title": "句  其九",
+    "genre": "诗",
+    "text": [
+      "少陵也自可怜人，更待来年试春草。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "8884c54a-55a6-4f9b-97a1-b7d13177d2ce",
+      "recordKey": "/734"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-9bbbf482-a6b6-4120-9ca4-5e0c8571010f",
+    "personId": "li-qingzhao",
+    "title": "句  其六",
+    "genre": "诗",
+    "text": [
+      "两汉本继绍，新室如赘疣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "9bbbf482-a6b6-4120-9ca4-5e0c8571010f",
+      "recordKey": "/731"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-046616ed-ed73-4d02-8b0c-1d0c567e6d7d",
+    "personId": "li-qingzhao",
+    "title": "句  其七",
+    "genre": "诗",
+    "text": [
+      "所以嵇中散，至死薄殷周。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "046616ed-ed73-4d02-8b0c-1d0c567e6d7d",
+      "recordKey": "/732"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-0da6cab6-589c-4e5e-9197-f91e41636b02",
+    "personId": "li-qingzhao",
+    "title": "句  其三",
+    "genre": "诗",
+    "text": [
+      "何况人间父子情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "0da6cab6-589c-4e5e-9197-f91e41636b02",
+      "recordKey": "/728"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-d73eabff-b5dc-464f-bad1-987ce187e907",
+    "personId": "li-qingzhao",
+    "title": "句  其四",
+    "genre": "诗",
+    "text": [
+      "炙手可热心可寒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "d73eabff-b5dc-464f-bad1-987ce187e907",
+      "recordKey": "/729"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-e6ec7ed0-b3dc-4ac5-a7ee-38eb12d3debf",
+    "personId": "li-qingzhao",
+    "title": "句  其五",
+    "genre": "诗",
+    "text": [
+      "露花倒影柳三变，桂子飘香张九成。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "e6ec7ed0-b3dc-4ac5-a7ee-38eb12d3debf",
+      "recordKey": "/730"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-7ad180ce-3da1-4535-8cca-3ca70574611c",
+    "personId": "li-qingzhao",
+    "title": "句  其一",
+    "genre": "诗",
+    "text": [
+      "南渡衣冠欠王导，北来消息少刘琨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "7ad180ce-3da1-4535-8cca-3ca70574611c",
+      "recordKey": "/726"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-d2d5842b-44e1-4500-bfaf-22f51097a3c4",
+    "personId": "li-qingzhao",
+    "title": "句  其一○",
+    "genre": "诗",
+    "text": [
+      "犹将歌扇向人遮。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "d2d5842b-44e1-4500-bfaf-22f51097a3c4",
+      "recordKey": "/735"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8858a449-3765-4cc7-aadc-77474eef0e81",
+    "personId": "li-qingzhao",
+    "title": "句  其一二",
+    "genre": "诗",
+    "text": [
+      "彩云易散月长亏。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "8858a449-3765-4cc7-aadc-77474eef0e81",
+      "recordKey": "/737"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-6b622e5d-b503-432f-ba57-f2d039b909a1",
+    "personId": "li-qingzhao",
+    "title": "句  其一六",
+    "genre": "诗",
+    "text": [
+      "直送凄凉到画屏。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "6b622e5d-b503-432f-ba57-f2d039b909a1",
+      "recordKey": "/741"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-152e22ee-4757-4b5f-a417-84382fbcf8c8",
+    "personId": "li-qingzhao",
+    "title": "句  其一三",
+    "genre": "诗",
+    "text": [
+      "几多深恨断人肠。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "152e22ee-4757-4b5f-a417-84382fbcf8c8",
+      "recordKey": "/738"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-c4e3dc73-2e15-4da1-9157-fe99633c8862",
+    "personId": "li-qingzhao",
+    "title": "句  其一四",
+    "genre": "诗",
+    "text": [
+      "罗衣消尽恁时香。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "c4e3dc73-2e15-4da1-9157-fe99633c8862",
+      "recordKey": "/739"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-21168cb3-1b5c-43e3-aa27-67720e9a0e7b",
+    "personId": "li-qingzhao",
+    "title": "句  其一五",
+    "genre": "诗",
+    "text": [
+      "闲愁也似月明多。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "21168cb3-1b5c-43e3-aa27-67720e9a0e7b",
+      "recordKey": "/740"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-081c2740-d225-4bf6-930a-f43b6ed0d22e",
+    "personId": "li-qingzhao",
+    "title": "句  其一一",
+    "genre": "诗",
+    "text": [
+      "水晶山枕象牙床。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "081c2740-d225-4bf6-930a-f43b6ed0d22e",
+      "recordKey": "/736"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-c66430e13bbe3120",
+    "personId": "li-qingzhao",
+    "title": "临江仙·庭院深深深几许云窗雾阁常",
+    "genre": "词",
+    "text": [
+      "庭院深深深几许，云窗雾阁常扃。",
+      "柳梢梅萼渐分明。",
+      "春归秣陵树，人客远安城。",
+      "感月吟风多少事，如今老去无成。",
+      "谁怜憔悴更凋零。",
+      "试灯无意思，踏雪没心情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "c66430e13bbe3120",
+      "recordKey": "/699"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-304f936ad1ed2f31",
+    "personId": "li-qingzhao",
+    "title": "临江仙·庭院深深深几许云窗雾阁春",
+    "genre": "词",
+    "text": [
+      "庭院深深深几许，云窗雾阁春迟。",
+      "为谁憔悴损芳姿。",
+      "夜来清梦好，应是发南枝。",
+      "玉瘦檀轻无限恨，南楼羌管休吹。",
+      "浓香吹尽有谁知。",
+      "暖风迟日也，别到杏花肥。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "304f936ad1ed2f31",
+      "recordKey": "/723"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-7785c09f2a96cbf0",
+    "personId": "li-qingzhao",
+    "title": "满庭霜・满庭芳·小阁藏春闲窗锁昼画堂无限",
+    "genre": "词",
+    "text": [
+      "小阁藏春，闲窗锁昼，画堂无限深幽。",
+      "篆香烧尽，日影下帘钩。",
+      "手种江梅更好，又何必、临水登楼。",
+      "无人到，寂寥浑似，何逊在扬州。",
+      "从来，知韵胜，难堪雨籍，不耐风柔。",
+      "更谁家横笛，吹动浓愁。",
+      "莫恨香消雪减，须信道、扫迹情留。",
+      "难言处，良宵淡月，疏影尚风流。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "7785c09f2a96cbf0",
+      "recordKey": "/677"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-d49138ecd3076a02",
+    "personId": "li-qingzhao",
+    "title": "南歌子·天上星河转人间帘幕垂",
+    "genre": "词",
+    "text": [
+      "天上星河转，人间帘幕垂。",
+      "凉生枕簟泪痕滋。",
+      "起解罗衣、聊问夜何其。",
+      "翠贴莲蓬小，金销藕叶稀。",
+      "旧时天气旧时衣。",
+      "只有情怀、不似旧家时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "d49138ecd3076a02",
+      "recordKey": "/681"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-db57d86a3ad9da47",
+    "personId": "li-qingzhao",
+    "title": "念奴娇·萧条庭院有斜风细雨重门须",
+    "genre": "词",
+    "text": [
+      "萧条庭院，有斜风细雨，重门须闭。",
+      "宠柳娇花寒食近，种种恼人天气。",
+      "险韵诗成，扶头酒醒，别是闲滋味。",
+      "征鸿过尽，万千心事难寄。",
+      "楼上几日春寒，帘垂四面，玉阑干慵倚。",
+      "被冷香消新梦觉，不许愁人不起。",
+      "清露晨流，新桐初引，多少游春意。",
+      "日高烟敛，更看今日晴未。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "db57d86a3ad9da47",
+      "recordKey": "/710"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f2b17bdd-026c-4c2b-adef-cf0c82a09483",
+    "personId": "li-qingzhao",
+    "title": "偶成",
+    "genre": "诗",
+    "text": [
+      "十五年前花月底，相从曾赋赏花诗。",
+      "今看花月浑相似，安得情怀似往时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "f2b17bdd-026c-4c2b-adef-cf0c82a09483",
+      "recordKey": "/717"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-912835bf3a9cc05e",
+    "personId": "li-qingzhao",
+    "title": "菩萨蛮·风柔日薄春犹早",
+    "genre": "词",
+    "text": [
+      "风柔日薄春犹早。",
+      "夹衫乍著心情好。",
+      "睡起觉微寒。",
+      "梅花鬓上残。",
+      "故乡何处是。",
+      "忘了除非醉。",
+      "沈水卧时烧。",
+      "香消酒未消。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "912835bf3a9cc05e",
+      "recordKey": "/687"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-08894290ae551a05",
+    "personId": "li-qingzhao",
+    "title": "菩萨蛮·归鸿声断残云碧",
+    "genre": "词",
+    "text": [
+      "归鸿声断残云碧。",
+      "背窗雪落炉烟直。",
+      "烛底凤钗明。",
+      "钗头人胜轻。",
+      "角声催晓漏。",
+      "曙色回牛斗。",
+      "春意看花难。",
+      "西风留旧寒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "08894290ae551a05",
+      "recordKey": "/688"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8849d2aacf5c626e",
+    "personId": "li-qingzhao",
+    "title": "清平乐·年年雪里",
+    "genre": "词",
+    "text": [
+      "年年雪里。",
+      "常插梅花醉。",
+      "挼尽梅花无好意。",
+      "赢得满衣清泪。",
+      "今年海角天涯。",
+      "萧萧两鬓生华。",
+      "看取晚来风势，故应难看梅花。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "8849d2aacf5c626e",
+      "recordKey": "/680"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f28ef65b30c5fee4",
+    "personId": "li-qingzhao",
+    "title": "庆清朝·禁幄低张彤阑巧护就中独占",
+    "genre": "词",
+    "text": [
+      "禁幄低张，彤阑巧护，就中独占残春。",
+      "容华淡伫，绰约俱见天真。",
+      "待得群花过后，一番风露晓妆新。",
+      "妖娆艳态，妒风笑月，长𣨼东君。",
+      "东城边，南陌上，正日烘池馆，竟走香轮。",
+      "绮筵散日，谁人可继芳尘。",
+      "更好明光宫殿，几枝先近日边匀。",
+      "金尊倒，拼了尽烛，不管黄昏。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "f28ef65b30c5fee4",
+      "recordKey": "/724"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-d947310957f54d13",
+    "personId": "li-qingzhao",
+    "title": "瑞鹧鸪·风韵雍容未甚都",
+    "genre": "词",
+    "text": [
+      "风韵雍容未甚都。",
+      "尊前甘橘可为奴。",
+      "谁怜流落江湖上，玉骨冰肌未肯枯。",
+      "谁教并蒂连枝摘，醉后明皇倚太真。",
+      "居士擘开真有意，要吟风味两家新。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "d947310957f54d13",
+      "recordKey": "/722"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-de496db9-e840-451e-b4c8-1ecb9509f948",
+    "personId": "li-qingzhao",
+    "title": "上韩公枢密  其二",
+    "genre": "诗",
+    "text": [
+      "想见皇华过二京，壶浆夹道万人迎。",
+      "连昌宫里桃应在，华萼楼头鹊定惊。",
+      "但说帝心怜赤子，须知天意念苍生。",
+      "圣君大信明如日，长乱何须在屡盟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "de496db9-e840-451e-b4c8-1ecb9509f948",
+      "recordKey": "/712"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-dc1d4078-4ac0-4045-9337-4fc036d095ec",
+    "personId": "li-qingzhao",
+    "title": "上韩公枢密  其一",
+    "genre": "诗",
+    "text": [
+      "三年夏六月，天子视朝久。",
+      "凝旒望南云，垂衣思北狩。",
+      "如闻帝若曰，岳牧与群后。",
+      "贤宁无半千，运已遇阳九。",
+      "勿勒燕然铭，勿种金城柳。",
+      "岂无纯孝臣，识此霜露悲。",
+      "何必羹舍肉，便可车载脂。",
+      "土地非所惜，玉帛如尘泥。",
+      "谁当可将命，币厚词益卑。",
+      "四岳佥曰俞，臣下帝所知。",
+      "中朝第一人，春官有昌黎。",
+      "身为百夫特，行足万人师。",
+      "嘉祐与建中，为政有臯夔。",
+      "匈奴畏王商，吐蕃尊子仪。",
+      "夷狄已破胆，将命公所宜。",
+      "公拜手稽首，受命白玉墀。",
+      "曰臣敢辞难，此亦何等时。",
+      "家人安足谋，妻子不必辞。",
+      "愿奉天地灵，愿奉宗庙威。",
+      "径持紫泥诏，直入黄龙城。",
+      "单于定稽颡，侍子当来迎。",
+      "仁君方恃信，狂生休请缨。",
+      "或取犬马血，与结天日盟。",
+      "胡公清德人所难，谋同德协心志安。",
+      "脱衣已被汉恩暖，离歌不道易水寒。",
+      "皇天久阴后土湿，雨势未回风劳急。",
+      "车声辚辚马萧萧，壮士懦夫俱感泣。",
+      "闾阎嫠妇亦何知，沥血投书干记室。",
+      "夷虏从来性虎狼，不虞预备庸何伤。",
+      "衷甲昔时闻楚幕，乘城前日记平凉。",
+      "葵丘践土非荒城，勿轻谈士弃儒生。",
+      "露布词成马犹倚，崤函关出鸡未鸣。",
+      "巧匠何曾弃樗栎，刍荛之言或有益。",
+      "不乞隋珠与和璧，只乞乡关新信息。",
+      "灵光虽在应萧萧，草中翁仲今何若。",
+      "遣氓岂尚种桑麻，残虏如闻保城郭。",
+      "嫠家父祖生齐鲁，位下名高人比数。",
+      "当时稷下纵谈时，犹记人挥汗成雨。",
+      "子孙南渡今几年，飘流遂与流人伍。",
+      "欲将血泪寄山河，去洒东山一抔土。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "dc1d4078-4ac0-4045-9337-4fc036d095ec",
+      "recordKey": "/711"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-404764a643b006bd",
+    "personId": "li-qingzhao",
+    "title": "失调名·教我甚情怀",
+    "genre": "词",
+    "text": [
+      "教我甚情怀。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "404764a643b006bd",
+      "recordKey": "/719"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8b3f6cd0b53cd63f",
+    "personId": "li-qingzhao",
+    "title": "失调名·瑞脑烟残沉香火冷",
+    "genre": "词",
+    "text": [
+      "瑞脑烟残，沉香火冷。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "8b3f6cd0b53cd63f",
+      "recordKey": "/709"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-45230bbfad3a9a5c",
+    "personId": "li-qingzhao",
+    "title": "失调名·条脱闲揎系五丝",
+    "genre": "词",
+    "text": [
+      "条脱闲揎系五丝。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "45230bbfad3a9a5c",
+      "recordKey": "/708"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f431c068bf0b5c9f",
+    "personId": "li-qingzhao",
+    "title": "失调名·犹将歌扇向人遮",
+    "genre": "词",
+    "text": [
+      "犹将歌扇向人遮。",
+      "水晶山枕象牙床。",
+      "彩云易散月长亏。",
+      "几多深恨断人肠。",
+      "罗衣消尽恁时香。",
+      "闲愁也似月明多。",
+      "直送凄凉到画屏。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "f431c068bf0b5c9f",
+      "recordKey": "/704"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-442aa98e353f4c92",
+    "personId": "li-qingzhao",
+    "title": "诉衷情·夜来沉醉卸妆迟",
+    "genre": "词",
+    "text": [
+      "夜来沉醉卸妆迟。",
+      "梅萼插残枝。",
+      "酒醒熏破春睡，梦远不成归。",
+      "人悄悄，月依依。",
+      "翠帘垂。",
+      "更挼残芯，更拈馀香，更得些时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "442aa98e353f4c92",
+      "recordKey": "/702"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-4412563554279082",
+    "personId": "li-qingzhao",
+    "title": "摊破浣溪沙・山花子·病起萧萧两鬓华",
+    "genre": "词",
+    "text": [
+      "病起萧萧两鬓华。",
+      "卧看残月上窗纱。",
+      "豆蔻连梢煎熟水，莫分茶。",
+      "枕上诗书闲处好，门前风景雨来佳。",
+      "终日向人多酝藉，木犀花。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "4412563554279082",
+      "recordKey": "/721"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-5decd38b8fe88f4f",
+    "personId": "li-qingzhao",
+    "title": "摊破浣溪沙・山花子·揉破黄金万点轻",
+    "genre": "词",
+    "text": [
+      "揉破黄金万点轻。",
+      "剪成碧玉叶层层。",
+      "风度精神如彦辅，大鲜明。",
+      "梅蕊重重何俗甚，丁香千结苦粗生。",
+      "熏透愁人千里梦，却无情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "5decd38b8fe88f4f",
+      "recordKey": "/720"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-96d1d6337f5e5f32",
+    "personId": "li-qingzhao",
+    "title": "添字丑奴儿・采桑子·窗前谁种芭蕉树阴满中庭",
+    "genre": "词",
+    "text": [
+      "窗前谁种芭蕉树，阴满中庭。",
+      "阴满中庭。",
+      "叶叶心心，舒卷有馀情。",
+      "伤心枕上三更雨，点滴霖霪。",
+      "点滴霖霪。",
+      "愁损北人，不惯起来听。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "96d1d6337f5e5f32",
+      "recordKey": "/706"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-b44d50a7-ba60-41d7-a288-5ab6486ae4a9",
+    "personId": "li-qingzhao",
+    "title": "婺州八咏楼",
+    "genre": "诗",
+    "text": [
+      "千古风流八咏楼，江山留与后人愁。",
+      "水通南国三千里，气压江城十四州。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "b44d50a7-ba60-41d7-a288-5ab6486ae4a9",
+      "recordKey": "/713"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-ba2fe8ca-41aa-466a-b268-fa3526daafb5",
+    "personId": "li-qingzhao",
+    "title": "夏日绝句",
+    "genre": "诗",
+    "text": [
+      "生当为人杰，死亦作鬼雄。",
+      "至今思项羽，不肯过江东。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "ba2fe8ca-41aa-466a-b268-fa3526daafb5",
+      "recordKey": "/720"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-97117fa35c7e005a",
+    "personId": "li-qingzhao",
+    "title": "小重山·春到长门春草青",
+    "genre": "词",
+    "text": [
+      "春到长门春草青。",
+      "江梅些子破，未开匀。",
+      "碧云笼碾玉成尘。",
+      "留晓梦，惊破一瓯春。",
+      "花影压重门。",
+      "疏帘铺淡月，好黄昏。",
+      "二年三度负东君。",
+      "归来也，著意过今春。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "97117fa35c7e005a",
+      "recordKey": "/697"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-8c530854-cb5c-4acb-a7a6-32f485fd4423",
+    "personId": "li-qingzhao",
+    "title": "晓梦",
+    "genre": "诗",
+    "text": [
+      "晓梦随疏钟，飘然蹑云霞。",
+      "因缘安期生，邂逅萼绿华。",
+      "秋风正无赖，吹尽玉井花。",
+      "共看藕如船，同食枣如瓜。",
+      "翩翩坐上客，意妙语亦佳。",
+      "嘲辞鬬诡辨，活火分新茶。",
+      "虽非助帝功，其乐莫可涯。",
+      "人生能如此，何必归故家。",
+      "起来敛衣坐，掩耳厌喧哗。",
+      "心知不可见，念念犹咨嗟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.song.91000.json",
+      "recordId": "8c530854-cb5c-4acb-a7a6-32f485fd4423",
+      "recordKey": "/722"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-989c0ab6c5d672c3",
+    "personId": "li-qingzhao",
+    "title": "新荷叶·薄露初零长宵共永昼分停",
+    "genre": "词",
+    "text": [
+      "薄露初零，长宵共、永昼分停。",
+      "绕水楼台，高耸万丈蓬瀛。",
+      "芝兰为寿，相辉映、簪笏盈庭。",
+      "花柔玉净，捧觞别有娉婷。",
+      "鹤瘦松青，精神与、秋月争明。",
+      "德行文章，素驰日下声名。",
+      "东山高蹈，虽卿相、不足为荣。",
+      "安石须起，要苏天下苍生。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.20000.json",
+      "recordId": "989c0ab6c5d672c3",
+      "recordKey": "/717"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-a1796f96ab61b542",
+    "personId": "li-qingzhao",
+    "title": "行香子·草际鸣蛩",
+    "genre": "词",
+    "text": [
+      "草际鸣蛩。",
+      "惊落梧桐。",
+      "正人间、天上愁浓。",
+      "云阶月地，关锁千重。",
+      "纵浮槎来，浮槎去，不相逢。",
+      "星桥鹊驾，经年才见，想离情、别恨难穷。",
+      "牵牛织女，莫是离中。",
+      "甚霎儿晴，霎儿雨，霎儿风。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "a1796f96ab61b542",
+      "recordKey": "/703"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-cabd922ee8f09e4d",
+    "personId": "li-qingzhao",
+    "title": "忆秦娥·临高阁",
+    "genre": "词",
+    "text": [
+      "临高阁。",
+      "乱山平野烟光薄。",
+      "烟光薄。",
+      "栖鸦归后，暮天闻角。",
+      "断香残酒情怀恶。",
+      "西风催衬梧桐落。",
+      "梧桐落。",
+      "又还秋色，又还寂寞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "cabd922ee8f09e4d",
+      "recordKey": "/707"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-eec4d9f3c01a4dd7",
+    "personId": "li-qingzhao",
+    "title": "永遇乐·落日熔金暮云合璧人在何处",
+    "genre": "词",
+    "text": [
+      "落日熔金，暮云合璧，人在何处。",
+      "染柳烟浓，吹梅笛怨，春意知几许。",
+      "元宵佳节，融和天气，次第岂无风雨。",
+      "来相召、香车宝马，谢他酒朋诗侣。",
+      "中州盛日，闺门多暇，记得偏重三五。",
+      "铺翠冠儿，拈金雪柳，簇带争济楚。",
+      "如今憔悴，风鬟霜鬓，怕见夜间出去。",
+      "不如向、帘儿底下，听人笑语。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "eec4d9f3c01a4dd7",
+      "recordKey": "/711"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-4fb16b78d9c3815d",
+    "personId": "li-qingzhao",
+    "title": "玉楼春·红酥肯放琼苞碎",
+    "genre": "词",
+    "text": [
+      "红酥肯放琼苞碎。",
+      "探著南枝开遍未。",
+      "不知酝藉几多香，但见包藏无限意。",
+      "道人憔悴春窗底。",
+      "闷损阑干愁不倚。",
+      "要来小酌便来休，未必明朝风不起。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "4fb16b78d9c3815d",
+      "recordKey": "/678"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-e7d7390bfa00ce0d",
+    "personId": "li-qingzhao",
+    "title": "怨王孙・忆王孙·帝里春晚",
+    "genre": "词",
+    "text": [
+      "帝里春晚。",
+      "重门深院。",
+      "草绿阶前，暮天雁断。",
+      "楼上远信谁传。",
+      "恨绵绵。",
+      "多情自是多沾惹。",
+      "难拼舍。",
+      "又是寒食也。",
+      "秋千巷陌，人静皎月初斜。",
+      "浸梨花。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "e7d7390bfa00ce0d",
+      "recordKey": "/713"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-29cfa74e69c7a04d",
+    "personId": "li-qingzhao",
+    "title": "怨王孙・忆王孙·湖上风来波浩渺",
+    "genre": "词",
+    "text": [
+      "湖上风来波浩渺。",
+      "秋已暮、红稀香少。",
+      "水光山色与人亲，说不尽、无穷好。",
+      "莲子已成荷叶老。",
+      "青露洗、苹花汀草。",
+      "眠沙鸥鹭不回头，似也恨、人归早。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "29cfa74e69c7a04d",
+      "recordKey": "/698"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-6345434f3ae3323f",
+    "personId": "li-qingzhao",
+    "title": "长寿乐·微寒应候",
+    "genre": "词",
+    "text": [
+      "微寒应候。",
+      "望日边六叶，阶蓂初秀。",
+      "爱景欲挂扶桑，漏残银箭，杓回摇斗。",
+      "庆高闳此际，掌上一颗明珠剖。",
+      "有令容淑质，归逢佳偶。",
+      "到如今，昼锦满堂贵胄。",
+      "荣耀，文步紫禁，一一金章绿绶。",
+      "更值棠棣连阴，虎符熊轼，夹河分守。",
+      "况青云咫尺，朝暮重入承明后。",
+      "看彩衣争献，兰羞玉酎。",
+      "祝千龄，借指松椿比寿。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "6345434f3ae3323f",
+      "recordKey": "/714"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-86cf3b290c3e2f7d",
+    "personId": "li-qingzhao",
+    "title": "鹧鸪天·暗淡轻黄体性柔",
+    "genre": "词",
+    "text": [
+      "暗淡轻黄体性柔。",
+      "情疏迹远只香留。",
+      "何须浅碧深红色，自是花中第一流。",
+      "梅定妒，菊应羞。",
+      "画阑开处冠中秋。",
+      "骚人可煞无情思，何事当年不见收。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "86cf3b290c3e2f7d",
+      "recordKey": "/705"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-f6d9b8e1b0a89766",
+    "personId": "li-qingzhao",
+    "title": "鹧鸪天·寒日萧萧上锁窗",
+    "genre": "词",
+    "text": [
+      "寒日萧萧上锁窗。",
+      "梧桐应恨夜来霜。",
+      "酒阑更喜团茶苦，梦断偏宜瑞脑香。",
+      "秋已尽，日犹长。",
+      "仲宣怀远更凄凉。",
+      "不如随分尊前醉，莫负东篱菊蕊黄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "f6d9b8e1b0a89766",
+      "recordKey": "/696"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-li-qingzhao-2f4db12ead34d1d3",
+    "personId": "li-qingzhao",
+    "title": "转调满庭芳・满庭芳·芳草池塘绿阴庭院晚晴寒透",
+    "genre": "词",
+    "text": [
+      "芳草池塘，绿阴庭院，晚晴寒透窗纱。",
+      "□□金锁，管是客来唦。",
+      "寂寞尊前席上，惟□、海角天涯。",
+      "能留否，酴醿落尽，犹赖有□□。",
+      "当年，曾胜赏，生香薰袖，活火分茶。",
+      "□□□龙骄马，流水轻车。",
+      "不怕风狂雨骤，恰才称、煮酒残花。",
+      "如今也，不成怀抱，得似旧时那。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "宋词/ci.song.6000.json",
+      "recordId": "2f4db12ead34d1d3",
+      "recordKey": "/682"
+    },
+    "libraryStatus": "corpus"
+  }
+]

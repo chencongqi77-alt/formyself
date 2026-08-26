@@ -1,0 +1,17 @@
+# Copy this file to .dev.vars and fill exactly one provider key.
+# These variables stay server-side; never prefix them with NEXT_PUBLIC_.
+
+# Recommended for the current local prototype.
+DEEPSEEK_API_KEY=
+DEEPSEEK_MODEL=deepseek-chat
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+
+# Optional OpenAI Responses API provider instead:
+# OPENAI_API_KEY=
+# OPENAI_MODEL=gpt-5.2
+# OPENAI_BASE_URL=https://api.openai.com/v1
+
+# Or any OpenAI-compatible Chat Completions endpoint:
+# LLM_API_KEY=
+# LLM_MODEL=
+# LLM_BASE_URL=https://example.com/v1

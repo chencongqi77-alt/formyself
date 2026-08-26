@@ -1,0 +1,13 @@
+{
+  "id": "chinese-poetry",
+  "title": "chinese-poetry 古诗词数据集",
+  "sourceType": "dataset",
+  "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/master/LICENSE",
+  "attribution": "chinese-poetry contributors",
+  "snapshot": {
+    "algorithm": "sha256",
+    "digest": "ef51712df1329f1bc7c4c2bdcc4e1639c81a4c48c46cf1042b9f82ff4b1c8263"
+  }
+}

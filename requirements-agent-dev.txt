@@ -1,0 +1,3 @@
+-r requirements-agent.txt
+# Only used to create deterministic text/blank PDF fixtures in tests.
+reportlab==4.4.9

@@ -1,0 +1,3383 @@
+[
+ {
+  "id": "baidi",
+  "name": "白帝城",
+  "historicalNames": [
+   "白帝城",
+   "夔州"
+  ],
+  "modernName": "重庆市奉节县白帝镇一带",
+  "sourceCoordinates": {
+   "x": 109.51,
+   "y": 31.05,
+   "source": "现代遗址级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_019.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  },
+  "intro": "《早发白帝城》题名和正文写白帝城、江陵与峡江水路，本站不据此断定写作年份。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_019.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "caizhou",
+  "name": "蔡州",
+  "historicalNames": [
+   "蔡州"
+  ],
+  "modernName": "河南省汝南县一带",
+  "sourceCoordinates": {
+   "x": 114.36,
+   "y": 33.0,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 143,
+     "endLine": 147
+    }
+   }
+  },
+  "intro": "欧阳修致仕前最后的任地蔡州，即今河南汝南一带；秦观亦曾为蔡州教授。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 143,
+     "endLine": 147
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "changan",
+  "name": "长安",
+  "historicalNames": [
+   "长安",
+   "京师"
+  ],
+  "modernName": "陕西省西安市一带",
+  "sourceCoordinates": {
+   "x": 108.906976,
+   "y": 34.246423,
+   "source": "CBDB 地址索引候选，经人工复核的都城级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 149
+    }
+   }
+  },
+  "intro": "唐代长安既关联李白的翰林供奉，也关联杜甫陷贼时《春望》的阅读。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 149
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 93,
+     "endLine": 103
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "changsha",
+  "name": "潭州",
+  "historicalNames": [
+   "潭州",
+   "长沙"
+  ],
+  "modernName": "湖南省长沙市",
+  "sourceCoordinates": {
+   "x": 112.94,
+   "y": 28.23,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 50,
+     "endLine": 85
+    }
+   }
+  },
+  "intro": "辛弃疾知潭州兼湖南安抚，平定盗乱并创设飞虎军，宋史对此经过有连续叙述。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 50,
+     "endLine": 85
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "changzhou",
+  "name": "常州",
+  "historicalNames": [
+   "常州",
+   "毗陵",
+   "阳羡"
+  ],
+  "modernName": "江苏省常州市",
+  "sourceCoordinates": {
+   "x": 119.974061,
+   "y": 31.811226,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1766,
+     "endLine": 1775
+    }
+   }
+  },
+  "intro": "苏轼获准居常州后曾短任登州，北归途中病止常州并卒于此。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1766,
+     "endLine": 1775
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "chengdu",
+  "name": "成都",
+  "historicalNames": [
+   "成都西郭",
+   "浣花"
+  ],
+  "modernName": "四川省成都市",
+  "sourceCoordinates": {
+   "x": 104.0665,
+   "y": 30.5723,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  },
+  "intro": "杜甫在成都西郭经营草堂，年谱把浣花、卜居等作品列于此年。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "chibi",
+  "name": "赤壁",
+  "historicalNames": [
+   "赤壁"
+  ],
+  "modernName": "湖北省赤壁市一带",
+  "sourceCoordinates": {
+   "x": 113.9,
+   "y": 29.72,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 585,
+     "endLine": 588
+    }
+   }
+  },
+  "intro": "建安十三年曹操南征，与孙权、刘备联军交战不利的江上战场。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 585,
+     "endLine": 588
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "chuzhou",
+  "name": "滁州",
+  "historicalNames": [
+   "滁州"
+  ],
+  "modernName": "安徽省滁州市",
+  "sourceCoordinates": {
+   "x": 118.315,
+   "y": 32.303,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 41,
+     "endLine": 49
+    }
+   }
+  },
+  "intro": "辛弃疾出知滁州时，宋史记州郡经兵乱凋残，他以宽征、招流散和屯田应对。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 41,
+     "endLine": 49
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "culai-mountain",
+  "name": "徂来山竹溪",
+  "historicalNames": [
+   "徂来山",
+   "竹溪"
+  ],
+  "modernName": "山东省泰安市徂徕山一带",
+  "sourceCoordinates": {
+   "x": 117.25,
+   "y": 36.2,
+   "source": "历史山地中心点近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 147
+    }
+   }
+  },
+  "intro": "李白离开云梦后到齐鲁，后序记其居徂来山竹溪，再进入吴地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 147,
+     "endLine": 147
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "daming",
+  "name": "北京大名府",
+  "historicalNames": [
+   "北京",
+   "大名府"
+  ],
+  "modernName": "河北省邯郸市大名县一带",
+  "sourceCoordinates": {
+   "x": 115.15,
+   "y": 36.29,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 34,
+     "endLine": 35
+    }
+   }
+  },
+  "intro": "黄庭坚教授北京国子监的所在，即今河北大名一带，此为其声名始震前的学官任地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 34,
+     "endLine": 35
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "dangtu",
+  "name": "当涂",
+  "historicalNames": [
+   "当涂"
+  ],
+  "modernName": "安徽省马鞍山市当涂县",
+  "sourceCoordinates": {
+   "x": 118.49,
+   "y": 31.57,
+   "source": "CBDB 地址索引候选，经人工复核的县级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 159,
+     "endLine": 161
+    }
+   }
+  },
+  "intro": "李白前往当涂探访族人李阳冰，后序把其因病去世系于宝应元年。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 159,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "danzhou",
+  "name": "儋州",
+  "historicalNames": [
+   "儋州",
+   "昌化",
+   "儋耳"
+  ],
+  "modernName": "海南省儋州市一带",
+  "sourceCoordinates": {
+   "x": 109.34163666,
+   "y": 19.748701096,
+   "source": "CBDB 地址索引候选，经人工复核的州级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1629,
+     "endLine": 1659
+    }
+   }
+  },
+  "intro": "苏轼渡海贬居儋州近三年，年谱记其到达、当地生活、获徙廉州和北归的连续线索。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1629,
+     "endLine": 1659
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "dingzhou",
+  "name": "定州",
+  "historicalNames": [
+   "定州",
+   "中山"
+  ],
+  "modernName": "河北省定州市",
+  "sourceCoordinates": {
+   "x": 114.97504425,
+   "y": 38.520061493,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1536,
+     "endLine": 1544
+    }
+   }
+  },
+  "intro": "苏轼曾在定州整饬军政，年谱以此地衔接他由仕途转入贬谪的关键转折。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1536,
+     "endLine": 1544
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "emei",
+  "name": "峨眉山",
+  "historicalNames": [
+   "峨眉山",
+   "平羌"
+  ],
+  "modernName": "四川省乐山市峨眉山市",
+  "sourceCoordinates": {
+   "x": 103.484,
+   "y": 29.601,
+   "source": "历史山地中心点近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_006.txt",
+     "startLine": 200,
+     "endLine": 202
+    }
+   }
+  },
+  "intro": "《峨眉山月歌》写峨眉、平羌、清溪、三峡和渝州，是李白作品空间选读的入口。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_006.txt",
+     "startLine": 200,
+     "endLine": 202
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "fengxian",
+  "name": "奉先",
+  "historicalNames": [
+   "奉先"
+  ],
+  "modernName": "陕西省蒲城县一带",
+  "sourceCoordinates": {
+   "x": 109.586,
+   "y": 34.956,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  },
+  "intro": "杜甫自京赴奉先的行程，与年谱所记禄山之乱同在这一年。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 90,
+     "endLine": 92
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "fengxiang",
+  "name": "凤翔",
+  "historicalNames": [
+   "凤翔"
+  ],
+  "modernName": "陕西省宝鸡市凤翔区",
+  "sourceCoordinates": {
+   "x": 107.14038086,
+   "y": 34.38187027,
+   "source": "CBDB 20260718 坐标（唐代记录）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   }
+  },
+  "intro": "杜甫本传所载行迹地，坐标取自CBDB历史地点标注，展示定位用。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百一·列传第一百二十六.md",
+     "startLine": 83,
+     "endLine": 96
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "fengxin",
+  "name": "奉新",
+  "historicalNames": [
+   "奉新",
+   "奉新县"
+  ],
+  "modernName": "江西省奉新县一带",
+  "sourceCoordinates": {
+   "x": 115.4,
+   "y": 28.7,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 289,
+     "endLine": 289
+    }
+   }
+  },
+  "intro": "杨万里丁父忧后知奉新县之地，即今江西奉新一带，史传记其为隆兴府属县。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 289,
+     "endLine": 289
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "fuzhou",
+  "name": "福州",
+  "historicalNames": [
+   "福州",
+   "闽中"
+  ],
+  "modernName": "福建省福州市",
+  "sourceCoordinates": {
+   "x": 119.3,
+   "y": 26.08,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 99,
+     "endLine": 111
+    }
+   }
+  },
+  "intro": "辛弃疾知福州兼福建安抚，宋史记其储备钱粮并筹划扩充军备。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 99,
+     "endLine": 111
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "gaoyou",
+  "name": "高邮",
+  "historicalNames": [
+   "高邮",
+   "扬州高邮"
+  ],
+  "modernName": "江苏省高邮市一带",
+  "sourceCoordinates": {
+   "x": 119.44,
+   "y": 32.78,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 100,
+     "endLine": 100
+    }
+   }
+  },
+  "intro": "秦观籍贯扬州高邮所在，即今江苏高邮一带，史传称其少豪隽慷慨。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 100,
+     "endLine": 100
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "guandu",
+  "name": "官渡",
+  "historicalNames": [
+   "官渡"
+  ],
+  "modernName": "河南省中牟县东北一带",
+  "sourceCoordinates": {
+   "x": 113.98,
+   "y": 34.85,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 371,
+     "endLine": 372
+    }
+   }
+  },
+  "intro": "建安五年曹操与袁绍决战的官渡战场，位于许都东北，是著名的以少胜多之地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 371,
+     "endLine": 372
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 384,
+     "endLine": 410
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hangzhou",
+  "name": "杭州",
+  "historicalNames": [
+   "钱塘",
+   "杭州",
+   "临安",
+   "净慈",
+   "浄慈"
+  ],
+  "modernName": "浙江省杭州市",
+  "sourceCoordinates": {
+   "x": 120.16862488,
+   "y": 30.294124603,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1095,
+     "endLine": 1104
+    }
+   }
+  },
+  "intro": "苏轼曾在钱塘任通判，年谱记有其任内政务、游湖和写作经历。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1095,
+     "endLine": 1104
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hechi",
+  "name": "河池",
+  "historicalNames": [
+   "河池"
+  ],
+  "modernName": "甘肃省陇南市徽县一带",
+  "sourceCoordinates": {
+   "x": 106.0519,
+   "y": 33.8356,
+   "source": "CBDB 20260718 坐标（唐代记录）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   }
+  },
+  "intro": "高适本传所载行迹地，坐标取自CBDB历史地点标注，展示定位用。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hefei",
+  "name": "合肥",
+  "historicalNames": [
+   "合肥"
+  ],
+  "modernName": "安徽省合肥市",
+  "sourceCoordinates": {
+   "x": 117.23,
+   "y": 31.82,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 593,
+     "endLine": 598
+    }
+   }
+  },
+  "intro": "曹操建安十四年出肥水军合肥，并置扬州长吏、开芍陂屯田的军事据点。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 593,
+     "endLine": 598
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hengshan",
+  "name": "衡山",
+  "historicalNames": [
+   "衡山"
+  ],
+  "modernName": "湖南省衡阳市南岳区",
+  "sourceCoordinates": {
+   "x": 113.025128,
+   "y": 27.407563,
+   "source": "CBDB 20260718 坐标（唐代记录）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   }
+  },
+  "intro": "杜甫本传所载行迹地，坐标取自CBDB历史地点标注，展示定位用。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百一·列传第一百二十六.md",
+     "startLine": 83,
+     "endLine": 96
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hengzhou",
+  "name": "横州",
+  "historicalNames": [
+   "横州"
+  ],
+  "modernName": "广西壮族自治区横州市一带",
+  "sourceCoordinates": {
+   "x": 109.26,
+   "y": 22.68,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 111,
+     "endLine": 111
+    }
+   }
+  },
+  "intro": "秦观削秩后编管的横州，即今广西横州市一带，后又徙雷州。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 111,
+     "endLine": 111
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "hongzhou",
+  "name": "洪州",
+  "historicalNames": [
+   "洪州"
+  ],
+  "modernName": "江西省南昌市",
+  "sourceCoordinates": {
+   "x": 115.86,
+   "y": 28.68,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  },
+  "intro": "建炎中李清照所寄藏书金石先至洪州，后随城陷尽数散失。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 117,
+     "endLine": 119
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huanghelou",
+  "name": "黄鹤楼",
+  "historicalNames": [
+   "黄鹤楼",
+   "江夏"
+  ],
+  "modernName": "湖北省武汉市武昌区一带",
+  "sourceCoordinates": {
+   "x": 114.306,
+   "y": 30.544,
+   "source": "现代地标级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_012.txt",
+     "startLine": 189,
+     "endLine": 191
+    }
+   }
+  },
+  "intro": "《黄鹤楼送孟浩然之广陵》题名与诗句呈现楼、扬州和长江，是送别诗的空间入口。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_012.txt",
+     "startLine": 189,
+     "endLine": 191
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huangzhou",
+  "name": "黄州",
+  "historicalNames": [
+   "黄州",
+   "齐安",
+   "东坡"
+  ],
+  "modernName": "湖北省黄冈市黄州区",
+  "sourceCoordinates": {
+   "x": 114.86549377,
+   "y": 30.446989059,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1240,
+     "endLine": 1271
+    }
+   }
+  },
+  "intro": "苏轼谪居黄州，在东坡、雪堂与赤壁留下多条生活与写作线索。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1240,
+     "endLine": 1271
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huizhou",
+  "name": "惠州",
+  "historicalNames": [
+   "惠州",
+   "惠阳",
+   "白鹤峰"
+  ],
+  "modernName": "广东省惠州市",
+  "sourceCoordinates": {
+   "x": 114.41679,
+   "y": 23.11147,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1542,
+     "endLine": 1568
+    }
+   }
+  },
+  "intro": "苏轼贬居惠州并营白鹤峰新居，年谱保留岭南生活、写作和再贬昌化军的线索。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1542,
+     "endLine": 1568
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "huzhou",
+  "name": "湖州",
+  "historicalNames": [
+   "湖州",
+   "吴兴"
+  ],
+  "modernName": "浙江省湖州市",
+  "sourceCoordinates": {
+   "x": 120.0868,
+   "y": 30.8943,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1203,
+     "endLine": 1239
+    }
+   }
+  },
+  "intro": "苏轼在湖州到任不久被追摄赴狱，之后被责授黄州团练副使。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1203,
+     "endLine": 1239
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jiande",
+  "name": "严州",
+  "historicalNames": [
+   "严州",
+   "睦州"
+  ],
+  "modernName": "浙江省建德市一带",
+  "sourceCoordinates": {
+   "x": 119.28,
+   "y": 29.48,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 298,
+     "endLine": 300
+    }
+   }
+  },
+  "intro": "陆游知严州的严陵山水所在，州治即今浙江建德一带，山水可供赋咏。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_395.txt",
+     "startLine": 298,
+     "endLine": 300
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jiangling",
+  "name": "江陵",
+  "historicalNames": [
+   "江陵",
+   "荆州"
+  ],
+  "modernName": "湖北省荆州市荆州区一带",
+  "sourceCoordinates": {
+   "x": 112.24,
+   "y": 30.33,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 47,
+     "endLine": 50
+    }
+   }
+  },
+  "intro": "宋史记辛弃疾曾知江陵府兼湖北安抚，显示其由地方政务进入边防治理的经历。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 47,
+     "endLine": 50
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jiankang",
+  "name": "建康",
+  "historicalNames": [
+   "建康",
+   "江宁",
+   "行都"
+  ],
+  "modernName": "江苏省南京市",
+  "sourceCoordinates": {
+   "x": 118.8,
+   "y": 32.06,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 112,
+     "endLine": 117
+    }
+   }
+  },
+  "intro": "李清照南渡后奔行都所在，赵明诚建炎三年病逝于此，也是她丧夫后的停留之地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 112,
+     "endLine": 117
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jinan",
+  "name": "历城",
+  "historicalNames": [
+   "历城",
+   "齐"
+  ],
+  "modernName": "山东省济南市历城区一带",
+  "sourceCoordinates": {
+   "x": 117.12,
+   "y": 36.65,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 20,
+     "endLine": 35
+    }
+   }
+  },
+  "intro": "辛弃疾是齐历城人，宋史记其在金末动乱中随耿京聚兵并决定南归。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 20,
+     "endLine": 35
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jinling",
+  "name": "金陵",
+  "historicalNames": [
+   "金陵",
+   "建康",
+   "江宁"
+  ],
+  "modernName": "江苏省南京市一带",
+  "sourceCoordinates": {
+   "x": 118.76898956,
+   "y": 32.052562714,
+   "source": "CBDB 地址索引候选，经人工复核的府城级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 150,
+     "endLine": 151
+    }
+   }
+  },
+  "intro": "金陵即今南京一带，李白多次经过，辛弃疾南归后也曾在建康任职。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 150,
+     "endLine": 151
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 34,
+     "endLine": 41
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "jishui",
+  "name": "吉水",
+  "historicalNames": [
+   "吉水",
+   "吉州吉水"
+  ],
+  "modernName": "江西省吉水县一带",
+  "sourceCoordinates": {
+   "x": 115.13,
+   "y": 27.23,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 284,
+     "endLine": 284
+    }
+   }
+  },
+  "intro": "杨万里籍贯吉州吉水所在，即今江西吉水一带，史传以吉水称其乡里。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 284,
+     "endLine": 284
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "kaifeng",
+  "name": "开封",
+  "historicalNames": [
+   "汴京",
+   "开封"
+  ],
+  "modernName": "河南省开封市",
+  "sourceCoordinates": {
+   "x": 114.3,
+   "y": 34.8,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 93,
+     "endLine": 95
+    }
+   }
+  },
+  "intro": "李清照婚后居汴京，太学与相国寺购藏碑文的生活背景，汴京也是赵明诚太学所在。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 93,
+     "endLine": 95
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "kuizhou",
+  "name": "夔州",
+  "historicalNames": [
+   "夔州",
+   "夔峡",
+   "瀼西"
+  ],
+  "modernName": "重庆市奉节县一带",
+  "sourceCoordinates": {
+   "x": 109.47,
+   "y": 31.02,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 159,
+     "endLine": 165
+    }
+   }
+  },
+  "intro": "杜甫南游至夔峡后居瀼西，《秋兴》《登高》把巫峡与登台体验连接到此地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 159,
+     "endLine": 165
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "leiyang",
+  "name": "耒阳",
+  "historicalNames": [
+   "耒阳"
+  ],
+  "modernName": "湖南省衡阳市耒阳市",
+  "sourceCoordinates": {
+   "x": 112.846886,
+   "y": 26.41507,
+   "source": "CBDB 20260718 坐标（唐代记录）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   }
+  },
+  "intro": "杜甫本传所载行迹地，坐标取自CBDB历史地点标注，展示定位用。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百九十下·列传第一百四十.md",
+     "startLine": 53,
+     "endLine": 64
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷二百一·列传第一百二十六.md",
+     "startLine": 83,
+     "endLine": 96
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "linchuan",
+  "name": "临川",
+  "historicalNames": [
+   "临川",
+   "抚州"
+  ],
+  "modernName": "江西省抚州市临川区一带",
+  "sourceCoordinates": {
+   "x": 116.36,
+   "y": 27.98,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  },
+  "intro": "王安石籍贯临川的所在，即今江西抚州一带，史传称其少好读书。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lingling",
+  "name": "零陵",
+  "historicalNames": [
+   "零陵",
+   "永州"
+  ],
+  "modernName": "湖南省永州市零陵区一带",
+  "sourceCoordinates": {
+   "x": 111.63,
+   "y": 26.22,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 286,
+     "endLine": 286
+    }
+   }
+  },
+  "intro": "杨万里调永州零陵丞、师事张浚之地，今属湖南永州，张浚时谪居于此。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 286,
+     "endLine": 286
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "luling",
+  "name": "庐陵",
+  "historicalNames": [
+   "庐陵",
+   "吉州"
+  ],
+  "modernName": "江西省吉安市一带",
+  "sourceCoordinates": {
+   "x": 114.99,
+   "y": 27.11,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  },
+  "intro": "欧阳修籍贯庐陵所在，即今江西吉安一带；他四岁而孤，家贫力学。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 17,
+     "endLine": 17
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "luoyang",
+  "name": "洛阳",
+  "historicalNames": [
+   "洛阳",
+   "东都"
+  ],
+  "modernName": "河南省洛阳市",
+  "sourceCoordinates": {
+   "x": 112.45404,
+   "y": 34.619682,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 149,
+     "endLine": 150
+    }
+   }
+  },
+  "intro": "李白离开长安后西涉至洛阳，后序在连贯行旅叙述中将此地列为一站。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 149,
+     "endLine": 150
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "lushan",
+  "name": "庐山",
+  "historicalNames": [
+   "庐山",
+   "香炉峰"
+  ],
+  "modernName": "江西省九江市庐山",
+  "sourceCoordinates": {
+   "x": 115.977,
+   "y": 29.55,
+   "source": "历史山地中心点近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 151,
+     "endLine": 153
+    }
+   }
+  },
+  "intro": "李白在庐山被永王璘征致，《望庐山瀑布》也以山中景观连接此地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 151,
+     "endLine": 153
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_018.txt",
+     "startLine": 117,
+     "endLine": 127
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "minshan",
+  "name": "岷山",
+  "historicalNames": [
+   "岷山"
+  ],
+  "modernName": "四川省北部岷山区域",
+  "sourceCoordinates": {
+   "x": 103.926,
+   "y": 32.898,
+   "source": "历史山脉中心点近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 144,
+     "endLine": 145
+    }
+   }
+  },
+  "intro": "李白后序记其早年隐于岷山，本站以山脉中心点标记这段没有精确年份的早期行旅。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 144,
+     "endLine": 145
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "mizhou",
+  "name": "密州",
+  "historicalNames": [
+   "密州",
+   "胶西",
+   "高密"
+  ],
+  "modernName": "山东省诸城市一带",
+  "sourceCoordinates": {
+   "x": 119.40398407,
+   "y": 35.993354797,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1137,
+     "endLine": 1158
+    }
+   }
+  },
+  "intro": "苏轼由钱塘移守密州，年谱记有地方事务与中秋写作线索。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1137,
+     "endLine": 1158
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "nanchang",
+  "name": "隆兴",
+  "historicalNames": [
+   "隆兴府",
+   "南昌"
+  ],
+  "modernName": "江西省南昌市",
+  "sourceCoordinates": {
+   "x": 115.89,
+   "y": 28.68,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 85,
+     "endLine": 99
+    }
+   }
+  },
+  "intro": "辛弃疾知隆兴府兼江西安抚时遇饥荒，宋史记其出榜筹粮、平价赈济。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 85,
+     "endLine": 99
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "pengya",
+  "name": "彭衙",
+  "historicalNames": [
+   "彭衙",
+   "鄜畤"
+  ],
+  "modernName": "陕西省白水县东北一带",
+  "sourceCoordinates": {
+   "x": 109.59,
+   "y": 35.18,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 93,
+     "endLine": 99
+    }
+   }
+  },
+  "intro": "杜甫避乱暂居鄜畤后赴朝，年谱记其渐至彭衙并陷贼中的行程。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 93,
+     "endLine": 99
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qianzhou",
+  "name": "黔州",
+  "historicalNames": [
+   "黔州"
+  ],
+  "modernName": "重庆市彭水苗族土家族自治县一带",
+  "sourceCoordinates": {
+   "x": 108.17,
+   "y": 29.29,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 49,
+     "endLine": 50
+    }
+   }
+  },
+  "intro": "黄庭坚贬涪州别驾、黔州安置之地，即今重庆彭水一带，他泊然不以迁谪介意。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 49,
+     "endLine": 50
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qiao",
+  "name": "谯",
+  "historicalNames": [
+   "谯",
+   "谯县"
+  ],
+  "modernName": "安徽省亳州市一带",
+  "sourceCoordinates": {
+   "x": 115.78,
+   "y": 33.84,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 19,
+     "endLine": 19
+    }
+   }
+  },
+  "intro": "曹操籍贯所在，谯东精舍与建安中两次治水军皆在此地，位于今安徽亳州一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 19,
+     "endLine": 19
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 611,
+     "endLine": 612
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "qingzhou",
+  "name": "青州",
+  "historicalNames": [
+   "青州"
+  ],
+  "modernName": "山东省青州市一带",
+  "sourceCoordinates": {
+   "x": 118.48,
+   "y": 36.68,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 111,
+     "endLine": 112
+    }
+   }
+  },
+  "intro": "李清照屏居青州时，归来堂藏书著书，故第后毁于靖康兵燹，即其与赵明诚旧居所在。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 99,
+     "endLine": 104
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 111,
+     "endLine": 112
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "rongzhou",
+  "name": "戎州",
+  "historicalNames": [
+   "戎州"
+  ],
+  "modernName": "四川省宜宾市一带",
+  "sourceCoordinates": {
+   "x": 104.63,
+   "y": 28.75,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 50,
+     "endLine": 51
+    }
+   }
+  },
+  "intro": "黄庭坚自黔州移居的戎州，即今四川宜宾一带，蜀士多从之游。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 50,
+     "endLine": 51
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "shuzhou",
+  "name": "舒州",
+  "historicalNames": [
+   "舒州"
+  ],
+  "modernName": "安徽省潜山市一带",
+  "sourceCoordinates": {
+   "x": 116.57,
+   "y": 30.63,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 24,
+     "endLine": 24
+    }
+   }
+  },
+  "intro": "王安石通判舒州的任地，州治即今安徽潜山一带，史传记其恬退自守。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 24,
+     "endLine": 24
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "taihe",
+  "name": "太和",
+  "historicalNames": [
+   "太和县",
+   "快阁"
+  ],
+  "modernName": "江西省泰和县一带",
+  "sourceCoordinates": {
+   "x": 114.9,
+   "y": 26.79,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 37,
+     "endLine": 39
+    }
+   }
+  },
+  "intro": "黄庭坚知太和县、以平易治民之地，即今江西泰和一带，史传记其独不争课额。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 37,
+     "endLine": 39
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "taohuatan",
+  "name": "桃花潭",
+  "historicalNames": [
+   "桃花潭",
+   "泾县"
+  ],
+  "modernName": "安徽省宣城市泾县桃花潭镇",
+  "sourceCoordinates": {
+   "x": 118.18,
+   "y": 30.55,
+   "source": "现代景点级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_010.txt",
+     "startLine": 175,
+     "endLine": 177
+    }
+   }
+  },
+  "intro": "《赠汪伦》题下辑注称李白游泾县桃花潭，这里只作为该诗的地点阅读入口。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0012_010.txt",
+     "startLine": 175,
+     "endLine": 177
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "tengzhou",
+  "name": "藤州",
+  "historicalNames": [
+   "藤州"
+  ],
+  "modernName": "广西壮族自治区藤县一带",
+  "sourceCoordinates": {
+   "x": 110.91,
+   "y": 23.37,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 112,
+     "endLine": 113
+    }
+   }
+  },
+  "intro": "秦观放还途中卒于藤州，即今广西藤县一带，史传记其卒于华光亭。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 112,
+     "endLine": 113
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "tonggu",
+  "name": "同谷",
+  "historicalNames": [
+   "同谷城",
+   "同谷"
+  ],
+  "modernName": "甘肃省成县一带",
+  "sourceCoordinates": {
+   "x": 105.742,
+   "y": 33.751,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 109,
+     "endLine": 116
+    }
+   }
+  },
+  "intro": "杜甫弃华州官职西行，年谱记其经秦州、赤谷到同谷城的行旅。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 109,
+     "endLine": 116
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "tongguan",
+  "name": "潼关",
+  "historicalNames": [
+   "潼关"
+  ],
+  "modernName": "陕西省渭南市潼关县",
+  "sourceCoordinates": {
+   "x": 110.27365,
+   "y": 34.59881,
+   "source": "CBDB 20260718 坐标（非唐代记录，需复核）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   }
+  },
+  "intro": "高适本传所载行迹地，坐标取自CBDB历史地点标注，展示定位用。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十一·列传第六十一.md",
+     "startLine": 43,
+     "endLine": 58
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十三·列传第六十八.md",
+     "startLine": 5,
+     "endLine": 12
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xiagui",
+  "name": "下邽",
+  "historicalNames": [
+   "下邽"
+  ],
+  "modernName": "陕西省渭南市",
+  "sourceCoordinates": {
+   "x": 109.50959,
+   "y": 34.729103,
+   "source": "CBDB 20260718 坐标（唐代记录）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 85,
+     "endLine": 186
+    }
+   }
+  },
+  "intro": "白居易本传所载行迹地，坐标取自CBDB历史地点标注。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 85,
+     "endLine": 186
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 39,
+     "endLine": 60
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xiushui",
+  "name": "分宁",
+  "historicalNames": [
+   "分宁",
+   "洪州分宁"
+  ],
+  "modernName": "江西省修水县一带",
+  "sourceCoordinates": {
+   "x": 114.55,
+   "y": 29.03,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 32,
+     "endLine": 32
+    }
+   }
+  },
+  "intro": "黄庭坚籍贯洪州分宁所在，即今江西修水一带，史传称其幼警悟、读书成诵。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 32,
+     "endLine": 32
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xuancheng",
+  "name": "宣城",
+  "historicalNames": [
+   "宣城",
+   "宣州"
+  ],
+  "modernName": "安徽省宣城市",
+  "sourceCoordinates": {
+   "x": 118.7425,
+   "y": 30.946941,
+   "source": "CBDB 地址索引候选，经人工复核的县级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 159,
+     "endLine": 160
+    }
+   }
+  },
+  "intro": "李白晚年在历阳、宣城二郡徘徊，这里保留后序明确记载的最后行旅阶段。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 159,
+     "endLine": 160
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xuchang",
+  "name": "许昌",
+  "historicalNames": [
+   "许",
+   "许都"
+  ],
+  "modernName": "河南省许昌市",
+  "sourceCoordinates": {
+   "x": 113.85,
+   "y": 34.03,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 228,
+     "endLine": 240
+    }
+   }
+  },
+  "intro": "建安元年迎献帝都许，屯田许下，成为汉末朝廷与曹操势力的中心。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 228,
+     "endLine": 240
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 250,
+     "endLine": 253
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xunyang",
+  "name": "寻阳",
+  "historicalNames": [
+   "寻阳",
+   "江州"
+  ],
+  "modernName": "江西省九江市一带",
+  "sourceCoordinates": {
+   "x": 115.99,
+   "y": 29.71,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 153,
+     "endLine": 155
+    }
+   }
+  },
+  "intro": "李白因永王事在寻阳入狱，后序记崔涣、宋若思验治并将他释出。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 153,
+     "endLine": 155
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "xuzhou",
+  "name": "徐州",
+  "historicalNames": [
+   "徐州",
+   "彭城"
+  ],
+  "modernName": "江苏省徐州市",
+  "sourceCoordinates": {
+   "x": 117.18768311,
+   "y": 34.269634247,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1172,
+     "endLine": 1183
+    }
+   }
+  },
+  "intro": "苏轼在徐州遇洪水围城，年谱记有筑堤守城与黄楼修建的经过。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4d0076",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4d0076_000.txt",
+     "startLine": 1172,
+     "endLine": 1183
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yangzhou",
+  "name": "扬州",
+  "historicalNames": [
+   "扬州",
+   "广陵",
+   "瓜洲"
+  ],
+  "modernName": "江苏省扬州市",
+  "sourceCoordinates": {
+   "x": 119.41,
+   "y": 32.39,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 84,
+     "endLine": 84
+    }
+   }
+  },
+  "intro": "欧阳修自滁州徙知扬州之地，即今江苏扬州一带，后又徙颍州。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 84,
+     "endLine": 84
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yanzhou",
+  "name": "兖州",
+  "historicalNames": [
+   "兖州",
+   "鄄城"
+  ],
+  "modernName": "山东省菏泽市鄄城县一带",
+  "sourceCoordinates": {
+   "x": 115.5,
+   "y": 35.56,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 159,
+     "endLine": 168
+    }
+   }
+  },
+  "intro": "曹操领兖州牧、破青州黄巾之地，州治鄄城是他早期的根据地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 159,
+     "endLine": 168
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 179,
+     "endLine": 179
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "ye",
+  "name": "邺城",
+  "historicalNames": [
+   "邺",
+   "邺城"
+  ],
+  "modernName": "河北省邯郸市临漳县一带",
+  "sourceCoordinates": {
+   "x": 114.48,
+   "y": 36.28,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 803,
+     "endLine": 804
+    }
+   }
+  },
+  "intro": "曹操以邺为经营中心，建魏社稷宗庙，作铜爵台、金虎台，是魏国基业的所在。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 698,
+     "endLine": 699
+    }
+   },
+   {
+    "sourceId": "kanripo-kr2a0012",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0012_001.txt",
+     "startLine": 803,
+     "endLine": 804
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yiling",
+  "name": "夷陵",
+  "historicalNames": [
+   "夷陵",
+   "峡州"
+  ],
+  "modernName": "湖北省宜昌市一带",
+  "sourceCoordinates": {
+   "x": 111.29,
+   "y": 30.69,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 30,
+     "endLine": 30
+    }
+   }
+  },
+  "intro": "欧阳修坐贬夷陵令的荒远小邑，即今湖北宜昌一带，他在此翻读旧案自警。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_319.txt",
+     "startLine": 30,
+     "endLine": 30
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yinxian",
+  "name": "鄞县",
+  "historicalNames": [
+   "鄞县"
+  ],
+  "modernName": "浙江省宁波市鄞州区一带",
+  "sourceCoordinates": {
+   "x": 121.54,
+   "y": 29.87,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 22,
+     "endLine": 23
+    }
+   }
+  },
+  "intro": "王安石知鄞县时兴水利、贷谷与民之地，即今浙江宁波一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_327.txt",
+     "startLine": 22,
+     "endLine": 23
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yizhou",
+  "name": "宜州",
+  "historicalNames": [
+   "宜州"
+  ],
+  "modernName": "广西壮族自治区河池市宜州区一带",
+  "sourceCoordinates": {
+   "x": 108.64,
+   "y": 24.48,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 57,
+     "endLine": 58
+    }
+   }
+  },
+  "intro": "黄庭坚除名羁管的宜州，即今广西河池宜州一带，卒于此地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_444.txt",
+     "startLine": 57,
+     "endLine": 58
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yueyang",
+  "name": "岳阳",
+  "historicalNames": [
+   "岳阳",
+   "洞庭湖",
+   "青草湖",
+   "岳阳楼"
+  ],
+  "modernName": "湖南省岳阳市",
+  "sourceCoordinates": {
+   "x": 113.1289,
+   "y": 29.3571,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 173,
+     "endLine": 175
+    }
+   }
+  },
+  "intro": "杜甫的大历四年诗题涉及岳阳、洞庭与湘水一带，适合用地图串读。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 173,
+     "endLine": 175
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yuezhou",
+  "name": "越州",
+  "historicalNames": [
+   "越州",
+   "越城",
+   "山西村"
+  ],
+  "modernName": "浙江省绍兴市",
+  "sourceCoordinates": {
+   "x": 120.58,
+   "y": 30.0,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 122,
+     "endLine": 125
+    }
+   }
+  },
+  "intro": "李清照转徙台温衢越杭时寓居的越城，曾在此一夜遭盗失藏。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 122,
+     "endLine": 125
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yunmeng",
+  "name": "云梦",
+  "historicalNames": [
+   "云梦",
+   "云梦泽"
+  ],
+  "modernName": "湖北省孝感市云梦县",
+  "sourceCoordinates": {
+   "x": 113.746399,
+   "y": 31.025822,
+   "source": "CBDB 地址索引候选，经人工复核的县级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 145,
+     "endLine": 147
+    }
+   }
+  },
+  "intro": "后序记李白南游至楚地游览云梦并留居三年，是早期行旅中停留时长明确的节点。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4c0013",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4c0013_000.txt",
+     "startLine": 145,
+     "endLine": 147
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zaokou",
+  "name": "造口",
+  "historicalNames": [
+   "造口",
+   "郁孤台",
+   "虔州"
+  ],
+  "modernName": "江西省赣州市赣县区一带",
+  "sourceCoordinates": {
+   "x": 114.93248,
+   "y": 25.847,
+   "source": "CBDB 地址索引候选，经人工复核的城市级定位",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_004.txt",
+     "startLine": 296,
+     "endLine": 312
+    }
+   }
+  },
+  "intro": "《菩萨蛮·书江西造口壁》题名直指造口，是辛弃疾作品地点选读的明确入口。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_004.txt",
+     "startLine": 296,
+     "endLine": 312
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zhangzhou",
+  "name": "漳州",
+  "historicalNames": [
+   "漳州"
+  ],
+  "modernName": "福建省漳州市",
+  "sourceCoordinates": {
+   "x": 117.65,
+   "y": 24.51,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 296,
+     "endLine": 296
+    }
+   }
+  },
+  "intro": "杨万里出知漳州的地方，即今福建漳州一带，其后改知常州并提举广东常平。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_433.txt",
+     "startLine": 296,
+     "endLine": 296
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zhenjiang",
+  "name": "镇江",
+  "historicalNames": [
+   "镇江",
+   "京口",
+   "北固亭"
+  ],
+  "modernName": "江苏省镇江市",
+  "sourceCoordinates": {
+   "x": 119.45,
+   "y": 32.2,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 110,
+     "endLine": 120
+    }
+   }
+  },
+  "intro": "辛弃疾晚年一度受命知镇江府，《永遇乐》题名中的京口北固亭也在此地。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2a0032",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2a0032_401.txt",
+     "startLine": 110,
+     "endLine": 120
+    }
+   },
+   {
+    "sourceId": "kanripo-kr4j0040",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0040_002.txt",
+     "startLine": 374,
+     "endLine": 407
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zichuan",
+  "name": "淄川",
+  "historicalNames": [
+   "淄川",
+   "淄州"
+  ],
+  "modernName": "山东省淄博市淄川区一带",
+  "sourceCoordinates": {
+   "x": 117.97,
+   "y": 36.64,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 105,
+     "endLine": 107
+    }
+   }
+  },
+  "intro": "靖康丙午赵明诚任守之地，金人犯京师的消息在此传来，位于今山东淄博一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr4j0027",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR4j0027_000.txt",
+     "startLine": 105,
+     "endLine": 107
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zizhou",
+  "name": "梓州",
+  "historicalNames": [
+   "梓州",
+   "梓城"
+  ],
+  "modernName": "四川省三台县一带",
+  "sourceCoordinates": {
+   "x": 105.094,
+   "y": 31.095,
+   "source": "现代城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 137,
+     "endLine": 140
+    }
+   }
+  },
+  "intro": "杜甫在梓州登楼，又游涪城、入阆中，年谱保留了这一年的路线。",
+  "sourceRefs": [
+   {
+    "sourceId": "kanripo-kr2g0007",
+    "locator": {
+     "kind": "line-range",
+     "path": "KR2g0007_001.txt",
+     "startLine": 137,
+     "endLine": 140
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "suzhou",
+  "name": "苏州",
+  "historicalNames": [
+   "苏州",
+   "吴郡"
+  ],
+  "modernName": "江苏省苏州市",
+  "sourceCoordinates": {
+   "x": 120.618622,
+   "y": 31.31271,
+   "source": "CBDB 20260718 坐标（唐代记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   }
+  },
+  "intro": "唐代苏州，白居易宝历中复出为苏州刺史，任满携太湖石等归洛阳。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 165,
+     "endLine": 165
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 173,
+     "endLine": 173
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "zhongzhou",
+  "name": "忠州",
+  "historicalNames": [
+   "忠州"
+  ],
+  "modernName": "重庆市忠县一带",
+  "sourceCoordinates": {
+   "x": 108.0316,
+   "y": 30.29858,
+   "source": "CBDB 20260718 坐标（唐代记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  },
+  "intro": "唐代忠州，白居易元和十三年量移忠州刺史，次年春沿江赴任。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第一百一十六.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百一十九·列传第四十四.md",
+     "startLine": 63,
+     "endLine": 63
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "chizhou",
+  "name": "池州",
+  "historicalNames": [
+   "池州"
+  ],
+  "modernName": "安徽省池州市一带",
+  "sourceCoordinates": {
+   "x": 117.481834,
+   "y": 30.654661,
+   "source": "CBDB 20260718 坐标（唐池州记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   }
+  },
+  "intro": "唐代池州，杜牧出牧黄、池、睦三郡时为池州刺史，即今安徽池州一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "muzhou",
+  "name": "睦州",
+  "historicalNames": [
+   "睦州",
+   "严州"
+  ],
+  "modernName": "浙江省建德市一带",
+  "sourceCoordinates": {
+   "x": 119.498856,
+   "y": 29.544481,
+   "source": "CBDB 20260718 坐标（唐睦州记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   }
+  },
+  "intro": "唐代睦州，杜牧出牧黄、池、睦三郡时为睦州刺史，即今浙江建德一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jiu-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百四十七·列传第九十七.md",
+     "startLine": 87,
+     "endLine": 87
+    }
+   },
+   {
+    "sourceId": "github-26-histories-xin-tang-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷一百六十六·列传第九十一.md",
+     "startLine": 77,
+     "endLine": 77
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "fanyang",
+  "name": "范阳",
+  "historicalNames": [
+   "范阳"
+  ],
+  "modernName": "河北省涿州市一带",
+  "sourceCoordinates": {
+   "x": 115.968147,
+   "y": 39.487221,
+   "source": "CBDB 20260718 坐标（范阳/涿州记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  },
+  "intro": "范阳为卢思道乡里，历仕北齐后以母疾还乡，即今河北涿州一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "wuyang",
+  "name": "武阳",
+  "historicalNames": [
+   "武阳",
+   "武阳郡"
+  ],
+  "modernName": "河北省大名县一带",
+  "sourceCoordinates": {
+   "x": 115.218359,
+   "y": 36.30969,
+   "source": "CBDB 20260718 坐标（贵乡/魏州记录）；城市级近似定位（武阳郡治贵乡，地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  },
+  "intro": "隋武阳郡治贵乡，卢思道迁武阳太守，非其好也，即今河北大名一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-sui-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷五十七·列传第二十二.md",
+     "startLine": 5,
+     "endLine": 5
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "dongping",
+  "name": "东平",
+  "historicalNames": [
+   "东平",
+   "东平国"
+  ],
+  "modernName": "山东省东平县一带",
+  "sourceCoordinates": {
+   "x": 116.282559,
+   "y": 35.956072,
+   "source": "CBDB 20260718 坐标（东平/须昌记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 11,
+     "endLine": 11
+    }
+   }
+  },
+  "intro": "三国魏东平国，阮籍言曾游东平，文帝拜为东平相，即今山东东平一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 11,
+     "endLine": 11
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "weishi",
+  "name": "尉氏",
+  "historicalNames": [
+   "尉氏"
+  ],
+  "modernName": "河南省开封市尉氏县",
+  "sourceCoordinates": {
+   "x": 114.18077087,
+   "y": 34.413452148,
+   "source": "CBDB 20260718 坐标（尉氏记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 7,
+     "endLine": 7
+    }
+   }
+  },
+  "intro": "陈留尉氏为阮籍乡里，即今河南尉氏县，本传记其谢病归屏于田里。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 7,
+     "endLine": 7
+    }
+   },
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷四十九·列传第十九.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "pengze",
+  "name": "彭泽",
+  "historicalNames": [
+   "彭泽"
+  ],
+  "modernName": "江西省九江市彭泽县",
+  "sourceCoordinates": {
+   "x": 116.563766,
+   "y": 29.801619,
+   "source": "CBDB 20260718 坐标（彭泽记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  },
+  "intro": "彭泽县为陶潜任令处，在县公田悉令种秫谷，义熙二年解印去县，即今江西彭泽县。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-jin-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷九十四·列传第六十四.md",
+     "startLine": 161,
+     "endLine": 161
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "shian",
+  "name": "始安",
+  "historicalNames": [
+   "始安",
+   "始安郡"
+  ],
+  "modernName": "广西壮族自治区桂林市一带",
+  "sourceCoordinates": {
+   "x": 110.286262,
+   "y": 25.28006,
+   "source": "CBDB 20260718 坐标（桂州/临桂记录）；城市级近似定位（始安郡治，地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  },
+  "intro": "南朝宋始安郡，颜延之出为始安太守，郡治即今广西桂林一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 9,
+     "endLine": 9
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ },
+ {
+  "id": "yongjia",
+  "name": "永嘉",
+  "historicalNames": [
+   "永嘉",
+   "永嘉郡"
+  ],
+  "modernName": "浙江省温州市一带",
+  "sourceCoordinates": {
+   "x": 120.653221,
+   "y": 28.018291,
+   "source": "CBDB 20260718 坐标（永嘉记录）；城市级近似定位（地图显示）",
+   "sourceRef": {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 15,
+     "endLine": 15
+    }
+   }
+  },
+  "intro": "南朝宋永嘉郡，颜延之出为永嘉太守，郡治即今浙江温州一带。",
+  "sourceRefs": [
+   {
+    "sourceId": "github-26-histories-song-shu",
+    "locator": {
+     "kind": "line-range",
+     "path": "卷七十三·列传第三十三.md",
+     "startLine": 15,
+     "endLine": 15
+    }
+   }
+  ],
+  "reviewStatus": "published"
+ }
+]

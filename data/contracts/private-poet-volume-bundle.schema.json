@@ -1,0 +1,358 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:poetry-knowledge-base:private-poet-volume-bundle:1.0.0",
+  "title": "Private poet three-volume candidate bundle",
+  "description": "A private job-local projection for journey, poem-world and social-reading candidates. It is not a public fact or release contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "schemaVersion",
+    "bundleId",
+    "jobId",
+    "createdAt",
+    "access",
+    "reviewState",
+    "source",
+    "poet",
+    "evidence",
+    "entities",
+    "volumes",
+    "limitations"
+  ],
+  "properties": {
+    "recordType": { "const": "private-poet-volume-bundle" },
+    "schemaVersion": { "const": "1.0.0" },
+    "bundleId": { "$ref": "#/$defs/bundleId" },
+    "jobId": { "$ref": "#/$defs/jobId" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visibility", "publicationState"],
+      "properties": {
+        "visibility": { "const": "private" },
+        "publicationState": { "const": "not-submitted" }
+      }
+    },
+    "reviewState": { "$ref": "#/$defs/privateReviewState" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bookId", "bookTitle", "packageId", "packageSha256", "packageOwnerJobId"],
+      "properties": {
+        "bookId": { "$ref": "#/$defs/id" },
+        "bookTitle": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "packageId": { "type": "string", "pattern": "^bpm-[a-z0-9]+(?:-[a-z0-9]+){1,12}$" },
+        "packageSha256": { "$ref": "#/$defs/sha256" },
+        "packageOwnerJobId": { "$ref": "#/$defs/jobId" }
+      }
+    },
+    "poet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "identityState"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "identityState": { "enum": ["resolved", "candidate", "ambiguous"] },
+        "externalIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/externalId" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence" }
+    },
+    "entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["people", "places", "works"],
+      "properties": {
+        "people": { "type": "array", "items": { "$ref": "#/$defs/person" } },
+        "places": { "type": "array", "items": { "$ref": "#/$defs/place" } },
+        "works": { "type": "array", "items": { "$ref": "#/$defs/work" } }
+      }
+    },
+    "volumes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["journey", "poemWorld", "social"],
+      "properties": {
+        "journey": { "$ref": "#/$defs/journeyVolume" },
+        "poemWorld": { "$ref": "#/$defs/poemWorldVolume" },
+        "social": { "$ref": "#/$defs/socialVolume" }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 500 },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "jobId": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+){1,12}$" },
+    "bundleId": { "type": "string", "pattern": "^ppvb-[a-z0-9]+(?:-[a-z0-9]+){1,12}$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "privateReviewState": {
+      "enum": ["candidate-preview", "needs-review", "approved-private-preview", "rejected"]
+    },
+    "externalId": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scheme", "value"],
+      "properties": {
+        "scheme": { "type": "string", "minLength": 1, "maxLength": 50 },
+        "value": { "type": "string", "minLength": 1, "maxLength": 200 }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "sourceFileId", "locator", "support", "excerptSha256", "createdByJobId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "sourceFileId": { "$ref": "#/$defs/id" },
+        "locator": { "$ref": "#/$defs/locator" },
+        "support": { "enum": ["direct", "context", "contradicts"] },
+        "excerptSha256": { "$ref": "#/$defs/sha256" },
+        "createdByJobId": { "$ref": "#/$defs/jobId" }
+      }
+    },
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": { "enum": ["text-span", "page-range", "chapter-section", "named-anchor"] },
+        "startOffset": { "type": "integer", "minimum": 0 },
+        "endOffset": { "type": "integer", "minimum": 1 },
+        "startPage": { "type": "integer", "minimum": 1 },
+        "endPage": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "anchor": { "type": "string", "minLength": 1, "maxLength": 300 }
+      }
+    },
+    "evidenceBoundEntity": {
+      "type": "object",
+      "required": ["id", "evidenceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "evidenceIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        }
+      }
+    },
+    "person": {
+      "allOf": [
+        { "$ref": "#/$defs/evidenceBoundEntity" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "name", "resolutionState", "evidenceIds"],
+          "properties": {
+            "id": { "$ref": "#/$defs/id" },
+            "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+            "resolutionState": { "enum": ["resolved", "candidate", "ambiguous"] },
+            "externalIds": { "type": "array", "items": { "$ref": "#/$defs/externalId" } },
+            "evidenceIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "$ref": "#/$defs/id" }
+            }
+          }
+        }
+      ]
+    },
+    "place": {
+      "allOf": [
+        { "$ref": "#/$defs/evidenceBoundEntity" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "label", "resolutionState", "mapKind", "evidenceIds"],
+          "properties": {
+            "id": { "$ref": "#/$defs/id" },
+            "label": { "type": "string", "minLength": 1, "maxLength": 200 },
+            "resolutionState": { "enum": ["resolved", "candidate", "ambiguous", "unresolved"] },
+            "mapKind": { "enum": ["point", "region", "none"] },
+            "evidenceIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "$ref": "#/$defs/id" }
+            }
+          }
+        }
+      ]
+    },
+    "work": {
+      "allOf": [
+        { "$ref": "#/$defs/evidenceBoundEntity" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "title", "discoveryState", "evidenceIds"],
+          "properties": {
+            "id": { "$ref": "#/$defs/id" },
+            "title": { "type": "string", "minLength": 1, "maxLength": 300 },
+            "genre": { "type": "string", "minLength": 1, "maxLength": 100 },
+            "discoveryState": { "enum": ["matched", "extracted-title", "candidate"] },
+            "evidenceIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "$ref": "#/$defs/id" }
+            }
+          }
+        }
+      ]
+    },
+    "time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["precision", "label"],
+      "properties": {
+        "precision": { "enum": ["year", "range", "sequence-only", "unknown"] },
+        "label": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "startYear": { "type": "integer", "minimum": -10000, "maximum": 3000 },
+        "endYear": { "type": "integer", "minimum": -10000, "maximum": 3000 }
+      }
+    },
+    "volumeBase": {
+      "type": "object",
+      "required": ["state", "limitations"],
+      "properties": {
+        "state": { "enum": ["ready", "empty", "not-run", "blocked"] },
+        "reason": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "limitations": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 500 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "journeyVolume": {
+      "allOf": [
+        { "$ref": "#/$defs/volumeBase" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "routeSemantics", "items", "limitations"],
+          "properties": {
+            "state": { "enum": ["ready", "empty", "not-run", "blocked"] },
+            "reason": { "type": "string", "minLength": 1, "maxLength": 500 },
+            "limitations": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 500 }, "uniqueItems": true },
+            "routeSemantics": { "const": "narrative-sequence-not-exact-route" },
+            "items": { "type": "array", "items": { "$ref": "#/$defs/journeyItem" } }
+          }
+        }
+      ]
+    },
+    "journeyItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "placeId", "predicate", "sequence", "mapEligible", "evidenceIds", "reviewState"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "placeId": { "$ref": "#/$defs/id" },
+        "predicate": { "enum": ["born-at", "died-at", "resided-at", "visited", "traveled-to", "held-office-at", "exiled-to", "studied-at", "stayed-at"] },
+        "sequence": { "type": "integer", "minimum": 1 },
+        "time": { "$ref": "#/$defs/time" },
+        "mapEligible": { "type": "boolean" },
+        "evidenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "reviewState": { "$ref": "#/$defs/privateReviewState" }
+      }
+    },
+    "poemWorldVolume": {
+      "allOf": [
+        { "$ref": "#/$defs/volumeBase" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "items", "limitations"],
+          "properties": {
+            "state": { "enum": ["ready", "empty", "not-run", "blocked"] },
+            "reason": { "type": "string", "minLength": 1, "maxLength": 500 },
+            "limitations": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 500 }, "uniqueItems": true },
+            "items": { "type": "array", "items": { "$ref": "#/$defs/poemWorldItem" } }
+          }
+        }
+      ]
+    },
+    "poemWorldItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "workId", "evidenceIds", "reviewState"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["place-link", "scene-note"] },
+        "workId": { "$ref": "#/$defs/id" },
+        "placeId": { "$ref": "#/$defs/id" },
+        "relationType": { "enum": ["work-composed-at", "work-inscribed-at", "work-describes-place", "work-mentioned-place"] },
+        "sceneLabel": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "evidenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "reviewState": { "$ref": "#/$defs/privateReviewState" }
+      }
+    },
+    "socialVolume": {
+      "allOf": [
+        { "$ref": "#/$defs/volumeBase" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "edges", "storyCards", "limitations"],
+          "properties": {
+            "state": { "enum": ["ready", "empty", "not-run", "blocked"] },
+            "reason": { "type": "string", "minLength": 1, "maxLength": 500 },
+            "limitations": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 500 }, "uniqueItems": true },
+            "edges": { "type": "array", "items": { "$ref": "#/$defs/socialEdge" } },
+            "storyCards": { "type": "array", "items": { "$ref": "#/$defs/storyCard" } }
+          }
+        }
+      ]
+    },
+    "socialEdge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "sourcePersonId", "targetPersonId", "displayBuckets", "evidenceIds", "reviewState"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "sourcePersonId": { "$ref": "#/$defs/id" },
+        "targetPersonId": { "$ref": "#/$defs/id" },
+        "displayBuckets": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["kin", "literary-exchange", "official", "teacher-student", "friendship", "other"] }
+        },
+        "time": { "$ref": "#/$defs/time" },
+        "evidenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "reviewState": { "$ref": "#/$defs/privateReviewState" }
+      }
+    },
+    "storyCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "edgeId", "kind", "title", "summary", "evidenceIds", "reviewState", "disclaimerCode"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "edgeId": { "$ref": "#/$defs/id" },
+        "kind": { "const": "source-bound-reading-note" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "summary": { "type": "string", "minLength": 1, "maxLength": 800 },
+        "evidenceIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+        "reviewState": { "$ref": "#/$defs/privateReviewState" },
+        "disclaimerCode": { "const": "not-independent-historical-fact" }
+      }
+    }
+  }
+}

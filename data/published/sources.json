@@ -1,0 +1,226 @@
+[
+  {
+    "id": "github-26-histories-jin-shu",
+    "title": "晋书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "fcd10b6524b0c032176448f54f4c8b297308d67c1b2125e2d1b14472bed2ce1f"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-jiu-tang-shu",
+    "title": "旧唐书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "f3d00838f7ac5b905fbda3e4ca5a58c410af964a1fa0facc50d09ee011459e26"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-liang-shu",
+    "title": "梁书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "bb08d619cf96956a2d22b8c06d4488c9d475c23b25f0179ea91d07b44ed17758"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-song-shu",
+    "title": "宋书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "df2502ff3c76ec094a07e43d034d44bd578adf55b352306fecd3be088b8312fa"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-sui-shu",
+    "title": "隋书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "b4b47698fb265650b886e37925931061df0b58f431c246ae485d81b3bc88f53e"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-xin-tang-shu",
+    "title": "新唐书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "c8d29b294233915019a1645162318e46573a91f1366188d8d79503a9aef3ab8f"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "github-26-histories-zhou-shu",
+    "title": "周书（二十六史 Markdown 快照）",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/JinyangWang27/26-histories",
+    "version": {
+      "type": "content-snapshot",
+      "value": "e4dade1406d35720410493b963c4f9360c6397053bc4c49d5a8f8bf17c72d5d7"
+    },
+    "license": "MIT License（仓库 LICENSE，Copyright 2025 Jinyang Wang）；底本文献本身为公版古籍",
+    "licenseUrl": "https://github.com/JinyangWang27/26-histories/blob/main/LICENSE",
+    "attribution": "Jinyang Wang（26-histories 项目）",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr2a0012",
+    "title": "三国志",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/kanripo/KR2a0012",
+    "version": {
+      "type": "content-snapshot",
+      "value": "3f95e9554b683b11c11e06485a8dfad0ff565cb2fd27f136fa0c53ccaf32e532"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr2a0032",
+    "title": "宋史",
+    "sourceType": "primary-text",
+    "sourceUrl": "https://github.com/kanripo/KR2a0032",
+    "version": {
+      "type": "content-snapshot",
+      "value": "97e9347f16cd97338cbadbc36ed670640ef984485db69901617c7b1b1b45f243"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr2g0007",
+    "title": "杜工部年谱",
+    "sourceType": "chronology",
+    "sourceUrl": "https://github.com/kanripo/KR2g0007",
+    "version": {
+      "type": "content-snapshot",
+      "value": "032db820270c231dc8888c315394065695e5af5afc1416a56e4760b3f20a14d8"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4c0012",
+    "title": "李太白文集",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4c0012",
+    "version": {
+      "type": "content-snapshot",
+      "value": "c5c7115a73bbede91008cbe34d55b653188a477661530c920f881dea32d223a6"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4c0013",
+    "title": "李太白集分类补注",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4c0013",
+    "version": {
+      "type": "content-snapshot",
+      "value": "7758b429f815abb33f4bf2465f9737044009fb00611747b07c9fa7b414d27fe5"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4c0018",
+    "title": "分门集注杜工部诗",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4c0018",
+    "version": {
+      "type": "content-snapshot",
+      "value": "7137f66701c137e23eaf6fa52e770bc4246f5238bd889f307159d6f8785f7e7d"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4d0076",
+    "title": "东坡全集",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4d0076",
+    "version": {
+      "type": "content-snapshot",
+      "value": "aa731e89327810e95c14971acd094b2fe398ce2afba73e5be31cc575177fab50"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4j0027",
+    "title": "漱玉词",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4j0027",
+    "version": {
+      "type": "content-snapshot",
+      "value": "fb598042aa3530c800d4dca04f9eeee722ca4748eff0687e383c38a4b0aae5b6"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  },
+  {
+    "id": "kanripo-kr4j0040",
+    "title": "稼轩词",
+    "sourceType": "anthology",
+    "sourceUrl": "https://github.com/kanripo/KR4j0040",
+    "version": {
+      "type": "content-snapshot",
+      "value": "bac86ee59db631e96e7ea70015bb68d385fc6e45a03a38ec1848a29c03e74dcc"
+    },
+    "license": "CC BY-SA",
+    "licenseUrl": "https://www.kanripo.org/api",
+    "attribution": "Kanseki Repository contributors",
+    "reviewStatus": "published"
+  }
+]

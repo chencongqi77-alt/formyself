@@ -1,0 +1,1445 @@
+[
+    {
+        "id": "su-shi-yin-hu-shang-chu-qing-hou-yu",
+        "personId": "su-shi",
+        "placeIds": [
+            "hangzhou"
+        ],
+        "eventIds": [
+            "su-shi-xining-hangzhou"
+        ],
+        "title": "饮湖上初晴后雨二首（其二）",
+        "genre": "诗",
+        "text": [
+            "水光潋滟晴方好，山色空蒙雨亦奇。",
+            "欲把西湖比西子，淡妆浓抹总相宜。"
+        ],
+        "plainExplanation": "诗把晴天的水光和雨天的山色并列起来，再把西湖比作不同妆容都合宜的西子。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_004.txt",
+                    "startLine": 282,
+                    "endLine": 287
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1095,
+                    "endLine": 1143
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "su-shi-chu-dao-huangzhou",
+        "personId": "su-shi",
+        "placeIds": [
+            "huangzhou"
+        ],
+        "eventIds": [
+            "su-shi-yuanfeng-huangzhou"
+        ],
+        "title": "初到黄州",
+        "genre": "诗",
+        "text": [
+            "自笑平生为口忙，老来事业转荒唐。",
+            "长江绕郭知鱼美，好竹连山觉笋香。"
+        ],
+        "plainExplanation": "诗写刚到黄州时的自嘲，也从江鱼、竹笋等日常景物里看见新的生活环境。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_011.txt",
+                    "startLine": 387,
+                    "endLine": 390
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1240,
+                    "endLine": 1251
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "su-shi-han-shi-yu-er-shou-qi-yi",
+        "personId": "su-shi",
+        "placeIds": [
+            "huangzhou"
+        ],
+        "eventIds": [
+            "su-shi-yuanfeng-huangzhou"
+        ],
+        "title": "寒食雨二首（其一）",
+        "genre": "诗",
+        "text": [
+            "自我来黄州已过三寒食，年年欲惜春，春去不容惜。",
+            "今年又苦雨，两月秋萧瑟。"
+        ],
+        "plainExplanation": "诗从黄州的连续寒食写到久雨带来的萧瑟，既有惜春，也有困顿中的自我感受。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_012.txt",
+                    "startLine": 388,
+                    "endLine": 395
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1305,
+                    "endLine": 1314
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "su-shi-chibi-fu",
+        "personId": "su-shi",
+        "placeIds": [
+            "huangzhou"
+        ],
+        "eventIds": [
+            "su-shi-yuanfeng-huangzhou"
+        ],
+        "title": "赤壁赋",
+        "genre": "赋",
+        "text": [
+            "壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。",
+            "清风徐来，水波不兴。",
+            "举酒属客，诵明月之诗，歌窈窕之章。",
+            "少焉，月出于东山之上，徘徊于斗牛之间。",
+            "白露横江，水光接天。纵一苇之所如，凌万顷之茫然。",
+            "浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。",
+            "于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮泝流光。渺渺兮予怀，望美人兮天一方。”",
+            "客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。",
+            "舞幽壑之潜蛟，泣孤舟之嫠妇。",
+            "苏子愀然，正襟危坐而问客曰：“何为其然也？”",
+            "客曰：“月明星稀，乌鹊南飞。此非曹孟德之诗乎？",
+            "西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？",
+            "方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗；固一世之雄也，而今安在哉？",
+            "况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿；驾一叶之扁舟，举匏尊以相属。",
+            "寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。",
+            "挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”",
+            "苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。",
+            "盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！",
+            "且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。",
+            "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。",
+            "是造物者之无尽藏也，而吾与子之所共适。”",
+            "客喜而笑，洗盏更酌。肴核既尽，杯盘狼藉。",
+            "相与枕藉乎舟中，不知东方之既白。"
+        ],
+        "plainExplanation": "文章从一次江上夜游写起，在水、月和历史人物的对话中思考变化、时间与人的处境。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_033.txt",
+                    "startLine": 203,
+                    "endLine": 233
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1310,
+                    "endLine": 1316
+                }
+            }
+        ],
+        "reviewStatus": "published",
+        "isFullText": true
+    },
+    {
+        "id": "su-shi-hou-chibi-fu",
+        "personId": "su-shi",
+        "placeIds": [
+            "huangzhou"
+        ],
+        "eventIds": [
+            "su-shi-yuanfeng-huangzhou"
+        ],
+        "title": "后赤壁赋",
+        "genre": "赋",
+        "text": [
+            "是岁十月之望，步自雪堂，将归于临皋。二客从予过黄泥之坂。",
+            "霜露既降，木叶尽脱。人影在地，仰见明月。顾而乐之，行歌相答。",
+            "已而叹曰：“有客无酒，有酒无肴；月白风清，如此良夜何！”",
+            "客曰：“今者薄暮，举网得鱼，巨口细鳞，状似松江之鲈。顾安所得酒乎？”",
+            "归而谋诸妇。妇曰：“我有斗酒，藏之久矣，以待子不时之需。”",
+            "于是携酒与鱼，复游于赤壁之下。江流有声，断岸千尺；山高月小，水落石出。",
+            "曾日月之几何，而江山不可复识矣。",
+            "予乃摄衣而上，履巉岩，披蒙茸，踞虎豹，登虬龙，攀栖鹘之危巢，俯冯夷之幽宫。",
+            "盖二客不能从焉。划然长啸，草木震动，山鸣谷应，风起水涌。",
+            "予亦悄然而悲，肃然而恐，凛乎其不可留也。反而登舟，放乎中流，听其所止而休焉。",
+            "时夜将半，四顾寂寥。适有孤鹤，横江东来。翅如车轮，玄裳缟衣，戛然长鸣，掠予舟而西也。",
+            "须臾客去，予亦就睡。梦一道士，羽衣蹁跹，过临皋之下，揖予而言曰：“赤壁之游乐乎？”",
+            "问其姓名，俯而不答。“呜呼噫嘻！我知之矣。畴昔之夜，飞鸣而过我者，非子也邪？”",
+            "道士顾笑，予亦惊寤。开户视之，不见其处。"
+        ],
+        "plainExplanation": "文章接续前赋，从雪堂出发再次游赤壁，把秋夜行旅、江景和个人心境交织在一起。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_033.txt",
+                    "startLine": 234,
+                    "endLine": 253
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1313,
+                    "endLine": 1319
+                }
+            }
+        ],
+        "reviewStatus": "published",
+        "isFullText": true
+    },
+    {
+        "id": "du-fu-xin-an-li",
+        "personId": "du-fu",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "新安吏",
+        "genre": "诗",
+        "text": [
+            "客行新安道，喧呼闻点兵。",
+            "借问新安吏：县小更无丁。"
+        ],
+        "plainExplanation": "诗从旅途中听见征兵写起，先让读者听见百姓生活里的紧张声音。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_014.txt",
+                    "startLine": 97,
+                    "endLine": 116
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 109,
+                    "endLine": 114
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-shi-hao-li",
+        "personId": "du-fu",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "石壕吏",
+        "genre": "诗",
+        "text": [
+            "暮投石壕村，有吏夜捉人。",
+            "老翁逾墙走，老妇出门看。"
+        ],
+        "plainExplanation": "诗把一个夜晚的景象写得很具体，让读者从一户人家的遭遇看见战乱对普通人的影响。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_014.txt",
+                    "startLine": 134,
+                    "endLine": 146
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 109,
+                    "endLine": 114
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-xin-hun-bie",
+        "personId": "du-fu",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "新婚别",
+        "genre": "诗",
+        "text": [
+            "暮婚晨告别，无乃太匆忙。",
+            "君行虽不远，守边赴河阳。"
+        ],
+        "plainExplanation": "诗让新婚夫妇很快就直面告别，呈现战事怎样进入普通人的生活。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_009.txt",
+                    "startLine": 853,
+                    "endLine": 861
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 109,
+                    "endLine": 114
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-bu-ju",
+        "personId": "du-fu",
+        "placeIds": [
+            "chengdu"
+        ],
+        "eventIds": [
+            "du-fu-shangyuan-chengdu-caotang"
+        ],
+        "title": "卜居",
+        "genre": "诗",
+        "text": [
+            "浣花流水水西头，主人为卜林塘幽。",
+            "已知出郭少尘事，更有澄江销客愁。"
+        ],
+        "plainExplanation": "诗写浣花溪边的新居，远离城市尘事，也借江水写出居住环境的清朗。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_007.txt",
+                    "startLine": 22,
+                    "endLine": 31
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 117,
+                    "endLine": 119
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-kuang-fu",
+        "personId": "du-fu",
+        "placeIds": [
+            "chengdu"
+        ],
+        "eventIds": [
+            "du-fu-shangyuan-chengdu-caotang"
+        ],
+        "title": "狂夫",
+        "genre": "诗",
+        "text": [
+            "万里桥西一草堂，百花潭水即沧浪。",
+            "风含翠筱娟娟静，雨裛红蕖冉冉香。"
+        ],
+        "plainExplanation": "诗从草堂、潭水、竹子和荷花写起，让读者看见杜甫在成都居住环境的一面。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_007.txt",
+                    "startLine": 34,
+                    "endLine": 42
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 117,
+                    "endLine": 119
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-you-ke",
+        "personId": "du-fu",
+        "placeIds": [
+            "chengdu"
+        ],
+        "eventIds": [
+            "du-fu-shangyuan-chengdu-caotang"
+        ],
+        "title": "有客",
+        "genre": "诗",
+        "text": [
+            "幽栖地僻经过少，老病人扶再拜难。",
+            "竟日淹留佳客坐，百年粗粝腐儒餐。"
+        ],
+        "plainExplanation": "诗写住处偏僻、老病相伴，也写朋友来访时平常而真切的相处。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_020.txt",
+                    "startLine": 66,
+                    "endLine": 74
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 117,
+                    "endLine": 119
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-chun-ri-zizhou-deng-lou",
+        "personId": "du-fu",
+        "placeIds": [
+            "zizhou"
+        ],
+        "eventIds": [
+            "du-fu-guangde-zizhou"
+        ],
+        "title": "春日梓州登楼二首",
+        "genre": "诗",
+        "text": [
+            "行路难如此，登楼望欲迷。",
+            "江水流城郭，春风入鼓鼙。"
+        ],
+        "plainExplanation": "诗从登楼所见的江水、城郭和春风写起，同时保留了行路艰难的感受。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_005.txt",
+                    "startLine": 205,
+                    "endLine": 214
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_026.txt",
+                    "startLine": 529,
+                    "endLine": 532
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 137,
+                    "endLine": 140
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-pei-pei-shijun-deng-yueyang-lou",
+        "personId": "du-fu",
+        "placeIds": [
+            "yueyang"
+        ],
+        "eventIds": [
+            "du-fu-dali-yueyang"
+        ],
+        "title": "陪裴使君登岳阳楼",
+        "genre": "诗",
+        "text": [
+            "湖阔兼云雾，楼孤属晚晴。",
+            "雪岸丛梅发，春泥百草生。"
+        ],
+        "plainExplanation": "诗先写湖面、云雾和楼景，再写雪岸上的梅花与春泥中的百草，画面从清冷转向生机。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_005.txt",
+                    "startLine": 164,
+                    "endLine": 172
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_026.txt",
+                    "startLine": 652,
+                    "endLine": 655
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 173,
+                    "endLine": 175
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "su-shi-he-shiyun-baihefeng",
+        "personId": "su-shi",
+        "placeIds": [
+            "huizhou"
+        ],
+        "eventIds": [
+            "su-shi-shaosheng-huizhou-exile"
+        ],
+        "title": "和时运四首",
+        "genre": "诗",
+        "text": [
+            "丁丑二月十四日白鹤峰新居成，自嘉祐寺迁入。",
+            "我卜我居，居非一朝。"
+        ],
+        "plainExplanation": "题下注明白鹤峰新居落成并迁入；它为惠州贬居阶段提供居所与创作的直接线索。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_031.txt",
+                    "startLine": 44,
+                    "endLine": 53
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1542,
+                    "endLine": 1568
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "su-shi-liuyue-ershi-ye-duhai",
+        "personId": "su-shi",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "六月二十日夜渡海",
+        "genre": "诗",
+        "text": [
+            "参横斗转欲三更，苦雨终风也解晴。",
+            "九死南荒吾不恨，兹游奇绝冠平生。"
+        ],
+        "plainExplanation": "诗题直接记渡海，末句回望南荒经历；它连接儋州贬居与北归转折，但不替代年谱对具体行程的记载。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_025.txt",
+                    "startLine": 39,
+                    "endLine": 42
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4d0076",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4d0076_000.txt",
+                    "startLine": 1716,
+                    "endLine": 1724
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-chun-wang",
+        "personId": "du-fu",
+        "placeIds": [
+            "changan"
+        ],
+        "eventIds": [
+            "du-fu-zhide-changan-captivity"
+        ],
+        "title": "春望",
+        "genre": "诗",
+        "text": [
+            "国破山河在，城春草木深。",
+            "感时花溅泪，恨别鸟惊心。"
+        ],
+        "plainExplanation": "诗从破国后的春城景象写起，把花鸟也染上战乱与离别的感受；年谱与诗作共同支撑其长安阶段的阅读。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_002.txt",
+                    "startLine": 88,
+                    "endLine": 96
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 93,
+                    "endLine": 103
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-qiu-xing-ba-shou-qi-yi",
+        "personId": "du-fu",
+        "placeIds": [
+            "kuizhou"
+        ],
+        "eventIds": [
+            "du-fu-dali-kuizhou"
+        ],
+        "title": "秋兴八首（其一）",
+        "genre": "诗",
+        "text": [
+            "玉露凋伤枫树林，巫山巫峡气萧森。",
+            "江间波浪兼天涌，塞上风云接地阴。"
+        ],
+        "plainExplanation": "诗以巫山巫峡的秋气开篇，再将江上波浪与边塞风云并置，呈现夔州阶段的峡江空间与忧思。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_002.txt",
+                    "startLine": 459,
+                    "endLine": 464
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 152,
+                    "endLine": 170
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-deng-gao",
+        "personId": "du-fu",
+        "placeIds": [
+            "kuizhou"
+        ],
+        "eventIds": [
+            "du-fu-dali-kuizhou"
+        ],
+        "title": "登高",
+        "genre": "诗",
+        "text": [
+            "风急天高猿啸哀，渚清沙白鸟飞回。",
+            "无边落木萧萧下，不尽长江滚滚来。"
+        ],
+        "plainExplanation": "诗以高处所见的风、江、猿声和落木展开，把峡江秋景与久客多病的感受并置。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_002.txt",
+                    "startLine": 485,
+                    "endLine": 490
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 152,
+                    "endLine": 170
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "du-fu-mao-wu-wei-qiu-feng-suo-po-ge",
+        "personId": "du-fu",
+        "placeIds": [
+            "chengdu"
+        ],
+        "eventIds": [
+            "du-fu-shangyuan-chengdu-caotang"
+        ],
+        "title": "茅屋为秋风所破歌",
+        "genre": "诗",
+        "text": [
+            "八月秋高风怒号，卷我屋上三重茅。",
+            "安得广厦千万间，大庇天下寒士俱欢颜。"
+        ],
+        "plainExplanation": "诗从风雨损坏茅屋写到天下寒士的安居愿望；本站将它与成都草堂生活并列阅读，不把诗句改写为独立的编年断言。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0018",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0018_006.txt",
+                    "startLine": 594,
+                    "endLine": 630
+                }
+            },
+            {
+                "sourceId": "kanripo-kr2g0007",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR2g0007_001.txt",
+                    "startLine": 117,
+                    "endLine": 119
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-qing-ping-diao",
+        "personId": "li-bai",
+        "placeIds": [
+            "changan"
+        ],
+        "eventIds": [
+            "li-bai-changan-hanlin"
+        ],
+        "title": "清平调词三首",
+        "genre": "诗",
+        "text": [
+            "云想衣裳花想容，春风拂槛露华浓。",
+            "若非群玉山头见，会向瑶台月下逢。"
+        ],
+        "plainExplanation": "辑注把这组三首置于天宝中供奉翰林的宫廷情境；它补充长安阶段的作品展示，但不新增具体写作日期。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0013",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0013_005.txt",
+                    "startLine": 271,
+                    "endLine": 280
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4c0013",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0013_000.txt",
+                    "startLine": 147,
+                    "endLine": 150
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-wang-lushan-pubu",
+        "personId": "li-bai",
+        "placeIds": [
+            "lushan"
+        ],
+        "eventIds": [
+            "li-bai-lushan-yonglin"
+        ],
+        "title": "望庐山瀑布水二首（其二）",
+        "genre": "诗",
+        "text": [
+            "日照香炉生紫烟，遥看瀑布挂前川。",
+            "飞流直下三千尺，疑是银河落九天。"
+        ],
+        "plainExplanation": "诗明确写到香炉峰与瀑布，可与庐山节点并列阅读；它不替代永王征致事件的时间证据。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0013",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0013_021.txt",
+                    "startLine": 145,
+                    "endLine": 157
+                }
+            },
+            {
+                "sourceId": "kanripo-kr4c0013",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0013_008.txt",
+                    "startLine": 127,
+                    "endLine": 129
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-emei-mountain-moon-song",
+        "personId": "li-bai",
+        "placeIds": [
+            "emei"
+        ],
+        "eventIds": [
+            "li-bai-emei-work-reading"
+        ],
+        "title": "峨眉山月歌",
+        "genre": "诗",
+        "text": [
+            "峨眉山月半轮秋，影入平羌江水流。",
+            "夜发清溪向三峡，思君不见下渝州。"
+        ],
+        "plainExplanation": "诗题和正文出现峨眉、平羌、清溪、三峡与渝州；这里仅作为作品空间的阅读入口，不据此推定生平年份。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0012",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0012_006.txt",
+                    "startLine": 200,
+                    "endLine": 202
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-zeng-wang-lun",
+        "personId": "li-bai",
+        "placeIds": [
+            "taohuatan"
+        ],
+        "eventIds": [
+            "li-bai-taohuatan-work-reading"
+        ],
+        "title": "赠汪伦",
+        "genre": "诗",
+        "text": [
+            "李白乘舟将欲行，忽闻岸上踏歌声。",
+            "桃花潭水深千尺，不及汪伦送我情。"
+        ],
+        "plainExplanation": "题下注明李白游泾县桃花潭；该说明只支撑作品地点阅读，不扩写为完整的生平事件。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0012",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0012_010.txt",
+                    "startLine": 175,
+                    "endLine": 177
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-huanghelou-song-meng-haoran",
+        "personId": "li-bai",
+        "placeIds": [
+            "huanghelou"
+        ],
+        "eventIds": [
+            "li-bai-huanghelou-work-reading"
+        ],
+        "title": "黄鹤楼送孟浩然之广陵",
+        "genre": "诗",
+        "text": [
+            "故人西辞黄鹤楼，烟花三月下扬州。",
+            "孤帆远影碧空尽，唯见长江天际流。"
+        ],
+        "plainExplanation": "题名和诗句呈现黄鹤楼、扬州与长江的送别空间；本站不由此推断写作发生的准确年月。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0012",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0012_012.txt",
+                    "startLine": 189,
+                    "endLine": 191
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-bai-zao-fa-baidi-cheng",
+        "personId": "li-bai",
+        "placeIds": [
+            "baidi"
+        ],
+        "eventIds": [
+            "li-bai-baidi-work-reading"
+        ],
+        "title": "早发白帝城",
+        "genre": "诗",
+        "text": [
+            "朝辞白帝彩云间，千里江陵一日还。",
+            "两岸猿声啼不尽，轻舟已过万重山。"
+        ],
+        "plainExplanation": "题名和正文写到白帝城、江陵与峡江水路；现有资料未把它明确系于获赦行程，因此仅作作品地点阅读。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4c0012",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4c0012_019.txt",
+                    "startLine": 90,
+                    "endLine": 92
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "xin-qiji-yong-yu-le-jingkou-beigu-ting-huai-gu",
+        "personId": "xin-qiji",
+        "placeIds": [
+            "zhenjiang"
+        ],
+        "eventIds": [
+            "xin-qiji-zhenjiang-work-reading"
+        ],
+        "title": "永遇乐·京口北固亭怀古",
+        "genre": "词",
+        "text": [
+            "千古江山，英雄无觅孙仲谋处。舞榭歌台，风流总被雨打风吹去。",
+            "四十三年，望中犹记，烽火扬州路。"
+        ],
+        "plainExplanation": "词题明确为京口北固亭怀古；京口在此仅作为词作空间的阅读入口，不据此推断创作年份或任镇江经过。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0040",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0040_002.txt",
+                    "startLine": 401,
+                    "endLine": 407
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "xin-qiji-pu-sa-man-shu-jiangxi-zaokou-bi",
+        "personId": "xin-qiji",
+        "placeIds": [
+            "zaokou"
+        ],
+        "eventIds": [
+            "xin-qiji-zaokou-work-reading"
+        ],
+        "title": "菩萨蛮·书江西造口壁",
+        "genre": "词",
+        "text": [
+            "郁孤台下清江水，中间多少行人泪。西北是长安，可怜无数山。",
+            "青山遮不住，毕竟东流去。江晚正愁余，山深闻鹧鸪。"
+        ],
+        "plainExplanation": "词题明确标出江西造口壁；地点只用于词作阅读，不将题中地名写成可确定的生平行迹。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0040",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0040_004.txt",
+                    "startLine": 309,
+                    "endLine": 312
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-fenghuangtai-shang-yi-chui-xiao",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "凤凰台上忆吹箫（香冷金猊）",
+        "genre": "词",
+        "text": [
+            "香冷金猊，被翻红浪，起来慵自梳头。",
+            "任宝奁尘满，日上帘钩。生怕离怀别苦，多少事、欲说还休。",
+            "新来瘦，非干病酒，不是悲秋。",
+            "休休！这回去也，千万遍阳关，也则难留。",
+            "念武陵人远，烟锁秦楼。惟有楼前流水，应念我、终日凝眸。",
+            "凝眸处，从今又添，一段新愁。"
+        ],
+        "plainExplanation": "词写别后慵懒与愁怀：香冷、发乱、日上帘钩，旧时欢聚只剩楼前流水相伴。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 11,
+                    "endLine": 17
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-sheng-sheng-man",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "声声慢（寻寻觅觅）",
+        "genre": "词",
+        "text": [
+            "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。",
+            "三杯两盏淡酒，怎敌他、晓来风急？雁过也，正伤心，却是旧时相识。",
+            "满地黄花堆积。憔悴损，如今有谁堪摘？守着窗儿，独自怎生得黑？",
+            "梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得！"
+        ],
+        "plainExplanation": "以叠字起笔写秋日愁绪，晚风、归雁、黄花与细雨层层叠加，结尾直问一个愁字。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 18,
+                    "endLine": 23
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-hu-zhong-tian-man",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "壶中天慢（萧条庭院）",
+        "genre": "词",
+        "text": [
+            "萧条庭院，又斜风细雨，重门须闭。宠柳娇花寒食近，种种恼人天气。",
+            "险韵诗成，扶头酒醒，别是闲滋味。征鸿过尽，万千心事难寄。",
+            "楼上几日春寒，帘垂四面，玉栏杆慵倚。",
+            "被冷香销新梦觉，不许愁人不起。清露晨流，新桐初引，多少游春意。",
+            "日高烟敛，更看今日晴未。"
+        ],
+        "plainExplanation": "词写寒食前后的庭院春愁，从险韵诗、扶头酒到征鸿心事，归于懒问晴雨的游春意。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 24,
+                    "endLine": 30
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-yu-jia-ao",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "渔家傲（天接云涛连晓雾）",
+        "genre": "词",
+        "text": [
+            "天接云涛连晓雾，星河欲转千帆舞。仿佛梦魂归帝所。闻天语，殷勤问我归何处。",
+            "我报路长嗟日暮，学诗谩有惊人句。九万里风鹏正举。风休住，蓬舟吹取三山去。"
+        ],
+        "plainExplanation": "以梦境写壮志：星河欲转、九万里鹏风，愿蓬舟吹向三山，气概高远。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 31,
+                    "endLine": 35
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-yi-jian-mei",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "一剪梅（红藕香残玉簟秋）",
+        "genre": "词",
+        "text": [
+            "红藕香残玉簟秋。轻解罗裳，独上兰舟。云中谁寄锦书来？雁字回时，月满西楼。",
+            "花自飘零水自流。一种相思，两处闲愁。此情无计可消除，才下眉头，却上心头。"
+        ],
+        "plainExplanation": "红藕香残的秋日，写两地相思：锦书难寄，闲愁才下眉头又上心头。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 36,
+                    "endLine": 39
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-ru-meng-ling-xiting",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "如梦令（常记溪亭日暮）",
+        "genre": "词",
+        "text": [
+            "常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。",
+            "争渡，争渡，惊起一行鸥鹭。"
+        ],
+        "plainExplanation": "追忆溪亭日暮泛舟沉醉，误入藕花深处，争渡间惊起一行鸥鹭。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 40,
+                    "endLine": 42
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-ru-meng-ling-yu-shu",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "如梦令（昨夜雨疏风骤）",
+        "genre": "词",
+        "text": [
+            "昨夜雨疏风骤，浓睡不消残酒。试问卷帘人，却道海棠依旧。",
+            "知否，知否？应是绿肥红瘦。"
+        ],
+        "plainExplanation": "昨夜风雨后试问卷帘人，海棠应仍是绿肥红瘦，惜春之情尽在其中。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 44,
+                    "endLine": 46
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-zui-hua-yin",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "醉花阴（薄雾浓云愁永昼）",
+        "genre": "词",
+        "text": [
+            "薄雾浓云愁永昼，瑞脑销金兽。佳节又重阳，玉枕纱厨，半夜凉初透。",
+            "东篱把酒黄昏后，有暗香盈袖。莫道不消魂，帘卷西风，人似黄花瘦。"
+        ],
+        "plainExplanation": "重阳日东篱把酒，帘卷西风，人似黄花消瘦，把离愁写到了极致。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 47,
+                    "endLine": 50
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-die-lian-hua",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "蝶恋花（暖雨和风初破冻）",
+        "genre": "词",
+        "text": [
+            "暖雨和风初破冻，柳润梅轻，已觉春心动。酒意诗情谁与共？泪融残粉花钿重。",
+            "乍试夹衣金缕缝，山枕欹斜，枕损钗头凤。独抱浓愁无好梦，夜阑犹剪灯花弄。"
+        ],
+        "plainExplanation": "初春乍暖还寒，写独抱浓愁、夜阑剪灯的闺中情思。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 60,
+                    "endLine": 64
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-wu-ling-chun",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "武陵春（风住尘香花已尽）",
+        "genre": "词",
+        "text": [
+            "风住尘香花已尽，日晚倦梳头。物是人非事事休，欲语泪先流。",
+            "闻说双溪春尚好，也拟泛轻舟。只恐双溪舴艋舟，载不动许多愁。"
+        ],
+        "plainExplanation": "物是人非的沉痛，让双溪小舟也载不动许多愁。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 78,
+                    "endLine": 82
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-yuan-wang-sun-meng-duan",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "怨王孙（梦断漏悄）",
+        "genre": "词",
+        "text": [
+            "梦断漏悄，愁浓酒恼，宝枕生寒，翠屏向晓。门外谁扫残红？夜来风。",
+            "玉箫声断人何处，春又去，忍把归期负。此情此恨，此际拟托行云，问东君。"
+        ],
+        "plainExplanation": "从梦断、愁浓写到门外残红与夜风，借行云问东君，写春去难留的怅惘。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 51,
+                    "endLine": 55
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-yuan-wang-sun-di-li",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "怨王孙（帝里春晚）",
+        "genre": "词",
+        "text": [
+            "帝里春晚，重门深院，草绿阶前，暮天雁断。楼上远信谁传？恨绵绵。",
+            "多情自是多沾惹，难拼舍，又是寒食也。秋千巷陌人静，皎月初斜，浸梨花。"
+        ],
+        "plainExplanation": "写京城春晚的深院寂静，远信难传的绵绵离恨，落在月斜花浸的寒食夜景里。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 56,
+                    "endLine": 59
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-huan-xi-sha-lou-shang",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "浣溪沙（楼上晴天碧四垂）",
+        "genre": "词",
+        "text": [
+            "楼上晴天碧四垂，楼前芳草接天涯，劝君莫上最高梯。",
+            "新笋看成堂下竹，落花都上燕巢泥，忍听林表杜鹃啼。"
+        ],
+        "plainExplanation": "从楼头晴天、芳草天涯写到堂竹燕泥，以杜鹃啼声收束登高望远的愁绪。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 65,
+                    "endLine": 68
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-huan-xi-sha-ji-zi",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "浣溪沙（髻子伤春懒更梳）",
+        "genre": "词",
+        "text": [
+            "髻子伤春懒更梳，晚风庭院落梅初，淡云来往月疏疏。",
+            "玉鸭薰炉闲瑞脑，朱樱斗帐掩流苏，通犀还解辟寒无。"
+        ],
+        "plainExplanation": "以懒梳髻、晚风落梅和疏月写春愁，末尾借辟寒犀角轻问心底的寒意。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 69,
+                    "endLine": 73
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-huan-xi-sha-xiu-mian",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "浣溪沙（绣面芙蓉一笑开）",
+        "genre": "词",
+        "text": [
+            "绣面芙蓉一笑开，斜飞宝鸭衬香腮，眼波才动被人猜。",
+            "一面风情深有韵，半笺娇恨寄幽怀，月移花影约重来。"
+        ],
+        "plainExplanation": "写少女笑靥与眼波被人猜破的娇羞，末句以月移花影约定重来。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 74,
+                    "endLine": 77
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-dian-jiang-chun",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "点绛唇（寂寞深闺）",
+        "genre": "词",
+        "text": [
+            "寂寞深闺，柔肠一寸愁千缕。惜春春去，几点催花雨。",
+            "倚遍阑干，只是无情绪。人何处，连天芳草，望断归来路。"
+        ],
+        "plainExplanation": "深闺寂寞、寸肠千愁，倚阑望断芳草归路，写盼人不归的无奈。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 83,
+                    "endLine": 85
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    },
+    {
+        "id": "li-qingzhao-yu-zhong-hua",
+        "personId": "li-qingzhao",
+        "placeIds": [],
+        "eventIds": [],
+        "title": "雨中花（素约小腰身）",
+        "genre": "词",
+        "text": [
+            "素约小腰身，不奈伤春，疏梅影下晚妆新。袅袅娉婷何样似，一缕轻云。",
+            "歌巧动朱唇，字字娇嗔。桃花深径一通津。怅望瑶台清夜月，还送归轮。"
+        ],
+        "plainExplanation": "写疏梅影下的绰约身影与娇嗔歌喉，末句怅望瑶台夜月，暗含别离之思。",
+        "sourceRefs": [
+            {
+                "sourceId": "kanripo-kr4j0027",
+                "locator": {
+                    "kind": "line-range",
+                    "path": "KR4j0027_000.txt",
+                    "startLine": 86,
+                    "endLine": 90
+                }
+            }
+        ],
+        "reviewStatus": "published"
+    }
+]

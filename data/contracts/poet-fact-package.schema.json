@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:poetry-knowledge-base:poet-fact-package:1.0.0",
+  "title": "Poet fact package",
+  "description": "A provenance-first package of evidence and atomic biographical assertions. Map events and frontend JSON are derived from this package.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "schemaVersion",
+    "packageId",
+    "jobId",
+    "createdAt",
+    "poet",
+    "evidence",
+    "assertions",
+    "reviewStatus"
+  ],
+  "properties": {
+    "recordType": { "const": "poet-fact-package" },
+    "schemaVersion": { "const": "1.0.0" },
+    "packageId": { "$ref": "#/$defs/id" },
+    "jobId": { "type": "string", "pattern": "^pmj-[a-z0-9]+(?:-[a-z0-9]+){1,8}$" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "poet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "externalIds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["scheme", "value"],
+            "properties": {
+              "scheme": { "type": "string", "minLength": 1 },
+              "value": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence" }
+    },
+    "assertions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/assertion" }
+    },
+    "editorial": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/editorial" }
+    },
+    "reviewStatus": { "enum": ["candidate", "needs-review", "accepted", "rejected", "published"] },
+    "supersedes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/id" },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 160
+    },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "locator": {
+      "type": "object",
+      "minProperties": 1,
+      "properties": {
+        "kind": {
+          "enum": ["line-range", "page-range", "json-pointer", "record-id", "chapter-section", "named-anchor", "text-span"]
+        }
+      },
+      "required": ["kind"]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "reference", "locator", "support", "visibility", "createdByJobId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "reference": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["registry", "referenceId", "snapshotSha256"],
+          "properties": {
+            "registry": { "enum": ["source-catalog", "raw-layer", "job-upload", "external-retrieval"] },
+            "referenceId": { "$ref": "#/$defs/id" },
+            "snapshotSha256": { "$ref": "#/$defs/sha256" }
+          }
+        },
+        "locator": { "$ref": "#/$defs/locator" },
+        "support": { "enum": ["supports", "contradicts", "context"] },
+        "visibility": { "enum": ["private", "public"] },
+        "excerptSha256": { "$ref": "#/$defs/sha256" },
+        "createdByJobId": { "type": "string", "pattern": "^pmj-[a-z0-9]+(?:-[a-z0-9]+){1,8}$" }
+      }
+    },
+    "assertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "subject",
+        "predicate",
+        "object",
+        "claimClass",
+        "evidenceIds",
+        "confidence",
+        "decision",
+        "provenance"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "subject": { "$ref": "#/$defs/entityRef" },
+        "predicate": {
+          "enum": [
+            "born-at",
+            "died-at",
+            "resided-at",
+            "visited",
+            "traveled-to",
+            "held-office-at",
+            "exiled-to",
+            "studied-at",
+            "stayed-at",
+            "work-composed-at",
+            "work-inscribed-at",
+            "work-describes-place",
+            "work-mentioned-place"
+          ]
+        },
+        "object": { "$ref": "#/$defs/entityRef" },
+        "qualifiers": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "time": { "$ref": "#/$defs/time" },
+            "role": { "type": "string", "maxLength": 300 },
+            "relationType": { "type": "string", "maxLength": 100 }
+          }
+        },
+        "claimClass": { "enum": ["biographical-route", "literary-place", "contextual"] },
+        "evidenceIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/id" },
+          "uniqueItems": true
+        },
+        "confidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["level", "score", "basis"],
+          "properties": {
+            "level": { "enum": ["low", "possible", "probable", "verified"] },
+            "score": { "type": "number", "minimum": 0, "maximum": 1 },
+            "basis": { "enum": ["source-only", "rule-and-source", "model-assisted", "human-reviewed"] }
+          }
+        },
+        "decision": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "policyId"],
+          "properties": {
+            "state": { "enum": ["extracted", "grounded", "candidate", "needs-evidence", "needs-review", "accepted", "rejected", "released", "superseded", "withdrawn"] },
+            "policyId": { "$ref": "#/$defs/id" }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["jobId", "pipelineVersion", "createdAt"],
+          "properties": {
+            "jobId": { "type": "string", "pattern": "^pmj-[a-z0-9]+(?:-[a-z0-9]+){1,8}$" },
+            "pipelineVersion": { "type": "string", "minLength": 1 },
+            "createdAt": { "type": "string", "format": "date-time" }
+          }
+        },
+        "supersedes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/id" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "entityRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "enum": ["person", "place", "work", "text"] },
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "maxLength": 300 }
+      }
+    },
+    "time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["precision", "label"],
+      "properties": {
+        "precision": { "enum": ["year", "range", "era-only", "era-and-month", "sequence-only", "unknown"] },
+        "label": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "originalText": { "type": "string", "maxLength": 300 },
+        "startYear": { "type": "integer", "minimum": -10000, "maximum": 3000 },
+        "endYear": { "type": "integer", "minimum": -10000, "maximum": 3000 },
+        "sequence": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "basisAssertionIds", "reviewStatus"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["summary", "intro", "plain-explanation", "display-title"] },
+        "basisAssertionIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/id" },
+          "uniqueItems": true
+        },
+        "reviewStatus": { "enum": ["candidate", "needs-review", "accepted", "published"] }
+      }
+    }
+  }
+}

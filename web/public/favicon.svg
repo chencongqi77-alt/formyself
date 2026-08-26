@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="诗行漫记">
+  <rect width="32" height="32" rx="2" fill="#173f3a"/>
+  <path d="M9 6.5h6.25c1.65 0 2.75.58 3.75 1.7 1-1.12 2.1-1.7 3.75-1.7H25v18h-2.25c-1.72 0-2.83.42-3.75 1.45-.92-1.03-2.03-1.45-3.75-1.45H9z" fill="none" stroke="#fbfaf6" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M19 8.2v17.7" stroke="#fbfaf6" stroke-width="1.25"/>
+  <circle cx="12.25" cy="12" r="1.75" fill="#a34738"/>
+  <path d="M12.25 13.75c.2 3.1 1.45 4.15 3.05 5.35" fill="none" stroke="#a34738" stroke-width="1.25" stroke-linecap="round"/>
+</svg>

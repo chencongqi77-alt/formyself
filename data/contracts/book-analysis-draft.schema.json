@@ -1,0 +1,308 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:poetry-knowledge-base:book-analysis-draft:0.1.0",
+  "title": "Private book analysis draft",
+  "description": "Prototype v2-shaped private bundle produced by the book analysis agent. It is a candidate package, not a public release.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "schemaVersion",
+    "bundleId",
+    "jobId",
+    "createdAt",
+    "access",
+    "reviewState",
+    "source",
+    "poet",
+    "evidence",
+    "entities",
+    "storyCards",
+    "volumes",
+    "limitations"
+  ],
+  "properties": {
+    "recordType": { "const": "private-poet-volume-bundle" },
+    "schemaVersion": { "const": "2.0.0-prototype" },
+    "bundleId": { "$ref": "#/$defs/bundleId" },
+    "jobId": { "$ref": "#/$defs/jobId" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["visibility", "publicationState"],
+      "properties": {
+        "visibility": { "const": "private" },
+        "publicationState": { "const": "not-submitted" }
+      }
+    },
+    "reviewState": { "$ref": "#/$defs/reviewState" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bookId", "bookTitle", "packageId", "packageSha256", "packageOwnerJobId"],
+      "properties": {
+        "bookId": { "$ref": "#/$defs/id" },
+        "bookTitle": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "packageId": { "$ref": "#/$defs/packageId" },
+        "packageSha256": { "$ref": "#/$defs/sha256" },
+        "packageOwnerJobId": { "$ref": "#/$defs/jobId" }
+      }
+    },
+    "poet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "identityState"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "identityState": { "enum": ["resolved", "candidate", "ambiguous"] }
+      }
+    },
+    "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+    "entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["people", "places", "works"],
+      "properties": {
+        "people": { "type": "array", "items": { "$ref": "#/$defs/person" } },
+        "places": { "type": "array", "items": { "$ref": "#/$defs/place" } },
+        "works": { "type": "array", "items": { "$ref": "#/$defs/work" } }
+      }
+    },
+    "storyCards": { "type": "array", "items": { "$ref": "#/$defs/storyCard" } },
+    "volumes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["journey", "poemWorld", "social"],
+      "properties": {
+        "journey": { "$ref": "#/$defs/journey" },
+        "poemWorld": { "$ref": "#/$defs/poemWorld" },
+        "social": { "$ref": "#/$defs/social" }
+      }
+    },
+    "limitations": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 500 } }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "jobId": { "type": "string", "pattern": "^pmj-[a-z0-9]+(?:-[a-z0-9]+){1,8}$" },
+    "bundleId": { "type": "string", "pattern": "^ppvb-[a-z0-9]+(?:-[a-z0-9]+){1,12}$" },
+    "packageId": { "type": "string", "pattern": "^bpm-[a-z0-9]+(?:-[a-z0-9]+){1,12}$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "reviewState": { "enum": ["candidate-preview", "needs-review", "approved-private-preview", "rejected"] },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "sourceFileId", "locator", "support", "excerptSha256", "createdByJobId"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "sourceFileId": { "$ref": "#/$defs/id" },
+        "locator": { "$ref": "#/$defs/locator" },
+        "support": { "enum": ["direct", "context", "contradicts"] },
+        "excerptSha256": { "$ref": "#/$defs/sha256" },
+        "createdByJobId": { "$ref": "#/$defs/jobId" }
+      }
+    },
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "startOffset", "endOffset", "label"],
+      "properties": {
+        "kind": { "const": "text-span" },
+        "segmentId": { "$ref": "#/$defs/id" },
+        "page": { "type": "integer", "minimum": 1 },
+        "startOffset": { "type": "integer", "minimum": 0 },
+        "endOffset": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string", "minLength": 1, "maxLength": 300 }
+      }
+    },
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "aliases", "resolutionState", "evidenceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "resolutionState": { "enum": ["resolved", "candidate", "ambiguous"] },
+        "evidenceIds": { "$ref": "#/$defs/evidenceIds" }
+      }
+    },
+    "place": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "historicalNames", "resolutionState", "mapKind", "evidenceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "historicalNames": { "type": "array", "items": { "type": "string" } },
+        "modernName": { "type": "string" },
+        "resolutionState": { "enum": ["resolved", "candidate", "ambiguous", "unresolved"] },
+        "mapKind": { "enum": ["point", "region", "none"] },
+        "coordinate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "precision"],
+          "properties": {
+            "x": { "type": "number" },
+            "y": { "type": "number" },
+            "precision": { "const": "display-only" }
+          }
+        },
+        "evidenceIds": { "$ref": "#/$defs/evidenceIds" }
+      }
+    },
+    "work": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "discoveryState", "evidenceIds"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "authorPersonId": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "genre": { "type": "string", "maxLength": 100 },
+        "discoveryState": { "enum": ["matched", "extracted-title", "candidate"] },
+        "evidenceIds": { "$ref": "#/$defs/evidenceIds" }
+      }
+    },
+    "evidenceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "anchorRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "enum": ["person", "place", "work"] },
+        "id": { "$ref": "#/$defs/id" }
+      }
+    },
+    "storyCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "title", "summary", "claimType", "anchorRefs", "evidenceIds", "reviewState", "disclaimerCode"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "kind": { "enum": ["journey", "place", "relationship", "tradition"] },
+        "title": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "summary": { "type": "string", "minLength": 1, "maxLength": 800 },
+        "claimType": { "enum": ["fact", "tradition", "interpretation"] },
+        "anchorRefs": { "type": "array", "items": { "$ref": "#/$defs/anchorRef" } },
+        "evidenceIds": { "$ref": "#/$defs/evidenceIds" },
+        "reviewState": { "$ref": "#/$defs/reviewState" },
+        "disclaimerCode": { "const": "not-independent-historical-fact" }
+      }
+    },
+    "time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["precision", "label"],
+      "properties": {
+        "precision": { "enum": ["year", "range", "sequence-only", "unknown"] },
+        "label": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "startYear": { "type": "integer" },
+        "endYear": { "type": "integer" }
+      }
+    },
+    "journey": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "routeSemantics", "items", "limitations"],
+      "properties": {
+        "state": { "enum": ["ready", "empty"] },
+        "routeSemantics": { "const": "narrative-sequence-not-exact-route" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "placeId", "predicate", "sequence", "storyIds", "mapEligible", "evidenceIds", "reviewState"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "placeId": { "$ref": "#/$defs/id" },
+              "predicate": { "enum": ["born-at", "died-at", "resided-at", "visited", "traveled-to", "held-office-at", "exiled-to", "studied-at", "stayed-at"] },
+              "sequence": { "type": "integer", "minimum": 1 },
+              "time": { "$ref": "#/$defs/time" },
+              "storyIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+              "mapEligible": { "type": "boolean" },
+              "evidenceIds": { "$ref": "#/$defs/evidenceIds" },
+              "reviewState": { "$ref": "#/$defs/reviewState" }
+            }
+          }
+        },
+        "limitations": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "poemWorld": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "items", "spotlights", "limitations"],
+      "properties": {
+        "state": { "enum": ["ready", "empty"] },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "kind", "workId", "storyIds", "evidenceIds", "reviewState"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "kind": { "enum": ["place-link", "scene-note"] },
+              "workId": { "$ref": "#/$defs/id" },
+              "placeId": { "$ref": "#/$defs/id" },
+              "relationType": { "enum": ["composed-at", "inscribed-at", "describes-place", "mentioned-place"] },
+              "storyIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+              "evidenceIds": { "$ref": "#/$defs/evidenceIds" },
+              "reviewState": { "$ref": "#/$defs/reviewState" }
+            }
+          }
+        },
+        "spotlights": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["placeId", "storyIds"],
+            "properties": {
+              "placeId": { "$ref": "#/$defs/id" },
+              "storyIds": { "type": "array", "items": { "$ref": "#/$defs/id" } }
+            }
+          }
+        },
+        "limitations": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "social": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "edges", "limitations"],
+      "properties": {
+        "state": { "enum": ["ready", "empty"] },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "sourcePersonId", "targetPersonId", "relationTypes", "placeIds", "workIds", "storyIds", "evidenceIds", "reviewState"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "sourcePersonId": { "$ref": "#/$defs/id" },
+              "targetPersonId": { "$ref": "#/$defs/id" },
+              "relationTypes": { "type": "array", "items": { "enum": ["kin", "literary-exchange", "official", "teacher-student", "friendship", "other"] } },
+              "time": { "$ref": "#/$defs/time" },
+              "placeIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+              "workIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+              "storyIds": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+              "evidenceIds": { "$ref": "#/$defs/evidenceIds" },
+              "reviewState": { "$ref": "#/$defs/reviewState" }
+            }
+          }
+        },
+        "limitations": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

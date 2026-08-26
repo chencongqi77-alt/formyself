@@ -1,0 +1,45 @@
+.env
+data/staging/*-web-search.json
+data/staging/*-bailian-search.json
+data/staging/.bailian-work-place-search-cache.json
+data/staging/.bailian-web-search-cache.json
+data/staging/*-deepseek-review.json
+data/staging/*-work-set-groups.json
+data/staging/.deepseek-work-place-review-cache.json
+
+# Runtime-only user uploads, model sidecars, and per-job artifacts.
+var/jobs/*
+!var/jobs/README.md
+var/quarantine/*
+!var/quarantine/README.md
+
+# Retired/shared or generated workspaces.
+data/staging/*
+!data/staging/README.md
+data/conversion-manifests/
+extracted/
+var/downloads/
+scripts/__pycache__/
+web/.next/
+web/dist/
+web/.site-artifacts/
+
+# Original evidence and large reference snapshots stay outside the public repo.
+source-materials/
+cbdb/
+chinese-poetry/
+data/raw-inventories/
+data/quality-reports/
+data/quality-reviews/
+data/recovery-manifests/
+
+# Local runtimes, caches, generated previews, and database files.
+.runtime-deps/
+.pnpm-store/
+web/node_modules/
+web/.wrangler/
+web/test-artifacts/
+*.sqlite
+*.sqlite3
+*.db
+*.pyc

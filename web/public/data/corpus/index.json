@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "id": "chinese-poetry",
+    "title": "chinese-poetry 古诗词数据集",
+    "sourceType": "dataset",
+    "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/master/LICENSE",
+    "attribution": "chinese-poetry contributors",
+    "snapshot": {
+      "algorithm": "sha256",
+      "digest": "ef51712df1329f1bc7c4c2bdcc4e1639c81a4c48c46cf1042b9f82ff4b1c8263"
+    }
+  },
+  "people": {
+    "su-shi": {
+      "name": "苏轼",
+      "total": 3186,
+      "poems": 2824,
+      "lyrics": 362
+    },
+    "ou-yang-xiu": {
+      "name": "欧阳修",
+      "total": 1196,
+      "poems": 954,
+      "lyrics": 242
+    },
+    "wang-an-shi": {
+      "name": "王安石",
+      "total": 1769,
+      "poems": 1740,
+      "lyrics": 29
+    },
+    "qin-guan": {
+      "name": "秦观",
+      "total": 558,
+      "poems": 468,
+      "lyrics": 90
+    },
+    "lu-you": {
+      "name": "陆游",
+      "total": 9416,
+      "poems": 9271,
+      "lyrics": 145
+    },
+    "huang-ting-jian": {
+      "name": "黄庭坚",
+      "total": 2396,
+      "poems": 2204,
+      "lyrics": 192
+    },
+    "li-bai": {
+      "name": "李白",
+      "total": 1207,
+      "poems": 1207,
+      "lyrics": 0
+    },
+    "du-fu": {
+      "name": "杜甫",
+      "total": 1489,
+      "poems": 1489,
+      "lyrics": 0
+    },
+    "xin-qiji": {
+      "name": "辛弃疾",
+      "total": 783,
+      "poems": 154,
+      "lyrics": 629
+    },
+    "cao-cao": {
+      "name": "曹操",
+      "total": 26,
+      "poems": 26,
+      "lyrics": 0
+    },
+    "li-qingzhao": {
+      "name": "李清照",
+      "total": 86,
+      "poems": 34,
+      "lyrics": 52
+    },
+    "yang-wan-li": {
+      "name": "杨万里",
+      "total": 4292,
+      "poems": 4284,
+      "lyrics": 8
+    },
+    "fan-cheng-da": {
+      "name": "范成大",
+      "total": 2060,
+      "poems": 1947,
+      "lyrics": 113
+    },
+    "zhou-bang-yan": {
+      "name": "周邦彦",
+      "total": 237,
+      "poems": 51,
+      "lyrics": 186
+    },
+    "su-zhe": {
+      "name": "苏辙",
+      "total": 1858,
+      "poems": 1854,
+      "lyrics": 4
+    },
+    "yan-shu": {
+      "name": "晏殊",
+      "total": 360,
+      "poems": 220,
+      "lyrics": 140
+    },
+    "lin-bu": {
+      "name": "林逋",
+      "total": 330,
+      "poems": 326,
+      "lyrics": 4
+    },
+    "zhang-xiao-xiang": {
+      "name": "张孝祥",
+      "total": 647,
+      "poems": 423,
+      "lyrics": 224
+    },
+    "wen-tian-xiang": {
+      "name": "文天祥",
+      "total": 985,
+      "poems": 977,
+      "lyrics": 8
+    },
+    "bai-ju-yi": {
+      "name": "白居易",
+      "total": 3009,
+      "poems": 3009,
+      "lyrics": 0
+    },
+    "wang-wei": {
+      "name": "王维",
+      "total": 403,
+      "poems": 403,
+      "lyrics": 0
+    },
+    "du-mu": {
+      "name": "杜牧",
+      "total": 544,
+      "poems": 544,
+      "lyrics": 0
+    },
+    "li-shang-yin": {
+      "name": "李商隐",
+      "total": 616,
+      "poems": 616,
+      "lyrics": 0
+    },
+    "meng-hao-ran": {
+      "name": "孟浩然",
+      "total": 274,
+      "poems": 274,
+      "lyrics": 0
+    },
+    "wang-chang-ling": {
+      "name": "王昌龄",
+      "total": 222,
+      "poems": 222,
+      "lyrics": 0
+    },
+    "gao-shi": {
+      "name": "高适",
+      "total": 268,
+      "poems": 268,
+      "lyrics": 0
+    },
+    "li-he": {
+      "name": "李贺",
+      "total": 294,
+      "poems": 294,
+      "lyrics": 0
+    }
+  },
+  "total": 38511,
+  "notes": [
+    "全集索引按原始数据的作者字段精确提取。",
+    "保留异题、重出与版本条目，不把全集条目自动绑定为确定的人生地点或写作年代。",
+    "地图中的地点关联仍仅使用已核对的精选作品。"
+  ]
+}

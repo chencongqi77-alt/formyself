@@ -1,0 +1,4295 @@
+[
+  {
+    "id": "corpus-wang-chang-ling-ef29aec7-ca2f-4211-a43f-0c8f911b4a40",
+    "personId": "wang-chang-ling",
+    "title": "巴陵别刘处士",
+    "genre": "诗",
+    "text": [
+      "刘生隐岳阳，心远洞庭水。",
+      "偃帆入山郭，一宿楚云里。",
+      "竹映秋馆深，月寒江风起。",
+      "烟波桂阳接，日夕数千里。",
+      "袅袅清夜猿，孤舟坐如此。",
+      "湘中有来鴈，雨雪候音旨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ef29aec7-ca2f-4211-a43f-0c8f911b4a40",
+      "recordKey": "/754"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4aeb5456-eac8-4a62-abf0-ec9114edeb02",
+    "personId": "wang-chang-ling",
+    "title": "巴陵送李十二",
+    "genre": "诗",
+    "text": [
+      "摇曳巴陵洲渚分，清江传语便风闻。",
+      "山长不见秋城色，日暮蒹葭空水云。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4aeb5456-eac8-4a62-abf0-ec9114edeb02",
+      "recordKey": "/877"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e2e47b92-21d8-42c9-ba84-3812c4f83be9",
+    "personId": "wang-chang-ling",
+    "title": "灞上闲居",
+    "genre": "诗",
+    "text": [
+      "鸿都有归客，偃卧滋阳村。",
+      "轩冕无枉顾，清川照我门。",
+      "空林网夕阳，寒鸟赴荒园。",
+      "廓落时得意，怀哉莫与言。",
+      "庭前有孤鹤，欲啄常翩翻。",
+      "为我衔素书，吊彼颜与原。",
+      "二君既不朽，所以慰其魂。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e2e47b92-21d8-42c9-ba84-3812c4f83be9",
+      "recordKey": "/769"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-164b3169-b72d-46ec-9302-bfb37d1f5295",
+    "personId": "wang-chang-ling",
+    "title": "悲哉行",
+    "genre": "诗",
+    "text": [
+      "勿听白头吟，人间易忧怨。",
+      "若非沧浪子，安得从所愿。",
+      "北上太行山，临风阅吹万。",
+      "长云数千里，倏忽还肤寸。",
+      "观其微灭时，精意莫能论。",
+      "百年不容息，是处生意蔓。",
+      "始悟海上人，辞君永飞遯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "164b3169-b72d-46ec-9302-bfb37d1f5295",
+      "recordKey": "/727"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-041cde06-3afc-4e27-b4c4-eb8d39211c9b",
+    "personId": "wang-chang-ling",
+    "title": "变行路难",
+    "genre": "诗",
+    "text": [
+      "向晚横吹悲，风动马嘶合。",
+      "前趋引旗节，千里阵云帀。",
+      "单于下阴山，砂砾空飒飒。",
+      "封侯取一战，岂复念闺合。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "041cde06-3afc-4e27-b4c4-eb8d39211c9b",
+      "recordKey": "/716"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-70205727-903d-4bde-8c28-07e9bf09d538",
+    "personId": "wang-chang-ling",
+    "title": "别皇甫五",
+    "genre": "诗",
+    "text": [
+      "溆浦潭阳隔楚山，离尊不用起愁颜。",
+      "明祠灵响期昭应，天泽俱从此路还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "70205727-903d-4bde-8c28-07e9bf09d538",
+      "recordKey": "/887"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-fe05e0de-1a35-4213-accd-f7e7b8f0938e",
+    "personId": "wang-chang-ling",
+    "title": "别李浦之京",
+    "genre": "诗",
+    "text": [
+      "故园今在灞陵西，江畔逢君醉不迷。",
+      "小弟邻庄尚渔猎，一封书寄数行啼。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "fe05e0de-1a35-4213-accd-f7e7b8f0938e",
+      "recordKey": "/865"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b11d2370-bbb9-4b88-a7be-8ccffa020353",
+    "personId": "wang-chang-ling",
+    "title": "别刘谞",
+    "genre": "诗",
+    "text": [
+      "天地寒更雨，苍茫楚城阴。",
+      "一尊广陵酒，十载衡阳心。",
+      "倚仗不可料，悲欢岂易寻。",
+      "相逢成远别，后会何如今。",
+      "身在江海上，云连京国深。",
+      "行当务功业，策马何骎骎。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b11d2370-bbb9-4b88-a7be-8ccffa020353",
+      "recordKey": "/750"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-412f7f57-4b3c-474d-822c-dc07d62cd331",
+    "personId": "wang-chang-ling",
+    "title": "别陶副使归南海",
+    "genre": "诗",
+    "text": [
+      "南越归人梦海楼，广陵新月海亭秋。",
+      "宝刀留赠长相忆，当取戈船万户侯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "412f7f57-4b3c-474d-822c-dc07d62cd331",
+      "recordKey": "/871"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b3d5c955-93ef-4b75-a83b-0d23b9e959bd",
+    "personId": "wang-chang-ling",
+    "title": "别辛渐",
+    "genre": "诗",
+    "text": [
+      "别馆萧条风雨寒，扁舟月色渡江看。",
+      "酒酣不识关西道，却望春江云尚残。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b3d5c955-93ef-4b75-a83b-0d23b9e959bd",
+      "recordKey": "/883"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5383487f-7c1f-43ee-9cf9-c1f44a4a0e45",
+    "personId": "wang-chang-ling",
+    "title": "采莲曲二首 二",
+    "genre": "诗",
+    "text": [
+      "荷叶罗裙一色裁，芙蓉向脸两边开。",
+      "乱入池中看不见，闻歌始觉有人来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "5383487f-7c1f-43ee-9cf9-c1f44a4a0e45",
+      "recordKey": "/835"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-84f40b5c-4c5b-43c4-822a-d2b92c7b41e1",
+    "personId": "wang-chang-ling",
+    "title": "采莲曲二首 一",
+    "genre": "诗",
+    "text": [
+      "吴姬越艳楚王妃，争弄莲舟水湿衣。",
+      "来时浦口花迎入，采罢江头月送归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "84f40b5c-4c5b-43c4-822a-d2b92c7b41e1",
+      "recordKey": "/834"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f8878861-e55c-453c-ac79-3f728e9d0842",
+    "personId": "wang-chang-ling",
+    "title": "朝来曲",
+    "genre": "诗",
+    "text": [
+      "月昃鸣珂动，花连绣户春。",
+      "盘龙玉台镜，唯待画眉人。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f8878861-e55c-453c-ac79-3f728e9d0842",
+      "recordKey": "/811"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d9aeead3-57a1-45a0-a5bc-11c95f29d912",
+    "personId": "wang-chang-ling",
+    "title": "城傍曲",
+    "genre": "诗",
+    "text": [
+      "秋风鸣桑条，草白狐兔骄。",
+      "邯郸饮来酒未消，城北原平掣皂雕。",
+      "射杀空营两腾虎，廻身却月佩弓弰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d9aeead3-57a1-45a0-a5bc-11c95f29d912",
+      "recordKey": "/788"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f2cbb821-c70e-43d5-a38f-2c6081516a2a",
+    "personId": "wang-chang-ling",
+    "title": "城旁□□[一]伯二五六七下同",
+    "genre": "诗",
+    "text": [
+      "降奚能骑射，战马百余匹，甲仗明寒川，霜□□□□。",
+      "□□煞单于，薄暮红旗出。",
+      "城旁粗少年，骤马垂长鞭，脱却□□□，□剑沦秋天。",
+      "（项云「沦」疑当作「轮」，同抡。",
+      "）匈奴不敢出，漠北开（闭）[三]甲烟。",
+      "（[一]标题残去二三字。",
+      "按《全唐诗》昌龄有《城旁曲》，但内容与此全异。",
+      "[二]余疑「开」为「闭」误，俞云：「烟尘四合则虏起，今匈奴不出，故开霁也。",
+      "依平仄论亦宜平声字，「开」字不误。",
+      "」）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.50000.json",
+      "recordId": "f2cbb821-c70e-43d5-a38f-2c6081516a2a",
+      "recordKey": "/166"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6c8adce2-b817-4ee1-84ee-b9fd7c85c705",
+    "personId": "wang-chang-ling",
+    "title": "酬鸿胪裴主簿雨后北楼见赠",
+    "genre": "诗",
+    "text": [
+      "暮霞照新晴，归云犹相逐。",
+      "有怀晨昏暇，想见登眺目。",
+      "问礼侍彤襜，题诗访茅屋。",
+      "高楼多古今，陈事满陵谷。",
+      "地久微子封，台余孝王筑。",
+      "裴回顾霄汉，豁达俯川陆。",
+      "远水对孤城，长天向乔木。",
+      "公门何清静，列戟森已肃。",
+      "不叹携手稀，常思著鞭速。",
+      "终当拂羽翰，轻举随鸿鹄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6c8adce2-b817-4ee1-84ee-b9fd7c85c705",
+      "recordKey": "/742"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b5bb6013-e22e-47f6-ac1b-1cfb231eb73f",
+    "personId": "wang-chang-ling",
+    "title": "出郴山口至叠石湾野人室中寄张十一",
+    "genre": "诗",
+    "text": [
+      "槠柟无冬春，柯叶连峰稠。",
+      "阴壁下苍黑，烟含清江楼。",
+      "景开独沿曳，响答随兴酬。",
+      "旦夕望吾友，如何迅孤舟。",
+      "叠沙积为岗，崩剥雨露幽。",
+      "石脉尽横亘，潜潭何时流。",
+      "既见万古色，颇尽一物由。",
+      "永与世人远，气还草木收。",
+      "盈缩理无余，今往何必忧。",
+      "郴土群山高，耆老如中州。",
+      "孰云议舛降，岂是娱宦游。",
+      "阴火昔所伏，丹砂将尔谋。",
+      "昨临苏耽井，复向衡阳求。",
+      "同疚来相依，脱身当有筹。",
+      "数月乃离居，风湍成阻修。",
+      "野人善竹器，童子能溪讴。",
+      "寒夜波荡漾，羇鸿去悠悠。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b5bb6013-e22e-47f6-ac1b-1cfb231eb73f",
+      "recordKey": "/737"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-25e93094-40d5-45ee-845d-b15dc6a5c1c3",
+    "personId": "wang-chang-ling",
+    "title": "出塞二首 二",
+    "genre": "诗",
+    "text": [
+      "骝马新跨白玉鞍，战罢沙场月色寒。",
+      "城头铁鼓声犹振，匣里金刀血未干。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "25e93094-40d5-45ee-845d-b15dc6a5c1c3",
+      "recordKey": "/833"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-de6b7e3d-03cd-4daa-bdc2-7fb820fda441",
+    "personId": "wang-chang-ling",
+    "title": "出塞二首 一",
+    "genre": "诗",
+    "text": [
+      "秦时明月汉时关，万里长征人未还。",
+      "但使龙城飞将在，不教胡马度阴山。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "de6b7e3d-03cd-4daa-bdc2-7fb820fda441",
+      "recordKey": "/832"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3ffb7a6f-2fa1-4d50-bd51-830cede927b1",
+    "personId": "wang-chang-ling",
+    "title": "初日",
+    "genre": "诗",
+    "text": [
+      "初日净金闺，先照床前暖。",
+      "斜光入罗幕，稍稍亲丝管。",
+      "云发不能梳，杨花更吹满。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3ffb7a6f-2fa1-4d50-bd51-830cede927b1",
+      "recordKey": "/783"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d0fa1454-f337-4343-ab4a-2a42dfdf4e8f",
+    "personId": "wang-chang-ling",
+    "title": "春宫曲",
+    "genre": "诗",
+    "text": [
+      "昨夜风开露井桃，未央前殿月轮高。",
+      "平阳歌舞新承宠，帘外春寒赐锦袍。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d0fa1454-f337-4343-ab4a-2a42dfdf4e8f",
+      "recordKey": "/838"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3195d94e-02ec-4277-8cd9-6afff518cb82",
+    "personId": "wang-chang-ling",
+    "title": "春怨",
+    "genre": "诗",
+    "text": [
+      "音书杜绝白狼西，桃李无颜黄鸟啼。",
+      "寒雁春深归去尽，出门肠断草萋萋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3195d94e-02ec-4277-8cd9-6afff518cb82",
+      "recordKey": "/898"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a9e083a1-454a-4c43-ba9e-d14f55b3b05c",
+    "personId": "wang-chang-ling",
+    "title": "次汝中寄河南陈赞府",
+    "genre": "诗",
+    "text": [
+      "汝山方联延，伊水才明灭。",
+      "遥见入楚云，又此空馆月。",
+      "纷然驰梦想，不谓远离别。",
+      "京邑多欢娱，衡湘𫏐沿越。",
+      "明湖春草遍，秋桂白花发。",
+      "岂惟长思君，日夕在魏阙。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a9e083a1-454a-4c43-ba9e-d14f55b3b05c",
+      "recordKey": "/739"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-33a97617-dcc4-4a08-81d6-24063abfd0e8",
+    "personId": "wang-chang-ling",
+    "title": "从军行",
+    "genre": "诗",
+    "text": [
+      "大将军出战，白日暗榆关。",
+      "三面黄金甲，单于破胆还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "33a97617-dcc4-4a08-81d6-24063abfd0e8",
+      "recordKey": "/812"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b1118052-b14f-4b18-9a45-c4c53b95f2e0",
+    "personId": "wang-chang-ling",
+    "title": "从军行二首 二",
+    "genre": "诗",
+    "text": [
+      "秋草马蹄轻，角弓持弦急。",
+      "去为龙城战，正值胡兵袭。",
+      "军气横大荒，战酣日将入。",
+      "长风金鼓动，白露铁衣湿。",
+      "四起愁边声，南庭时伫立。",
+      "断蓬孤自转，寒雁飞相及。",
+      "万里云沙涨，平原冰霰涩。",
+      "惟闻汉使还，独向刀环泣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b1118052-b14f-4b18-9a45-c4c53b95f2e0",
+      "recordKey": "/723"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-23f9cc7d-51cf-4f53-a8ad-58f107aec73d",
+    "personId": "wang-chang-ling",
+    "title": "从军行二首 一",
+    "genre": "诗",
+    "text": [
+      "向夕临大荒，朔风轸归虑。",
+      "平沙万里余，飞鸟宿何处？",
+      "虏骑猎长原，翩翩傍河去。",
+      "边声摇白草，海气生黄雾。",
+      "百战苦风尘，十年履霜露。",
+      "虽投定远笔，未坐将军树。",
+      "早知行路难，悔不理章句。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "23f9cc7d-51cf-4f53-a8ad-58f107aec73d",
+      "recordKey": "/722"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7b657130-529b-4128-b4bb-279af91baed1",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 二",
+    "genre": "诗",
+    "text": [
+      "琵琶起舞换新声，总是关山旧别情。",
+      "撩乱边愁听不尽，高高秋月照长城。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7b657130-529b-4128-b4bb-279af91baed1",
+      "recordKey": "/826"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e19fbd6b-a7de-46b8-be86-125c3941777f",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 六",
+    "genre": "诗",
+    "text": [
+      "胡瓶落膊紫薄汗，碎叶城西秋月团。",
+      "明敕星驰封宝劒，辞君一夜取楼兰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e19fbd6b-a7de-46b8-be86-125c3941777f",
+      "recordKey": "/830"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ca7390ce-3f21-4291-a03b-de83e46060f9",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 七",
+    "genre": "诗",
+    "text": [
+      "玉门山嶂几千重，山北山南总是烽。",
+      "人依远戍须看火，马踏深山不见踪。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ca7390ce-3f21-4291-a03b-de83e46060f9",
+      "recordKey": "/831"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-80f4b4f0-96e5-46a9-a634-f152b9f390d8",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 三",
+    "genre": "诗",
+    "text": [
+      "关城榆叶早疎黄，日暮云沙古战场。",
+      "表请回军掩尘骨，莫教兵士哭龙荒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "80f4b4f0-96e5-46a9-a634-f152b9f390d8",
+      "recordKey": "/827"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-fb92a089-72f0-44c2-93f8-060124eaa0a9",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 四",
+    "genre": "诗",
+    "text": [
+      "青海长云暗雪山，孤城遥望玉门关。",
+      "黄沙百战穿金甲，不破楼兰终不还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "fb92a089-72f0-44c2-93f8-060124eaa0a9",
+      "recordKey": "/828"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-924151b2-fb99-456c-8788-a3265159792e",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 五",
+    "genre": "诗",
+    "text": [
+      "大漠风尘日色昏，红旗半卷出辕门。",
+      "前军夜战洮河北，已报生擒吐谷浑。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "924151b2-fb99-456c-8788-a3265159792e",
+      "recordKey": "/829"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0ac86eeb-6fbe-4fea-bbb2-f2cabb97d68e",
+    "personId": "wang-chang-ling",
+    "title": "从军行七首 一",
+    "genre": "诗",
+    "text": [
+      "烽火城西百尺楼，黄昏独上海风秋。",
+      "更吹羌笛关山月，无那金闺万里愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "0ac86eeb-6fbe-4fea-bbb2-f2cabb97d68e",
+      "recordKey": "/825"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-351313ad-b817-4198-93c5-ef305c824210",
+    "personId": "wang-chang-ling",
+    "title": "答武陵田太守",
+    "genre": "诗",
+    "text": [
+      "仗劒行千里，微躯感一言。",
+      "曾为大梁客，不负信陵恩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "351313ad-b817-4198-93c5-ef305c824210",
+      "recordKey": "/813"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d460a10d-224c-41e0-9665-a35da5b44b74",
+    "personId": "wang-chang-ling",
+    "title": "大梁途中作",
+    "genre": "诗",
+    "text": [
+      "怏怏步长道，客行渺无端。",
+      "郊原欲下雪，天地棱棱寒。",
+      "当时每酣醉，不觉行路难。",
+      "今日无酒钱，凄惶向谁叹。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d460a10d-224c-41e0-9665-a35da5b44b74",
+      "recordKey": "/777"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d5fdfac2-f74d-41d3-bcae-536c540185f2",
+    "personId": "wang-chang-ling",
+    "title": "代扶风主人答",
+    "genre": "诗",
+    "text": [
+      "杀气凝不流，风悲日彩寒。",
+      "浮埃起四远，游子弥不欢。",
+      "依然宿扶风，沽酒聊自宽。",
+      "寸心亦未理，长铗谁能弹。",
+      "主人就我饮，对我还慨叹。",
+      "便泣数行泪，因歌行路难。",
+      "十五役边地，三回讨楼兰。",
+      "连年不解甲，积日无所餐。",
+      "将军降匈奴，国使没桑干。",
+      "去时三十万，独自还长安。",
+      "不信沙场苦，君看刀箭瘢。",
+      "乡亲悉零落，冢墓亦摧残。",
+      "仰攀青松枝，恸绝伤心肝。",
+      "禽兽悲不去，路傍谁忍看。",
+      "幸逢休明代，寰宇静波澜。",
+      "老马思伏枥，长鸣力已殚。",
+      "少年与运会，何事发悲端。",
+      "天子初封禅，贤良刷羽翰。",
+      "三边悉如此，否泰亦须观。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d5fdfac2-f74d-41d3-bcae-536c540185f2",
+      "recordKey": "/741"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5432f819-f445-4cb3-bf9a-e6692bbd033a",
+    "personId": "wang-chang-ling",
+    "title": "殿前曲二首 二",
+    "genre": "诗",
+    "text": [
+      "胡部笙歌西殿头，梨园弟子和凉州。",
+      "新声一段高楼月，圣主千秋乐未休。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "5432f819-f445-4cb3-bf9a-e6692bbd033a",
+      "recordKey": "/837"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-1e1e21da-a20a-4c12-9c5d-5ae05d2df153",
+    "personId": "wang-chang-ling",
+    "title": "殿前曲二首 一",
+    "genre": "诗",
+    "text": [
+      "贵人妆梳殿前催，香风吹入殿后来。",
+      "仗引笙歌大宛马，白莲花发照池台。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "1e1e21da-a20a-4c12-9c5d-5ae05d2df153",
+      "recordKey": "/836"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c63f6891-3915-42a7-bb29-601934063956",
+    "personId": "wang-chang-ling",
+    "title": "吊轵道赋附邵平歌",
+    "genre": "诗",
+    "text": [
+      "道不虚行兮，史䲡没位，吾宁范伯之徒欤，感夷齐而多愧。",
+      "麟凤远去，龙则死之，河水洋洋兮，先师莫归。",
+      "往者不可谏，来者吾谁欺？",
+      "始退身以进道，曷飏言而受非，彼萧相国知予乎布衣。",
+      "（见《文苑英华》卷一三○）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "c63f6891-3915-42a7-bb29-601934063956",
+      "recordKey": "/838"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-43e802aa-a927-4265-913c-71934873c8da",
+    "personId": "wang-chang-ling",
+    "title": "东京府县诸公与綦毋潜李颀相送至白马寺宿",
+    "genre": "诗",
+    "text": [
+      "鞍马上东门，裴回入孤舟。",
+      "贤豪相追送，即櫂千里流。",
+      "赤岸落日在，空波微烟收。",
+      "薄宦忘机括，醉来即淹留。",
+      "月明见古寺，林外登高楼。",
+      "南风开长廊，夏夜如凉秋。",
+      "江月照吴县，西归梦中游。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "43e802aa-a927-4265-913c-71934873c8da",
+      "recordKey": "/747"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c18e5b00-f843-4768-a1d7-a12394d603ea",
+    "personId": "wang-chang-ling",
+    "title": "东溪玩月",
+    "genre": "诗",
+    "text": [
+      "月从断山口，遥吐柴门端。",
+      "万木分空霁，流阴中夜攒。",
+      "光连虚象白，气与风露寒。",
+      "谷静秋泉响，岩深青霭残。",
+      "澄清入幽梦，破影抱空峦。",
+      "恍惚琴窗里，松溪晓思难。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c18e5b00-f843-4768-a1d7-a12394d603ea",
+      "recordKey": "/810"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6769d8dd-8a90-4329-8745-1cb2913e2c6b",
+    "personId": "wang-chang-ling",
+    "title": "独游",
+    "genre": "诗",
+    "text": [
+      "林卧情每闲，独游景常晏。",
+      "时从灞陵下，垂钓往南涧。",
+      "手携双鲤鱼，目送千里鴈。",
+      "悟彼飞有适，知此罹忧患。",
+      "放之清冷泉，因得省疎慢。",
+      "永怀青岑客，廻首白云间。",
+      "神超物无违，岂系名与宦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6769d8dd-8a90-4329-8745-1cb2913e2c6b",
+      "recordKey": "/761"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6ad65b95-a0ca-4c3e-8e61-5c30f3982fcb",
+    "personId": "wang-chang-ling",
+    "title": "段宥廰孤桐",
+    "genre": "诗",
+    "text": [
+      "凤皇所宿处，月暎孤桐寒。",
+      "槁叶零落尽，空柯苍翠残。",
+      "虚心谁能见，直影非无端。",
+      "响发调尚苦，清商劳一弹。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6ad65b95-a0ca-4c3e-8e61-5c30f3982fcb",
+      "recordKey": "/781"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7cdb8ee8-f0b9-4e0b-9db3-10fc92b26ebb",
+    "personId": "wang-chang-ling",
+    "title": "放歌行",
+    "genre": "诗",
+    "text": [
+      "南渡洛阳津，西望十二楼。",
+      "明堂坐天子，月朔朝诸侯。",
+      "清乐动千门，皇风被九州。",
+      "庆云从东来，泱漭抱日流。",
+      "升平贵论道，文墨将何求？",
+      "有诏征草泽，微诚将献谋。",
+      "冠冕如星罗，拜揖曹与周。",
+      "望尘非吾事，入赋且迟留。",
+      "幸蒙国士识，因脱负薪裘。",
+      "今者放歌行，以慰梁甫愁。",
+      "但营数斗禄，奉养每丰羞。",
+      "若得金膏遂，飞云亦何俦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7cdb8ee8-f0b9-4e0b-9db3-10fc92b26ebb",
+      "recordKey": "/729"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-9385e47f-e958-4a76-8886-fe62c5fa353a",
+    "personId": "wang-chang-ling",
+    "title": "风凉原上作",
+    "genre": "诗",
+    "text": [
+      "阴岑宿云归，烟雾湿松柏。",
+      "风凄日初晓，下岭望川泽。",
+      "远山无晦明，秋水千里白。",
+      "佳气盘未央，圣人在凝碧。",
+      "关门阻天下，信是帝王宅。",
+      "海内方晏然，庙堂有奇策。",
+      "时贞守全运，罢去游说客。",
+      "予忝兰台人，幽寻免贻责。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "9385e47f-e958-4a76-8886-fe62c5fa353a",
+      "recordKey": "/770"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a434b036-2f84-4c96-9c2c-69220136bc26",
+    "personId": "wang-chang-ling",
+    "title": "奉赠张荆州",
+    "genre": "诗",
+    "text": [
+      "祝融之峰紫云衔，翠如何其雪崭嵓。",
+      "邑西有路缘石壁，我欲从之卧穹嵌。",
+      "鱼有心兮脱网罟，江无人兮鸣枫杉。",
+      "王君飞舄仍未去，苏耽宅中意遥缄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a434b036-2f84-4c96-9c2c-69220136bc26",
+      "recordKey": "/790"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-31d3f836-d70b-48d7-875d-9c3aa4bcada4",
+    "personId": "wang-chang-ling",
+    "title": "芙蓉楼送辛渐二首 二",
+    "genre": "诗",
+    "text": [
+      "丹阳城南秋海阴，丹阳城北楚云深。",
+      "高楼送客不能醉，寂寂寒江明月心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "31d3f836-d70b-48d7-875d-9c3aa4bcada4",
+      "recordKey": "/869"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-090b7792-2942-4f3c-a34d-caccd066c76f",
+    "personId": "wang-chang-ling",
+    "title": "芙蓉楼送辛渐二首 一",
+    "genre": "诗",
+    "text": [
+      "寒雨连天夜入湖，平明送客楚山孤。",
+      "洛阳亲友如相问，一片冰心在玉壶。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "090b7792-2942-4f3c-a34d-caccd066c76f",
+      "recordKey": "/868"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3286b733-02a6-4c21-951d-c873830a08b8",
+    "personId": "wang-chang-ling",
+    "title": "甘泉歌",
+    "genre": "诗",
+    "text": [
+      "乘舆执玉已登坛，细草沾衣春殿寒。",
+      "昨夜云生拜初月，万年甘露水晶盘。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3286b733-02a6-4c21-951d-c873830a08b8",
+      "recordKey": "/851"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-cd5fc55a-6d76-446a-93e0-523b016a6aea",
+    "personId": "wang-chang-ling",
+    "title": "缑氏尉沈兴宗置酒南溪留赠",
+    "genre": "诗",
+    "text": [
+      "林色与溪古，深篁引幽翠。",
+      "山尊在渔舟，棹月情已醉。",
+      "始穷清源口，壑绝人境异。",
+      "春泉滴空崖，萌草拆阴地。",
+      "久之风榛寂，远闻樵声至。",
+      "海雁时独飞，永然沧洲意。",
+      "古时青冥客，灭迹沦一尉。",
+      "吾子踌躇心，岂其纷埃事。",
+      "缑峰信所克，济北余乃遂。",
+      "齐物意已会，息肩理犹未。",
+      "卷舒形性表，脱略贤哲议。",
+      "仲月期角巾，饭僧嵩阳寺。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "cd5fc55a-6d76-446a-93e0-523b016a6aea",
+      "recordKey": "/733"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4bb7dd4c-9726-4ca3-aa8b-8f764f039848",
+    "personId": "wang-chang-ling",
+    "title": "古意",
+    "genre": "诗",
+    "text": [
+      "桃花四面发，桃叶一枝开。",
+      "欲暮黄鹂啭，伤心玉镜台。",
+      "清筝向明月，半夜春风来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4bb7dd4c-9726-4ca3-aa8b-8f764f039848",
+      "recordKey": "/728"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-282a0ad4-b2d4-466d-af04-cdda44a7a75d",
+    "personId": "wang-chang-ling",
+    "title": "观江淮名胜图",
+    "genre": "诗",
+    "text": [
+      "刻意吟云山，尤知隐沦妙。",
+      "远公何为者，再诣临海峤。",
+      "而我高其风，披图得遗照。",
+      "援毫无逃境，遂展千里眺。",
+      "淡扫荆门烟，明标赤城烧。",
+      "青葱林间岭，隐见淮海徼。",
+      "但指香炉顶，无闻白猿啸。",
+      "沙门既云灭，独往岂殊调。",
+      "感对怀拂衣，胡宁事渔钓。",
+      "安期始遗舃，千古谢荣耀。",
+      "投迹庶可齐，沧浪有孤棹。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "282a0ad4-b2d4-466d-af04-cdda44a7a75d",
+      "recordKey": "/768"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-92f55a8c-7778-4802-9991-d76b0e4fdb48",
+    "personId": "wang-chang-ling",
+    "title": "观猎",
+    "genre": "诗",
+    "text": [
+      "角鹰初下秋草稀，铁骢抛鞚去如飞。",
+      "少年猎得平原兔，马后横捎意气归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "92f55a8c-7778-4802-9991-d76b0e4fdb48",
+      "recordKey": "/853"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4ac3f099-73da-43e8-a4e5-1dbbd9427491",
+    "personId": "wang-chang-ling",
+    "title": "闺怨",
+    "genre": "诗",
+    "text": [
+      "闺中少妇不曾愁，春日凝妆上翠楼。",
+      "忽见陌头杨柳色，悔教夫壻觅封侯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4ac3f099-73da-43e8-a4e5-1dbbd9427491",
+      "recordKey": "/850"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-60afe2ef-0e28-4455-bac8-24aa00cd1a74",
+    "personId": "wang-chang-ling",
+    "title": "过华阴",
+    "genre": "诗",
+    "text": [
+      "云起太华山，云山互明灭。",
+      "东峰始含景，了了见松雪。",
+      "羇人感幽栖，窅暎转奇绝。",
+      "欣然忘所疲，永望吟不辍。",
+      "信宿百余里，出关玩新月。",
+      "何意昨来心，遇物遂迁别。",
+      "人生屡如此，何以肆愉悦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "60afe2ef-0e28-4455-bac8-24aa00cd1a74",
+      "recordKey": "/775"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-53464ad6-c788-4688-b38d-4634a524a2f6",
+    "personId": "wang-chang-ling",
+    "title": "寒食即事",
+    "genre": "诗",
+    "text": [
+      "晋阳寒食地，风俗旧来传。",
+      "雨灭龙蛇火，春生鸿雁天。",
+      "泣多流水涨，歌发舞云旋。",
+      "西见之推庙，空为人所怜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "53464ad6-c788-4688-b38d-4634a524a2f6",
+      "recordKey": "/804"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-2baab2c0-0277-404b-b393-f2ded40154e9",
+    "personId": "wang-chang-ling",
+    "title": "何九于客舍集",
+    "genre": "诗",
+    "text": [
+      "客有住桂阳，亦如巢林鸟。",
+      "罍觞且终宴，功业曾未了。",
+      "山月空霁时，江明高楼晓。",
+      "门前泊舟檝，行次入松筿。",
+      "此意投赠君，沧波风褭褭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "2baab2c0-0277-404b-b393-f2ded40154e9",
+      "recordKey": "/766"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a3f81284-82d4-45a4-a5b7-1459a14ee51f",
+    "personId": "wang-chang-ling",
+    "title": "和振上人秋夜怀士会",
+    "genre": "诗",
+    "text": [
+      "白露伤草木，山风吹夜寒。",
+      "遥林梦亲友，高兴发云端。",
+      "郭外秋声急，城边月色残。",
+      "瑶琴多远思，更为客中弹。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a3f81284-82d4-45a4-a5b7-1459a14ee51f",
+      "recordKey": "/795"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0305b271-93d4-435e-ab64-43cb17ccd5e4",
+    "personId": "wang-chang-ling",
+    "title": "河上老人歌",
+    "genre": "诗",
+    "text": [
+      "河上老人坐古槎，合丹只用青莲花。",
+      "至今八十如四十，口道沧溟是我家。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "0305b271-93d4-435e-ab64-43cb17ccd5e4",
+      "recordKey": "/897"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-762e0a43-b8ed-4a11-bb82-28958998d354",
+    "personId": "wang-chang-ling",
+    "title": "横吹曲辞 出塞 二",
+    "genre": "诗",
+    "text": [
+      "白花垣上望京师，黄河水流无尽时。",
+      "穷秋旷野行人绝，马首东来知是谁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.0.json",
+      "recordId": "762e0a43-b8ed-4a11-bb82-28958998d354",
+      "recordKey": "/934"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-2d0385e7-0c72-423f-a538-f66acc9d4c46",
+    "personId": "wang-chang-ling",
+    "title": "横吹曲辞 出塞 一",
+    "genre": "诗",
+    "text": [
+      "秦时明月汉时关，万里长征人未还。",
+      "但使龙城飞将在，不教胡马度阴山。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.0.json",
+      "recordId": "2d0385e7-0c72-423f-a538-f66acc9d4c46",
+      "recordKey": "/933"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-81f5afd8-0601-4111-a7cb-5d51c7e3ce1e",
+    "personId": "wang-chang-ling",
+    "title": "胡笳曲",
+    "genre": "诗",
+    "text": [
+      "城南虏已合，一夜几重围。",
+      "自有金笳引，能沾出塞衣。",
+      "听临关月苦，清入海风微。",
+      "三奏高楼晓，胡人掩涕归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "81f5afd8-0601-4111-a7cb-5d51c7e3ce1e",
+      "recordKey": "/793"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-8209ce8e-92c6-4123-b130-1186ed714dfa",
+    "personId": "wang-chang-ling",
+    "title": "浣纱女",
+    "genre": "诗",
+    "text": [
+      "钱塘江边是谁家，江上女儿全胜花。",
+      "吴王在时不得出，今日公然来浣纱。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "8209ce8e-92c6-4123-b130-1186ed714dfa",
+      "recordKey": "/849"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-beff880b-695c-4643-8115-250be332ddc0",
+    "personId": "wang-chang-ling",
+    "title": "击磬老人",
+    "genre": "诗",
+    "text": [
+      "双峰褐衣久，一磬白眉长。",
+      "谁识野人意，徒看春草芳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "beff880b-695c-4643-8115-250be332ddc0",
+      "recordKey": "/817"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-033dcca7-d4de-479e-b804-2cadf83a1ff6",
+    "personId": "wang-chang-ling",
+    "title": "寄穆侍御出幽州",
+    "genre": "诗",
+    "text": [
+      "一从恩谴度潇湘，塞北江南万里长。",
+      "莫道蓟门书信少，鴈飞犹得到衡阳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "033dcca7-d4de-479e-b804-2cadf83a1ff6",
+      "recordKey": "/854"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-86637a29-5545-453f-9bbf-fc2a0a83c6d1",
+    "personId": "wang-chang-ling",
+    "title": "寄陶副使",
+    "genre": "诗",
+    "text": [
+      "闻道将军破海门，如何远谪渡湘沅。",
+      "春来明主封西岳，自有还君紫绶恩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "86637a29-5545-453f-9bbf-fc2a0a83c6d1",
+      "recordKey": "/855"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c4fa2499-efbe-4dbe-923e-595d1287d1f7",
+    "personId": "wang-chang-ling",
+    "title": "驾出长安",
+    "genre": "诗",
+    "text": [
+      "圣德超千古，皇风扇九围。",
+      "天廻万象出，驾动六龙飞。",
+      "淑气来黄道，祥云覆紫微。",
+      "太平多扈从，文物有光辉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c4fa2499-efbe-4dbe-923e-595d1287d1f7",
+      "recordKey": "/791"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6330cca9-54a6-4827-a2c1-de8220f9c496",
+    "personId": "wang-chang-ling",
+    "title": "驾幸河东",
+    "genre": "诗",
+    "text": [
+      "晋水千庐合，汾桥万国从。",
+      "开唐天业盛，入沛圣恩浓。",
+      "下辇廻三象，题碑任六龙。",
+      "睿明悬日月，千岁此时逢。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6330cca9-54a6-4827-a2c1-de8220f9c496",
+      "recordKey": "/792"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a8cfc3c2-8ee8-414b-bc14-ca88cbc074d9",
+    "personId": "wang-chang-ling",
+    "title": "江上闻笛",
+    "genre": "诗",
+    "text": [
+      "横笛怨江月，扁舟何处寻。",
+      "声长楚山外，曲绕胡关深。",
+      "相去万余里，遥传此夜心。",
+      "寥寥浦溆寒，响尽惟幽林。",
+      "不知谁家子，复奏邯郸音。",
+      "水客皆拥棹，空霜遂盈襟。",
+      "羸马望北走，迁人悲越吟。",
+      "何当边草白，旌节陇城阴。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a8cfc3c2-8ee8-414b-bc14-ca88cbc074d9",
+      "recordKey": "/772"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-31f007fa-da7e-4b7a-9531-c55b74675814",
+    "personId": "wang-chang-ling",
+    "title": "静法师东斋",
+    "genre": "诗",
+    "text": [
+      "筑室在人境，遂得真隐情。",
+      "春尽草木变，雨来池馆清。",
+      "琴书全雅道，视听已无生。",
+      "闭户脱三界，白云自虚盈。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "31f007fa-da7e-4b7a-9531-c55b74675814",
+      "recordKey": "/799"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-1e928c12-d3b1-4840-8867-576663f81d93",
+    "personId": "wang-chang-ling",
+    "title": "九江口作",
+    "genre": "诗",
+    "text": [
+      "漭漭江势阔，雨开浔阳秋。",
+      "驿门是高岸，望尽黄芦洲。",
+      "水与五溪合，心期万里游。",
+      "明时无弃才，谪去随孤舟。",
+      "鸷鸟立寒木，丈夫佩吴钩。",
+      "何当报君恩，却系单于头。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "1e928c12-d3b1-4840-8867-576663f81d93",
+      "recordKey": "/776"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ba7f3fd4-cf73-48c1-b6bc-2e26b66bf75a",
+    "personId": "wang-chang-ling",
+    "title": "九日登高",
+    "genre": "诗",
+    "text": [
+      "青山远近带皇州，霁景重阳上北楼。",
+      "雨歇亭臯仙菊润，霜飞天苑御梨秋。",
+      "茱萸插鬓花宜寿，翡翠横钗舞作愁。",
+      "谩说陶潜篱下醉，何曾得见此风流。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ba7f3fd4-cf73-48c1-b6bc-2e26b66bf75a",
+      "recordKey": "/805"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c0667b06-7bbd-4535-bd82-674f80de66e8",
+    "personId": "wang-chang-ling",
+    "title": "就道士问周易参同契",
+    "genre": "诗",
+    "text": [
+      "仙人骑白鹿，发短耳何长。",
+      "时余采菖蒲，忽见嵩之阳。",
+      "稽首求丹经，乃出怀中方。",
+      "披读了不悟，归来问嵇康。",
+      "嗟余无道骨，发我入太行。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c0667b06-7bbd-4535-bd82-674f80de66e8",
+      "recordKey": "/763"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0df2eed5-f4ec-4f8f-a22e-4f61f470d180",
+    "personId": "wang-chang-ling",
+    "title": "句",
+    "genre": "诗",
+    "text": [
+      "与君远相知，不道云海深。",
+      "得罪由己招，本性易然诺。",
+      "黄叶乱秋雨，空斋愁暮心。",
+      "通经彼上人，无迹任勤苦。",
+      "枫桥延海岸，客帆归富春。",
+      "寒江映村林，亭上纳高洁。",
+      "陵薮寒苍茫，登城遂怀古。",
+      "孤烟曳长林，春水聊一望。",
+      "河口饯南客，进帆清江水。",
+      "迁客又相送，风悲蝉更号。",
+      "微雨随云收，蒙蒙傍山去。",
+      "海客时独飞，永然沧洲意。",
+      "日夕辨灵药，空山松桂香。",
+      "墟落有怀县，长烟溪树边。",
+      "青桂花未吐，江中独鸣琴。",
+      "还家望炎海，楚叶下秋水。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "0df2eed5-f4ec-4f8f-a22e-4f61f470d180",
+      "recordKey": "/940"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3e4a693d-49d2-4791-bb34-f49ddd202d49",
+    "personId": "wang-chang-ling",
+    "title": "句",
+    "genre": "诗",
+    "text": [
+      "朝荐抱良策，独倚江城楼。",
+      "昨从金陵邑，远谪沅溪滨。",
+      "娟魄已三孕。",
+      "驾幸温泉日，严霜子月初。",
+      "长亭酒未醒，千里风动地。",
+      "苍荻寒沧江，石头岸边饮。",
+      "天仗森森练雪凝，身骑铁骢自臂鹰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3e4a693d-49d2-4791-bb34-f49ddd202d49",
+      "recordKey": "/899"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ff945796-4ca6-410d-8458-243c9d483b07",
+    "personId": "wang-chang-ling",
+    "title": "句（附存）",
+    "genre": "诗",
+    "text": [
+      "王维诗天子，杜甫诗宰相。",
+      "（见宋叶廷珪《海录碎事》卷十九引《王昌龄集》。",
+      "似出后人依托。",
+      "）（按：《全唐诗》卷一四一收昌龄《小敷谷龙潭祠作》，第十九句缺一字。",
+      "汲克阁本《唐诗纪事》卷二四引此诗不缺，此句作「奔飞振串梁」。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "ff945796-4ca6-410d-8458-243c9d483b07",
+      "recordKey": "/844"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-acf02553-a3dc-433d-800c-f7b1df696fe4",
+    "personId": "wang-chang-ling",
+    "title": "客广陵",
+    "genre": "诗",
+    "text": [
+      "楼头广陵近，九月在南徐。",
+      "秋色明海县，寒烟生里闾。",
+      "夜帆归楚客，昨日度江书。",
+      "为问易名叟，垂纶不见鱼。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "acf02553-a3dc-433d-800c-f7b1df696fe4",
+      "recordKey": "/798"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b3e4a490-0aea-4eae-84c7-9698ae1ae112",
+    "personId": "wang-chang-ling",
+    "title": "箜篌引",
+    "genre": "诗",
+    "text": [
+      "卢溪郡南夜泊舟，夜闻两岸羌戎讴。",
+      "其时月黑猿啾啾，微雨沾衣令人愁。",
+      "有一迁客登高楼，不言不寐弹箜篌。",
+      "弹作蓟门桑叶秋，风沙飒飒青冢头。",
+      "将军铁骢汗血流，深入匈奴战未休。",
+      "黄旗一点兵马收，乱杀胡人积如丘。",
+      "疮病驱来配边州，仍披漠北羔羊裘。",
+      "颜色饥枯掩面羞，眼眶泪滴深两眸。",
+      "思还本乡食牦牛，欲语不得指咽喉。",
+      "或有强壮能吚嚘，意说被他边将雠。",
+      "五世属藩汉主留，碧毛毡帐河曲游。",
+      "橐𫘞五万部落稠，勅赐飞凤金兜鍪。",
+      "为君百战如过筹，静扫阴山无鸟投。",
+      "家藏铁券特承优，黄金千斤不称求。",
+      "九族分离作楚囚，深溪寂寞弦苦幽。",
+      "草木悲感声飕飗，仆本东山为国忧。",
+      "明光殿前论九畴，簏读兵书尽冥搜。",
+      "为君掌上施权谋，洞晓山川无与俦。",
+      "紫宸诏发远怀柔，摇笔飞霜如夺钩。",
+      "鬼神不得知其由，怜爱苍生比蚍蜉。",
+      "朔河屯兵须渐抽，尽遣降来拜御沟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b3e4a490-0aea-4eae-84c7-9698ae1ae112",
+      "recordKey": "/786"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-94054365-0488-4baa-ad3c-ff7fffaebf1d",
+    "personId": "wang-chang-ling",
+    "title": "李四仓曹宅夜饮",
+    "genre": "诗",
+    "text": [
+      "霜天留后故情欢，银烛金炉夜不寒。",
+      "欲问吴江别来意，青山明月梦中看。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "94054365-0488-4baa-ad3c-ff7fffaebf1d",
+      "recordKey": "/858"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d4cf1877-336f-42e8-be4d-5164d41e698a",
+    "personId": "wang-chang-ling",
+    "title": "梁苑",
+    "genre": "诗",
+    "text": [
+      "梁园秋竹古时烟，城外风悲欲暮天。",
+      "万乘旌旗何处在？平台宾客有谁怜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d4cf1877-336f-42e8-be4d-5164d41e698a",
+      "recordKey": "/862"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6adcac53-3a5b-449e-94d2-e6ee701167a7",
+    "personId": "wang-chang-ling",
+    "title": "留别",
+    "genre": "诗",
+    "text": [
+      "桑林映陂水，雨过宛城西。",
+      "留醉楚山别，阴云暮霋霋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "6adcac53-3a5b-449e-94d2-e6ee701167a7",
+      "recordKey": "/934"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-419db4f0-72c6-4a05-aa1f-d5865f9cea66",
+    "personId": "wang-chang-ling",
+    "title": "留别岑参兄弟",
+    "genre": "诗",
+    "text": [
+      "江城建业楼，山尽沧海头。",
+      "副职守兹县，东南櫂孤舟。",
+      "长安故人宅，秣马经前秋。",
+      "便以风雪暮，还为纵饮留。",
+      "貂蝉七叶贵，鸿鹄万里游。",
+      "何必念钟鼎，所在烹肥牛。",
+      "为君啸一曲，且莫弹箜篌。",
+      "徒见枯者艳，谁言直如钩。",
+      "岑家双琼树，腾光难为俦。",
+      "谁言青门悲，俯期吴山幽。",
+      "日西石门峤，月吐金陵洲。",
+      "追随探灵怪，岂不骄王侯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "419db4f0-72c6-4a05-aa1f-d5865f9cea66",
+      "recordKey": "/752"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-feebecab-b17a-4a26-b13e-9d600b007ae3",
+    "personId": "wang-chang-ling",
+    "title": "留别郭八",
+    "genre": "诗",
+    "text": [
+      "长亭驻马未能前，井邑苍茫含暮烟。",
+      "醉别何须更惆怅，回头不语但垂鞭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "feebecab-b17a-4a26-b13e-9d600b007ae3",
+      "recordKey": "/875"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-06fbf086-4bf5-46ce-aa6e-4ba5f8c8b4b1",
+    "personId": "wang-chang-ling",
+    "title": "留别司马太守",
+    "genre": "诗",
+    "text": [
+      "辰阳太守念王孙，远谪沅溪何可论。",
+      "黄鹤青云当一举，明珠吐著抱君恩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "06fbf086-4bf5-46ce-aa6e-4ba5f8c8b4b1",
+      "recordKey": "/879"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f964804f-ca79-4a0f-9848-59fb38ef25fe",
+    "personId": "wang-chang-ling",
+    "title": "留别武陵袁丞",
+    "genre": "诗",
+    "text": [
+      "皇恩暂迁谪，待罪逢知己。",
+      "从此武陵溪，孤舟二千里。",
+      "桃花遗古岸，金涧流春水。",
+      "谁识马将军，忠贞抱生死。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f964804f-ca79-4a0f-9848-59fb38ef25fe",
+      "recordKey": "/749"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d290d360-9e99-4762-ad6e-7d138c6f8f14",
+    "personId": "wang-chang-ling",
+    "title": "留别伊阙张少府郭大都尉",
+    "genre": "诗",
+    "text": [
+      "迁客就一醉，主人空金罍。",
+      "江湖青山底，欲去仍裴回。",
+      "郭侯未相识，策马伊川来。",
+      "把手相劝勉，不应老尘埃。",
+      "孟阳逢山旧，仙馆留清才。",
+      "日晚劝趣别，风长云逐开。",
+      "幸随板舆远，负谴何忧哉。",
+      "唯有仗忠信，音书报云雷。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d290d360-9e99-4762-ad6e-7d138c6f8f14",
+      "recordKey": "/745"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7646be95-fa97-4cc3-b7e2-3ae09962288d",
+    "personId": "wang-chang-ling",
+    "title": "龙标野宴",
+    "genre": "诗",
+    "text": [
+      "沅溪夏晚足凉风，春酒相携就竹丛。",
+      "莫道弦歌愁远谪，青山明月不曾空。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7646be95-fa97-4cc3-b7e2-3ae09962288d",
+      "recordKey": "/860"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-12c81418-a970-476b-a48d-698a7bf84a58",
+    "personId": "wang-chang-ling",
+    "title": "卢溪主人",
+    "genre": "诗",
+    "text": [
+      "武陵溪口驻扁舟，溪水随君向北流。",
+      "行到荆门上三峡，莫将孤月对猿愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "12c81418-a970-476b-a48d-698a7bf84a58",
+      "recordKey": "/880"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-fe4f6fe3-9d6e-4cc3-8b19-519690162ee1",
+    "personId": "wang-chang-ling",
+    "title": "潞府客亭寄崔凤童",
+    "genre": "诗",
+    "text": [
+      "萧条郡城闭，旅馆空寒烟。",
+      "秋月对愁客，山钟摇暮天。",
+      "新知偶相访，斗酒情依然。",
+      "一宿阻长会，清风徒满川。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "fe4f6fe3-9d6e-4cc3-8b19-519690162ee1",
+      "recordKey": "/794"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-79281dbc-069e-4143-9538-2082395cafec",
+    "personId": "wang-chang-ling",
+    "title": "旅次盩厔过韩士别业",
+    "genre": "诗",
+    "text": [
+      "春烟桑柘林，落日隐荒墅。",
+      "泱漭平原夕，清吟久延伫。",
+      "故人家于此，招我渔樵所。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "79281dbc-069e-4143-9538-2082395cafec",
+      "recordKey": "/931"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-159c125a-24c6-4756-bb38-8f6a893ae608",
+    "personId": "wang-chang-ling",
+    "title": "旅望",
+    "genre": "诗",
+    "text": [
+      "白花原头望京师，黄河水流无尽时。",
+      "穷秋旷野行人绝，马首东来知是谁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "159c125a-24c6-4756-bb38-8f6a893ae608",
+      "recordKey": "/892"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c91fabc9-f344-41bb-8737-233d0063b9f3",
+    "personId": "wang-chang-ling",
+    "title": "洛阳尉刘晏与府掾诸公茶集天宫寺岸道上人房",
+    "genre": "诗",
+    "text": [
+      "良友呼我宿，月明悬天宫。",
+      "道安风尘外，洒扫青林中。",
+      "削去府县理，豁然神机空。",
+      "自从三湘还，始得今夕同。",
+      "旧居太行北，远宦沧溟东。",
+      "各有四方事，白云处处通。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c91fabc9-f344-41bb-8737-233d0063b9f3",
+      "recordKey": "/767"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d99f944a-aa0c-43f1-9244-c5ee79ae88d1",
+    "personId": "wang-chang-ling",
+    "title": "梅诗",
+    "genre": "诗",
+    "text": [
+      "落落寞寞路不分，梦中唤作梨花云。",
+      "（见《苕溪渔隐丛话前集》卷四、《野客丛书》卷六引曾慥《高斋诗话》、龙榆生《东坡乐府笺》卷二《西江月》注引南宋傅藻注引。",
+      "）（按：《墨庄漫录》卷六载此诗全篇，以为王建作，详本书卷十八。",
+      "然曾慥时代较早，当有所据。",
+      "苏轼《西江月》词末句云：「不与梨花同梦。",
+      "」自跋云：「诗人王昌龄梦中作梅花诗。",
+      "」傅注因引此二句。",
+      "其时代较曾慥更早。",
+      "今互收。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "d99f944a-aa0c-43f1-9244-c5ee79ae88d1",
+      "recordKey": "/841"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-00fc6fd0-df00-4284-8c21-b5428b3fbfe3",
+    "personId": "wang-chang-ling",
+    "title": "裴六书堂",
+    "genre": "诗",
+    "text": [
+      "闲堂闭空阴，竹林但清响。",
+      "窗下长啸客，区中无遗想。",
+      "经纶精微言，兼济当独往。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "00fc6fd0-df00-4284-8c21-b5428b3fbfe3",
+      "recordKey": "/771"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-04814106-730a-460e-8fb8-4fc831c69c19",
+    "personId": "wang-chang-ling",
+    "title": "淇上酬薛据兼寄郭微",
+    "genre": "诗",
+    "text": [
+      "自从别京华，我心乃萧索。",
+      "十年守章句，万里空寥落。",
+      "北上登蓟门，茫茫见沙漠。",
+      "倚劒对风尘，慨然思衞霍。",
+      "拂衣去燕赵，驱马怅不乐。",
+      "天长沧洲路，日暮邯郸郭。",
+      "酒肆或淹留，渔泽屡栖泊。",
+      "独行备艰难，孰辞千鼎镬。",
+      "皇情念淳古，时俗何浮薄。",
+      "理道须任贤，安人在求瘼。",
+      "故交负奇才，逸气包謇谔。",
+      "隐轸经济策，纵横建安作。",
+      "才望忽先鸣，风期无宿诺。",
+      "飘飖劳州县，迢递限言谑。",
+      "东驰眇贝丘，西顾弥虢略。",
+      "淇水徒自深，浮云不堪托。",
+      "吾谋适可用，天道岂辽廓。",
+      "不然买山田，一身与耕凿。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "04814106-730a-460e-8fb8-4fc831c69c19",
+      "recordKey": "/756"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d96acefe-8efc-46bc-b85e-6e4ad42098f9",
+    "personId": "wang-chang-ling",
+    "title": "琴",
+    "genre": "诗",
+    "text": [
+      "孤桐秘虚鸣，朴素传幽真。",
+      "髣髴弦指外，遂见初古人。",
+      "意远风雪苦，时来江山春。",
+      "高宴未终曲，谁能辨经纶。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d96acefe-8efc-46bc-b85e-6e4ad42098f9",
+      "recordKey": "/782"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d12908bf-0ec6-4137-9ea8-fce8383fda4a",
+    "personId": "wang-chang-ling",
+    "title": "青楼曲二首 二",
+    "genre": "诗",
+    "text": [
+      "驰道杨花满御沟，红妆缦绾上青楼。",
+      "金章紫绶千余骑，夫壻朝回初拜侯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d12908bf-0ec6-4137-9ea8-fce8383fda4a",
+      "recordKey": "/847"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3af49c81-e4be-4724-9b7b-1b41966e9d69",
+    "personId": "wang-chang-ling",
+    "title": "青楼曲二首 一",
+    "genre": "诗",
+    "text": [
+      "白马金鞍从武皇，旌旗十万宿长杨。",
+      "楼头小妇鸣筝坐，遥见飞尘入建章。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3af49c81-e4be-4724-9b7b-1b41966e9d69",
+      "recordKey": "/846"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-1fea4e9e-800a-4d1d-bad2-2a4019ae787b",
+    "personId": "wang-chang-ling",
+    "title": "青楼怨",
+    "genre": "诗",
+    "text": [
+      "香帏风动花入楼，高调鸣筝缓夜愁。",
+      "肠断关山不解说，依依残月下帘钩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "1fea4e9e-800a-4d1d-bad2-2a4019ae787b",
+      "recordKey": "/848"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7bd15cbf-8fd9-46e6-9b4b-d193cefacad4",
+    "personId": "wang-chang-ling",
+    "title": "秋山寄陈谠言",
+    "genre": "诗",
+    "text": [
+      "岩间寒事早，众山木已黄。",
+      "北风何萧萧，兹夕露为霜。",
+      "感激未能寐，中宵时慨慷。",
+      "黄虫初悲鸣，玄鸟去我梁。",
+      "独卧时易晚，离群情更伤。",
+      "思君若不及，鸿雁今南翔。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7bd15cbf-8fd9-46e6-9b4b-d193cefacad4",
+      "recordKey": "/736"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-57a79dc1-1257-4ed3-a9ed-73dc32a3b9f2",
+    "personId": "wang-chang-ling",
+    "title": "秋兴",
+    "genre": "诗",
+    "text": [
+      "日暮西北堂，凉风洗修木。",
+      "著书在南窗，门馆常肃肃。",
+      "苔草延古意，视听转幽独。",
+      "或问余所营，刈黍就寒谷。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "57a79dc1-1257-4ed3-a9ed-73dc32a3b9f2",
+      "recordKey": "/759"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-56950b6b-d796-4436-a80a-cca1f325d978",
+    "personId": "wang-chang-ling",
+    "title": "塞上曲",
+    "genre": "诗",
+    "text": [
+      "秋风夜渡河，吹却鴈门桑。",
+      "遥见胡地猎，鞲马宿严霜。",
+      "五道分兵去，孤军百战场。",
+      "功多翻下狱，士卒但心伤。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "56950b6b-d796-4436-a80a-cca1f325d978",
+      "recordKey": "/721"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-59fb3f01-65b2-416a-aefb-c13e502bfba1",
+    "personId": "wang-chang-ling",
+    "title": "塞下曲四首 二",
+    "genre": "诗",
+    "text": [
+      "饮马渡秋水，水寒风似刀。",
+      "平沙日未没，黯黯见临洮。",
+      "昔日长城战，咸言意气高。",
+      "黄尘足今古，白骨乱蓬蒿。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "59fb3f01-65b2-416a-aefb-c13e502bfba1",
+      "recordKey": "/718"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4eb08533-cc6b-40cc-af72-fe3aae695224",
+    "personId": "wang-chang-ling",
+    "title": "塞下曲四首 三",
+    "genre": "诗",
+    "text": [
+      "奉诏甘泉宫，总征天下兵。",
+      "朝廷备礼出，郡国豫郊迎。",
+      "纷纷几万人，去者无全生。",
+      "臣愿节宫廐，分以赐边城。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4eb08533-cc6b-40cc-af72-fe3aae695224",
+      "recordKey": "/719"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-2863d1fe-dd22-43a7-b067-4b323c8fec7f",
+    "personId": "wang-chang-ling",
+    "title": "塞下曲四首 四",
+    "genre": "诗",
+    "text": [
+      "边头何惨惨，已葬霍将军。",
+      "部曲皆相吊，燕南代北闻。",
+      "功勋多被黜，兵马亦寻分。",
+      "更遣黄龙戍，唯当哭塞云。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "2863d1fe-dd22-43a7-b067-4b323c8fec7f",
+      "recordKey": "/720"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-8d58a158-1a9b-4085-8ef7-b7b4e6adb66d",
+    "personId": "wang-chang-ling",
+    "title": "塞下曲四首 一",
+    "genre": "诗",
+    "text": [
+      "蝉鸣空桑林，八月萧关道。",
+      "出塞入塞寒，处处黄芦草。",
+      "从来幽并客，皆共尘沙老。",
+      "莫学游侠儿，矜夸紫骝好。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "8d58a158-1a9b-4085-8ef7-b7b4e6adb66d",
+      "recordKey": "/717"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e367588d-d1a1-4835-81ca-93e11c86b416",
+    "personId": "wang-chang-ling",
+    "title": "沙苑南渡头",
+    "genre": "诗",
+    "text": [
+      "秋雾连云白，归心浦溆悬。",
+      "津人空守缆，村馆复临川。",
+      "篷隔苍茫雨，波连演漾田。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e367588d-d1a1-4835-81ca-93e11c86b416",
+      "recordKey": "/797"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ed95661a-f947-4d65-a60e-3bd852c3e8b5",
+    "personId": "wang-chang-ling",
+    "title": "山行入泾州",
+    "genre": "诗",
+    "text": [
+      "倦此山路长，停骖问宾御。",
+      "林峦信回惑，白日落何处。",
+      "徙倚望长风，滔滔引归虑。",
+      "微雨随云收，蒙蒙傍山去。",
+      "西临有边邑，北走尽亭戍。",
+      "泾水横白烟，州城隐寒树。",
+      "所嗟异风俗，已自少情趣。",
+      "岂伊怀土多，触目忻所遇。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ed95661a-f947-4d65-a60e-3bd852c3e8b5",
+      "recordKey": "/779"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d1d0f9ec-2d44-404b-bcbf-a58ced75163c",
+    "personId": "wang-chang-ling",
+    "title": "山中别庞十",
+    "genre": "诗",
+    "text": [
+      "幽娟松筿径，月出寒蝉鸣。",
+      "散发卧其下，谁知孤隐情。",
+      "吟时白云合，钓处玄潭清。",
+      "琼树方杳霭，凤兮保其贞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d1d0f9ec-2d44-404b-bcbf-a58ced75163c",
+      "recordKey": "/744"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-706a6715-b027-4a1e-acd6-3cc910974dd7",
+    "personId": "wang-chang-ling",
+    "title": "上马当山神",
+    "genre": "诗",
+    "text": [
+      "青骢一匹昆仑牵，奏上大王不取钱。",
+      "直为猛风波滚骤，莫怪昌龄不下船。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.48000.json",
+      "recordId": "706a6715-b027-4a1e-acd6-3cc910974dd7",
+      "recordKey": "/221"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ead5758b-2fac-46bb-a69d-a6eb160e0f3c",
+    "personId": "wang-chang-ling",
+    "title": "上侍御士兄",
+    "genre": "诗",
+    "text": [
+      "天人俟明路，益稷分尧心。",
+      "利器必先举，非贤安可任。",
+      "吾兄执严宪，时佐能钓深。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "ead5758b-2fac-46bb-a69d-a6eb160e0f3c",
+      "recordKey": "/932"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b11acf95-785c-4cc1-be74-f2c7ec39dba7",
+    "personId": "wang-chang-ling",
+    "title": "上同州使君伯",
+    "genre": "诗",
+    "text": [
+      "大贤本孤立，有时起丝纶。",
+      "伯父自天禀，元功载生人。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "b11acf95-785c-4cc1-be74-f2c7ec39dba7",
+      "recordKey": "/933"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-9f4352c5-c777-414c-8645-c3912a704f85",
+    "personId": "wang-chang-ling",
+    "title": "少年行二首 二",
+    "genre": "诗",
+    "text": [
+      "走马远相寻，西楼下夕阴。",
+      "结交期一劒，留意赠千金。",
+      "高阁歌声远，重门柳色深。",
+      "夜阑须尽饮，莫负百年心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "9f4352c5-c777-414c-8645-c3912a704f85",
+      "recordKey": "/725"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-de4a1ec9-b488-4b00-bb31-469028426436",
+    "personId": "wang-chang-ling",
+    "title": "少年行二首 一",
+    "genre": "诗",
+    "text": [
+      "西陵侠少年，送客短长亭。",
+      "青槐夹两道，白马如流星。",
+      "闻道羽书急，单于寇井陉。",
+      "气高轻赴难，谁顾燕山铭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "de4a1ec9-b488-4b00-bb31-469028426436",
+      "recordKey": "/724"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-635319ce-1936-4ca2-8eff-6d074e7f23b3",
+    "personId": "wang-chang-ling",
+    "title": "失题",
+    "genre": "诗",
+    "text": [
+      "奸雄乃得志，遂使群心摇。",
+      "赤风荡中原，烈火无遗巢。",
+      "一人计不用，万里空萧条。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "635319ce-1936-4ca2-8eff-6d074e7f23b3",
+      "recordKey": "/784"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-88b0021d-0e69-4c42-bf2c-a60ebe56a22c",
+    "personId": "wang-chang-ling",
+    "title": "失题",
+    "genre": "诗",
+    "text": [
+      "桑叶下墟落，鹍鸡鸣渚田。",
+      "物情每衰极，吾道方渊然。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "88b0021d-0e69-4c42-bf2c-a60ebe56a22c",
+      "recordKey": "/939"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-bfcf86d4-859d-43ef-8dad-702de538edff",
+    "personId": "wang-chang-ling",
+    "title": "失题",
+    "genre": "诗",
+    "text": [
+      "时与醉林壑，因之堕农桑。",
+      "槐烟渐含夜，楼月深苍茫。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "bfcf86d4-859d-43ef-8dad-702de538edff",
+      "recordKey": "/938"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c7dae33e-003f-4f7e-9f78-2c8c7d7d7033",
+    "personId": "wang-chang-ling",
+    "title": "诗作",
+    "genre": "诗",
+    "text": [
+      "。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.50000.json",
+      "recordId": "c7dae33e-003f-4f7e-9f78-2c8c7d7d7033",
+      "recordKey": "/165"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-796a2ab8-be28-4d0b-b74c-d349300b179e",
+    "personId": "wang-chang-ling",
+    "title": "四时调玉烛",
+    "genre": "诗",
+    "text": [
+      "祥光长赫矣，佳号得温其。",
+      "（见宋葛立方《韵语阳秋》卷三）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "796a2ab8-be28-4d0b-b74c-d349300b179e",
+      "recordKey": "/840"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3b7cd64c-505e-4196-b98c-403d25e8928e",
+    "personId": "wang-chang-ling",
+    "title": "送别",
+    "genre": "诗",
+    "text": [
+      "河口饯南客，进帆清江水。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "3b7cd64c-505e-4196-b98c-403d25e8928e",
+      "recordKey": "/842"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5808be9d-483e-4767-b645-d8ae678ca8f7",
+    "personId": "wang-chang-ling",
+    "title": "送别",
+    "genre": "诗",
+    "text": [
+      "春江愁送君，蕙草生氤氲。",
+      "醉后不能语，乡山雨雰雰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "5808be9d-483e-4767-b645-d8ae678ca8f7",
+      "recordKey": "/937"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-789c0699-8187-42a6-b910-fb9b999d75bd",
+    "personId": "wang-chang-ling",
+    "title": "送柴侍御",
+    "genre": "诗",
+    "text": [
+      "流水通波接武冈，送君不觉有离伤。",
+      "青山一道同云雨，眀月何曽是两乡。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "789c0699-8187-42a6-b910-fb9b999d75bd",
+      "recordKey": "/884"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ceb0c2f7-ffaf-4fee-a995-10cda09ea1e1",
+    "personId": "wang-chang-ling",
+    "title": "送程六",
+    "genre": "诗",
+    "text": [
+      "冬夜伤离在五溪，青鱼雪落鲙橙虀。",
+      "武冈前路看斜月，片片舟中云向西。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ceb0c2f7-ffaf-4fee-a995-10cda09ea1e1",
+      "recordKey": "/881"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-82f43aa2-768a-47e3-a45f-acbb1bab2f6a",
+    "personId": "wang-chang-ling",
+    "title": "送崔参军往龙溪",
+    "genre": "诗",
+    "text": [
+      "龙溪只在龙标上，秋月孤山两相向。",
+      "谴谪离心是丈夫，鸿恩共侍春江涨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "82f43aa2-768a-47e3-a45f-acbb1bab2f6a",
+      "recordKey": "/888"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c6a15f09-69eb-40aa-b596-8fe565c97980",
+    "personId": "wang-chang-ling",
+    "title": "送狄宗亨",
+    "genre": "诗",
+    "text": [
+      "秋在水清山暮蝉，洛阳树色鸣臯烟。",
+      "送君归去愁不尽，又惜空度凉风天。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c6a15f09-69eb-40aa-b596-8fe565c97980",
+      "recordKey": "/866"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f5c07ab4-d299-42a6-84c7-632a10972653",
+    "personId": "wang-chang-ling",
+    "title": "送东林廉上人归庐山",
+    "genre": "诗",
+    "text": [
+      "石溪流已乱，苔径人渐微。",
+      "日暮东林下，山僧还独归。",
+      "昔为庐峰意，况与远公违。",
+      "道性深寂寞，世情多是非。",
+      "会寻名山去，岂复望清辉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f5c07ab4-d299-42a6-84c7-632a10972653",
+      "recordKey": "/748"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-cbdf6e69-b4c1-477f-92f7-d529b4f0d54e",
+    "personId": "wang-chang-ling",
+    "title": "送窦七",
+    "genre": "诗",
+    "text": [
+      "清江月色傍林秋，波上荧荧望一舟。",
+      "鄂渚轻帆须早发，江边明月为君留。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "cbdf6e69-b4c1-477f-92f7-d529b4f0d54e",
+      "recordKey": "/876"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f893ef56-fa7c-49ef-a8aa-fa2cb9b3fc52",
+    "personId": "wang-chang-ling",
+    "title": "送高三之桂林",
+    "genre": "诗",
+    "text": [
+      "留君夜饮对潇湘，从此归舟客梦长。",
+      "岭上梅花侵雪暗，归时还拂桂花香。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f893ef56-fa7c-49ef-a8aa-fa2cb9b3fc52",
+      "recordKey": "/891"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d878a2ff-a8ba-498f-a325-6cc5d54ff4ab",
+    "personId": "wang-chang-ling",
+    "title": "送郭司仓",
+    "genre": "诗",
+    "text": [
+      "暎门淮水绿，留骑主人心。",
+      "明月随良掾，春潮夜夜深。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d878a2ff-a8ba-498f-a325-6cc5d54ff4ab",
+      "recordKey": "/819"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4529cb2e-4db1-4a15-a062-1f4d83e45989",
+    "personId": "wang-chang-ling",
+    "title": "送胡大",
+    "genre": "诗",
+    "text": [
+      "荆门不堪别，况乃潇湘秋。",
+      "何处遥望君，江边明月楼。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4529cb2e-4db1-4a15-a062-1f4d83e45989",
+      "recordKey": "/818"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e49dac06-6bd7-4be3-bee9-dfe76bfb648e",
+    "personId": "wang-chang-ling",
+    "title": "送李十五",
+    "genre": "诗",
+    "text": [
+      "怨别秦楚深，江中秋云起。",
+      "天长杳无隔，月影在寒水。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e49dac06-6bd7-4be3-bee9-dfe76bfb648e",
+      "recordKey": "/820"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-46b46545-ecff-4c12-9bc7-eb965242a575",
+    "personId": "wang-chang-ling",
+    "title": "送李五",
+    "genre": "诗",
+    "text": [
+      "玉盌金罍倾送君，江西日入起黄云。",
+      "扁舟乘月暂来去，谁道沧浪吴楚分。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "46b46545-ecff-4c12-9bc7-eb965242a575",
+      "recordKey": "/873"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f5140ff9-e856-4bfe-a04f-716d356b7505",
+    "personId": "wang-chang-ling",
+    "title": "送李邕之秦",
+    "genre": "诗",
+    "text": [
+      "空（《文镜秘府论》地《十七势》，《全唐诗》作《送李十五》。",
+      "《文镜秘府》首句「怨别」作「别怨」，三句「杳」作「梦」，四句「影」作「映」。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.51000.json",
+      "recordId": "f5140ff9-e856-4bfe-a04f-716d356b7505",
+      "recordKey": "/222"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3b3591a3-51fc-40fa-aff4-58931f659018",
+    "personId": "wang-chang-ling",
+    "title": "送李擢游江东",
+    "genre": "诗",
+    "text": [
+      "清洛日夜涨，微风引孤舟。",
+      "离肠便千里，远梦生江楼。",
+      "楚国橙橘暗，吴门烟雨愁。",
+      "东南具今古，归望山云秋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3b3591a3-51fc-40fa-aff4-58931f659018",
+      "recordKey": "/796"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4d6dee47-6ddd-441f-b9d8-6db3ebad15ce",
+    "personId": "wang-chang-ling",
+    "title": "送刘眘虚归取宏词解",
+    "genre": "诗",
+    "text": [
+      "太清闻海鹤，游子引乡眄。",
+      "声随羽仪远，势与归云便。",
+      "青桂春再荣，白云暮来变。",
+      "迁飞在礼仪，岂复泪如霰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4d6dee47-6ddd-441f-b9d8-6db3ebad15ce",
+      "recordKey": "/753"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5dc35e8f-eb85-4bfb-9426-f8c53cb97408",
+    "personId": "wang-chang-ling",
+    "title": "送刘十五之郡",
+    "genre": "诗",
+    "text": [
+      "平明江雾寒，客马江上发。",
+      "扁舟事洛阳，窅窅含楚月。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "5dc35e8f-eb85-4bfb-9426-f8c53cb97408",
+      "recordKey": "/824"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c8280b48-5458-437b-908b-4cbf50cd982b",
+    "personId": "wang-chang-ling",
+    "title": "送欧阳会稽之任",
+    "genre": "诗",
+    "text": [
+      "怀禄贵心赏，东流山水长。",
+      "官移会稽郡，地迩上虞乡。",
+      "缓带屏纷杂，渔舟临讼堂。",
+      "逶迤回溪趣，猿啸飞鸟行。",
+      "万室霁朝雨，千峰迎夕阳。",
+      "辉辉远洲暎，暧暧澄湖光。",
+      "白发有高士，青春期上皇。",
+      "应须枉车歇，为我访荷裳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c8280b48-5458-437b-908b-4cbf50cd982b",
+      "recordKey": "/808"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-08769eec-7058-49ba-952d-e72368eadce5",
+    "personId": "wang-chang-ling",
+    "title": "送裴图南",
+    "genre": "诗",
+    "text": [
+      "黄河渡头归问津，离家几日茱萸新。",
+      "漫道闺中飞破镜，犹看陌上别行人。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "08769eec-7058-49ba-952d-e72368eadce5",
+      "recordKey": "/878"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d2acbe16-2b35-4ed8-b78c-17b46cb7f29f",
+    "personId": "wang-chang-ling",
+    "title": "送人归江夏",
+    "genre": "诗",
+    "text": [
+      "寒江绿水楚云深，莫道离忧迁远心。",
+      "晓夕双帆归鄂渚，愁将孤月梦中寻。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d2acbe16-2b35-4ed8-b78c-17b46cb7f29f",
+      "recordKey": "/872"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-05a34af3-82f7-444f-8efc-b52e111e3b9c",
+    "personId": "wang-chang-ling",
+    "title": "送任五之桂林",
+    "genre": "诗",
+    "text": [
+      "楚客醉孤舟，越水将引棹。",
+      "山为两乡别，月带千里貌。",
+      "羇谴同缯纶，僻幽闻虎豹。",
+      "桂林寒色在，苦节知所效。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "05a34af3-82f7-444f-8efc-b52e111e3b9c",
+      "recordKey": "/743"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-2a01bf09-a6fb-492e-a45c-218178f36768",
+    "personId": "wang-chang-ling",
+    "title": "送十五舅",
+    "genre": "诗",
+    "text": [
+      "深林秋水近日空，归棹演漾清阴中。",
+      "夕浦离觞意何已，草根寒露悲鸣虫。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "2a01bf09-a6fb-492e-a45c-218178f36768",
+      "recordKey": "/874"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0fa83a19-32a8-4404-8bd3-27716ab651c6",
+    "personId": "wang-chang-ling",
+    "title": "送谭八之桂林",
+    "genre": "诗",
+    "text": [
+      "客心仍在楚，江馆复临湘。",
+      "别意猿鸟外，天寒桂水长。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "0fa83a19-32a8-4404-8bd3-27716ab651c6",
+      "recordKey": "/823"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f4edca98-5fd3-4ddd-9702-aa7d2f367947",
+    "personId": "wang-chang-ling",
+    "title": "送万大归长沙",
+    "genre": "诗",
+    "text": [
+      "桂阳秋水长沙县，楚竹离声为君变。",
+      "青山隐隐孤舟微，白鹤双飞忽相见。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f4edca98-5fd3-4ddd-9702-aa7d2f367947",
+      "recordKey": "/885"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ad0dd3dc-9c4b-4e80-aee4-2f9d52a7b3e5",
+    "personId": "wang-chang-ling",
+    "title": "送韦十二兵曹",
+    "genre": "诗",
+    "text": [
+      "县职如长缨，终日检我身。",
+      "平明趋郡府，不得展故人。",
+      "故人念江湖，富贵如埃尘。",
+      "迹在戎府掾，心游天台春。",
+      "独立浦边鹤，白云长相亲。",
+      "南风忽至吴，分散还入秦。",
+      "寒夜天光白，海净月色真。",
+      "对坐论岁暮，弦悲岂无因。",
+      "平生驰驱分，非谓桮酒仁。",
+      "出处两不合，忠贞何由伸。",
+      "看君孤舟去，且欲歌垂纶。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ad0dd3dc-9c4b-4e80-aee4-2f9d52a7b3e5",
+      "recordKey": "/746"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-8e03215e-a131-48cf-9e89-3544a6cdc967",
+    "personId": "wang-chang-ling",
+    "title": "送魏二",
+    "genre": "诗",
+    "text": [
+      "醉别江楼橘柚香，江风引雨入舟凉。",
+      "忆君遥在潇湘月，愁听清猿梦里长。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "8e03215e-a131-48cf-9e89-3544a6cdc967",
+      "recordKey": "/864"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-27e987a5-b66b-4738-baf5-68e205f3c08e",
+    "personId": "wang-chang-ling",
+    "title": "送吴十九往沅陵",
+    "genre": "诗",
+    "text": [
+      "沅江流水到辰阳，溪口逢君驿路长。",
+      "远谪谁知望雷雨，明年春水共还乡。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "27e987a5-b66b-4738-baf5-68e205f3c08e",
+      "recordKey": "/886"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e793ba8b-96b3-4124-964a-e29324b00d4b",
+    "personId": "wang-chang-ling",
+    "title": "送薛大赴安陆",
+    "genre": "诗",
+    "text": [
+      "津头云雨暗湘山，迁客离忧楚地颜。",
+      "遥送扁舟安陆郡，天边何处穆陵关。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e793ba8b-96b3-4124-964a-e29324b00d4b",
+      "recordKey": "/867"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5e0db2d1-597f-4634-a8e8-bd1c907824ba",
+    "personId": "wang-chang-ling",
+    "title": "送姚司法归吴",
+    "genre": "诗",
+    "text": [
+      "吴掾留觞楚郡心，洞庭秋雨海门阴。",
+      "但令意远扁舟近，不道沧江百丈深。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "5e0db2d1-597f-4634-a8e8-bd1c907824ba",
+      "recordKey": "/890"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-21792ec1-f78b-47ef-8b64-90f606512c2b",
+    "personId": "wang-chang-ling",
+    "title": "送友人之安南",
+    "genre": "诗",
+    "text": [
+      "还舟望炎海，楚叶下秋水。",
+      "（均见《文镜秘府论》地卷《十七势》引王昌龄《诗格》。",
+      "市河世宁《全唐诗逸》卷上收四句，缺题，今重录。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "21792ec1-f78b-47ef-8b64-90f606512c2b",
+      "recordKey": "/843"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c1275df2-d211-448e-88d6-554a7dccc11e",
+    "personId": "wang-chang-ling",
+    "title": "送张四",
+    "genre": "诗",
+    "text": [
+      "枫林已愁暮，楚水复堪悲。",
+      "别后冷山月，清猿无断时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c1275df2-d211-448e-88d6-554a7dccc11e",
+      "recordKey": "/821"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6138239c-63b4-4622-a5ca-279a8031be4b",
+    "personId": "wang-chang-ling",
+    "title": "送郑判官",
+    "genre": "诗",
+    "text": [
+      "东楚吴山驿树微，轺车衔命奉恩辉。",
+      "英僚携出新丰酒，半道遥看骢马归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6138239c-63b4-4622-a5ca-279a8031be4b",
+      "recordKey": "/889"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e6b1b4f5-49c9-47d5-9e05-ebd77e98bdc8",
+    "personId": "wang-chang-ling",
+    "title": "送朱越",
+    "genre": "诗",
+    "text": [
+      "远别舟中蒋山暮，君行举首燕城路。",
+      "蓟门秋月隐黄云，期向金陵醉江树。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e6b1b4f5-49c9-47d5-9e05-ebd77e98bdc8",
+      "recordKey": "/882"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f67f7764-1321-4c2e-acdd-ee0b70946616",
+    "personId": "wang-chang-ling",
+    "title": "素上人影塔",
+    "genre": "诗",
+    "text": [
+      "物化同枯木，希夷明月珠。",
+      "本来生灭尽，何者是虚无。",
+      "一坐看如故，千龄独向隅。",
+      "至人非别有，方外不应殊。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f67f7764-1321-4c2e-acdd-ee0b70946616",
+      "recordKey": "/800"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-09ce19c2-d94c-4d26-898a-6ad89bcba2d5",
+    "personId": "wang-chang-ling",
+    "title": "宿灞上寄侍御玙弟",
+    "genre": "诗",
+    "text": [
+      "独饮灞上亭，寒山青门外。",
+      "长云骤落日，桑枣寂已晦。",
+      "古人驱驰者，宿此凡几代。",
+      "佐邑由东南，岂不知进退。",
+      "吾宗秉全璞，楚得璆琳最。",
+      "茅山就一征，柏署起三载。",
+      "道契非物理，神交无留碍。",
+      "知我沧溟心，脱略腐儒辈。",
+      "孟冬銮舆出，阳谷群臣会。",
+      "半夜驰道喧，五侯拥轩盖。",
+      "是时燕齐客，献术蓬瀛内。",
+      "甚悦我皇心，得与王母对。",
+      "贱臣欲干谒，稽首期殒碎。",
+      "哲弟感我情，问易穷否泰。",
+      "良马足尚踠，宝刀光未淬。",
+      "昨闻羽书飞，兵气连朔塞。",
+      "诸将多失律，庙堂始追悔。",
+      "安能召书生，愿得论要害。",
+      "戎夷非草木，侵逐使狼狈。",
+      "虽有屠城功，亦有降虏辈。",
+      "兵粮如山积，恩泽如雨霈。",
+      "羸卒不可兴，碛地无足爱。",
+      "若用匹夫策，坐令军围溃。",
+      "不费黄金资，宁求白璧赉。",
+      "明主忧既远，边事亦可大。",
+      "荷宠务推诚，离言深慷慨。",
+      "霜摇直指草，烛引明光珮。",
+      "公论日夕阻，朝廷磋跎会。",
+      "孤城海门月，万里流光带。",
+      "不应百尺松，空老钟山霭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "09ce19c2-d94c-4d26-898a-6ad89bcba2d5",
+      "recordKey": "/738"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-bbd3b9f0-53a9-468a-a6ec-96498624d8a9",
+    "personId": "wang-chang-ling",
+    "title": "宿京江口期刘昚虚不至",
+    "genre": "诗",
+    "text": [
+      "霜天起长望，残月生海门。",
+      "风静夜潮满，城高寒气昏。",
+      "故人何寂寞，久已乖清言。",
+      "明发不能寐，徒盈江上尊。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "bbd3b9f0-53a9-468a-a6ec-96498624d8a9",
+      "recordKey": "/803"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b33dda30-2f9e-4737-9b72-c46bca256ae7",
+    "personId": "wang-chang-ling",
+    "title": "宿裴氏山庄",
+    "genre": "诗",
+    "text": [
+      "苍苍竹林暮，吾亦知所投。",
+      "静坐山斋月，清溪闻远流。",
+      "西峰下微雨，向晓白云收。",
+      "遂解尘中组，终南春可游。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b33dda30-2f9e-4737-9b72-c46bca256ae7",
+      "recordKey": "/755"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4b44bc27-50b9-4144-be84-410f7941e8e6",
+    "personId": "wang-chang-ling",
+    "title": "太湖秋夕",
+    "genre": "诗",
+    "text": [
+      "水宿烟雨寒，洞庭霜落微。",
+      "月明移舟去，夜静魂梦归。",
+      "暗觉海风度，萧萧闻鴈飞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4b44bc27-50b9-4144-be84-410f7941e8e6",
+      "recordKey": "/773"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-850a9520-0620-445c-98e9-ed842822cf9e",
+    "personId": "wang-chang-ling",
+    "title": "题灞池二首 二",
+    "genre": "诗",
+    "text": [
+      "开门望长川，薄暮见渔者。",
+      "借问白头翁，垂纶几年也。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "850a9520-0620-445c-98e9-ed842822cf9e",
+      "recordKey": "/815"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-efa00292-744f-487f-8940-e86c65c23a3f",
+    "personId": "wang-chang-ling",
+    "title": "题灞池二首 一",
+    "genre": "诗",
+    "text": [
+      "腰镰欲何之，东园刈秋韭。",
+      "世事不复论，悲歌和樵叟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "efa00292-744f-487f-8940-e86c65c23a3f",
+      "recordKey": "/814"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d2cd5bff-c88b-445c-b93b-94aea8973023",
+    "personId": "wang-chang-ling",
+    "title": "题净眼师房",
+    "genre": "诗",
+    "text": [
+      "白鸽飞时日欲斜，禅房寂历饮香茶。",
+      "倾人城，倾人国，斩新剃头青且黑。",
+      "玉如意，金澡瓶，朱唇皓齿能诵经，吴音唤字更分明。",
+      "日暮钟声相送出，袈裟挂着箔帘钉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.50000.json",
+      "recordId": "d2cd5bff-c88b-445c-b93b-94aea8973023",
+      "recordKey": "/167"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f7d3f6a6-75be-486c-96ae-4b9590b35695",
+    "personId": "wang-chang-ling",
+    "title": "题僧房",
+    "genre": "诗",
+    "text": [
+      "椶榈花满院，苔藓入闲房。",
+      "彼此名言绝，空中闻异香。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "f7d3f6a6-75be-486c-96ae-4b9590b35695",
+      "recordKey": "/816"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6298051e-adce-4496-809f-634dcf2a1125",
+    "personId": "wang-chang-ling",
+    "title": "题朱炼师山房",
+    "genre": "诗",
+    "text": [
+      "叩齿焚香出世尘，斋坛鸣磬步虚人。",
+      "百花仙酝能留客，一饭胡麻度几春。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6298051e-adce-4496-809f-634dcf2a1125",
+      "recordKey": "/893"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-50043733-c059-4f9e-9897-5522f30348a1",
+    "personId": "wang-chang-ling",
+    "title": "听弹风入松阕赠杨补阙",
+    "genre": "诗",
+    "text": [
+      "商风入我弦，夜竹深有露。",
+      "弦悲与林寂，清景不可度。",
+      "寥落幽居心，飕飗青松树。",
+      "松风吹草白，溪水寒日暮。",
+      "声意去复还，九变待一顾。",
+      "空山多雨雪，独立君始悟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "50043733-c059-4f9e-9897-5522f30348a1",
+      "recordKey": "/732"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a52785c6-d98a-45ed-a53d-60043e8b5de7",
+    "personId": "wang-chang-ling",
+    "title": "听流人水调子",
+    "genre": "诗",
+    "text": [
+      "孤舟微月对枫林，分付鸣筝与客心。",
+      "岭色千重万重雨，断弦收与泪痕深。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a52785c6-d98a-45ed-a53d-60043e8b5de7",
+      "recordKey": "/861"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e2fec465-cea1-4829-b12d-3ba37a267562",
+    "personId": "wang-chang-ling",
+    "title": "同从弟销南斋玩月忆山阴崔少府",
+    "genre": "诗",
+    "text": [
+      "高卧南斋时，开帷月初吐。",
+      "清辉淡水木，演漾在窗户。",
+      "苒苒几盈虚，澄澄变今古。",
+      "美人清江畔，是夜越吟苦。",
+      "千里其如何，微风吹兰杜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e2fec465-cea1-4829-b12d-3ba37a267562",
+      "recordKey": "/740"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-aebc05f0-516c-4909-83c3-f9e51a2a1a6c",
+    "personId": "wang-chang-ling",
+    "title": "同王维集青龙寺昙壁上人兄院五韵",
+    "genre": "诗",
+    "text": [
+      "本来清净所，竹树引幽阴。",
+      "簷外含山翠，人间出世心。",
+      "圆通无有象，圣境不能侵。",
+      "真是吾兄法，何妨友弟深。",
+      "天香自然会，灵异识钟音。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "aebc05f0-516c-4909-83c3-f9e51a2a1a6c",
+      "recordKey": "/809"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-855dcf8e-3e27-4525-8560-7d6d8d0e87f8",
+    "personId": "wang-chang-ling",
+    "title": "途中作",
+    "genre": "诗",
+    "text": [
+      "游人愁岁晏，早起遵王畿。",
+      "坠叶吹未晓，疎林月微微。",
+      "惊禽栖不定，寒兽相因依。",
+      "叹此霜露下，复闻鸿雁飞。",
+      "渺然江南意，惜与中途违。",
+      "羇旅悲壮发，别离念征衣。",
+      "永图岂劳止，明节期所归。",
+      "宁厌楚山曲，无人长掩扉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "855dcf8e-3e27-4525-8560-7d6d8d0e87f8",
+      "recordKey": "/778"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6f7e5cd4-f302-4cc4-b79d-2abb0b6e3088",
+    "personId": "wang-chang-ling",
+    "title": "万岁楼",
+    "genre": "诗",
+    "text": [
+      "江上巍巍万岁楼，不知经历几千秋。",
+      "年年喜见山长在，日日悲看水独流。",
+      "猿狖何曾离暮岭，鸬鹚空自泛寒洲。",
+      "谁堪登望云烟里，向晚茫茫发旅愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6f7e5cd4-f302-4cc4-b79d-2abb0b6e3088",
+      "recordKey": "/806"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c4f49265-6689-4a47-a119-6f8bba4272ba",
+    "personId": "wang-chang-ling",
+    "title": "为张僓赠阎使臣",
+    "genre": "诗",
+    "text": [
+      "哀哀献玉人，楚国同悲辛。",
+      "泣尽继以血，何由辨其真。",
+      "赖承琢磨惠，复使光辉新。",
+      "犹畏谗口疾，弃之如埃尘。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c4f49265-6689-4a47-a119-6f8bba4272ba",
+      "recordKey": "/734"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a2c9541f-6f63-4982-9b55-a1db3d69074c",
+    "personId": "wang-chang-ling",
+    "title": "乌栖曲",
+    "genre": "诗",
+    "text": [
+      "白马逐朱车，黄昏入狭邪。",
+      "柳树乌争宿，争枝未得飞上屋。",
+      "东房少妇壻从军，每听乌啼知夜分。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a2c9541f-6f63-4982-9b55-a1db3d69074c",
+      "recordKey": "/787"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-31370c6a-1ac6-4416-884d-32eddb837892",
+    "personId": "wang-chang-ling",
+    "title": "武陵开元观黄炼师院三首 二",
+    "genre": "诗",
+    "text": [
+      "先贤盛说桃花源，尘忝何堪武陵郡。",
+      "闻道秦时避地人，至今不与人通问。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "31370c6a-1ac6-4416-884d-32eddb837892",
+      "recordKey": "/895"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-74430fb7-b24d-4751-9904-4fa4a574788a",
+    "personId": "wang-chang-ling",
+    "title": "武陵开元观黄炼师院三首 三",
+    "genre": "诗",
+    "text": [
+      "山观空虚清静门，从官役吏扰尘喧。",
+      "暂因问俗到真境，便欲投诚依道源。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "74430fb7-b24d-4751-9904-4fa4a574788a",
+      "recordKey": "/896"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-4b0c70cb-8ae5-4ffe-867e-3835b1352408",
+    "personId": "wang-chang-ling",
+    "title": "武陵开元观黄炼师院三首 一",
+    "genre": "诗",
+    "text": [
+      "松间白发黄尊师，童子烧香禹步时。",
+      "欲访桃源入溪路，忽闻鸡犬使人疑。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "4b0c70cb-8ae5-4ffe-867e-3835b1352408",
+      "recordKey": "/894"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ddb632ea-fedf-4c02-8eec-770487b01d18",
+    "personId": "wang-chang-ling",
+    "title": "武陵龙兴观黄道士房问易因题",
+    "genre": "诗",
+    "text": [
+      "斋心问易太阳宫，八卦真形一气中。",
+      "仙老言余鹤飞去，玉清坛上雨蒙蒙。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "ddb632ea-fedf-4c02-8eec-770487b01d18",
+      "recordKey": "/863"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7382129c-d8e3-407e-9a23-d9d22738aada",
+    "personId": "wang-chang-ling",
+    "title": "武陵田太守席送司马卢溪",
+    "genre": "诗",
+    "text": [
+      "诸侯分楚郡，饮饯五溪春。",
+      "山水清晖远，俱怜一逐臣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7382129c-d8e3-407e-9a23-d9d22738aada",
+      "recordKey": "/822"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3b5f5a9f-754b-4dda-8b18-bac4598eb0fe",
+    "personId": "wang-chang-ling",
+    "title": "西宫春怨",
+    "genre": "诗",
+    "text": [
+      "西宫夜静百花香，欲卷珠帘春恨长。",
+      "斜抱云和深见月，朦胧树色隐昭阳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "3b5f5a9f-754b-4dda-8b18-bac4598eb0fe",
+      "recordKey": "/839"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-786a91cb-4e20-4cdb-951e-70abfcf1af85",
+    "personId": "wang-chang-ling",
+    "title": "西宫秋怨",
+    "genre": "诗",
+    "text": [
+      "芙蓉不及美人妆，水殿风来珠翠香。",
+      "谁分含啼掩秋扇，空悬明月待君王。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "786a91cb-4e20-4cdb-951e-70abfcf1af85",
+      "recordKey": "/840"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d60591c0-2c20-48b3-aa03-8f40188cb455",
+    "personId": "wang-chang-ling",
+    "title": "西江寄越弟",
+    "genre": "诗",
+    "text": [
+      "南浦逢君岭外还，沅溪更远洞庭山。",
+      "尧时恩泽如春雨，梦里相逢同入关。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d60591c0-2c20-48b3-aa03-8f40188cb455",
+      "recordKey": "/857"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-607042a4-3dbc-46f3-8491-91baf1566991",
+    "personId": "wang-chang-ling",
+    "title": "夏月花萼楼酺宴应制",
+    "genre": "诗",
+    "text": [
+      "土德三元正，尧心万国同。",
+      "汾阴备冬礼，长乐应和风。",
+      "赐庆垂天泽，流欢旧渚宫。",
+      "楼台生海上，箫鼓出天中。",
+      "雾晓筵初接，宵长曲未终。",
+      "雨随青幕合，月照舞罗空。",
+      "玉陛分朝列，文章发圣聪。",
+      "愚臣忝书赋，歌咏颂丝桐。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "607042a4-3dbc-46f3-8491-91baf1566991",
+      "recordKey": "/807"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-eac61312-dec6-4712-a34a-9a71969af9d5",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 采莲曲三首 二",
+    "genre": "诗",
+    "text": [
+      "荷叶罗裙一色裁，芙蓉向脸两边开。",
+      "乱入池中看不见，闻歌始觉有人来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "eac61312-dec6-4712-a34a-9a71969af9d5",
+      "recordKey": "/447"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-efce77ad-b87b-4f3f-a33f-5732adb9440e",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 采莲曲三首 三",
+    "genre": "诗",
+    "text": [
+      "越女作桂舟，还将桂为檝。",
+      "湖上水渺漫，清江初可涉。",
+      "摘取芙蓉花，莫摘芙蓉叶。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "efce77ad-b87b-4f3f-a33f-5732adb9440e",
+      "recordKey": "/448"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-fc566dcd-4892-4c67-87ad-6f65ff3b4e04",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 采莲曲三首 一",
+    "genre": "诗",
+    "text": [
+      "吴姬越艳楚王妃，争弄莲舟水湿衣。",
+      "来时浦口花迎入，采罢江头月送归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "fc566dcd-4892-4c67-87ad-6f65ff3b4e04",
+      "recordKey": "/446"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6382d668-2787-4a30-b0f2-c58a3b3b9f25",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 从军行",
+    "genre": "诗",
+    "text": [
+      "向夕临大荒，朔风轸归虑。",
+      "平沙万里余，飞鸟宿何处？",
+      "虏骑猎长原，翩翩傍河去。",
+      "边声摇白草，海气生黄雾。",
+      "百战苦风尘，十年履霜露。",
+      "虽投定远笔，未坐将军树。",
+      "早知行路难，悔不理章句。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "6382d668-2787-4a30-b0f2-c58a3b3b9f25",
+      "recordKey": "/179"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-10936c86-53b1-4d8b-ac56-861934572d14",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 从军行 二",
+    "genre": "诗",
+    "text": [
+      "烽火城西百尺楼，黄昏独上海风秋。",
+      "更吹横笛关山月，谁解金闺万里愁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "10936c86-53b1-4d8b-ac56-861934572d14",
+      "recordKey": "/180"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f5a35d99-b904-4c04-a5a7-e57bc6b50f2c",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 从军行 三",
+    "genre": "诗",
+    "text": [
+      "琵琶起舞换新声，总是关山旧别情。",
+      "撩乱边愁弹不尽，高高秋月下长城。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "f5a35d99-b904-4c04-a5a7-e57bc6b50f2c",
+      "recordKey": "/181"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0edc1f37-50aa-48ac-9fb3-1def51c4319c",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 从军行 四",
+    "genre": "诗",
+    "text": [
+      "青海长云暗雪山，孤城遥望雁门关。",
+      "黄沙百战穿金甲，不破楼兰终不还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "0edc1f37-50aa-48ac-9fb3-1def51c4319c",
+      "recordKey": "/182"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-308d0334-e166-4f5c-b33d-230b799e99bf",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 放歌行",
+    "genre": "诗",
+    "text": [
+      "南渡洛阳津，西望十二楼。",
+      "明堂坐天子，月朔朝诸侯。",
+      "清乐动千门，皇风被九州。",
+      "庆云从东来，泱漭抱日流。",
+      "升平贵论道，文墨将何求。",
+      "有诏征草泽，微臣献谋猷。",
+      "冠冕如星罗，拜揖曹与周。",
+      "望尘非吾事，入赋且迟留。",
+      "幸蒙国士识，因脱负薪裘。",
+      "今者放歌行，以慰梁父愁。",
+      "但营数斗禄，奉养毋丰羞。",
+      "若得金膏遂，飞云亦可俦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "308d0334-e166-4f5c-b33d-230b799e99bf",
+      "recordKey": "/252"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-ade97a3d-abfa-483d-914b-8969d5046dc2",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 长歌行",
+    "genre": "诗",
+    "text": [
+      "旷野饶悲风，飕飕黄蒿草。",
+      "系马停白杨，谁知我怀抱。",
+      "所是同袍者，相逢尽衰老。",
+      "况登汉家陵，南望长安道。",
+      "下有枯树根，上有鼷鼠窠。",
+      "高皇子孙尽，千古无人过。",
+      "宝玉频发掘，精灵其奈何？",
+      "人生须达命，有酒且长歌。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "ade97a3d-abfa-483d-914b-8969d5046dc2",
+      "recordKey": "/114"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-1b6f2389-2d09-4d51-982a-e7efb35113c5",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 长信怨 二",
+    "genre": "诗",
+    "text": [
+      "奉帚平明金殿开，暂将团扇共裴回。",
+      "玉颜不及寒鵶色，犹带昭阳日影来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "1b6f2389-2d09-4d51-982a-e7efb35113c5",
+      "recordKey": "/342"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-f0847590-fbf2-410e-b666-699161c54582",
+    "personId": "wang-chang-ling",
+    "title": "相和歌辞 长信怨 一",
+    "genre": "诗",
+    "text": [
+      "金井梧桐秋叶黄，珠帘不卷夜来霜。",
+      "金炉玉枕无颜色，卧听南宫清漏长。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "f0847590-fbf2-410e-b666-699161c54582",
+      "recordKey": "/341"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-90d156d0-52f7-4ad1-b2ee-cc00e8c71d0c",
+    "personId": "wang-chang-ling",
+    "title": "香积寺礼拜万廻平等二圣僧塔",
+    "genre": "诗",
+    "text": [
+      "真无御化来，借有乘化归。",
+      "如彼双塔内，孰能知是非。",
+      "愚也骇苍生，圣哉为帝师。",
+      "当为时世出，不由天地资。",
+      "万廻主此方，平等性无违。",
+      "今我一礼心，亿劫同不移。",
+      "肃肃松柏下，诸天来有时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "90d156d0-52f7-4ad1-b2ee-cc00e8c71d0c",
+      "recordKey": "/762"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-cb12783c-1c1b-44c4-82ce-7cf9e3096a9e",
+    "personId": "wang-chang-ling",
+    "title": "萧驸马宅花烛",
+    "genre": "诗",
+    "text": [
+      "青鸾飞入合欢宫，紫凤衔花出禁中。",
+      "可怜今夜千门里，银汉星回一道通。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "cb12783c-1c1b-44c4-82ce-7cf9e3096a9e",
+      "recordKey": "/852"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-5f9ae5aa-5395-44d6-ae8a-17ea0d9b686f",
+    "personId": "wang-chang-ling",
+    "title": "小敷谷龙潭祠作",
+    "genre": "诗",
+    "text": [
+      "崖谷歕疾流，地中有雷集。",
+      "百泉势相荡，巨石皆却立。",
+      "跳波沸峥嵘，深处不可挹。",
+      "昏为蛟龙怒，清见云雨入。",
+      "灵怪祟偏祠，废兴自兹邑。",
+      "沈淫顷多昧，檐宇遂不葺。",
+      "吾闻被明典，盛德惟世及。",
+      "生人载山川，血食报原隰。",
+      "岂伊骇微险，将以循甿揖。",
+      "口飞振吕梁，忠信亦我习。",
+      "波流浸已广，悔吝在所汲。",
+      "溪水有清源，褰裳靡沾湿。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "5f9ae5aa-5395-44d6-ae8a-17ea0d9b686f",
+      "recordKey": "/780"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6a64d7ec-1335-4ce5-b62c-32df33b30023",
+    "personId": "wang-chang-ling",
+    "title": "行路难",
+    "genre": "诗",
+    "text": [
+      "双丝作绠系银瓶，百尺寒泉辘轳上。",
+      "悬丝一绝不可望，似妾倾心在君掌。",
+      "人生意气好迁捐，只重狂花不重贤。",
+      "宴罢调筝奏离鹤，廻娇转盼泣君前。",
+      "君不见眼前事，岂保须臾心勿异。",
+      "西山日下雨足稀，侧有浮云无所寄。",
+      "但愿莫忘前者言，剉骨黄尘亦无愧。",
+      "行路难，劝君酒，莫辞烦，美酒千钟犹可尽，心中片愧何可论。",
+      "一闻汉主思故剑，使妾长嗟万古魂。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6a64d7ec-1335-4ce5-b62c-32df33b30023",
+      "recordKey": "/789"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7a64addc-bcd1-4e2a-91ff-4f060a803ecb",
+    "personId": "wang-chang-ling",
+    "title": "宴春源",
+    "genre": "诗",
+    "text": [
+      "源向春城花几重，江明深翠引诸峰。",
+      "与君醉失松溪路，山馆寥寥传暝钟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7a64addc-bcd1-4e2a-91ff-4f060a803ecb",
+      "recordKey": "/859"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a278c8c6-278f-4915-a5be-445f4510fcfc",
+    "personId": "wang-chang-ling",
+    "title": "宴南亭",
+    "genre": "诗",
+    "text": [
+      "寒江暎村林，亭上纳鲜洁。",
+      "楚客共闲饮，静坐金管阕。",
+      "酣竟日入山，暝来云归穴。",
+      "城楼空杳霭，猿鸟备清切。",
+      "物状如丝纶，上心为予决。",
+      "访君东溪事，早晚樵路绝。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a278c8c6-278f-4915-a5be-445f4510fcfc",
+      "recordKey": "/765"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-10f0af8f-fc6d-4567-a0c4-99ae6c552a60",
+    "personId": "wang-chang-ling",
+    "title": "谒焦炼师",
+    "genre": "诗",
+    "text": [
+      "中峰青苔壁，一点云生时。",
+      "岂意石堂里，得逢焦炼师。",
+      "炉香净琴案，松影闲瑶墀。",
+      "拜受长年药，翩翻西海期。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "10f0af8f-fc6d-4567-a0c4-99ae6c552a60",
+      "recordKey": "/802"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-23ac0351-1020-42fc-bdc8-bfef10d6884d",
+    "personId": "wang-chang-ling",
+    "title": "咏史",
+    "genre": "诗",
+    "text": [
+      "荷畚至洛阳，杖策游北门。",
+      "天下尽兵甲，豺狼满中原。",
+      "明夷方遘患，顾我徒崩犇。",
+      "自慙菲薄才，误蒙国士恩。",
+      "位重任亦重，时危志弥敦。",
+      "西北未及终，东南不可吞。",
+      "进则耻保躬，退乃为触藩。",
+      "叹息嵩山老，而后知其尊。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "23ac0351-1020-42fc-bdc8-bfef10d6884d",
+      "recordKey": "/757"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-3d1fdcbe-228a-47e4-bda9-594778992438",
+    "personId": "wang-chang-ling",
+    "title": "又赠李侍御",
+    "genre": "诗",
+    "text": [
+      "渺然客子魂，倏铄川上晖。",
+      "还云惨知暮，九月仍未归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "3d1fdcbe-228a-47e4-bda9-594778992438",
+      "recordKey": "/936"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-494d0e6c-6ba8-4675-8346-f2d3c2dc31e1",
+    "personId": "wang-chang-ling",
+    "title": "遇薛明府谒聪上人",
+    "genre": "诗",
+    "text": [
+      "欣逢柏梁故，共谒聪公禅。",
+      "石室无人到，绳床见虎眠。",
+      "阴崖常抱雪，枯涧为生泉。",
+      "出处虽云异，同欢在法筵。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "494d0e6c-6ba8-4675-8346-f2d3c2dc31e1",
+      "recordKey": "/801"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6b160db2-46d2-46ad-8770-f69b92f0f5d9",
+    "personId": "wang-chang-ling",
+    "title": "岳阳别李十七越宾",
+    "genre": "诗",
+    "text": [
+      "相逢楚水寒，舟在洞庭驿。",
+      "具陈江波事，不异沦弃迹。",
+      "杉上秋雨声，悲切蒹葭夕。",
+      "弹琴收余响，来送千里客。",
+      "平明孤帆心，岁晚济代策。",
+      "时在身未充，潇湘不盈画。",
+      "湖小洲渚联，澹淡烟景碧。",
+      "鱼鳖自有性，龟龙无能易。",
+      "谴黜同所安，风土任所适。",
+      "闭门观玄化，携手遗损益。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6b160db2-46d2-46ad-8770-f69b92f0f5d9",
+      "recordKey": "/751"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-53f1aab9-1c67-48a4-a0ed-cc777a10c389",
+    "personId": "wang-chang-ling",
+    "title": "越女",
+    "genre": "诗",
+    "text": [
+      "越女作桂舟，还将桂为楫。",
+      "湖上水渺漫，清江不可涉。",
+      "摘取芙蓉花，莫摘芙蓉叶。",
+      "将归问夫壻，颜色何如妾。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "53f1aab9-1c67-48a4-a0ed-cc777a10c389",
+      "recordKey": "/730"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-0cf5203f-6507-4e43-a049-c98d17a2948e",
+    "personId": "wang-chang-ling",
+    "title": "云山清晓",
+    "genre": "诗",
+    "text": [
+      "苍深翠浅瀑峥潺，岂谓讥秦始爱山。",
+      "一炬咸阳机冢赤，紫霄巍立晓云间。",
+      "（见《古今图书集成·山川典》卷一七三。",
+      "此首当出后人依托。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "0cf5203f-6507-4e43-a049-c98d17a2948e",
+      "recordKey": "/839"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-447e1bf3-306c-4dc3-86db-6a279f2a8257",
+    "personId": "wang-chang-ling",
+    "title": "杂曲歌辞 变行路难",
+    "genre": "诗",
+    "text": [
+      "向晚横吹悲，风动马嘶合。",
+      "前驱引旗节，千重阵云帀。",
+      "单于下阴山，砂砾空飒飒。",
+      "封侯取一战，岂复念闺合。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "447e1bf3-306c-4dc3-86db-6a279f2a8257",
+      "recordKey": "/807"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-21943b5d-11e5-44f2-9714-ad996dade3ae",
+    "personId": "wang-chang-ling",
+    "title": "杂曲歌辞 少年行二首 二",
+    "genre": "诗",
+    "text": [
+      "走马还相寻，西楼下夕阴。",
+      "结交期一劒，留意赠千金。",
+      "高阁歌声远，重关柳色深。",
+      "夜闲须尽醉，莫负百年心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "21943b5d-11e5-44f2-9714-ad996dade3ae",
+      "recordKey": "/680"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-77659827-473d-4602-9888-f305d9c70273",
+    "personId": "wang-chang-ling",
+    "title": "杂曲歌辞 少年行二首 一",
+    "genre": "诗",
+    "text": [
+      "西陵侠年少，送客过长亭。",
+      "青槐夹两路，白马如流星。",
+      "闻道羽书急，单于寇井陉。",
+      "气高轻赴难，谁顾燕山铭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "77659827-473d-4602-9888-f305d9c70273",
+      "recordKey": "/679"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-1239be59-986f-4e78-bf47-05890b138c78",
+    "personId": "wang-chang-ling",
+    "title": "杂兴",
+    "genre": "诗",
+    "text": [
+      "握中铜匕首，粉剉楚山铁。",
+      "义士频报雠，杀人不曾缺。",
+      "可悲燕丹事，终被狼虎灭。",
+      "一举无两全，荆轲遂为血。",
+      "诚知匹夫勇，何取万人杰。",
+      "无道吞诸侯，坐见九州裂。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "1239be59-986f-4e78-bf47-05890b138c78",
+      "recordKey": "/758"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-912b3271-6087-4685-8c7d-a4aaa7edb5be",
+    "personId": "wang-chang-ling",
+    "title": "赠李侍御",
+    "genre": "诗",
+    "text": [
+      "青冥孤云去，终当暮归山。",
+      "志士杖苦节，何时见龙颜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.49000.json",
+      "recordId": "912b3271-6087-4685-8c7d-a4aaa7edb5be",
+      "recordKey": "/935"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-cb6d873b-73c8-4668-bdb9-7b6b3e989b51",
+    "personId": "wang-chang-ling",
+    "title": "赠史昭",
+    "genre": "诗",
+    "text": [
+      "东林月未升，廓落星与汉。",
+      "是夕鸿始来，斋中起长叹。",
+      "怀哉望南浦，眇然夜将半。",
+      "但有秋水声，愁使心神乱。",
+      "握中何为赠，瑶草已衰散。",
+      "海鳞未化时，各在天一岸。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "cb6d873b-73c8-4668-bdb9-7b6b3e989b51",
+      "recordKey": "/735"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-69419d0e-57f6-415c-a9dc-3af999ba4af1",
+    "personId": "wang-chang-ling",
+    "title": "赠宇文中丞",
+    "genre": "诗",
+    "text": [
+      "仆本濩落人，辱当州郡使。",
+      "量力颇及早，谢归今即已。",
+      "萧萧若凌虚，衿带顷消靡。",
+      "车服卒然来，涔阳作游子。",
+      "郁郁寡开颜，默默独行李。",
+      "忽逢平生友，一笑方在此。",
+      "秋清宁风日，楚思浩云水。",
+      "为语弋林者，冥冥鸿远矣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "69419d0e-57f6-415c-a9dc-3af999ba4af1",
+      "recordKey": "/785"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-c6a5ec30-5c21-45b2-948d-19a9fd188b08",
+    "personId": "wang-chang-ling",
+    "title": "斋心",
+    "genre": "诗",
+    "text": [
+      "女萝覆石壁，溪水幽蒙胧。",
+      "紫葛蔓黄花，娟娟寒露中。",
+      "朝饮花上露，夜卧松下风。",
+      "云英化为水，光采与我同。",
+      "日月荡精魄，寥寥天宇空。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "c6a5ec30-5c21-45b2-948d-19a9fd188b08",
+      "recordKey": "/760"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-b48f64cf-d565-4964-a258-f44b07512fd8",
+    "personId": "wang-chang-ling",
+    "title": "长歌行",
+    "genre": "诗",
+    "text": [
+      "旷野饶悲风，飕飕黄蒿草。",
+      "系马倚白杨，谁知我怀抱。",
+      "所是同袍者，相逢尽衰老。",
+      "北登汉家陵，南望长安道。",
+      "下有枯树根，上有鼯鼠窠。",
+      "高皇子孙尽，千载无人过。",
+      "宝玉频发掘，精灵其奈何？",
+      "人生须达命，有酒且长歌。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "b48f64cf-d565-4964-a258-f44b07512fd8",
+      "recordKey": "/726"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-620823bf-6fe5-4db1-aef1-ea1e91b97397",
+    "personId": "wang-chang-ling",
+    "title": "长信秋词五首 二",
+    "genre": "诗",
+    "text": [
+      "高殿秋砧响夜阑，霜深犹忆御衣寒。",
+      "银灯青琐裁缝歇，还向金城明主看。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "620823bf-6fe5-4db1-aef1-ea1e91b97397",
+      "recordKey": "/842"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-88ffb109-8e3f-4175-9352-8e02c28a4d9f",
+    "personId": "wang-chang-ling",
+    "title": "长信秋词五首 三",
+    "genre": "诗",
+    "text": [
+      "奉帚平明金殿开，且将团扇暂裴回。",
+      "玉颜不及寒鸦色，犹带[昭]阳日影来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "88ffb109-8e3f-4175-9352-8e02c28a4d9f",
+      "recordKey": "/843"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-e2c2c33b-fd1d-4aa2-9558-2b55137adec4",
+    "personId": "wang-chang-ling",
+    "title": "长信秋词五首 四",
+    "genre": "诗",
+    "text": [
+      "真成薄命久寻思，梦见君王觉后疑。",
+      "火照西宫知夜饮，分明复道奉恩时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "e2c2c33b-fd1d-4aa2-9558-2b55137adec4",
+      "recordKey": "/844"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-058b2020-c2cd-44fb-9657-358a5468ac2d",
+    "personId": "wang-chang-ling",
+    "title": "长信秋词五首 五",
+    "genre": "诗",
+    "text": [
+      "长信宫中秋月明，昭阳殿下捣衣声。",
+      "白露堂中细草迹，红罗帐里不胜情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "058b2020-c2cd-44fb-9657-358a5468ac2d",
+      "recordKey": "/845"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-913bf762-71a5-46bf-88d9-af85385191c6",
+    "personId": "wang-chang-ling",
+    "title": "长信秋词五首 一",
+    "genre": "诗",
+    "text": [
+      "金井梧桐秋叶黄，珠帘不卷夜来霜。",
+      "熏笼玉枕无颜色，卧听南宫清漏长。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "913bf762-71a5-46bf-88d9-af85385191c6",
+      "recordKey": "/841"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-a529e61e-b9c4-4457-b11f-e1a8adb0dc3e",
+    "personId": "wang-chang-ling",
+    "title": "赵十四兄见访",
+    "genre": "诗",
+    "text": [
+      "客来舒长簟，开合延清风。",
+      "但有无弦琴，共君尽尊中。",
+      "晚来常读易，顷者欲还嵩。",
+      "世事何须道，黄精且养蒙。",
+      "嵇康殊寡识，张翰独知终。",
+      "忽忆鲈鱼鲙，扁舟往江东。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "a529e61e-b9c4-4457-b11f-e1a8adb0dc3e",
+      "recordKey": "/774"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-d41ca296-73e6-4e8f-8a05-36809d471157",
+    "personId": "wang-chang-ling",
+    "title": "郑县宿陶太公馆中赠冯六元二",
+    "genre": "诗",
+    "text": [
+      "儒有轻王侯，脱略当事务。",
+      "本家蓝田下，非为渔弋故。",
+      "无何困躬耕，且欲驰永路。",
+      "幽居与君近，出谷同所骛。",
+      "昨日辞石门，五年变秋露。",
+      "云龙未相感，干谒亦已屡。",
+      "子为黄绶羁，余忝蓬山顾。",
+      "京门望西岳，百里见郊树。",
+      "飞雨祠上来，霭然关中暮。",
+      "驱车郑城宿，秉烛论往素。",
+      "山月出华阴，开此河渚雾。",
+      "清光比故人，豁达展心晤。",
+      "冯公尚戢翼，元子仍跼步。",
+      "拂衣易为高，沦迹难有趣。",
+      "张范善终始，吾等岂不慕。",
+      "罢酒当凉风，屈伸备冥数。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "d41ca296-73e6-4e8f-8a05-36809d471157",
+      "recordKey": "/731"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-26f3af10-4553-416c-9d86-c110264a16dc",
+    "personId": "wang-chang-ling",
+    "title": "至南陵答皇甫岳",
+    "genre": "诗",
+    "text": [
+      "与君同病复漂沦，昨夜宣城别故人。",
+      "明主恩深非岁久，长江还共五溪滨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "26f3af10-4553-416c-9d86-c110264a16dc",
+      "recordKey": "/856"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-7f24db79-b073-4320-99ef-04d7c8098ec3",
+    "personId": "wang-chang-ling",
+    "title": "重别李评事",
+    "genre": "诗",
+    "text": [
+      "莫道秋江离别难，舟船明日是长安。",
+      "吴姬缓舞留君醉，随意青枫白露寒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "7f24db79-b073-4320-99ef-04d7c8098ec3",
+      "recordKey": "/870"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-wang-chang-ling-6c707d94-cd1d-4d2c-9e43-f01c4c833bf5",
+    "personId": "wang-chang-ling",
+    "title": "诸官游招隐寺",
+    "genre": "诗",
+    "text": [
+      "山馆人已空，青萝换风雨。",
+      "自从永明世，月向龙宫吐。",
+      "凿井长幽泉，白云今如古。",
+      "应真坐松柏，锡杖挂窗户。",
+      "口云七十余，能救诸有苦。",
+      "回指岩树花，如闻道场鼓。",
+      "金色身壤灭，真如性无主。",
+      "僚友同一心，清光遣谁取。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.6000.json",
+      "recordId": "6c707d94-cd1d-4d2c-9e43-f01c4c833bf5",
+      "recordKey": "/764"
+    },
+    "libraryStatus": "corpus"
+  }
+]

@@ -1,0 +1,5407 @@
+[
+  {
+    "id": "corpus-meng-hao-ran-b1d6086c-9973-45f3-891a-56eefc3801da",
+    "personId": "meng-hao-ran",
+    "title": "白云先生王迥见访",
+    "genre": "诗",
+    "text": [
+      "闲归日无事，云卧昼不起。",
+      "有客款柴扉，自云巢居子。",
+      "居闲好芝术，采药来城市。",
+      "家在鹿门山，常游涧泽水。",
+      "手持白羽扇，脚步青芒履。",
+      "闻道鹤书征，临流还洗耳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b1d6086c-9973-45f3-891a-56eefc3801da",
+      "recordKey": "/711"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a7aad8ae-2aec-488d-810a-788fba40d1f1",
+    "personId": "meng-hao-ran",
+    "title": "北涧泛舟",
+    "genre": "诗",
+    "text": [
+      "北涧流恒满，浮舟触处通。",
+      "沿洄自有趣，何必五湖中。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a7aad8ae-2aec-488d-810a-788fba40d1f1",
+      "recordKey": "/916"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1ab8706d-2305-4651-ae36-6d47a6bd1c78",
+    "personId": "meng-hao-ran",
+    "title": "采樵作",
+    "genre": "诗",
+    "text": [
+      "采樵入深山，山深树重叠。",
+      "桥崩卧槎拥，路险垂藤接。",
+      "日落伴将稀，山风拂萝衣。",
+      "长歌负轻策，平野望烟归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1ab8706d-2305-4651-ae36-6d47a6bd1c78",
+      "recordKey": "/713"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f1a361f1-4112-403d-a52d-e3331caa52b0",
+    "personId": "meng-hao-ran",
+    "title": "齿坐呈山南诸隐",
+    "genre": "诗",
+    "text": [
+      "习公有遗坐，高在白云陲。",
+      "樵子不见识，山僧赏自知。",
+      "以余为好事，携手一来窥。",
+      "竹露闲夜滴，松风清昼吹。",
+      "从来抱微尚，况复感前规。",
+      "于此无奇策，苍生奚以为。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f1a361f1-4112-403d-a52d-e3331caa52b0",
+      "recordKey": "/900"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1eccf8c0-9664-4a4c-ba4c-71942bd3d5c9",
+    "personId": "meng-hao-ran",
+    "title": "初出关旅亭夜坐怀王大校书",
+    "genre": "诗",
+    "text": [
+      "向夕槐烟起，葱茏池馆曛。",
+      "客中无偶坐，关外惜离群。",
+      "烛至萤光灭，荷枯雨滴闻。",
+      "永怀芸阁友，寂寞滞[扬]云。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1eccf8c0-9664-4a4c-ba4c-71942bd3d5c9",
+      "recordKey": "/757"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-22be6369-771a-4154-b989-5328ae459209",
+    "personId": "meng-hao-ran",
+    "title": "初春汉中漾舟",
+    "genre": "诗",
+    "text": [
+      "羊公岘山下，神女汉臯曲。",
+      "雪罢冰复开，春潭千丈绿。",
+      "轻舟恣来往，探玩无厌足。",
+      "波影摇妓钗，沙光逐人目。",
+      "倾杯鱼鸟醉，联句鸎花续。",
+      "良会难再逢，日入须秉烛。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "22be6369-771a-4154-b989-5328ae459209",
+      "recordKey": "/697"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b18a462a-cc8a-4e4e-924d-7c4752ca1c73",
+    "personId": "meng-hao-ran",
+    "title": "初年乐城馆中卧疾怀归作",
+    "genre": "诗",
+    "text": [
+      "异县天隅僻，孤帆海畔过。",
+      "往来乡信断，留滞客情多。",
+      "腊月闻雷震，东风感岁和。",
+      "蛰虫惊户穴，巢鹊眄庭柯。",
+      "徒对芳尊酒，其如伏枕何。",
+      "归屿理舟楫，江海正无波。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b18a462a-cc8a-4e4e-924d-7c4752ca1c73",
+      "recordKey": "/907"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-2b598d5c-f1c6-40d0-9780-9dee106fa04c",
+    "personId": "meng-hao-ran",
+    "title": "初秋",
+    "genre": "诗",
+    "text": [
+      "不觉初秋夜渐长，清风习习重凄凉。",
+      "炎炎暑退茅斋静，堦下丛莎有露光。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "2b598d5c-f1c6-40d0-9780-9dee106fa04c",
+      "recordKey": "/932"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6632feca-d12b-48d4-b90f-5274c1fecaff",
+    "personId": "meng-hao-ran",
+    "title": "初下浙江舟中口号",
+    "genre": "诗",
+    "text": [
+      "八月观潮罢，三江越海浔。",
+      "回瞻魏阙路，空复子牟心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6632feca-d12b-48d4-b90f-5274c1fecaff",
+      "recordKey": "/923"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e7fd7ff3-b5a1-4cf5-ac6d-c05d53b1ecfa",
+    "personId": "meng-hao-ran",
+    "title": "除夜乐城逢张少府",
+    "genre": "诗",
+    "text": [
+      "云海泛瓯闽，风潮泊岛滨。",
+      "何知岁除夜，得见故乡亲。",
+      "余是乘槎客，君为失路人。",
+      "平生复能几，一别十余春。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e7fd7ff3-b5a1-4cf5-ac6d-c05d53b1ecfa",
+      "recordKey": "/855"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3de48798-4e30-4693-97ca-3fef9671220b",
+    "personId": "meng-hao-ran",
+    "title": "除夜有怀",
+    "genre": "诗",
+    "text": [
+      "五更钟漏欲相催，四气推迁往复回。",
+      "帐里残灯才去熖，炉中香气尽成灰。",
+      "渐看春逼芙蓉枕，顿觉寒销竹叶杯。",
+      "守岁家家应未卧，相思那得梦魂来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3de48798-4e30-4693-97ca-3fef9671220b",
+      "recordKey": "/867"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-528e4d50-713f-4ce4-a051-d895834c7177",
+    "personId": "meng-hao-ran",
+    "title": "春情",
+    "genre": "诗",
+    "text": [
+      "青楼晓日珠帘映，红粉春妆宝镜催。",
+      "已厌交欢怜枕席，相将游戏绕池台。",
+      "坐时衣带萦纤草，行即裙裾扫落梅。",
+      "更道明朝不当作，相期共鬬管弦来。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "528e4d50-713f-4ce4-a051-d895834c7177",
+      "recordKey": "/868"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-cb168b3b-d104-4df7-9868-1e1225ddb941",
+    "personId": "meng-hao-ran",
+    "title": "春晓",
+    "genre": "诗",
+    "text": [
+      "春眠不觉晓，处处闻啼鸟。",
+      "夜来风雨声，花落知多少。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "cb168b3b-d104-4df7-9868-1e1225ddb941",
+      "recordKey": "/917"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0d066c36-ecd4-43ec-8a87-ec5e1afef33f",
+    "personId": "meng-hao-ran",
+    "title": "春意",
+    "genre": "诗",
+    "text": [
+      "佳人能画眉，妆罢出帘帷。",
+      "照水空自爱，折花将遗谁。",
+      "春情多艳逸，春意倍相思。",
+      "愁心极杨柳，一种乱如丝。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0d066c36-ecd4-43ec-8a87-ec5e1afef33f",
+      "recordKey": "/859"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c1cb5334-51e5-4c2b-b791-2bc74d5d693e",
+    "personId": "meng-hao-ran",
+    "title": "春中喜王九相寻",
+    "genre": "诗",
+    "text": [
+      "二月湖水清，家家春鸟鸣。",
+      "林花扫更落，径草踏还生。",
+      "酒伴来相命，开尊共解酲。",
+      "当杯已入手，歌妓莫停声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c1cb5334-51e5-4c2b-b791-2bc74d5d693e",
+      "recordKey": "/832"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-74a7c9f6-9d7f-4558-9d78-c525c98d2737",
+    "personId": "meng-hao-ran",
+    "title": "从张丞相游南纪城猎戏赠裴迪张参军",
+    "genre": "诗",
+    "text": [
+      "从禽非吾乐，不好云梦田。",
+      "岁暮登城望，偏令相思悬。",
+      "公卿有几几，车骑何翩翩。",
+      "世禄金张贵，官曹幕府贤。",
+      "顺时行杀气，飞刃争割鲜。",
+      "十里届宾馆，征声匝妓筵。",
+      "高标回落日，平楚散芳烟。",
+      "何意狂歌客，从公亦在旃。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "74a7c9f6-9d7f-4558-9d78-c525c98d2737",
+      "recordKey": "/667"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b5c19f4e-70c1-4168-b3a4-44008ed7b91c",
+    "personId": "meng-hao-ran",
+    "title": "崔明府宅夜观妓",
+    "genre": "诗",
+    "text": [
+      "白日既云暮，朱颜亦已酡。",
+      "画堂初点烛，金幌半垂罗。",
+      "长袖平阳曲，新声子夜歌。",
+      "从来惯留客，兹夕为谁多。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b5c19f4e-70c1-4168-b3a4-44008ed7b91c",
+      "recordKey": "/788"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0d320825-392a-4e4a-b045-dbe21c7f48cb",
+    "personId": "meng-hao-ran",
+    "title": "大堤行寄万七",
+    "genre": "诗",
+    "text": [
+      "大堤行乐处，车马相驰突。",
+      "岁岁春草生，踏青二三月。",
+      "王孙挟珠弹，游女矜罗袜。",
+      "携手今莫同，江花为谁发。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0d320825-392a-4e4a-b045-dbe21c7f48cb",
+      "recordKey": "/673"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-72e7d327-0142-4e91-a9c1-ea6988cf1a1a",
+    "personId": "meng-hao-ran",
+    "title": "登安阳城楼",
+    "genre": "诗",
+    "text": [
+      "县城南面汉江流，江涨开成南雍州。",
+      "才子乘春来骋望，群公暇日坐销忧。",
+      "楼台晚映青山郭，罗绮晴骄绿水洲。",
+      "向夕波摇明月动，更疑神女弄珠游。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "72e7d327-0142-4e91-a9c1-ea6988cf1a1a",
+      "recordKey": "/865"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-bb5d1b3e-cadf-4c86-8b44-10dba65534cc",
+    "personId": "meng-hao-ran",
+    "title": "登江中孤屿赠白云先生王迥",
+    "genre": "诗",
+    "text": [
+      "悠悠清水江，水落沙屿出。",
+      "回潭石下深，绿筿岸傍密。",
+      "鲛人潜不见，渔父歌自逸。",
+      "忆与君别时，泛舟如昨日。",
+      "夕阳开返照，中坐兴非一。",
+      "南望鹿门山，归来恨如失。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "bb5d1b3e-cadf-4c86-8b44-10dba65534cc",
+      "recordKey": "/668"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-910cc3ee-4160-436f-8d1d-92b6aee411f0",
+    "personId": "meng-hao-ran",
+    "title": "登龙兴寺阁",
+    "genre": "诗",
+    "text": [
+      "阁道乘空出，披轩远目开。",
+      "逶迤见江势，客至屡缘回。",
+      "兹郡何填委，遥山复几哉。",
+      "苍苍皆草木，处处尽楼台。",
+      "骤雨一阳散，行舟四海来。",
+      "鸟归余兴远，周览更裴回。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "910cc3ee-4160-436f-8d1d-92b6aee411f0",
+      "recordKey": "/889"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0236836c-e75b-4b63-bf8d-46439dc02df9",
+    "personId": "meng-hao-ran",
+    "title": "登鹿门山",
+    "genre": "诗",
+    "text": [
+      "清晓因兴来，乘流越江岘。",
+      "沙禽近方识，浦树遥莫辨。",
+      "渐至鹿门山，山明翠微浅。",
+      "岩潭多屈曲，舟檝屡回转。",
+      "昔闻庞德公，采药遂不返。",
+      "金涧饵芝术，石床卧苔藓。",
+      "纷吾感耆旧，结揽事攀践。",
+      "隐迹今尚存，高风邈已远。",
+      "白云何时去，丹桂空偃蹇。",
+      "探讨意未穷，回艇夕阳晚。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0236836c-e75b-4b63-bf8d-46439dc02df9",
+      "recordKey": "/701"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-aaad319a-e2a1-4eb0-b943-fcf22f936735",
+    "personId": "meng-hao-ran",
+    "title": "登万岁楼",
+    "genre": "诗",
+    "text": [
+      "万岁楼头望故乡，独令乡思更茫茫。",
+      "天寒雁度堪垂泪，日落猿啼欲断肠。",
+      "曲引古堤临冻浦，斜分远岸近枯杨。",
+      "今朝偶见同袍友，却喜家书寄八行。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "aaad319a-e2a1-4eb0-b943-fcf22f936735",
+      "recordKey": "/866"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-220cabf0-4db3-4bf4-9897-fdbf0a25b579",
+    "personId": "meng-hao-ran",
+    "title": "登望楚山最高顶",
+    "genre": "诗",
+    "text": [
+      "山水观形胜，襄阳美会稽。",
+      "最高唯望楚，曾未一攀跻。",
+      "石壁疑削成，众山比全低。",
+      "晴明试登陟，目极无端倪。",
+      "云梦掌中小，武陵花处迷。",
+      "暝还归骑下，萝月映深溪。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "220cabf0-4db3-4bf4-9897-fdbf0a25b579",
+      "recordKey": "/703"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-dc934d30-29bf-4462-ba32-38021191e2fd",
+    "personId": "meng-hao-ran",
+    "title": "登岘山亭寄晋陵张少府",
+    "genre": "诗",
+    "text": [
+      "岘首风湍急，云帆若鸟飞。",
+      "凭轩试一问，张翰欲来归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "dc934d30-29bf-4462-ba32-38021191e2fd",
+      "recordKey": "/910"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-be11008d-45cc-4d1d-b2ab-b95fc88d9706",
+    "personId": "meng-hao-ran",
+    "title": "登总持寺浮图",
+    "genre": "诗",
+    "text": [
+      "半空跻宝塔，晴望尽京华。",
+      "竹绕渭川遍，山连上苑斜。",
+      "四门开帝宅，阡陌俯人家。",
+      "累劫从初地，为童忆聚沙。",
+      "一窥功德见，弥益道心加。",
+      "坐觉诸天近，空香送落花。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "be11008d-45cc-4d1d-b2ab-b95fc88d9706",
+      "recordKey": "/890"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fcf8c5c3-1478-4ad7-a85d-55e1351a766d",
+    "personId": "meng-hao-ran",
+    "title": "东京留别诸公",
+    "genre": "诗",
+    "text": [
+      "吾道昧所适，驱车还向东。",
+      "主人开旧馆，留客醉新丰。",
+      "树绕温泉绿，尘遮晚日红。",
+      "拂衣从此去，高步蹑华嵩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fcf8c5c3-1478-4ad7-a85d-55e1351a766d",
+      "recordKey": "/779"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-bd3c576b-1fa2-4505-bc95-7556193d67f6",
+    "personId": "meng-hao-ran",
+    "title": "东陂遇雨率尔贻谢南池",
+    "genre": "诗",
+    "text": [
+      "田家春事起，丁壮就东陂。",
+      "殷殷雷声作，森森雨足垂。",
+      "海虹晴始见，河柳润初移。",
+      "予意在耕凿，因君问土宜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "bd3c576b-1fa2-4505-bc95-7556193d67f6",
+      "recordKey": "/750"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6f5c711f-ebf4-4e7c-add1-3702325489c3",
+    "personId": "meng-hao-ran",
+    "title": "冬至后过吴张二子檀溪别业",
+    "genre": "诗",
+    "text": [
+      "卜筑因自然，檀溪不更穿。",
+      "园庐二友接，水竹数家连。",
+      "直与南山对，非关选地偏。",
+      "草堂时偃曝，兰枻日周旋。",
+      "外事情都远，中流性所便。",
+      "闲垂太公钓，兴发子猷船。",
+      "余亦幽栖者，经过窃慕焉。",
+      "梅花残腊月，柳色半春天。",
+      "鸟泊随阳雁，鱼藏缩项鳊。",
+      "停杯问山简，何似习池边。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6f5c711f-ebf4-4e7c-add1-3702325489c3",
+      "recordKey": "/897"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0ebb556e-539d-481d-9308-b64453ce702b",
+    "personId": "meng-hao-ran",
+    "title": "洞庭湖寄阎九",
+    "genre": "诗",
+    "text": [
+      "洞庭秋正阔，余欲泛归船。",
+      "莫辨荆吴地，唯余水共天。",
+      "渺弥江树没，合沓海潮连。",
+      "迟尔为舟楫，相将济巨川。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0ebb556e-539d-481d-9308-b64453ce702b",
+      "recordKey": "/741"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e9aeb4ff-dc74-49cb-9777-5ddc98253cb0",
+    "personId": "meng-hao-ran",
+    "title": "都下送辛大之鄂",
+    "genre": "诗",
+    "text": [
+      "南国辛居士，言归旧竹林。",
+      "未逢调鼎用，徒有济川心。",
+      "予亦忘机者，田园在汉阴。",
+      "因君故乡去，遥寄式微吟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e9aeb4ff-dc74-49cb-9777-5ddc98253cb0",
+      "recordKey": "/781"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8255598c-9ddd-44f0-b2a1-4e7fcb662dc8",
+    "personId": "meng-hao-ran",
+    "title": "渡扬子江",
+    "genre": "诗",
+    "text": [
+      "桂檝中流望，京江两畔明。",
+      "林开扬子驿，山出润州城。",
+      "海尽边阴静，江寒朔吹生。",
+      "更闻枫叶下，淅沥度秋声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8255598c-9ddd-44f0-b2a1-4e7fcb662dc8",
+      "recordKey": "/852"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3f0628cb-dfea-492b-b3a0-e81b609699b1",
+    "personId": "meng-hao-ran",
+    "title": "渡浙江问舟中人",
+    "genre": "诗",
+    "text": [
+      "潮落江平未有风，扁舟共济与君同。",
+      "时时引领望天末，何处青山是越中。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3f0628cb-dfea-492b-b3a0-e81b609699b1",
+      "recordKey": "/931"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a240044b-c1d2-49b9-b181-d29db41637da",
+    "personId": "meng-hao-ran",
+    "title": "奉先张明府休沐还乡海亭宴集",
+    "genre": "诗",
+    "text": [
+      "自君理畿甸，予亦经江淮。",
+      "万里书信断，数年云雨乖。",
+      "归来休澣日，始得赏心谐。",
+      "朱绂恩虽重，沧州趣每怀。",
+      "树低新舞阁，山对旧书斋。",
+      "何以发秋兴，阴虫鸣夜堦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a240044b-c1d2-49b9-b181-d29db41637da",
+      "recordKey": "/885"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-50697800-8688-40ca-ac1a-43de223f5d12",
+    "personId": "meng-hao-ran",
+    "title": "赴京途中遇雪",
+    "genre": "诗",
+    "text": [
+      "迢递秦京道，苍茫藏暮天。",
+      "穷阴连晦朔，积雪满山川。",
+      "落雁迷沙渚，饥乌集野田。",
+      "客愁空伫立，不见有人烟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "50697800-8688-40ca-ac1a-43de223f5d12",
+      "recordKey": "/848"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b2912dc0-60fd-407f-b203-9e4e9a5a4e24",
+    "personId": "meng-hao-ran",
+    "title": "赋得盈盈楼上女",
+    "genre": "诗",
+    "text": [
+      "夫壻久离别，青楼空望归。",
+      "妆成卷帘坐，愁思嬾缝衣。",
+      "燕子家家入，杨花处处飞。",
+      "空床难独守，谁为报金徽。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b2912dc0-60fd-407f-b203-9e4e9a5a4e24",
+      "recordKey": "/858"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9b495a1e-d43e-476f-8e9c-3864d042c649",
+    "personId": "meng-hao-ran",
+    "title": "高阳池送朱二",
+    "genre": "诗",
+    "text": [
+      "当昔襄阳雄盛时，山公常醉习家池。",
+      "池边钓女日相随，妆成照影竞来窥。",
+      "澄波澹澹芙蓉发，绿岸毵毵杨柳垂。",
+      "一朝物变人亦非，四面荒凉人径稀。",
+      "意气豪华何处在，空余草露湿罗衣。",
+      "此地朝来饯行者，翻向此中牧征马。",
+      "征马分飞日渐斜，见此空为人所嗟。",
+      "殷勤为访桃源路，予亦归来松子家。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9b495a1e-d43e-476f-8e9c-3864d042c649",
+      "recordKey": "/725"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3b9a4931-3927-4b33-a72c-f35979a91ec3",
+    "personId": "meng-hao-ran",
+    "title": "广陵别薛八",
+    "genre": "诗",
+    "text": [
+      "士有不得志，栖栖吴楚间。",
+      "广陵相遇罢，彭蠡泛舟还。",
+      "樯出江中树，波连海上山。",
+      "风帆明日远，何处更追攀。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3b9a4931-3927-4b33-a72c-f35979a91ec3",
+      "recordKey": "/786"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-033df532-e37c-4314-9ca4-15c93b60161a",
+    "personId": "meng-hao-ran",
+    "title": "归旧隐",
+    "genre": "诗",
+    "text": [
+      "北阙辞天子，南山隐薜萝。",
+      "（见《吟窗杂录》卷十四正字王玄《诗中旨格》引）（按：此二句疑为浩然《归故园作》「北阙休上书，南山归弊庐」之异文。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "033df532-e37c-4314-9ca4-15c93b60161a",
+      "recordKey": "/743"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9c9a812b-17cd-4d10-8a03-a07611947a9d",
+    "personId": "meng-hao-ran",
+    "title": "归至郢中",
+    "genre": "诗",
+    "text": [
+      "远游经海峤，返櫂归山阿。",
+      "日夕见乔木，乡关在伐柯。",
+      "愁随江路尽，喜入郢门多。",
+      "左右看桑土，依然即匪他。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9c9a812b-17cd-4d10-8a03-a07611947a9d",
+      "recordKey": "/842"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-adb33438-0559-4ddf-9083-0ac7f2cf1df7",
+    "personId": "meng-hao-ran",
+    "title": "闺情",
+    "genre": "诗",
+    "text": [
+      "一别隔炎凉，君衣忘短长。",
+      "裁缝无处等，以意忖情量。",
+      "畏瘦疑伤窄，防寒更厚装。",
+      "半啼封裹了，知欲寄谁将。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "adb33438-0559-4ddf-9083-0ac7f2cf1df7",
+      "recordKey": "/860"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9309205e-1d08-4a7b-99ef-4a05a9ee4370",
+    "personId": "meng-hao-ran",
+    "title": "过故人庄",
+    "genre": "诗",
+    "text": [
+      "故人具鸡黍，邀我至田家。",
+      "绿树村边合，青山郭外斜。",
+      "开筵面场圃，把酒话桑麻。",
+      "待到重阳日，还来就菊花。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9309205e-1d08-4a7b-99ef-4a05a9ee4370",
+      "recordKey": "/834"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-23410e2c-9358-4604-96bc-13506f2b2ca9",
+    "personId": "meng-hao-ran",
+    "title": "过景空寺故融公兰若",
+    "genre": "诗",
+    "text": [
+      "池上青莲宇，林间白马泉。",
+      "故人成异物，过客独潸然。",
+      "既礼新松塔，还寻旧石筵。",
+      "平生竹如意，犹挂草堂前。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "23410e2c-9358-4604-96bc-13506f2b2ca9",
+      "recordKey": "/827"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6bcc1566-337f-4c07-8de1-ffa9beb74b63",
+    "personId": "meng-hao-ran",
+    "title": "过融上人兰若",
+    "genre": "诗",
+    "text": [
+      "山头禅室挂僧衣，窗外无人水鸟飞。",
+      "黄昏半在下山路，却听泉声恋翠微。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6bcc1566-337f-4c07-8de1-ffa9beb74b63",
+      "recordKey": "/933"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-06c066e0-890f-4eda-9447-f87cc29bff0c",
+    "personId": "meng-hao-ran",
+    "title": "还山贻湛法师",
+    "genre": "诗",
+    "text": [
+      "幼闻无生理，常欲观此身。",
+      "心迹罕兼遂，[崎岖]多在尘。",
+      "晚途归旧壑，偶与支公邻。",
+      "导以微妙法，结为清净因。",
+      "烦恼业顿舍，山林情转殷。",
+      "朝来问疑义，夕话得清真。",
+      "墨妙称古绝，词华惊世人。",
+      "禅房闭虚静，花药连冬春。",
+      "平石籍琴砚，落泉洒衣巾。",
+      "欲知冥灭意，朝夕海鸥驯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "06c066e0-890f-4eda-9447-f87cc29bff0c",
+      "recordKey": "/678"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-7ab54826-ac0e-4cab-8aef-e9ea4839b7ea",
+    "personId": "meng-hao-ran",
+    "title": "寒夜",
+    "genre": "诗",
+    "text": [
+      "闺夕绮窗闭，佳人罢缝衣。",
+      "理琴开宝匣，就枕卧重帏。",
+      "夜久灯花落，薰笼香气微。",
+      "锦衾重自煖，遮莫晓霜飞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "7ab54826-ac0e-4cab-8aef-e9ea4839b7ea",
+      "recordKey": "/857"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-95f0a885-bbdc-4a4c-acc7-cb9d8f42eda4",
+    "personId": "meng-hao-ran",
+    "title": "寒夜张明府宅宴",
+    "genre": "诗",
+    "text": [
+      "瑞雪初盈尺，寒宵始半更。",
+      "列筵邀酒伴，刻烛限诗成。",
+      "香炭金炉煖，娇弦玉指清。",
+      "醉来方欲卧，不觉晓鸡鸣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "95f0a885-bbdc-4a4c-acc7-cb9d8f42eda4",
+      "recordKey": "/794"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b73bc857-289d-4b8a-b1f4-f49b51eaae23",
+    "personId": "meng-hao-ran",
+    "title": "韩大使东斋会岳上人诸学士",
+    "genre": "诗",
+    "text": [
+      "郡守虚陈榻，林间召楚材。",
+      "山川祈雨毕，云物喜晴开。",
+      "抗礼尊缝掖，临流揖渡杯。",
+      "徒攀朱仲李，谁荐和羹梅。",
+      "翰墨缘情制，高深以意裁。",
+      "沧洲趣不远，何必问蓬莱。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b73bc857-289d-4b8a-b1f4-f49b51eaae23",
+      "recordKey": "/898"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f97d0ffb-0341-4d90-bfb8-cff3c4b5ddfd",
+    "personId": "meng-hao-ran",
+    "title": "和贾主簿弁九日登岘山",
+    "genre": "诗",
+    "text": [
+      "楚万重阳日，群公赏䜩来。",
+      "共乘休沐暇，同醉菊花杯。",
+      "逸思高秋发，欢情落景催。",
+      "国人咸寡和，遥媿洛阳才。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f97d0ffb-0341-4d90-bfb8-cff3c4b5ddfd",
+      "recordKey": "/734"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0710b58a-d326-462e-893e-767cb053d0d4",
+    "personId": "meng-hao-ran",
+    "title": "和卢明府送郑十三还京兼寄之什",
+    "genre": "诗",
+    "text": [
+      "昔时风景登临地，今日衣冠送别筵。",
+      "醉坐自倾彭泽酒，思归长望白云天。",
+      "洞庭一叶惊秋早，濩落空嗟滞江岛。",
+      "寄语朝廷当世人，何时重见长安道。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0710b58a-d326-462e-893e-767cb053d0d4",
+      "recordKey": "/724"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-dd71b080-94ae-41bd-a8ce-a7b43fc85a60",
+    "personId": "meng-hao-ran",
+    "title": "和宋太史北楼新亭",
+    "genre": "诗",
+    "text": [
+      "返耕意未遂，日夕登城隅。",
+      "谁道山林近，坐为符竹拘。",
+      "丽谯非改作，轩槛是新图。",
+      "远水自嶓冢，长云吞具区。",
+      "愿随江燕贺，羞逐府僚趋。",
+      "欲识狂歌者，丘园一竖儒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "dd71b080-94ae-41bd-a8ce-a7b43fc85a60",
+      "recordKey": "/875"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-51192c53-8821-4948-929a-2ddb51766821",
+    "personId": "meng-hao-ran",
+    "title": "和张丞相春朝对雪",
+    "genre": "诗",
+    "text": [
+      "迎气当春至，承恩喜雪来。",
+      "润从河汉下，花逼艳阳开。",
+      "不覩丰年瑞，焉知燮理才。",
+      "撒盐如可拟，愿糁和羹梅。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "51192c53-8821-4948-929a-2ddb51766821",
+      "recordKey": "/731"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9ddbbcdc-df32-4238-9382-52f059514ff2",
+    "personId": "meng-hao-ran",
+    "title": "和张二自穰县还途中遇雪",
+    "genre": "诗",
+    "text": [
+      "风吹沙海雪，渐作柳园春。",
+      "宛转随香骑，轻盈伴玉人。",
+      "歌疑郢中客，态比洛川神。",
+      "今日南归楚，双飞似入秦。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9ddbbcdc-df32-4238-9382-52f059514ff2",
+      "recordKey": "/733"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-409f2e08-6ed5-45f7-8979-e19bb732f1b1",
+    "personId": "meng-hao-ran",
+    "title": "和张明府登鹿门作",
+    "genre": "诗",
+    "text": [
+      "忽示登高作，能宽旅寓情。",
+      "弦歌既多暇，山水思微清。",
+      "草得风光动，虹因雨气成。",
+      "谬承巴里和，非敢应同声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "409f2e08-6ed5-45f7-8979-e19bb732f1b1",
+      "recordKey": "/732"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9e6f7794-d0f7-47a1-bd3e-6062c16a0f8f",
+    "personId": "meng-hao-ran",
+    "title": "和张判官登万山亭因赠洪府都督韩公",
+    "genre": "诗",
+    "text": [
+      "韩公是襄士，日赏城西岑。",
+      "结搆意不浅，岩潭趣转深。",
+      "皇华一动咏，荆国几谣吟。",
+      "旧径兰勿剪，新堤柳欲阴。",
+      "砌傍余怪石，沙上有闲禽。",
+      "自牧豫章郡，空瞻枫树林。",
+      "因声寄流水，善听在知音。",
+      "耆旧眇不接，崔徐无处寻。",
+      "物情多贵远，贤俊岂无今。",
+      "迟尔长江暮，澄清一洗心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9e6f7794-d0f7-47a1-bd3e-6062c16a0f8f",
+      "recordKey": "/874"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-88603c8f-ebce-4856-989e-d2b8e174f8a3",
+    "personId": "meng-hao-ran",
+    "title": "湖中旅泊寄阎九司户防",
+    "genre": "诗",
+    "text": [
+      "桂水通百越，扁舟期晓发。",
+      "荆云蔽三巴，夕望不见家。",
+      "襄王梦行雨，才子谪长沙。",
+      "长沙饶瘴疠，胡为苦留滞。",
+      "久别思款颜，承欢怀接袂。",
+      "接袂杳无由，徒增旅泊愁。",
+      "清猿不可听，沿月下湘流。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "88603c8f-ebce-4856-989e-d2b8e174f8a3",
+      "recordKey": "/672"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-aade0f4a-6f9b-4239-85ca-725b32795b6d",
+    "personId": "meng-hao-ran",
+    "title": "疾愈过龙泉寺精舍呈易业二公",
+    "genre": "诗",
+    "text": [
+      "停午闻山钟，起行散愁疾。",
+      "寻林采芝去，转谷松翠密。",
+      "傍见精舍开，长廊饭僧毕。",
+      "石渠流雪水，金子耀霜橘。",
+      "竹房思旧游，过憩终永日。",
+      "入洞窥石髓，傍崖采蜂蜜。",
+      "日暮辞远公，虎溪相送出。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "aade0f4a-6f9b-4239-85ca-725b32795b6d",
+      "recordKey": "/704"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ef0c3a46-8e2f-467e-a93d-8b28da121a51",
+    "personId": "meng-hao-ran",
+    "title": "寄天台道士",
+    "genre": "诗",
+    "text": [
+      "海上求仙客，三山望几时。",
+      "焚香宿华顶，裛露采灵芝。",
+      "屡蹑莓苔滑，将寻汗漫期。",
+      "倘因松子去，长与世人辞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ef0c3a46-8e2f-467e-a93d-8b28da121a51",
+      "recordKey": "/752"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-38a65364-18ab-4d5b-916e-92ed2aacc757",
+    "personId": "meng-hao-ran",
+    "title": "寄赵正字",
+    "genre": "诗",
+    "text": [
+      "正字芸香阁，幽人竹素园。",
+      "经过宛如昨，归卧寂无喧。",
+      "高鸟能择木，羚羊漫触藩。",
+      "物情今已见，从此愿忘言。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "38a65364-18ab-4d5b-916e-92ed2aacc757",
+      "recordKey": "/740"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8271afe1-8fa7-4656-a5fd-2a4c9dd15df1",
+    "personId": "meng-hao-ran",
+    "title": "家园卧疾毕太祝曜见寻",
+    "genre": "诗",
+    "text": [
+      "伏枕旧游旷，笙簧劳梦思。",
+      "平生重交结，迨此令人疑。",
+      "冰室无煖气，炎云空赫曦。",
+      "隙驹不暂驻，日听凉蝉悲。",
+      "壮图哀未立，斑白恨吾衰。",
+      "夫子自南楚，缅怀嵩汝期。",
+      "顾予衡茅下，兼致禀物资。",
+      "脱分趋庭礼，殷勤伐木诗。",
+      "脱君车前鞅，设我园中葵。",
+      "斗酒须寒兴，明朝难重持。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8271afe1-8fa7-4656-a5fd-2a4c9dd15df1",
+      "recordKey": "/710"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-52ace890-c01e-4336-bb15-3678b9ee5937",
+    "personId": "meng-hao-ran",
+    "title": "涧南即事贻皎上人",
+    "genre": "诗",
+    "text": [
+      "弊庐在郭外，素产惟田园。",
+      "左右林野旷，不闻朝市喧。",
+      "钓竿垂北涧，樵唱入南轩。",
+      "书取幽栖事，将寻静者论。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "52ace890-c01e-4336-bb15-3678b9ee5937",
+      "recordKey": "/754"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6801f70a-aaf2-46ae-beab-bd2e567fc047",
+    "personId": "meng-hao-ran",
+    "title": "江上别流人",
+    "genre": "诗",
+    "text": [
+      "以我越乡客，逢君谪居者。",
+      "分飞黄鹤楼，流落苍梧野。",
+      "驿使乘云去，征帆沿溜下。",
+      "不知从此分，还袂何时把。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6801f70a-aaf2-46ae-beab-bd2e567fc047",
+      "recordKey": "/688"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-cfae0d5d-d438-4aba-aa2d-436880c795cd",
+    "personId": "meng-hao-ran",
+    "title": "江上寄山阴崔少府国辅",
+    "genre": "诗",
+    "text": [
+      "春堤杨柳发，忆与故人期。",
+      "草木本无意，荣枯自有时。",
+      "山阴定远近，江上日相思。",
+      "不及兰亭会，空吟祓禊诗。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "cfae0d5d-d438-4aba-aa2d-436880c795cd",
+      "recordKey": "/746"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5b6d7b6f-7371-4aad-842a-abf3d4537946",
+    "personId": "meng-hao-ran",
+    "title": "将适天台留别临安李主簿",
+    "genre": "诗",
+    "text": [
+      "枳棘君尚栖，匏瓜吾岂系。",
+      "念离当夏首，漂泊指炎裔。",
+      "江海非堕游，田园失归计。",
+      "定山既早发，渔浦亦宵济。",
+      "泛泛随波澜，行行任舻枻。",
+      "故林日已远，群木坐成翳。",
+      "羽人在丹丘，吾亦从此逝。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5b6d7b6f-7371-4aad-842a-abf3d4537946",
+      "recordKey": "/681"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c87cf33e-e4cd-4a14-b2e8-23f825a963ec",
+    "personId": "meng-hao-ran",
+    "title": "京还赠张维",
+    "genre": "诗",
+    "text": [
+      "拂衣何处去，高枕南山南。",
+      "欲徇五斗禄，其如七不堪。",
+      "早朝非晚起，束带异抽簪。",
+      "因向智者说，游鱼思旧潭。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c87cf33e-e4cd-4a14-b2e8-23f825a963ec",
+      "recordKey": "/737"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-445c47d9-3246-4217-9655-bab39a914e01",
+    "personId": "meng-hao-ran",
+    "title": "经七里滩",
+    "genre": "诗",
+    "text": [
+      "予奉垂堂诫，千金非所轻。",
+      "为多山水乐，频作泛舟行。",
+      "五岳追向子，三湘吊屈平。",
+      "湖经洞庭阔，江入新安清。",
+      "复闻严陵濑，乃在兹湍路。",
+      "叠障数百里，沿洄非一趣。",
+      "彩翠相氛氲，别流乱奔注。",
+      "钓矶平可坐，苔磴滑难步。",
+      "猨饮石下潭，鸟还日边树。",
+      "观奇恨来晚，倚櫂惜将暮。",
+      "挥手弄潺湲，从兹洗尘虑。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "445c47d9-3246-4217-9655-bab39a914e01",
+      "recordKey": "/716"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0e57206e-6b37-458e-b7e8-50f1185d50e9",
+    "personId": "meng-hao-ran",
+    "title": "荆门上张丞相",
+    "genre": "诗",
+    "text": [
+      "共理分荆国，招贤媿不材。",
+      "召南风更阐，丞相阁还开。",
+      "觏止欣眉睫，沉沦拔草莱。",
+      "坐登徐孺榻，频接李膺杯。",
+      "始慰蝉鸣柳，俄看雪间梅。",
+      "四时年籥尽，千里客程催。",
+      "日下瞻归翼，沙边厌曝鳃。",
+      "伫闻宣室召，星象列三台。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0e57206e-6b37-458e-b7e8-50f1185d50e9",
+      "recordKey": "/870"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d54601a1-c350-4df6-9183-11f1c5203318",
+    "personId": "meng-hao-ran",
+    "title": "九日得新字",
+    "genre": "诗",
+    "text": [
+      "初九未成旬，重阳即此晨。",
+      "登高闻古事，载酒访幽人。",
+      "落帽恣欢饮，授衣同试新。",
+      "茱萸正可佩，折取寄情亲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d54601a1-c350-4df6-9183-11f1c5203318",
+      "recordKey": "/854"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-811368c7-06fb-4de0-b8a4-2af293cf0d4c",
+    "personId": "meng-hao-ran",
+    "title": "九日怀襄阳",
+    "genre": "诗",
+    "text": [
+      "去国似如昨，倏然经杪秋。",
+      "岘山不可见，风景令人愁。",
+      "谁采篱下菊，应闲池上楼。",
+      "宜城多美酒，归与葛彊游。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "811368c7-06fb-4de0-b8a4-2af293cf0d4c",
+      "recordKey": "/756"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5290d79a-2997-4b2b-94de-7193b71ba36b",
+    "personId": "meng-hao-ran",
+    "title": "九日龙沙作寄刘大眘虚",
+    "genre": "诗",
+    "text": [
+      "龙沙豫章北，九日挂帆过。",
+      "风俗因时见，湖山发兴多。",
+      "客中谁送酒，櫂里自成歌。",
+      "歌竟乘流去，滔滔任夕波。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5290d79a-2997-4b2b-94de-7193b71ba36b",
+      "recordKey": "/739"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6cfd24fe-7fb6-41b5-bb90-7c0eda48d6a2",
+    "personId": "meng-hao-ran",
+    "title": "久滞越中贻谢南池会稽贺少府",
+    "genre": "诗",
+    "text": [
+      "陈平无产业，尼父倦东西。",
+      "负郭昔云翳，问津今亦迷。",
+      "未能忘魏阙，空此滞秦稽。",
+      "两见夏云起，再闻春鸟啼。",
+      "怀仙梅福市，访旧若耶溪。",
+      "圣主贤为宝，君何隐遯栖。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6cfd24fe-7fb6-41b5-bb90-7c0eda48d6a2",
+      "recordKey": "/879"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-59d85daa-3622-4c1e-96f5-aeeb6a3053ed",
+    "personId": "meng-hao-ran",
+    "title": "句",
+    "genre": "诗",
+    "text": [
+      "日暮马行疾，城荒人住稀。",
+      "（见宋葛立方《韵语阳秋》卷十四）（《韵语阳秋》云：「余在毗陵，见孙润夫家有王维画孟浩然像，绢素败烂，丹青已渝。",
+      "维题其上云：『维尝见孟公吟曰：「日暮马行疾，城荒人住稀。",
+      "」又吟云：「挂席数千里，名都未逢。",
+      "泊舟香炉峰。",
+      "」余因美其风调，至所舍图于素轴。",
+      "』」）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "59d85daa-3622-4c1e-96f5-aeeb6a3053ed",
+      "recordKey": "/744"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d7da0fb7-2297-4d2d-8b2f-57ec832449ea",
+    "personId": "meng-hao-ran",
+    "title": "句",
+    "genre": "诗",
+    "text": [
+      "微云淡河汉，疎雨滴梧桐。",
+      "逐逐怀良驭，萧萧顾乐鸣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d7da0fb7-2297-4d2d-8b2f-57ec832449ea",
+      "recordKey": "/934"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ed11140f-321d-4be7-9f03-b2f9f4c40e54",
+    "personId": "meng-hao-ran",
+    "title": "腊月八日于剡县石城寺礼拜",
+    "genre": "诗",
+    "text": [
+      "石壁开金像，香山倚铁围。",
+      "下生弥勒见，回向一心归。",
+      "竹柏禅庭古，楼台世界稀。",
+      "夕岚增气色，余照发光辉。",
+      "讲席邀谈柄，泉堂施浴衣。",
+      "愿承功德水，从此濯尘机。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ed11140f-321d-4be7-9f03-b2f9f4c40e54",
+      "recordKey": "/894"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ab7dc33f-eee5-4a87-961f-1e1606cf7549",
+    "personId": "meng-hao-ran",
+    "title": "来阇黎新亭作",
+    "genre": "诗",
+    "text": [
+      "八解禅林秀，三明给苑才。",
+      "地偏香界远，心净水亭开。",
+      "傍险山查立，寻幽石径回。",
+      "瑞花长自下，灵药岂须栽。",
+      "碧网交红树，清泉尽绿苔。",
+      "戏鱼闻法聚，闲鸟诵经来。",
+      "弃象玄应悟，忘言理必该。",
+      "静中何所得，吟咏也徒哉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ab7dc33f-eee5-4a87-961f-1e1606cf7549",
+      "recordKey": "/901"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f11c01e5-4f3d-4790-9460-a09b223c9123",
+    "personId": "meng-hao-ran",
+    "title": "李少府与杨九再来",
+    "genre": "诗",
+    "text": [
+      "弱岁早登龙，今来喜再逢。",
+      "如何春月柳，犹忆岁寒松。",
+      "烟火临寒食，笙歌达曙钟。",
+      "喧喧鬬鸡道，行乐羡朋从。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f11c01e5-4f3d-4790-9460-a09b223c9123",
+      "recordKey": "/829"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-041749fb-f22e-49be-895a-9bd55d5bc691",
+    "personId": "meng-hao-ran",
+    "title": "李氏园林卧疾",
+    "genre": "诗",
+    "text": [
+      "我爱陶家趣，园林无俗情。",
+      "春雷百卉坼，寒食四邻清。",
+      "伏枕嗟公干，归山羡子平。",
+      "年年白社客，空滞洛阳城。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "041749fb-f22e-49be-895a-9bd55d5bc691",
+      "recordKey": "/833"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6e41ffa4-7782-43d7-986a-6feacb837dae",
+    "personId": "meng-hao-ran",
+    "title": "凉州词 二",
+    "genre": "诗",
+    "text": [
+      "异方之乐令人悲，羌笛胡笳不用吹。",
+      "坐看今夜关山月，思杀边城游侠儿。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6e41ffa4-7782-43d7-986a-6feacb837dae",
+      "recordKey": "/928"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5346afe3-87f7-42fe-ac8c-894c2f4bdd20",
+    "personId": "meng-hao-ran",
+    "title": "凉州词 一",
+    "genre": "诗",
+    "text": [
+      "浑成紫檀金屑文，作得琵琶声入云。",
+      "胡地迢迢三万里，那堪马上送明君。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5346afe3-87f7-42fe-ac8c-894c2f4bdd20",
+      "recordKey": "/927"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-33885176-3272-4f6a-89a1-3673b82b52d6",
+    "personId": "meng-hao-ran",
+    "title": "临涣裴明府席遇张十一房六",
+    "genre": "诗",
+    "text": [
+      "河县柳林边，河桥晚泊船。",
+      "文叨才子会，官喜故人连。",
+      "笑语同今夕，轻肥异往年。",
+      "晨风理归櫂，吴楚各依然。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "33885176-3272-4f6a-89a1-3673b82b52d6",
+      "recordKey": "/811"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-7f4cacb5-cde8-40de-9b14-e223879cc2f4",
+    "personId": "meng-hao-ran",
+    "title": "留别王侍御维",
+    "genre": "诗",
+    "text": [
+      "寂寂竟何待，朝朝空自归。",
+      "欲寻芳草去，惜与故人违。",
+      "当路谁相假，知音世所稀。",
+      "秪应守索寞，还掩故园扉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "7f4cacb5-cde8-40de-9b14-e223879cc2f4",
+      "recordKey": "/767"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-132cea71-0a7f-46e4-87b5-3ce49c30cb57",
+    "personId": "meng-hao-ran",
+    "title": "卢明府九日岘山宴袁使君张郎中崔员外",
+    "genre": "诗",
+    "text": [
+      "宇宙谁开辟，江山此郁盘。",
+      "登临今古用，风俗岁时观。",
+      "地理荆州分，天涯楚塞宽。",
+      "百城今刺史，华省旧郎官。",
+      "共美重阳节，俱怀落帽欢。",
+      "酒邀彭泽载，琴辍武城弹。",
+      "献寿先浮菊，寻幽或藉兰。",
+      "烟虹铺藻翰，松竹挂衣冠。",
+      "叔子神如在，山公兴未阑。",
+      "传闻骑马醉，还向习池看。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "132cea71-0a7f-46e4-87b5-3ce49c30cb57",
+      "recordKey": "/888"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b60ea171-1629-4c37-a497-34b66b97c086",
+    "personId": "meng-hao-ran",
+    "title": "卢明府早秋宴张郎中海园即事得秋字",
+    "genre": "诗",
+    "text": [
+      "邑有弦歌宰，翔鸾狎野鸥。",
+      "眷言华省旧，暂拂海池游。",
+      "郁岛藏深竹，前溪对舞楼。",
+      "更闻书即事，云物是清秋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b60ea171-1629-4c37-a497-34b66b97c086",
+      "recordKey": "/790"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3a84fa6e-4dd0-4e4e-a236-a159949b27ca",
+    "personId": "meng-hao-ran",
+    "title": "洛中访袁拾遗不遇",
+    "genre": "诗",
+    "text": [
+      "洛阳访才子，江岭作流人。",
+      "闻说梅花早，何如北地春。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3a84fa6e-4dd0-4e4e-a236-a159949b27ca",
+      "recordKey": "/918"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-849e9bc2-5db4-49ab-a177-61b0ed446705",
+    "personId": "meng-hao-ran",
+    "title": "洛中送奚三还扬州",
+    "genre": "诗",
+    "text": [
+      "水国无边际，舟行共使风。",
+      "羡君从此去，朝夕见乡中。",
+      "予亦离家久，南归恨不同。",
+      "音书若有问，江上会相逢。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "849e9bc2-5db4-49ab-a177-61b0ed446705",
+      "recordKey": "/771"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-82f69bc1-db32-4ecf-8029-3c5a56f1e709",
+    "personId": "meng-hao-ran",
+    "title": "梅道士水亭",
+    "genre": "诗",
+    "text": [
+      "傲吏非凡吏，名流即道流。",
+      "隐居不可见，高论莫能酬。",
+      "水接仙源近，山藏鬼谷幽。",
+      "再来迷处所，花下问渔舟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "82f69bc1-db32-4ecf-8029-3c5a56f1e709",
+      "recordKey": "/812"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fa42ef19-becc-4ee2-ba26-3b25e938db06",
+    "personId": "meng-hao-ran",
+    "title": "美人分香",
+    "genre": "诗",
+    "text": [
+      "艳色本倾城，分香更有情。",
+      "髻鬟垂欲解，眉黛拂能轻。",
+      "舞学平阳态，歌翻子夜声。",
+      "春风狭斜道，含笑待逢迎。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fa42ef19-becc-4ee2-ba26-3b25e938db06",
+      "recordKey": "/861"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-52d916be-1cd2-490f-84ee-3d507a1c7dac",
+    "personId": "meng-hao-ran",
+    "title": "南归阻雪",
+    "genre": "诗",
+    "text": [
+      "我行滞宛许，日夕望京豫。",
+      "旷野莽茫茫，乡山在何处。",
+      "孤烟村际起，归雁天边去。",
+      "积雪复平臯，饥鹰捉寒兔。",
+      "少年弄文墨，属意在章句。",
+      "十上耻还家，裴回守归路。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "52d916be-1cd2-490f-84ee-3d507a1c7dac",
+      "recordKey": "/718"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3f88c34b-1018-4218-a9a6-5a92e79ac637",
+    "personId": "meng-hao-ran",
+    "title": "南还舟中寄袁太祝",
+    "genre": "诗",
+    "text": [
+      "沿溯非便习，风波厌苦辛。",
+      "忽闻迁谷鸟，来报五陵春。",
+      "岭北回征帆，巴东问故人。",
+      "桃源何处是，游子正迷津。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3f88c34b-1018-4218-a9a6-5a92e79ac637",
+      "recordKey": "/749"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9fd845d2-6948-480f-879e-019e40d2e32d",
+    "personId": "meng-hao-ran",
+    "title": "南山下与老圃期种瓜",
+    "genre": "诗",
+    "text": [
+      "樵牧南山近，林闾北郭赊。",
+      "先人留素业，老圃作邻家。",
+      "不种千株橘，惟资五色瓜。",
+      "邵平能就我，开径剪蓬麻。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9fd845d2-6948-480f-879e-019e40d2e32d",
+      "recordKey": "/837"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d065f491-380a-4109-a65e-c648bb9eeb33",
+    "personId": "meng-hao-ran",
+    "title": "陪独孤使君同与萧员外证登万山亭",
+    "genre": "诗",
+    "text": [
+      "万山青嶂曲，千骑使君游。",
+      "神女鸣环佩，仙郎接献酬。",
+      "遍观云梦野，自爱江城楼。",
+      "何必东南守，空传沈隐侯。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d065f491-380a-4109-a65e-c648bb9eeb33",
+      "recordKey": "/809"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4d19e8d9-4fbb-4d8d-9edf-40b941d3b05b",
+    "personId": "meng-hao-ran",
+    "title": "陪李侍御访聪上人禅居",
+    "genre": "诗",
+    "text": [
+      "欣逢柏台友，共谒聪公禅。",
+      "石室无人到，绳床见虎眠。",
+      "阴崖常抱雪，枯涧为生泉。",
+      "出处虽云异，同欢在法筵。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4d19e8d9-4fbb-4d8d-9edf-40b941d3b05b",
+      "recordKey": "/814"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-7e31ccbb-c82d-4c9f-9976-c81f05d1fe93",
+    "personId": "meng-hao-ran",
+    "title": "陪卢明府泛舟回作",
+    "genre": "诗",
+    "text": [
+      "百里行春返，清流逸兴多。",
+      "鹢舟随雁泊，江火共星罗。",
+      "已救田家旱，仍医俗化讹。",
+      "文章推后辈，风雅激颓波。",
+      "高岸迷陵谷，新声满櫂歌。",
+      "犹怜不才子，白首未登科。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "7e31ccbb-c82d-4c9f-9976-c81f05d1fe93",
+      "recordKey": "/893"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-37e43255-8176-414b-858f-fa0cf69bc970",
+    "personId": "meng-hao-ran",
+    "title": "陪姚使君题惠上人房",
+    "genre": "诗",
+    "text": [
+      "带雪梅初煖，含烟柳尚青。",
+      "来窥童子偈，得听法王经。",
+      "会理知无我，观空厌有形。",
+      "迷心应觉悟，客思未遑宁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "37e43255-8176-414b-858f-fa0cf69bc970",
+      "recordKey": "/822"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c5995ee4-f2d9-46e3-8dd4-fec82bafe040",
+    "personId": "meng-hao-ran",
+    "title": "陪张丞相祠紫盖山途经玉泉寺",
+    "genre": "诗",
+    "text": [
+      "望秩宣王命，斋心待漏行。",
+      "青衿列胄子，从事有参卿。",
+      "五马寻归路，双林指化城。",
+      "闻钟度门近，照胆玉泉清。",
+      "皂盖依松憩，缁徒拥锡迎。",
+      "天宫上兜率，沙界豁迷明。",
+      "欲就终焉志，恭闻智者名。",
+      "人随逝水没，波逐覆舟倾。",
+      "想像若在眼，周流空复情。",
+      "谢公还欲卧，谁与济苍生。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c5995ee4-f2d9-46e3-8dd4-fec82bafe040",
+      "recordKey": "/872"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b6e1710a-4d30-437c-9fea-bc32f0f57b59",
+    "personId": "meng-hao-ran",
+    "title": "陪张丞相登荆城楼因寄蓟州张使君及浪泊戍主刘家",
+    "genre": "诗",
+    "text": [
+      "蓟门天北畔，铜柱日南端。",
+      "出守声弥远，投荒法未宽。",
+      "侧身聊倚望，携手莫同欢。",
+      "白璧无瑕玷，青松有岁寒。",
+      "府中丞相阁，江上使君滩。",
+      "兴尽回舟去，方知行路难。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b6e1710a-4d30-437c-9fea-bc32f0f57b59",
+      "recordKey": "/871"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-96fe1282-e447-430f-a22a-72e9caaad9fd",
+    "personId": "meng-hao-ran",
+    "title": "陪张丞相登嵩阳楼",
+    "genre": "诗",
+    "text": [
+      "独步人何在，嵩阳有故楼。",
+      "岁寒问耆旧，行县拥诸候。",
+      "林莽北弥望，沮漳东会流。",
+      "客中遇知己，无复越乡忧。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "96fe1282-e447-430f-a22a-72e9caaad9fd",
+      "recordKey": "/801"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0ea9c522-80c5-4d5c-bcfb-775bae3d8041",
+    "personId": "meng-hao-ran",
+    "title": "陪张丞相自松滋江东泊渚宫",
+    "genre": "诗",
+    "text": [
+      "放溜下松滋，登舟命檝师。",
+      "讵忘经济日，不惮沍寒时。",
+      "洗帻岂独古，濯缨良在兹。",
+      "政成人自理，机息鸟无疑。",
+      "云物凝孤屿，江山辨四维。",
+      "晚来风稍急，冬至日行迟。",
+      "腊响惊云梦，渔歌激楚辞。",
+      "渚宫何处是，川暝欲安之。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0ea9c522-80c5-4d5c-bcfb-775bae3d8041",
+      "recordKey": "/873"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8c855bc1-4c16-4e4f-8154-7fc0626c4ec7",
+    "personId": "meng-hao-ran",
+    "title": "裴司士员司户见寻",
+    "genre": "诗",
+    "text": [
+      "府僚能枉驾，家酝复新开。",
+      "落日池上酌，清风松下来。",
+      "厨人具鸡黍，稚子摘杨梅。",
+      "谁道山公醉，犹能骑马回。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8c855bc1-4c16-4e4f-8154-7fc0626c4ec7",
+      "recordKey": "/831"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-752944d2-bcb8-4036-a780-c86fd953f2ca",
+    "personId": "meng-hao-ran",
+    "title": "彭蠡湖中望庐山",
+    "genre": "诗",
+    "text": [
+      "太虚生月晕，舟子知天风。",
+      "挂席候明发，眇漫平湖中。",
+      "中流见匡阜，势压九江雄。",
+      "黤黕容霁色，峥嵘当晓空。",
+      "香炉初上日，瀑布喷成虹。",
+      "久欲追尚子，况兹怀远公。",
+      "我来限于役，未暇息微躬。",
+      "淮海途将半，星霜岁欲穷。",
+      "寄言岩栖者，毕趣当来同。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "752944d2-bcb8-4036-a780-c86fd953f2ca",
+      "recordKey": "/700"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0613f575-4f07-4326-8591-603fb3d1da45",
+    "personId": "meng-hao-ran",
+    "title": "秦中感秋寄远上人",
+    "genre": "诗",
+    "text": [
+      "一丘常欲卧，三径苦无资。",
+      "北土非吾愿，东林怀我师。",
+      "黄金然桂尽，壮志逐年衰。",
+      "日夕凉风至，闻蝉但益悲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0613f575-4f07-4326-8591-603fb3d1da45",
+      "recordKey": "/742"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d6859788-9f1d-4e91-b870-e2c90921062d",
+    "personId": "meng-hao-ran",
+    "title": "秦中苦雨思归赠袁左丞贺侍郎",
+    "genre": "诗",
+    "text": [
+      "苦学三十载，闭门江汉阴。",
+      "用贤遭圣日，羇旅属秋霖。",
+      "岂直昏垫苦，亦为权势沈。",
+      "二毛催白发，百镒罄黄金。",
+      "泪忆岘山堕，愁怀湘水深。",
+      "谢公积愤懑，庄舃空谣吟。",
+      "跃马非吾事，狎鸥宜我心。",
+      "寄言当路者，去矣北山岑。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d6859788-9f1d-4e91-b870-e2c90921062d",
+      "recordKey": "/877"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-09c4db3a-f443-4b13-8768-3502b5b8e002",
+    "personId": "meng-hao-ran",
+    "title": "清明即事",
+    "genre": "诗",
+    "text": [
+      "帝里重清明，人心自愁思。",
+      "车声上路合，柳色东城翠。",
+      "花落草齐生，鸎飞蝶双戏。",
+      "空堂坐相忆，酌茗聊代醉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "09c4db3a-f443-4b13-8768-3502b5b8e002",
+      "recordKey": "/723"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d2b5090e-e6fe-4d4f-9dd6-fe94ff6d4b5c",
+    "personId": "meng-hao-ran",
+    "title": "清明日宴梅道士房",
+    "genre": "诗",
+    "text": [
+      "林卧愁春尽，开轩览物华。",
+      "忽逢青鸟使，邀入赤松家。",
+      "丹灶初开火，仙桃正落花。",
+      "童颜若可驻，何惜醉流霞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d2b5090e-e6fe-4d4f-9dd6-fe94ff6d4b5c",
+      "recordKey": "/793"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-56ca5b29-4bb9-4f12-9200-6bc7c72e4e47",
+    "personId": "meng-hao-ran",
+    "title": "秋登兰山寄张五",
+    "genre": "诗",
+    "text": [
+      "北山白云里，隐者自怡悦。",
+      "相望试登高，心飞逐鸟灭。",
+      "愁因薄暮起，兴是清秋发。",
+      "时见归村人，沙行渡头歇。",
+      "天边树若荠，江畔舟如月。",
+      "何当载酒来，共醉重阳节。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "56ca5b29-4bb9-4f12-9200-6bc7c72e4e47",
+      "recordKey": "/670"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-650782bc-3e01-44d2-969a-c49c5694e4a3",
+    "personId": "meng-hao-ran",
+    "title": "秋登张明府海亭",
+    "genre": "诗",
+    "text": [
+      "海亭秋日望，委曲见江山。",
+      "染翰聊题壁，倾壶一解颜。",
+      "歌逢彭泽令，归赏故园间。",
+      "予亦将琴史，栖迟共取闲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "650782bc-3e01-44d2-969a-c49c5694e4a3",
+      "recordKey": "/810"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-05844dc3-b427-49c9-931f-73ab8e5b98f3",
+    "personId": "meng-hao-ran",
+    "title": "秋日陪李侍御渡松滋江",
+    "genre": "诗",
+    "text": [
+      "南纪西江阔，皇华御史雄。",
+      "截流宁假楫，挂席自生风。",
+      "僚宷争攀鹢，鱼龙亦避骢。",
+      "坐听白[雪]唱，翻入櫂歌中。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "05844dc3-b427-49c9-931f-73ab8e5b98f3",
+      "recordKey": "/808"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fb0490b5-2c0b-4ce1-b9f8-ca1b553f662c",
+    "personId": "meng-hao-ran",
+    "title": "秋宵月下有怀",
+    "genre": "诗",
+    "text": [
+      "秋空明月悬，光彩露沾湿。",
+      "惊鹊栖未定，飞萤卷帘入。",
+      "庭槐寒影疎，邻杵夜声急。",
+      "佳期旷何许，望望空伫立。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fb0490b5-2c0b-4ce1-b9f8-ca1b553f662c",
+      "recordKey": "/680"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-258a24ef-f6c4-4d4a-a5f8-75274a7ec3a5",
+    "personId": "meng-hao-ran",
+    "title": "人日登南阳驿门亭子怀汉川诸友",
+    "genre": "诗",
+    "text": [
+      "朝来登陟处，不似艳阳时。",
+      "异县殊风物，羁怀多所思。",
+      "剪花惊岁早，看柳讶春迟。",
+      "未有南飞雁，裁书欲寄谁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "258a24ef-f6c4-4d4a-a5f8-75274a7ec3a5",
+      "recordKey": "/758"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a5e7848e-5480-4646-ac7c-f9c90208c7d0",
+    "personId": "meng-hao-ran",
+    "title": "入峡寄弟",
+    "genre": "诗",
+    "text": [
+      "吾昔与尔辈，读书常闭门。",
+      "未尝冒湍险，岂顾垂堂言。",
+      "自此历江湖，辛勤难具论。",
+      "往来行旅弊，开凿禹功存。",
+      "壁立千峰峻，潨流万壑奔。",
+      "我来凡几宿，无夕不闻猿。",
+      "浦上摇归恋，舟中失梦魂。",
+      "泪沾明月峡，心断鹡鸰原。",
+      "离阔星难聚，秋深露已繁。",
+      "因君下南楚，书此示乡园。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a5e7848e-5480-4646-ac7c-f9c90208c7d0",
+      "recordKey": "/671"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4b313eaa-8040-4f8d-b0d6-14c96c6e3e82",
+    "personId": "meng-hao-ran",
+    "title": "山中逢道士云公",
+    "genre": "诗",
+    "text": [
+      "春余草木繁，耕种满田园。",
+      "酌酒聊自劝，农夫安与言。",
+      "忽闻荆山子，时出桃花源。",
+      "采樵过北谷，卖药来西村。",
+      "村烟日云夕，榛路有归客。",
+      "杖策前相逢，依然是畴昔。",
+      "邂逅欢觏止，殷勤叙离隔。",
+      "谓予搏扶桑，轻举振六翮。",
+      "奈何偶昌运，独见遗草泽。",
+      "既笑接舆狂，仍怜孔丘厄。",
+      "物情趋势利，吾道贵闲寂。",
+      "偃息西山下，门庭罕人迹。",
+      "何时还清溪，从尔炼丹液。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4b313eaa-8040-4f8d-b0d6-14c96c6e3e82",
+      "recordKey": "/708"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9db26b30-0913-4711-9557-e8d625092adc",
+    "personId": "meng-hao-ran",
+    "title": "伤岘山云表观主",
+    "genre": "诗",
+    "text": [
+      "少小学书劒，秦吴多岁年。",
+      "归来一登眺，陵谷尚依然。",
+      "岂意餐霞客，溘随朝露先。",
+      "因之问闾里，把臂几人全。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9db26b30-0913-4711-9557-e8d625092adc",
+      "recordKey": "/862"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4424d55d-0179-4785-9660-4c8df95419c5",
+    "personId": "meng-hao-ran",
+    "title": "上巳洛中寄王九迥",
+    "genre": "诗",
+    "text": [
+      "卜洛成周地，浮杯上巳筵。",
+      "鬬鸡寒食下，走马射堂前。",
+      "垂柳金堤合，平沙翠幕连。",
+      "不知王逸少，何处会群贤。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4424d55d-0179-4785-9660-4c8df95419c5",
+      "recordKey": "/744"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-56d4bead-dc1a-46d3-a927-219029cce60f",
+    "personId": "meng-hao-ran",
+    "title": "上巳日涧南园期王山人陈七诸公不至",
+    "genre": "诗",
+    "text": [
+      "摇艇候明发，花源弄晚春。",
+      "在山怀绮季，临汉忆荀陈。",
+      "上巳期三月，浮杯兴十旬。",
+      "坐歌空有待，行乐恨无邻。",
+      "日晚兰亭北，烟开曲水滨。",
+      "浴蚕逢姹女，采艾值幽人。",
+      "石壁堪题序，沙场好解绅。",
+      "群公望不至，虚掷此芳晨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "56d4bead-dc1a-46d3-a927-219029cce60f",
+      "recordKey": "/899"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-165d393f-99c7-4e2f-acb7-96be6e186524",
+    "personId": "meng-hao-ran",
+    "title": "示孟郊",
+    "genre": "诗",
+    "text": [
+      "蔓草蔽极野，兰芝结孤根。",
+      "众音何其繁，伯牙独不喧。",
+      "当时高深意，举世无能分。",
+      "钟期一见知，山水千秋闻。",
+      "尔其保静节，薄俗徒云云。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "165d393f-99c7-4e2f-acb7-96be6e186524",
+      "recordKey": "/730"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-52873722-b3bf-4aa5-be7f-07f82986ec61",
+    "personId": "meng-hao-ran",
+    "title": "适越留别谯县张主簿申屠少府",
+    "genre": "诗",
+    "text": [
+      "朝乘汴河流，夕次谯县界。",
+      "幸值西风吹，得与故人会。",
+      "君学梅福隐，余从伯鸾迈。",
+      "别后能相思，浮云在吴会。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "52873722-b3bf-4aa5-be7f-07f82986ec61",
+      "recordKey": "/684"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e20f3d71-054e-48f2-a8ac-080abfe3ac85",
+    "personId": "meng-hao-ran",
+    "title": "书怀贻京邑同好",
+    "genre": "诗",
+    "text": [
+      "维先自邹鲁，家世重儒风。",
+      "诗体袭遗训，趋庭沾末躬。",
+      "昼夜常自强，词翰颇亦工。",
+      "三十既成立，嗟吁命不通。",
+      "慈亲向羸老，喜惧在深衷。",
+      "甘脆朝不足，箪瓢夕屡空。",
+      "执鞭慕夫子，捧檄怀毛公。",
+      "感激遂弹冠，安能守固穷。",
+      "当途诉知己，投剌匪求蒙。",
+      "秦楚邈离异，飜飞何日同。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e20f3d71-054e-48f2-a8ac-080abfe3ac85",
+      "recordKey": "/677"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fc13bd5f-5ad3-4308-8042-d3749b6c1c61",
+    "personId": "meng-hao-ran",
+    "title": "送陈七赴西军",
+    "genre": "诗",
+    "text": [
+      "吾观非常者，碌碌在目前。",
+      "君负鸿鹄志，蹉跎书劒年。",
+      "一闻边烽动，万里忽争先。",
+      "余亦赴京国，何当献凯还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fc13bd5f-5ad3-4308-8042-d3749b6c1c61",
+      "recordKey": "/685"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9a908c83-c762-412c-b00e-671e5ba131cb",
+    "personId": "meng-hao-ran",
+    "title": "送从弟邕下第后寻会稽",
+    "genre": "诗",
+    "text": [
+      "疾风吹征帆，倏尔向空没。",
+      "千里在俄顷，三江坐超忽。",
+      "向来共欢娱，日夕成楚越。",
+      "落羽更分飞，谁能不惊骨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9a908c83-c762-412c-b00e-671e5ba131cb",
+      "recordKey": "/686"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6ab6d41d-b049-46b6-befa-1f34a9ff39a4",
+    "personId": "meng-hao-ran",
+    "title": "送崔遏",
+    "genre": "诗",
+    "text": [
+      "片玉来夸楚，治中作主人。",
+      "江山增润色，词赋动阳春。",
+      "别馆当虚敞，离情任吐伸。",
+      "因声两京旧，谁念卧漳滨。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6ab6d41d-b049-46b6-befa-1f34a9ff39a4",
+      "recordKey": "/775"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-7ed6173a-e61e-4a96-a35e-5fe7f9c73cb4",
+    "personId": "meng-hao-ran",
+    "title": "送丁大凤进士赴举呈张九龄",
+    "genre": "诗",
+    "text": [
+      "吾观鹪鹩赋，君负王佐才。",
+      "惜无金张援，十上空归来。",
+      "弃置乡园老，翻飞羽翼摧。",
+      "故人今在位，歧路莫迟回。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "7ed6173a-e61e-4a96-a35e-5fe7f9c73cb4",
+      "recordKey": "/682"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4fe885f2-1527-4702-8696-86d3b452022a",
+    "personId": "meng-hao-ran",
+    "title": "送杜十四之江南",
+    "genre": "诗",
+    "text": [
+      "荆吴相接水为乡，君去春江正淼茫。",
+      "日暮征帆何处泊，天涯一望断人肠。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4fe885f2-1527-4702-8696-86d3b452022a",
+      "recordKey": "/930"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-09a0f790-c9d1-4fa4-9029-87c601a34a0d",
+    "personId": "meng-hao-ran",
+    "title": "送告八从军",
+    "genre": "诗",
+    "text": [
+      "男儿一片气，何必五车书。",
+      "好勇方过我，多才便起予。",
+      "运筹将入幕，养拙就闲居。",
+      "正待功名遂，从君继两疎。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "09a0f790-c9d1-4fa4-9029-87c601a34a0d",
+      "recordKey": "/772"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-606c8581-c618-44fe-b210-e6b9bd85c215",
+    "personId": "meng-hao-ran",
+    "title": "送韩使君除洪州都曹",
+    "genre": "诗",
+    "text": [
+      "述职抚荆衡，分符袭宠荣。",
+      "往来看拥传，前后赖专城。",
+      "勿翦棠犹在，波澄水更清。",
+      "重推江汉理，旋改豫章行。",
+      "召父多遗爱，羊公有令名。",
+      "衣冠列祖道，耆旧拥前旌。",
+      "岘首晨风送，江陵夜火迎。",
+      "无才慙孺子，千里媿同声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "606c8581-c618-44fe-b210-e6b9bd85c215",
+      "recordKey": "/880"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b7a009ac-e24e-49db-b9cd-906b490c475a",
+    "personId": "meng-hao-ran",
+    "title": "送桓子之郢城礼",
+    "genre": "诗",
+    "text": [
+      "闻君驰彩骑，躞蹀指南荆。",
+      "为结潘杨好，言过鄢郢城。",
+      "摽梅诗有赠，羔雁礼将行。",
+      "今夜神仙女，应来感梦情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b7a009ac-e24e-49db-b9cd-906b490c475a",
+      "recordKey": "/766"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-23e25abf-74e3-4f84-9ee1-f5c7030858b9",
+    "personId": "meng-hao-ran",
+    "title": "送贾升主簿之荆府",
+    "genre": "诗",
+    "text": [
+      "奉使推能者，勤王不暂闲。",
+      "观风随按察，乘骑度荆关。",
+      "送别登何处，开筵旧岘山。",
+      "征轩明日远，空望郢门间。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "23e25abf-74e3-4f84-9ee1-f5c7030858b9",
+      "recordKey": "/783"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6954689c-9081-45d8-960c-3d587b079a6a",
+    "personId": "meng-hao-ran",
+    "title": "送卢少府使入秦",
+    "genre": "诗",
+    "text": [
+      "楚关望秦国，相去千里余。",
+      "州县勤王事，山河转使车。",
+      "祖筵江上列，离恨别前书。",
+      "愿及芳年赏，娇莺二月初。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6954689c-9081-45d8-960c-3d587b079a6a",
+      "recordKey": "/776"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-80aa5a4b-5b5a-4b58-9d5c-0caf70a39535",
+    "personId": "meng-hao-ran",
+    "title": "送莫甥兼诸昆弟从韩司马入西军",
+    "genre": "诗",
+    "text": [
+      "念尔习诗礼，未曾违户庭。",
+      "平生早偏露，万里更飘零。",
+      "坐弃三牲养，行观八阵形。",
+      "饰装辞故里，谋策赴边庭。",
+      "壮志吞鸿鹄，遥心伴鹡鸰。",
+      "所从文且武，不战自应宁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "80aa5a4b-5b5a-4b58-9d5c-0caf70a39535",
+      "recordKey": "/881"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3eef5ead-96d6-4531-8eeb-be21f3a31d68",
+    "personId": "meng-hao-ran",
+    "title": "送王昌龄之岭南",
+    "genre": "诗",
+    "text": [
+      "洞庭去远近，枫叶早惊秋。",
+      "岘首羊公爱，长沙贾谊愁。",
+      "土毛无缟纻，乡味有槎头。",
+      "已抱沉痼疾，更贻魑魅忧。",
+      "数年同笔砚，兹夕间衾裯。",
+      "意气今何在，相思望斗牛。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3eef5ead-96d6-4531-8eeb-be21f3a31d68",
+      "recordKey": "/883"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5826d16e-068d-45f0-8a86-919e35bc1471",
+    "personId": "meng-hao-ran",
+    "title": "送王大校书",
+    "genre": "诗",
+    "text": [
+      "导漾自嶓冢，东流为汉川。",
+      "维桑君有意，解缆我开筵。",
+      "云雨从兹别，林端意渺然。",
+      "尺书能不恡，时望鲤鱼传。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5826d16e-068d-45f0-8a86-919e35bc1471",
+      "recordKey": "/784"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0dbac132-ef59-4538-9643-603c63452311",
+    "personId": "meng-hao-ran",
+    "title": "送王七尉松滋得阳台云",
+    "genre": "诗",
+    "text": [
+      "君不见巫山神女作行云，霏红沓翠晓氛氲。",
+      "婵娟流入楚王梦，倏忽还随零雨分。",
+      "空中飞去复飞来，朝朝暮暮下阳台。",
+      "愁君此去为仙尉，便逐行云去不回。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0dbac132-ef59-4538-9643-603c63452311",
+      "recordKey": "/727"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ca9800b7-d993-466d-90f1-7a51e80c3bb6",
+    "personId": "meng-hao-ran",
+    "title": "送王五昆季省觐",
+    "genre": "诗",
+    "text": [
+      "公子恋庭闱，劳歌涉海涯。",
+      "水乘舟檝去，亲望老莱归。",
+      "斜日催乌鸟，清江照彩衣。",
+      "平生急难意，遥仰鹡鸰飞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ca9800b7-d993-466d-90f1-7a51e80c3bb6",
+      "recordKey": "/774"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e2b2a6b7-1588-463e-82c4-fc1d85d42778",
+    "personId": "meng-hao-ran",
+    "title": "送吴宣从事",
+    "genre": "诗",
+    "text": [
+      "才有幕中士，宁无塞上勋。",
+      "汉兵将灭虏，王粲始从军。",
+      "旌斾边庭去，山川地脉分。",
+      "平生一匕首，感激赠夫君。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e2b2a6b7-1588-463e-82c4-fc1d85d42778",
+      "recordKey": "/765"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8f660513-b195-4797-96a7-408b446e263b",
+    "personId": "meng-hao-ran",
+    "title": "送吴悦游韶阳",
+    "genre": "诗",
+    "text": [
+      "五色怜凤雏，南飞适鹧鸪。",
+      "楚人不相识，何处求椅梧。",
+      "去去日千里，茫茫天一隅。",
+      "安能与斥鷃，决起但枪榆。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8f660513-b195-4797-96a7-408b446e263b",
+      "recordKey": "/683"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d39b0639-2392-4ee1-aa16-0aa858b2ebb4",
+    "personId": "meng-hao-ran",
+    "title": "送席大",
+    "genre": "诗",
+    "text": [
+      "惜尔怀其宝，迷邦倦客游。",
+      "江山历全楚，河洛越成周。",
+      "道路疲千里，乡园老一丘。",
+      "知君命不偶，同病亦同忧。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d39b0639-2392-4ee1-aa16-0aa858b2ebb4",
+      "recordKey": "/782"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-cebb0a57-e8cd-4af4-a7d3-05a4dc90bf0e",
+    "personId": "meng-hao-ran",
+    "title": "送洗然弟进士举",
+    "genre": "诗",
+    "text": [
+      "献策金门去，承欢彩服违。",
+      "以吾一日长，念尔聚星稀。",
+      "昏定须温席，寒多未授衣。",
+      "桂枝如已擢，早逐雁南飞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "cebb0a57-e8cd-4af4-a7d3-05a4dc90bf0e",
+      "recordKey": "/787"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d77ca368-a416-4c01-a436-b5d1d3ead16b",
+    "personId": "meng-hao-ran",
+    "title": "送谢录事之越",
+    "genre": "诗",
+    "text": [
+      "清旦江天迥，凉风西北吹。",
+      "白云向吴会，征帆亦相随。",
+      "想到耶溪日，应探禹穴奇。",
+      "仙书倘相示，予在此山陲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d77ca368-a416-4c01-a436-b5d1d3ead16b",
+      "recordKey": "/770"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-eee0206b-15bf-4a62-bdc3-bb84400d3be8",
+    "personId": "meng-hao-ran",
+    "title": "送辛大之鄂渚不及",
+    "genre": "诗",
+    "text": [
+      "送君不相见，日暮独愁绪。",
+      "江上空裴回，天边迷处所。",
+      "郡邑经樊邓，山河入嵩汝。",
+      "蒲轮去渐遥，石径徒延伫。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "eee0206b-15bf-4a62-bdc3-bb84400d3be8",
+      "recordKey": "/687"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ba5d5923-d1ff-4b93-879a-55944d3b1489",
+    "personId": "meng-hao-ran",
+    "title": "送新安张少府归秦中",
+    "genre": "诗",
+    "text": [
+      "试登秦岭望秦川，遥忆青门春可怜。",
+      "仲月送君从此去，瓜时须及邵平田。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ba5d5923-d1ff-4b93-879a-55944d3b1489",
+      "recordKey": "/929"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a7947239-6143-493d-8fc9-d2512a70151d",
+    "personId": "meng-hao-ran",
+    "title": "送友人之京",
+    "genre": "诗",
+    "text": [
+      "君登青云去，予望青山归。",
+      "云山从此别，泪湿薜萝衣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a7947239-6143-493d-8fc9-d2512a70151d",
+      "recordKey": "/912"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3e221150-d0e2-44b8-b6e7-e4a791090b07",
+    "personId": "meng-hao-ran",
+    "title": "送元公之鄂渚寻观主张骖鸾",
+    "genre": "诗",
+    "text": [
+      "桃花春水涨，之子忽乘流。",
+      "岘首辞蛟浦，江中问鹤楼。",
+      "赠君青竹杖，送尔白苹洲。",
+      "应是神仙子，相期汗漫游。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3e221150-d0e2-44b8-b6e7-e4a791090b07",
+      "recordKey": "/773"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1bedf7d6-42ff-49b2-980f-7d451e1cb90d",
+    "personId": "meng-hao-ran",
+    "title": "送袁十岭南寻弟",
+    "genre": "诗",
+    "text": [
+      "早闻牛渚咏，今见鹡鸰心。",
+      "羽翼嗟零落，悲鸣别故林。",
+      "苍梧白云远，烟水洞庭深。",
+      "万里独飞去，南风迟尔音。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1bedf7d6-42ff-49b2-980f-7d451e1cb90d",
+      "recordKey": "/777"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-43e9425e-7f31-4c3f-99b4-e6da547d6a85",
+    "personId": "meng-hao-ran",
+    "title": "送袁太祝尉豫章",
+    "genre": "诗",
+    "text": [
+      "何幸遇休明，观光来上京。",
+      "相逢武陵客，独送豫章行。",
+      "随牒牵黄绶，离群会墨卿。",
+      "江南佳丽地，山水旧难名。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "43e9425e-7f31-4c3f-99b4-e6da547d6a85",
+      "recordKey": "/780"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3e114ed7-43c7-4362-b26d-fa3e003e2e40",
+    "personId": "meng-hao-ran",
+    "title": "送张参明经举兼向泾州觐省",
+    "genre": "诗",
+    "text": [
+      "十五彩衣年，承欢慈母前。",
+      "孝廉因岁贡，怀橘向秦川。",
+      "四座推文举，中郎许仲宣。",
+      "泛舟江上别，谁不仰神仙。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3e114ed7-43c7-4362-b26d-fa3e003e2e40",
+      "recordKey": "/763"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-771d396c-e668-4b45-ac81-74b9b7dc4ad4",
+    "personId": "meng-hao-ran",
+    "title": "送张郎中迁京",
+    "genre": "诗",
+    "text": [
+      "碧溪常共赏，朱邸忽迁荣。",
+      "豫有相思意，闻君琴上声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "771d396c-e668-4b45-ac81-74b9b7dc4ad4",
+      "recordKey": "/913"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-2303e027-2b90-49cf-93db-7b28999081d6",
+    "personId": "meng-hao-ran",
+    "title": "送张舍人往江东（此诗见韦庄《又玄集》卷上。案《全唐诗》卷一七五作李白诗，题曰《关张舍人之江东》，诗同，不重录。惟第二句「正在秋风时」，《全唐诗》「在」字作「值」，三句「天晴一雁远」，「晴」字作「清」为异耳。〖《文苑英华》卷二六九、《唐文粹》卷十五、影宋本《李太白文集》卷十四皆收此诗为李白作。〗）",
+    "genre": "诗",
+    "text": [
+      "空。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.50000.json",
+      "recordId": "2303e027-2b90-49cf-93db-7b28999081d6",
+      "recordKey": "/574"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1a85b668-87ea-4e34-a0fc-8f35290cd205",
+    "personId": "meng-hao-ran",
+    "title": "送张祥之房陵",
+    "genre": "诗",
+    "text": [
+      "我家南渡头，惯习野人舟。",
+      "日夕弄清浅，林湍逆上流。",
+      "山河据形胜，天地生豪酋。",
+      "君意在利往，知音期自投。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1a85b668-87ea-4e34-a0fc-8f35290cd205",
+      "recordKey": "/764"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-979af412-5c5f-4252-9134-e42de27da386",
+    "personId": "meng-hao-ran",
+    "title": "送张子容进士赴举",
+    "genre": "诗",
+    "text": [
+      "夕曛山照灭，送客出柴门。",
+      "惆怅野中别，殷勤岐路言。",
+      "茂林予偃息，乔木尔飞翻。",
+      "无使谷风诮，须令友道存。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "979af412-5c5f-4252-9134-e42de27da386",
+      "recordKey": "/762"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9377b2a8-066c-4fc7-8f1f-2a04bffa75b9",
+    "personId": "meng-hao-ran",
+    "title": "送朱大入秦",
+    "genre": "诗",
+    "text": [
+      "游人武陵去，宝劒直千金。",
+      "分手脱相赠，平生一片心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9377b2a8-066c-4fc7-8f1f-2a04bffa75b9",
+      "recordKey": "/911"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0bed9b02-991e-4e28-b631-86640147a712",
+    "personId": "meng-hao-ran",
+    "title": "宿建德江",
+    "genre": "诗",
+    "text": [
+      "移舟泊烟渚，日暮客愁新。",
+      "野旷天低树，江清月近人。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0bed9b02-991e-4e28-b631-86640147a712",
+      "recordKey": "/924"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e4edaf23-405c-4ace-9882-c347bc3ea45d",
+    "personId": "meng-hao-ran",
+    "title": "宿立公房",
+    "genre": "诗",
+    "text": [
+      "支遁初求道，深公笑买山。",
+      "何如石岩趣，自入户庭间。",
+      "苔润春泉满，萝轩夜月闲。",
+      "能令许玄度，吟卧不知还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e4edaf23-405c-4ace-9882-c347bc3ea45d",
+      "recordKey": "/819"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f1366a20-e085-4e4a-9a79-645be7e27a63",
+    "personId": "meng-hao-ran",
+    "title": "宿天台桐柏观",
+    "genre": "诗",
+    "text": [
+      "海行信风帆，夕宿逗云岛。",
+      "缅寻沧洲趣，近爱赤城好。",
+      "扪萝亦践苔，辍櫂恣探讨。",
+      "息阴憩桐柏，采秀弄芝草。",
+      "鹤唳清露垂，鸡鸣信潮早。",
+      "愿言解缨绂，从此去烦恼。",
+      "高步凌四明，玄踪得三老。",
+      "纷吾远游意，学彼长生道。",
+      "日夕望三山，云涛空浩浩。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f1366a20-e085-4e4a-9a79-645be7e27a63",
+      "recordKey": "/694"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b1dad78c-4dd8-4b99-b37b-741ed761f26a",
+    "personId": "meng-hao-ran",
+    "title": "宿桐庐江寄广陵旧游",
+    "genre": "诗",
+    "text": [
+      "山暝闻猿愁，沧江急夜流。",
+      "风鸣两岸叶，月照一孤舟。",
+      "建德非吾土，维扬忆旧游。",
+      "还将两行泪，遥寄海西头。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b1dad78c-4dd8-4b99-b37b-741ed761f26a",
+      "recordKey": "/748"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e2f17cab-6467-4451-a5d6-129727037dcc",
+    "personId": "meng-hao-ran",
+    "title": "宿武阳即事",
+    "genre": "诗",
+    "text": [
+      "川暗夕阳尽，孤舟泊岸初。",
+      "岭猿相呌啸，潭嶂似空虚。",
+      "就枕灭明烛，扣舷闻夜渔。",
+      "鸡鸣问何处，人物是秦余。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e2f17cab-6467-4451-a5d6-129727037dcc",
+      "recordKey": "/851"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f49fec29-bba8-41d0-b9d8-d0105982586e",
+    "personId": "meng-hao-ran",
+    "title": "宿扬子津寄润州长山刘隐士",
+    "genre": "诗",
+    "text": [
+      "所思在建业，欲往大江深。",
+      "日夕望京口，烟波愁我心。",
+      "心驰茅山洞，目极枫树林。",
+      "不见少微星，星霜劳夜吟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f49fec29-bba8-41d0-b9d8-d0105982586e",
+      "recordKey": "/676"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3e504df9-b22d-480e-9e7c-9f8ab8591b91",
+    "personId": "meng-hao-ran",
+    "title": "宿业师山房期丁大不至",
+    "genre": "诗",
+    "text": [
+      "夕阳度西岭，群壑倏已暝。",
+      "松月生夜凉，风泉满清听。",
+      "樵人归欲尽，烟鸟栖初定。",
+      "之子期宿来，孤琴候萝径。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3e504df9-b22d-480e-9e7c-9f8ab8591b91",
+      "recordKey": "/698"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e54d3a06-8591-4a33-8c6b-05c2fff77b45",
+    "personId": "meng-hao-ran",
+    "title": "宿永嘉江寄山阴崔少府国辅",
+    "genre": "诗",
+    "text": [
+      "我行穷水国，君使入京华。",
+      "相去日千里，孤帆天一涯。",
+      "卧闻海潮至，起视江月斜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e54d3a06-8591-4a33-8c6b-05c2fff77b45",
+      "recordKey": "/743"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-49642de8-9fce-42fa-a30e-e67d80a92ec9",
+    "personId": "meng-hao-ran",
+    "title": "溯江至武昌",
+    "genre": "诗",
+    "text": [
+      "家本洞湖上，岁时归思催。",
+      "客心徒欲速，江路苦邅回。",
+      "残冻因风解，新正度腊开。",
+      "行看武昌柳，髣髴映楼台。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "49642de8-9fce-42fa-a30e-e67d80a92ec9",
+      "recordKey": "/838"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-82fcb766-aecd-49f6-b532-69d1267cd6fb",
+    "personId": "meng-hao-ran",
+    "title": "岁除夜会乐城张少府宅",
+    "genre": "诗",
+    "text": [
+      "畴昔通家好，相知无间然。",
+      "续明催画烛，守岁接长筵。",
+      "旧曲梅花唱，新正柏酒传。",
+      "客行随处乐，不见度年年。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "82fcb766-aecd-49f6-b532-69d1267cd6fb",
+      "recordKey": "/856"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0f5af383-765a-4d56-b00b-79ee2ccd5111",
+    "personId": "meng-hao-ran",
+    "title": "岁除夜有怀",
+    "genre": "诗",
+    "text": [
+      "迢递三巴路，羁危万里身。",
+      "乱山残雪夜，孤灯异乡人。",
+      "渐与骨肉远，转于奴仆亲。",
+      "那堪正飘泊，来日岁华新。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0f5af383-765a-4d56-b00b-79ee2ccd5111",
+      "recordKey": "/864"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-542cb326-1037-4bd9-b0f6-6479d165dc4c",
+    "personId": "meng-hao-ran",
+    "title": "岁暮归南山",
+    "genre": "诗",
+    "text": [
+      "北阙休上书，南山归敝庐。",
+      "不才明主弃，多病故人疎。",
+      "白发催年老，青阳逼岁除。",
+      "永怀愁不寐，松月夜窗虚。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "542cb326-1037-4bd9-b0f6-6479d165dc4c",
+      "recordKey": "/836"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f8d0d861-6be7-4d1b-b54d-28ab7f4b81c0",
+    "personId": "meng-hao-ran",
+    "title": "岁暮海上作",
+    "genre": "诗",
+    "text": [
+      "仲尼既云殁，余亦浮于海。",
+      "昏见斗柄回，方知岁星改。",
+      "虚舟任所适，垂钓非有待。",
+      "为问乘槎人，沧洲复谁在。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f8d0d861-6be7-4d1b-b54d-28ab7f4b81c0",
+      "recordKey": "/717"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8a6b9883-ec6b-43cf-9378-22426db599f9",
+    "personId": "meng-hao-ran",
+    "title": "他乡七夕",
+    "genre": "诗",
+    "text": [
+      "他乡逢七夕，旅馆益羇愁。",
+      "不见穿针妇，空怀故国楼。",
+      "绪风初减热，新月始临秋。",
+      "谁忍窥河汉，迢迢问斗牛。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8a6b9883-ec6b-43cf-9378-22426db599f9",
+      "recordKey": "/844"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6c385476-c68a-4ba6-8c8d-ae240d544d6e",
+    "personId": "meng-hao-ran",
+    "title": "檀溪寻故人",
+    "genre": "诗",
+    "text": [
+      "花伴成龙竹，池分跃马溪。",
+      "田园人不见，疑向洞中栖。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6c385476-c68a-4ba6-8c8d-ae240d544d6e",
+      "recordKey": "/920"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c7e4d9b9-671b-4e85-b425-9ebe6009d1e8",
+    "personId": "meng-hao-ran",
+    "title": "唐城馆中早发寄杨使君",
+    "genre": "诗",
+    "text": [
+      "犯霜驱晓驾，数里见唐城。",
+      "旅馆归心逼，荒村客思盈。",
+      "访人留后信，策蹇赴前程。",
+      "欲识离魂断，长空听雁声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c7e4d9b9-671b-4e85-b425-9ebe6009d1e8",
+      "recordKey": "/753"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-965506ed-7133-4826-ad87-abdabc3e23d8",
+    "personId": "meng-hao-ran",
+    "title": "题大禹寺义公禅房",
+    "genre": "诗",
+    "text": [
+      "义公习禅处，结构依空林。",
+      "户外一峰秀，阶前群壑深。",
+      "夕阳连雨足，空翠落庭阴。",
+      "看取莲花净，应知不染心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "965506ed-7133-4826-ad87-abdabc3e23d8",
+      "recordKey": "/824"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-9c363732-3fc9-4a9d-8ef2-526b78f2a947",
+    "personId": "meng-hao-ran",
+    "title": "题李十四庄兼赠綦毋校书",
+    "genre": "诗",
+    "text": [
+      "闻君息阴地，东郭柳林间。",
+      "左右瀍涧水，门庭缑氏山。",
+      "抱琴来取醉，垂钓坐乘闲。",
+      "归客莫相待，寻源殊未还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "9c363732-3fc9-4a9d-8ef2-526b78f2a947",
+      "recordKey": "/738"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-974bfa5a-da38-4c0f-936f-c7849571d758",
+    "personId": "meng-hao-ran",
+    "title": "题融公兰若",
+    "genre": "诗",
+    "text": [
+      "精舍买金开，流泉绕砌回。",
+      "芰荷薰讲席，松柏映香台。",
+      "法雨晴飞去，天花昼下来。",
+      "谈玄殊未已，归骑夕阳催。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "974bfa5a-da38-4c0f-936f-c7849571d758",
+      "recordKey": "/826"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3acc29be-70aa-4daa-93ea-17435dbfddfc",
+    "personId": "meng-hao-ran",
+    "title": "题梧州陈司马山斋",
+    "genre": "诗",
+    "text": [
+      "南国无霜霰，连年对物华。",
+      "青林暗换叶，红橤亦开花。",
+      "春去无山鸟，秋来见海槎。",
+      "流芳虽可悦，会自泣长沙。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3acc29be-70aa-4daa-93ea-17435dbfddfc",
+      "recordKey": "/863"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-524f2729-a82a-4f6b-af71-910e6b1c3c34",
+    "personId": "meng-hao-ran",
+    "title": "题云门山寄越府包户曹徐起居",
+    "genre": "诗",
+    "text": [
+      "我行适诸越，梦寐怀所欢。",
+      "久负独往愿，今来恣游盘。",
+      "台岭践磴石，耶溪溯林湍。",
+      "舍舟入香界，登阁憩旃檀。",
+      "晴山秦望近，春水镜湖宽。",
+      "远怀伫应接，卑位徒劳安。",
+      "白云日夕滞，沧海去来观。",
+      "故国眇天末，良朋在朝端。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "524f2729-a82a-4f6b-af71-910e6b1c3c34",
+      "recordKey": "/675"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0d6cbe25-f63a-448c-8b1f-a5dd2df5ad51",
+    "personId": "meng-hao-ran",
+    "title": "题张野人园庐",
+    "genre": "诗",
+    "text": [
+      "与君园庐竝，微尚颇亦同。",
+      "耕钓方自逸，壶觞趣不空。",
+      "门无俗士驾，人有上皇风。",
+      "何处先贤传，惟称庞德公。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0d6cbe25-f63a-448c-8b1f-a5dd2df5ad51",
+      "recordKey": "/828"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6e5d7a31-e3ec-495d-a383-33bc585b976f",
+    "personId": "meng-hao-ran",
+    "title": "题长安主人壁",
+    "genre": "诗",
+    "text": [
+      "久废南山田，叨陪东阁贤。",
+      "欲随平子去，犹未献甘泉。",
+      "枕籍琴书满，褰帷远岫连。",
+      "我来如昨日，庭树忽鸣蝉。",
+      "促织惊寒女，秋风感长年。",
+      "授衣当九月，无褐竟谁怜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6e5d7a31-e3ec-495d-a383-33bc585b976f",
+      "recordKey": "/903"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-771875f8-d1a0-44a4-a84f-c4a2f281b5b6",
+    "personId": "meng-hao-ran",
+    "title": "题终南翠微寺空上人房",
+    "genre": "诗",
+    "text": [
+      "翠微终南里，雨后宜返照。",
+      "闭关久沈冥，杖策一登眺。",
+      "遂造幽人室，始知静者妙。",
+      "儒道虽异门，云林颇同调。",
+      "两心相喜得，毕景共谈笑。",
+      "暝还高窗眠，时见远山烧。",
+      "缅怀赤城标，更忆临海峤。",
+      "风泉有清音，何必苏门啸。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "771875f8-d1a0-44a4-a84f-c4a2f281b5b6",
+      "recordKey": "/696"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f8374b43-48b6-42be-993f-1465e20d113f",
+    "personId": "meng-hao-ran",
+    "title": "田家元日",
+    "genre": "诗",
+    "text": [
+      "昨夜斗回北，今朝岁起东。",
+      "我年已强仕，无禄尚忧农。",
+      "桑野就耕父，荷锄随牧童。",
+      "田家占气候，共说此年丰。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f8374b43-48b6-42be-993f-1465e20d113f",
+      "recordKey": "/853"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-34976884-7b4f-4cc1-9f80-076caf259a16",
+    "personId": "meng-hao-ran",
+    "title": "田园作",
+    "genre": "诗",
+    "text": [
+      "弊庐隔尘喧，惟先养恬素。",
+      "卜邻近三径，植果盈千树。",
+      "粤余任推迁，三十犹未遇。",
+      "书劒时将晚，丘园日已暮。",
+      "晨兴自多怀，昼坐常寡悟。",
+      "冲天羡鸿鹄，争食羞鸡骛。",
+      "望断金马门，劳歌采樵路。",
+      "乡曲无知己，朝端乏亲故。",
+      "谁能为扬雄，一荐甘泉赋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "34976884-7b4f-4cc1-9f80-076caf259a16",
+      "recordKey": "/712"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-58e6008e-cd4a-4098-8c0f-d96e1af09d9e",
+    "personId": "meng-hao-ran",
+    "title": "听郑五愔弹琴",
+    "genre": "诗",
+    "text": [
+      "阮籍推名饮，清风满竹林。",
+      "半酣下衫袖，拂拭龙唇琴。",
+      "一杯弹一曲，不觉夕阳沈。",
+      "予意在山水，闻之谐夙心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "58e6008e-cd4a-4098-8c0f-d96e1af09d9e",
+      "recordKey": "/719"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-01aa20e7-3ec5-4146-9516-d1d2242be806",
+    "personId": "meng-hao-ran",
+    "title": "庭橘",
+    "genre": "诗",
+    "text": [
+      "明发览群物，万木何阴森。",
+      "凝霜渐渐水，庭橘似悬金。",
+      "女伴争攀摘，摘窥碍叶深。",
+      "竝生怜共蒂，相示感同心。",
+      "骨刺红罗被，香黏翠羽簪。",
+      "擎来玉盘里，全胜在幽林。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "01aa20e7-3ec5-4146-9516-d1d2242be806",
+      "recordKey": "/721"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-245a8ea8-f347-4cfe-90c2-6b6ef8b1d123",
+    "personId": "meng-hao-ran",
+    "title": "同曹三御史行泛湖归越",
+    "genre": "诗",
+    "text": [
+      "秋入诗人意，巴歌和者稀。",
+      "泛湖同逸旅，吟会是思归。",
+      "白简徒推荐，沧洲已拂衣。",
+      "杳冥云外去，谁不羡鸿飞。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "245a8ea8-f347-4cfe-90c2-6b6ef8b1d123",
+      "recordKey": "/799"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-80d1c689-314f-4fa0-86a6-20aca2182425",
+    "personId": "meng-hao-ran",
+    "title": "同储十二洛阳道中作",
+    "genre": "诗",
+    "text": [
+      "珠弹繁华子，金羁游侠人。",
+      "酒酣白日暮，走马入红尘。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "80d1c689-314f-4fa0-86a6-20aca2182425",
+      "recordKey": "/922"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ce232659-3a0e-406f-ab50-eb4100f8db51",
+    "personId": "meng-hao-ran",
+    "title": "同独孤使君东斋作",
+    "genre": "诗",
+    "text": [
+      "郎官旧华省，天子命分忧。",
+      "襄土岁频旱，随车雨再流。",
+      "云阴自南楚，河润及东周。",
+      "廨宇宜新霁，田家贺有秋。",
+      "竹间残照入，池上夕阳浮。",
+      "寄谢东阳守，何如八咏楼。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ce232659-3a0e-406f-ab50-eb4100f8db51",
+      "recordKey": "/895"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a700f2fb-51fb-4886-8cc8-1c6565ee9c45",
+    "personId": "meng-hao-ran",
+    "title": "同卢明府饯张郎中除义王府司马海园作",
+    "genre": "诗",
+    "text": [
+      "上国山河列，贤王邸第开。",
+      "故人分职去，潘令宠行来。",
+      "冠盖趋梁苑，江湘失楚材。",
+      "豫愁轩骑动，宾客散池台。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a700f2fb-51fb-4886-8cc8-1c6565ee9c45",
+      "recordKey": "/761"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ed74c173-6f97-4bc3-b8f8-d3530882a027",
+    "personId": "meng-hao-ran",
+    "title": "同卢明府早秋宴张郎中海亭",
+    "genre": "诗",
+    "text": [
+      "侧听弦歌宰，文书游夏徒。",
+      "故园欣赏竹，为邑幸来苏。",
+      "华省曾联事，仙舟复与俱。",
+      "欲知临泛久，荷露渐成珠。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ed74c173-6f97-4bc3-b8f8-d3530882a027",
+      "recordKey": "/789"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ed5b191f-4753-4d8b-9bee-64a0158b3b6a",
+    "personId": "meng-hao-ran",
+    "title": "同王九题就师山房",
+    "genre": "诗",
+    "text": [
+      "晚憩支公室，故人逢右军。",
+      "轩窗避炎暑，翰墨动新文。",
+      "竹蔽簷前日，雨随堦下云。",
+      "周游清荫徧，吟卧夕阳曛。",
+      "江静櫂歌歇，溪深樵语闻。",
+      "归途未忍去，携手恋清芬。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ed5b191f-4753-4d8b-9bee-64a0158b3b6a",
+      "recordKey": "/896"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c17cf6be-bfee-4fef-8357-aa8090f62ddd",
+    "personId": "meng-hao-ran",
+    "title": "同张将蓟门观灯",
+    "genre": "诗",
+    "text": [
+      "异俗非乡俗，新年改故年。",
+      "蓟门看火树，疑是烛龙然。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c17cf6be-bfee-4fef-8357-aa8090f62ddd",
+      "recordKey": "/914"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-91224327-bb86-42a7-b076-b85e69878220",
+    "personId": "meng-hao-ran",
+    "title": "同张明府碧溪赠答",
+    "genre": "诗",
+    "text": [
+      "别业闻新制，同声和者多。",
+      "还看碧溪答，不羡绿珠歌。",
+      "自有阳台女，朝朝拾翠过。",
+      "绮筵铺锦绣，妆牖闭藤萝。",
+      "秩满休闲日，春余景气和。",
+      "仙凫能作伴，罗袜共凌波。",
+      "曲岛寻花药，回潭折芰荷。",
+      "更怜斜日照，红粉艳青娥。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "91224327-bb86-42a7-b076-b85e69878220",
+      "recordKey": "/878"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-53ff81f9-2f4d-4aaf-8b42-7b7b5a97d661",
+    "personId": "meng-hao-ran",
+    "title": "同张明府清镜叹",
+    "genre": "诗",
+    "text": [
+      "妾有盘龙镜，清光常昼发。",
+      "自从生尘埃，有若雾中月。",
+      "愁来试取照，坐叹生白发。",
+      "寄语边塞人，如何久离别。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "53ff81f9-2f4d-4aaf-8b42-7b7b5a97d661",
+      "recordKey": "/720"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-efec7307-9053-4578-a033-b1c942f1672b",
+    "personId": "meng-hao-ran",
+    "title": "途次望乡",
+    "genre": "诗",
+    "text": [
+      "客行愁落日，乡思重相催。",
+      "况在他山外，天寒夕鸟来。",
+      "雪深迷郢路，云暗失阳台。",
+      "可叹凄惶子，高歌谁为媒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "efec7307-9053-4578-a033-b1c942f1672b",
+      "recordKey": "/849"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-3e11173c-add7-4d51-a7c7-9fa28a194396",
+    "personId": "meng-hao-ran",
+    "title": "途中遇晴",
+    "genre": "诗",
+    "text": [
+      "已失巴陵雨，犹逢蜀坂泥。",
+      "天开斜景遍，山出晚云低。",
+      "余湿犹沾草，残流尚入溪。",
+      "今宵有明月，乡思远凄凄。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "3e11173c-add7-4d51-a7c7-9fa28a194396",
+      "recordKey": "/841"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-aa0cc741-a21b-42e7-8f47-c2553bdec94e",
+    "personId": "meng-hao-ran",
+    "title": "晚春题远上人南亭",
+    "genre": "诗",
+    "text": [
+      "给园支遁隐，虚寂养身和。",
+      "春晚群木秀，间关黄鸟歌。",
+      "林栖居士竹，池养右军鹅。",
+      "炎月北窗下，清风期再过。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "aa0cc741-a21b-42e7-8f47-c2553bdec94e",
+      "recordKey": "/823"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8d85327f-5d8a-476e-a7cd-5bac1bbb8039",
+    "personId": "meng-hao-ran",
+    "title": "晚春卧病寄张八",
+    "genre": "诗",
+    "text": [
+      "南陌春将晚，北窗犹卧病。",
+      "林园久不游，草木一何盛。",
+      "狭径花障迷，闲庭竹扫净。",
+      "翠羽戏兰苕，赪鳞动荷柄。",
+      "念我平生好，江乡远从政。",
+      "云山阻梦思，衾枕劳歌咏。",
+      "歌咏复何为，同心恨别离。",
+      "世途皆自媚，流俗寡相知。",
+      "贾谊才空逸，安仁鬓欲丝。",
+      "遥情每东注，奔晷复西驰。",
+      "常恐填沟壑，无由振羽仪。",
+      "穷通若有命，欲向论中推。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8d85327f-5d8a-476e-a7cd-5bac1bbb8039",
+      "recordKey": "/669"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b128b1ea-3c7c-48e2-8d21-566d654b10fa",
+    "personId": "meng-hao-ran",
+    "title": "晚泊浔阳望庐山",
+    "genre": "诗",
+    "text": [
+      "挂席几千里，名山都未逢。",
+      "泊舟浔阳郭，始见香炉峰。",
+      "尝读远公传，永怀尘外踪。",
+      "东林精舍近，日暮但闻钟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b128b1ea-3c7c-48e2-8d21-566d654b10fa",
+      "recordKey": "/800"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-34beee01-7e97-4e2d-b1df-015523f16fda",
+    "personId": "meng-hao-ran",
+    "title": "万山潭作",
+    "genre": "诗",
+    "text": [
+      "垂钓坐盘石，水清心亦闲。",
+      "鱼行潭树下，猿挂岛藤间。",
+      "游女昔解佩，传闻于此山。",
+      "求之不可得，沿月櫂歌还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "34beee01-7e97-4e2d-b1df-015523f16fda",
+      "recordKey": "/705"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6975adab-25d0-40c6-af3a-3a05847e7717",
+    "personId": "meng-hao-ran",
+    "title": "望洞庭湖赠张丞相",
+    "genre": "诗",
+    "text": [
+      "八月湖水平，涵虚混太清。",
+      "气蒸云梦泽，波撼岳阳城。",
+      "欲济无舟楫，端居耻圣明。",
+      "坐观垂钓者，空有羡鱼情。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6975adab-25d0-40c6-af3a-3a05847e7717",
+      "recordKey": "/735"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ed983c5a-2e44-40b1-8393-93b64c6820f9",
+    "personId": "meng-hao-ran",
+    "title": "闻裴侍御朏自襄州司户除豫州司户因以投寄",
+    "genre": "诗",
+    "text": [
+      "故人荆府掾，尚有柏台威。",
+      "移职自樊衍，芳声闻帝畿。",
+      "昔余卧林巷，载酒过柴扉。",
+      "松菊无时赏，乡园欲懒归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ed983c5a-2e44-40b1-8393-93b64c6820f9",
+      "recordKey": "/745"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ebb3d970-b5b1-4891-bc8d-fe0088ca52b1",
+    "personId": "meng-hao-ran",
+    "title": "问舟子",
+    "genre": "诗",
+    "text": [
+      "向夕问舟子，前程复几多。",
+      "湾头正堪泊，淮里足风波。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ebb3d970-b5b1-4891-bc8d-fe0088ca52b1",
+      "recordKey": "/925"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-83128aff-73de-4b0d-a57d-ae2039b628ae",
+    "personId": "meng-hao-ran",
+    "title": "武陵泛舟",
+    "genre": "诗",
+    "text": [
+      "武陵川路狭，前櫂入花林。",
+      "莫测幽源里，仙家信几深。",
+      "水回青嶂合，云度绿溪阴。",
+      "坐听闲猿啸，弥清尘外心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "83128aff-73de-4b0d-a57d-ae2039b628ae",
+      "recordKey": "/802"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-63d8dea3-4da6-4eca-888b-5005050c3909",
+    "personId": "meng-hao-ran",
+    "title": "夕次蔡阳馆",
+    "genre": "诗",
+    "text": [
+      "日暮马行疾，城荒人住稀。",
+      "听歌知近楚，投馆忽如归。",
+      "鲁堰田畴广，章陵气色微。",
+      "明朝拜嘉庆，须著老莱衣。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "63d8dea3-4da6-4eca-888b-5005050c3909",
+      "recordKey": "/843"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-14f2da14-aaf6-41e0-8f4e-6252eeb6043d",
+    "personId": "meng-hao-ran",
+    "title": "西山寻辛谔",
+    "genre": "诗",
+    "text": [
+      "漾舟寻水便，因访故人居。",
+      "落日清川里，谁言独羡鱼。",
+      "石潭窥洞彻，沙岸历纡徐。",
+      "竹屿见垂钓，茅斋闻读书。",
+      "款言忘景夕，清兴属凉初。",
+      "回也一瓢饮，贤哉常晏如。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "14f2da14-aaf6-41e0-8f4e-6252eeb6043d",
+      "recordKey": "/902"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fc1488a1-dbea-4dda-9917-33b19d463cc9",
+    "personId": "meng-hao-ran",
+    "title": "洗然弟竹亭",
+    "genre": "诗",
+    "text": [
+      "吾与二三子，平生结交深。",
+      "俱怀鸿鹄志，昔有鹡鸰心。",
+      "逸气假毫翰，清风在竹林。",
+      "达是酒中趣，琴上偶然音。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fc1488a1-dbea-4dda-9917-33b19d463cc9",
+      "recordKey": "/707"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-64a2c649-a3cf-4553-8d46-679cb69c3acf",
+    "personId": "meng-hao-ran",
+    "title": "戏题",
+    "genre": "诗",
+    "text": [
+      "客醉眠未起，主人呼解酲。",
+      "已言鸡黍熟，复道瓮头清。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "64a2c649-a3cf-4553-8d46-679cb69c3acf",
+      "recordKey": "/926"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c8f6bc70-e056-460f-9ad3-f0b53f20f1fe",
+    "personId": "meng-hao-ran",
+    "title": "下灨石",
+    "genre": "诗",
+    "text": [
+      "灨石三百里，沿洄千嶂间。",
+      "沸声常活活，洊势亦潺潺。",
+      "跳沫鱼龙沸，垂藤猿狖攀。",
+      "榜人苦奔峭，而我忘险难。",
+      "放溜情弥惬，登舻目自闲。",
+      "暝帆何处宿，遥指落星湾。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c8f6bc70-e056-460f-9ad3-f0b53f20f1fe",
+      "recordKey": "/906"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ffcb1174-6051-471d-bc51-4f7b74b04e65",
+    "personId": "meng-hao-ran",
+    "title": "夏日辨玉法师茅斋",
+    "genre": "诗",
+    "text": [
+      "夏日茅斋里，无风坐亦凉。",
+      "竹林深笋穊，藤架引梢长。",
+      "燕觅巢窠处，蜂来造蜜房。",
+      "物华皆可玩，花橤四时芳。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ffcb1174-6051-471d-bc51-4f7b74b04e65",
+      "recordKey": "/816"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-20855c2b-467c-4ecd-af09-87d46a19a3f8",
+    "personId": "meng-hao-ran",
+    "title": "夏日浮舟过陈大水亭",
+    "genre": "诗",
+    "text": [
+      "水亭凉气多，闲櫂晚来过。",
+      "涧影见松竹，潭香闻芰荷。",
+      "野童扶醉舞，山鸟助酣歌。",
+      "幽赏未云徧，烟光奈夕何。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "20855c2b-467c-4ecd-af09-87d46a19a3f8",
+      "recordKey": "/805"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f8afed4e-e8cd-467f-afae-51dc149921f7",
+    "personId": "meng-hao-ran",
+    "title": "夏日南亭怀辛大",
+    "genre": "诗",
+    "text": [
+      "山光忽西落，池月渐东上。",
+      "散发乘夕凉，开轩卧闲敞。",
+      "荷风送香气，竹露滴清响。",
+      "欲取鸣琴弹，恨无知音赏。",
+      "感此怀故人，中宵劳梦想。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f8afed4e-e8cd-467f-afae-51dc149921f7",
+      "recordKey": "/679"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e9944b19-7b4b-47fb-94f5-e9746e9c07a5",
+    "personId": "meng-hao-ran",
+    "title": "夏日与崔二十一同集卫明府宅",
+    "genre": "诗",
+    "text": [
+      "言避一时暑，池亭五月开。",
+      "喜逢金马客，同饮玉人杯。",
+      "舞鹤乘轩至，游鱼拥钓来。",
+      "座中殊未起，箫管莫相催。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e9944b19-7b4b-47fb-94f5-e9746e9c07a5",
+      "recordKey": "/792"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-db81cdd3-a240-4b47-b8d6-e54e3c59ac1a",
+    "personId": "meng-hao-ran",
+    "title": "闲园怀苏子",
+    "genre": "诗",
+    "text": [
+      "林园虽少事，幽独自多违。",
+      "向夕开帘坐，庭阴落景微。",
+      "鸟过烟树宿，萤傍水轩飞。",
+      "感念同怀子，京华去不归。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "db81cdd3-a240-4b47-b8d6-e54e3c59ac1a",
+      "recordKey": "/760"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a7af3c0b-3b9d-4c79-bb31-1c8786680fdd",
+    "personId": "meng-hao-ran",
+    "title": "岘山饯房琯崔宗之",
+    "genre": "诗",
+    "text": [
+      "贵贱平生隔，轩车是日来。",
+      "青阳一觏止，云路豁然开。",
+      "祖道衣冠列，分亭驿骑催。",
+      "方期九日聚，还待二星回。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a7af3c0b-3b9d-4c79-bb31-1c8786680fdd",
+      "recordKey": "/769"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8f7cd549-d714-42ab-8e7a-890b3bc7ec23",
+    "personId": "meng-hao-ran",
+    "title": "岘山送萧员外之荆州",
+    "genre": "诗",
+    "text": [
+      "岘山江岸曲，郢水郭门前。",
+      "自古登临处，非今独黯然。",
+      "亭楼明落照，井邑秀通川。",
+      "涧竹生幽兴，林风入管弦。",
+      "再飞鹏激水，一举鹤冲天。",
+      "伫立三荆使，看君驷马旋。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8f7cd549-d714-42ab-8e7a-890b3bc7ec23",
+      "recordKey": "/882"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ca9483e0-c192-46da-8579-a8fa5bbc4208",
+    "personId": "meng-hao-ran",
+    "title": "岘山送张去非游巴东",
+    "genre": "诗",
+    "text": [
+      "岘山南郭外，送别每登临。",
+      "沙岸江村近，松门山寺深。",
+      "一言予有赠，三峡尔将寻。",
+      "祖席宜城酒，征途云梦林。",
+      "蹉跎游子意，眷恋故人心。",
+      "去矣勿淹滞，巴东猿夜吟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ca9483e0-c192-46da-8579-a8fa5bbc4208",
+      "recordKey": "/884"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1338a23c-19fc-4e56-b634-984b02e7fff0",
+    "personId": "meng-hao-ran",
+    "title": "岘潭作",
+    "genre": "诗",
+    "text": [
+      "石潭傍隈隩，沙岸晓夤缘。",
+      "试垂竹竿钓，果得槎头鳊。",
+      "美人骋金错，纤手脍红鲜。",
+      "因谢陆内史，莼羹何足传。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1338a23c-19fc-4e56-b634-984b02e7fff0",
+      "recordKey": "/695"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5022a1cb-449b-4dcc-8b78-33e9e5914d02",
+    "personId": "meng-hao-ran",
+    "title": "相和歌辞 大堤行",
+    "genre": "诗",
+    "text": [
+      "大堤行乐处，车马相驰突。",
+      "岁岁春草生，踏青二三月。",
+      "王孙挟珠弹，游女矜罗韈。",
+      "携手今莫同，江花为谁发。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.1000.json",
+      "recordId": "5022a1cb-449b-4dcc-8b78-33e9e5914d02",
+      "recordKey": "/435"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-395bcd77-f628-46a0-9b63-0a26fac694cc",
+    "personId": "meng-hao-ran",
+    "title": "襄阳公宅饮",
+    "genre": "诗",
+    "text": [
+      "窈窕夕阳佳，䒠茸春色好。",
+      "欲觅淹留处，无过狭斜道。",
+      "绮席卷龙须，香杯浮码碯。",
+      "北林积修树，南池生别岛。",
+      "手拨金翠花，心迷玉红草。",
+      "谈笑光六义，发论明三倒。",
+      "座非陈子惊，门还魏公扫。",
+      "荣辱应无间，欢娱当共保。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "395bcd77-f628-46a0-9b63-0a26fac694cc",
+      "recordKey": "/691"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-513a6fc8-e634-4955-9830-7b6f13da87eb",
+    "personId": "meng-hao-ran",
+    "title": "晓入南山",
+    "genre": "诗",
+    "text": [
+      "瘴气晓氛氲，南山复水云。",
+      "鲲飞今始见，鸟堕旧来闻。",
+      "地接长沙近，江从汨渚分。",
+      "贾生曾吊屈，予亦痛斯文。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "513a6fc8-e634-4955-9830-7b6f13da87eb",
+      "recordKey": "/846"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c01f9163-b9a6-4673-962c-80aac7ede94e",
+    "personId": "meng-hao-ran",
+    "title": "行出东山望汉川",
+    "genre": "诗",
+    "text": [
+      "异县非吾土，连山尽绿篁。",
+      "平田出郭少，盘坂入云长。",
+      "万壑归于汉，千峰划彼苍。",
+      "猿声乱楚峡，人语带巴乡。",
+      "石上攒椒树，藤间缀蜜房。",
+      "雪余春未煖，岚解昼初阳。",
+      "征马疲登顿，归帆爱渺茫。",
+      "坐欣沿溜下，信宿见维桑。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c01f9163-b9a6-4673-962c-80aac7ede94e",
+      "recordKey": "/904"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-6f0a1a53-c25f-4ab2-9a62-4bfa8e60b0d6",
+    "personId": "meng-hao-ran",
+    "title": "行至汝坟寄卢征君",
+    "genre": "诗",
+    "text": [
+      "行乏憩予驾，依然见汝坟。",
+      "洛川方罢雪，嵩嶂有残云。",
+      "曳曳半空里，明明五色分。",
+      "聊题一时兴，因寄卢征君。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "6f0a1a53-c25f-4ab2-9a62-4bfa8e60b0d6",
+      "recordKey": "/751"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-56c3b0c4-e278-4ff4-af07-1febf280e064",
+    "personId": "meng-hao-ran",
+    "title": "寻白鹤岩张子容隐居",
+    "genre": "诗",
+    "text": [
+      "白鹤青岩半，幽人有隐居。",
+      "阶庭空水石，林壑罢樵渔。",
+      "岁月青松老，风霜苦竹疎。",
+      "覩兹怀旧业，回策返吾庐。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "56c3b0c4-e278-4ff4-af07-1febf280e064",
+      "recordKey": "/825"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4ccd9712-a50d-47f4-b603-bafe4a879f53",
+    "personId": "meng-hao-ran",
+    "title": "寻陈逸人故居",
+    "genre": "诗",
+    "text": [
+      "人事一朝尽，荒芜三径休。",
+      "始闻漳浦卧，奄作岱宗游。",
+      "池水犹含墨，风云已落秋。",
+      "今宵泉壑里，何处觅藏舟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4ccd9712-a50d-47f4-b603-bafe4a879f53",
+      "recordKey": "/820"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-05214923-ffd7-46bf-8d9a-184baed55542",
+    "personId": "meng-hao-ran",
+    "title": "寻菊花潭主人不遇",
+    "genre": "诗",
+    "text": [
+      "行至菊花潭，村西日已斜。",
+      "主人登高去，鸡犬空在家。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "05214923-ffd7-46bf-8d9a-184baed55542",
+      "recordKey": "/919"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5f8e93b2-34fa-4d15-b7e2-fe3672e76753",
+    "personId": "meng-hao-ran",
+    "title": "寻梅道士",
+    "genre": "诗",
+    "text": [
+      "彭泽先生柳，山阴道士鹅。",
+      "我来从所好，停策汉阴多。",
+      "重以观鱼乐，因之鼓枻歌。",
+      "崔徐迹未朽，千载揖清波。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5f8e93b2-34fa-4d15-b7e2-fe3672e76753",
+      "recordKey": "/821"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-87687c59-0427-4eda-81c9-1ab22702709f",
+    "personId": "meng-hao-ran",
+    "title": "寻天台山",
+    "genre": "诗",
+    "text": [
+      "吾友太乙子，餐霞卧赤城。",
+      "欲寻华顶去，不惮恶溪名。",
+      "歇马凭云宿，扬帆截海行。",
+      "高高翠微里，遥见石梁横。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "87687c59-0427-4eda-81c9-1ab22702709f",
+      "recordKey": "/798"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-31c2aef7-133f-4151-950e-7eea2865a9e1",
+    "personId": "meng-hao-ran",
+    "title": "寻香山湛上人",
+    "genre": "诗",
+    "text": [
+      "朝游访名山，山远在空翠。",
+      "氛氲亘百里，日入行始至。",
+      "杖策寻故人，解鞭暂停骑。",
+      "石门殊豁险，篁径转森邃。",
+      "法侣欣相逢，清谈晓不寐。",
+      "平生慕真隐，累日探奇异。",
+      "野老朝入田，山僧暮归寺。",
+      "松泉多逸响，苔壁饶古意。",
+      "谷口闻钟声，林端识香气。",
+      "愿言投此山，身世两相弃。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "31c2aef7-133f-4151-950e-7eea2865a9e1",
+      "recordKey": "/692"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-7a8980bc-3acf-4173-909b-5a15ac7b990c",
+    "personId": "meng-hao-ran",
+    "title": "寻张五回夜园作",
+    "genre": "诗",
+    "text": [
+      "闻就庞公隐，移居近洞湖。",
+      "兴来林是竹，归卧谷名愚。",
+      "挂席樵风便，开轩琴月孤。",
+      "岁寒何用赏，霜落故园芜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "7a8980bc-3acf-4173-909b-5a15ac7b990c",
+      "recordKey": "/830"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fc5acef5-c403-43a5-a69f-97256231868c",
+    "personId": "meng-hao-ran",
+    "title": "宴包二融宅",
+    "genre": "诗",
+    "text": [
+      "闲居枕清洛，左右接大野。",
+      "门庭无杂宾，车辙多长者。",
+      "是时方盛夏，风物自潇洒。",
+      "五日休沐归，相携竹林下。",
+      "开襟成欢趣，对酒不能罢。",
+      "烟暝栖鸟迷，余将归白社。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fc5acef5-c403-43a5-a69f-97256231868c",
+      "recordKey": "/689"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f933e19d-3030-447f-911e-214f6c712c94",
+    "personId": "meng-hao-ran",
+    "title": "宴崔明府宅夜观妓",
+    "genre": "诗",
+    "text": [
+      "画堂观妙妓，长夜正留宾。",
+      "烛吐莲花艳，妆成桃李春。",
+      "髻鬟低舞席，衫袖掩歌唇。",
+      "汗湿偏宜粉，罗轻讵著身。",
+      "调移筝柱促，欢会酒杯频。",
+      "倘使曹王见，应嫌洛浦神。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f933e19d-3030-447f-911e-214f6c712c94",
+      "recordKey": "/887"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d5de78bc-8cdf-4f9d-b21c-3a9762300ca9",
+    "personId": "meng-hao-ran",
+    "title": "宴荣二山池",
+    "genre": "诗",
+    "text": [
+      "甲第开金穴，荣期乐自多。",
+      "枥嘶支遁马，池养右军鹅。",
+      "竹引携琴入，花邀载酒过。",
+      "山公来取醉，时唱接䍠歌。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d5de78bc-8cdf-4f9d-b21c-3a9762300ca9",
+      "recordKey": "/791"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-16943777-44e8-491d-a4a8-fb33f6d2c3c9",
+    "personId": "meng-hao-ran",
+    "title": "宴张别驾新斋",
+    "genre": "诗",
+    "text": [
+      "世业传珪组，江城佐股肱。",
+      "高斋征学问，虚薄滥先登。",
+      "讲论陪诸子，文章得旧朋。",
+      "士元多赏激，衰病恨无能。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "16943777-44e8-491d-a4a8-fb33f6d2c3c9",
+      "recordKey": "/795"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fa3394ed-7763-4409-b695-7ba2c7aad299",
+    "personId": "meng-hao-ran",
+    "title": "宴张记室宅",
+    "genre": "诗",
+    "text": [
+      "甲第金张馆，门庭车骑多。",
+      "家封汉阳郡，文会楚材过。",
+      "曲岛浮觞酌，前山入咏歌。",
+      "妓堂花映发，书阁柳逶迤。",
+      "玉指调筝柱，金泥饰舞罗。",
+      "宁知书劒者，岁月独蹉跎。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fa3394ed-7763-4409-b695-7ba2c7aad299",
+      "recordKey": "/886"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8a1025ff-9245-4515-89e8-6383d60fd8c1",
+    "personId": "meng-hao-ran",
+    "title": "扬子津望京口",
+    "genre": "诗",
+    "text": [
+      "北固临京口，夷山近海滨。",
+      "江风白浪起，愁杀渡头人。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8a1025ff-9245-4515-89e8-6383d60fd8c1",
+      "recordKey": "/921"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-46555335-434e-41cd-9811-b0376d8144d7",
+    "personId": "meng-hao-ran",
+    "title": "姚开府山池",
+    "genre": "诗",
+    "text": [
+      "主人新邸第，相国旧池台。",
+      "馆是招贤辟，楼因教舞开。",
+      "轩车人已散，箫管凤初来。",
+      "今日龙门下，谁知文举才。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "46555335-434e-41cd-9811-b0376d8144d7",
+      "recordKey": "/804"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-83c44c92-0198-4004-892f-a1d34a6858da",
+    "personId": "meng-hao-ran",
+    "title": "耶溪泛舟",
+    "genre": "诗",
+    "text": [
+      "落景馀清辉，轻桡弄溪渚。",
+      "澄明爱水物，临泛何容与。",
+      "白首垂钓翁，新妆浣纱女。",
+      "相看似相识，脉脉不得语。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "83c44c92-0198-4004-892f-a1d34a6858da",
+      "recordKey": "/699"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-39482263-8152-41b8-af07-4e18de311e3f",
+    "personId": "meng-hao-ran",
+    "title": "夜登孔伯昭南楼时沈太清朱升在座",
+    "genre": "诗",
+    "text": [
+      "谁家无风月，此地有琴尊。",
+      "山水会稽郡，诗书孔氏门。",
+      "再来值秋杪，高阁夜无喧。",
+      "华烛罢然蜡，清弦方奏鹍。",
+      "沈生隐侯胤，朱子买臣孙。",
+      "好我意不浅，登兹共话言。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "39482263-8152-41b8-af07-4e18de311e3f",
+      "recordKey": "/892"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1695f005-7a4d-4cce-8694-df08455000f5",
+    "personId": "meng-hao-ran",
+    "title": "夜渡湘水",
+    "genre": "诗",
+    "text": [
+      "客舟贪利涉，暗里渡湘川。",
+      "露气闻芳杜，歌声识采莲。",
+      "榜人投岸火，渔子宿潭烟。",
+      "行侣时相问，浔阳何处边。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1695f005-7a4d-4cce-8694-df08455000f5",
+      "recordKey": "/847"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-cc0e7ac3-bde4-4491-8ae5-027106709e72",
+    "personId": "meng-hao-ran",
+    "title": "夜归鹿门山歌",
+    "genre": "诗",
+    "text": [
+      "山寺钟鸣昼已昏，渔梁渡头争渡喧。",
+      "人随沙路向江村，余亦乘舟归鹿门。",
+      "鹿门月照开烟树，忽到庞公栖隐处。",
+      "岩扉松径长寂寥，惟有幽人夜来去。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "cc0e7ac3-bde4-4491-8ae5-027106709e72",
+      "recordKey": "/728"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0a60a215-c9ac-4290-9870-84f852b0f537",
+    "personId": "meng-hao-ran",
+    "title": "夜泊庐江闻故人在东寺以诗寄之",
+    "genre": "诗",
+    "text": [
+      "江路经庐阜，松门入虎溪。",
+      "闻君寻寂乐，清夜宿招提。",
+      "石镜山精怯，禅枝怖鸽栖。",
+      "一灯如悟道，为照客心迷。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "0a60a215-c9ac-4290-9870-84f852b0f537",
+      "recordKey": "/747"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-2c93ca3b-8719-4004-8515-140d83266788",
+    "personId": "meng-hao-ran",
+    "title": "夜泊牛渚趁薛八船不及",
+    "genre": "诗",
+    "text": [
+      "星罗牛渚夕，风退鹢舟迟。",
+      "浦溆尝同宿，烟波忽间之。",
+      "榜歌空里失，船火望中疑。",
+      "明发泛潮海，茫茫何处期。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "2c93ca3b-8719-4004-8515-140d83266788",
+      "recordKey": "/845"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-a39cd422-7092-479b-9131-7fcb40531622",
+    "personId": "meng-hao-ran",
+    "title": "夜泊宣城界",
+    "genre": "诗",
+    "text": [
+      "西塞沿江岛，南陵问驿楼。",
+      "湖平津济阔，风止客帆收。",
+      "去去怀前浦，茫茫泛夕流。",
+      "石逢罗刹碍，山泊敬亭幽。",
+      "火识梅根冶，烟迷杨叶洲。",
+      "离家复水宿，相伴赖沙鸥。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "a39cd422-7092-479b-9131-7fcb40531622",
+      "recordKey": "/905"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e7e13edf-da16-4e83-88d4-b8efe6b40415",
+    "personId": "meng-hao-ran",
+    "title": "鹦鹉洲送王九之江左",
+    "genre": "诗",
+    "text": [
+      "昔登江上黄鹤楼，遥爱江中鹦鹉洲。",
+      "洲势逶迤绕碧流，鸳鸯㶉𫛶满滩头。",
+      "滩头日落沙碛长，金沙熠熠动飙光。",
+      "舟人牵锦缆，浣女结罗裳。",
+      "月明全见芦花白，风起遥闻杜若香，君行采采莫相忘。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e7e13edf-da16-4e83-88d4-b8efe6b40415",
+      "recordKey": "/726"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-051e7f83-3873-4fa7-9819-e8f6d0dcf204",
+    "personId": "meng-hao-ran",
+    "title": "永嘉别张子容",
+    "genre": "诗",
+    "text": [
+      "旧国余归楚，新年子北征。",
+      "挂帆愁海路，分手恋朋情。",
+      "日夕故园意，汀洲春草生。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "051e7f83-3873-4fa7-9819-e8f6d0dcf204",
+      "recordKey": "/778"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f881c202-e9ce-4128-87f3-3a54dd4442dd",
+    "personId": "meng-hao-ran",
+    "title": "永嘉上浦馆逢张八子容",
+    "genre": "诗",
+    "text": [
+      "逆旅相逢处，江村日暮时。",
+      "众山遥对酒，孤屿共题诗。",
+      "廨宇邻蛟室，人烟接岛夷。",
+      "乡园万余里，失路一相悲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f881c202-e9ce-4128-87f3-3a54dd4442dd",
+      "recordKey": "/850"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-0d3c1304-a2bf-416c-a1b3-5b51c58c050a",
+    "personId": "meng-hao-ran",
+    "title": "咏青（伯二五六七）",
+    "genre": "诗",
+    "text": [
+      "雾辟天光远，春回日道临。",
+      "草浓河畔色，槐结路旁阴。",
+      "欲映君王史，先标胄子襟；经明如何（可）[一]拾，自有致云心。",
+      "（《国秀集》卷下、《全唐诗》卷二○三皆收此诗为校书郎荆冬倩之作，作孟诗恐误。",
+      "）（[一]依刘校。",
+      "）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.50000.json",
+      "recordId": "0d3c1304-a2bf-416c-a1b3-5b51c58c050a",
+      "recordKey": "/170"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-709677a9-d6dc-4967-ac80-f6783a0053a2",
+    "personId": "meng-hao-ran",
+    "title": "游凤林寺西岭",
+    "genre": "诗",
+    "text": [
+      "共喜年华好，来游水石间。",
+      "烟容开远树，春色满幽山。",
+      "壶酒朋情洽，琴歌野兴闲。",
+      "莫愁归路暝，招月伴人还。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "709677a9-d6dc-4967-ac80-f6783a0053a2",
+      "recordKey": "/807"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-4937a4e9-aa26-480f-bc6d-a2239d94f1ef",
+    "personId": "meng-hao-ran",
+    "title": "游江西留别富阳裴刘二少府",
+    "genre": "诗",
+    "text": [
+      "西上游江西，临流恨解携。",
+      "千山叠成嶂，万水泻为溪。",
+      "石浅流难溯，藤长险易跻。",
+      "谁怜问津者，岁晏此中迷。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "4937a4e9-aa26-480f-bc6d-a2239d94f1ef",
+      "recordKey": "/785"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d9119ad9-0cb7-46f0-b713-1bc42f5efe88",
+    "personId": "meng-hao-ran",
+    "title": "游精思观回王白云在后",
+    "genre": "诗",
+    "text": [
+      "出谷未停午，到家日已曛。",
+      "回瞻下山路，但见牛羊群。",
+      "樵子暗相失，草虫寒不闻。",
+      "衡门犹未掩，伫立望夫君。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d9119ad9-0cb7-46f0-b713-1bc42f5efe88",
+      "recordKey": "/815"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-47b4773e-03fc-4234-a59e-5e5c4c153a29",
+    "personId": "meng-hao-ran",
+    "title": "游精思题观主山房",
+    "genre": "诗",
+    "text": [
+      "误入桃源里，初怜竹径深。",
+      "方知仙子宅，未有世人寻。",
+      "舞鹤过闲砌，飞猿啸密林。",
+      "渐通玄妙理，深得坐忘心。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "47b4773e-03fc-4234-a59e-5e5c4c153a29",
+      "recordKey": "/818"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d60e7f5f-9fd7-404a-aa1e-e3f0b5024526",
+    "personId": "meng-hao-ran",
+    "title": "游景空寺兰若",
+    "genre": "诗",
+    "text": [
+      "龙象经行处，山腰度石关。",
+      "屡迷青嶂合，时爱绿萝闲。",
+      "宴息花林下，高谈竹屿间。",
+      "寥寥隔尘事，疑是入鸡山。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d60e7f5f-9fd7-404a-aa1e-e3f0b5024526",
+      "recordKey": "/813"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c1443129-8490-43d0-8520-63386cf8782a",
+    "personId": "meng-hao-ran",
+    "title": "游明禅师西山兰若",
+    "genre": "诗",
+    "text": [
+      "西山多奇状，秀出倚前楹。",
+      "停午收彩翠，夕阳照分明。",
+      "吾师住其下，禅坐证无生。",
+      "结庐就嵌窟，剪苕通往行。",
+      "谈空对樵叟，授法与山精。",
+      "日暮方辞去，田园归冶城。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c1443129-8490-43d0-8520-63386cf8782a",
+      "recordKey": "/702"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d80d8466-83b1-4821-ad08-edcdf6c437f0",
+    "personId": "meng-hao-ran",
+    "title": "与白明府游江",
+    "genre": "诗",
+    "text": [
+      "故人来自远，邑宰复初临。",
+      "执手恨为别，同舟无异心。",
+      "沿洄洲渚趣，演漾弦歌音。",
+      "谁识躬耕者，年年梁甫吟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d80d8466-83b1-4821-ad08-edcdf6c437f0",
+      "recordKey": "/806"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-65ba04b2-3834-42ec-aac3-147a9da0c039",
+    "personId": "meng-hao-ran",
+    "title": "与崔二十一游镜湖寄包贺二公",
+    "genre": "诗",
+    "text": [
+      "试览镜湖物，中流到底清。",
+      "不知鲈鱼味，但识鸥鸟情。",
+      "帆得樵风送，春逢谷雨晴。",
+      "将探夏禹穴，稍背越王城。",
+      "府掾有包子，文章推贺生。",
+      "沧浪醉后唱，因此寄同声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "65ba04b2-3834-42ec-aac3-147a9da0c039",
+      "recordKey": "/891"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-bd87caec-0cbf-4003-b5ca-7ee0208c5232",
+    "personId": "meng-hao-ran",
+    "title": "与杭州薛司户登樟亭楼作",
+    "genre": "诗",
+    "text": [
+      "水楼一登眺，半出青林高。",
+      "帟幕英僚敞，芳筵下客叨。",
+      "山藏伯禹穴，城压伍胥涛。",
+      "今日观溟涨，垂纶学钓鼇。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "bd87caec-0cbf-4003-b5ca-7ee0208c5232",
+      "recordKey": "/797"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-91e92f66-319c-4cf5-b5c0-08938846a812",
+    "personId": "meng-hao-ran",
+    "title": "与黄侍御北津泛舟",
+    "genre": "诗",
+    "text": [
+      "津无蛟龙患，日夕常安流。",
+      "本欲避骢马，何如同鹢舟。",
+      "岂伊今日幸，曾是昔年游。",
+      "莫奏琴中鹤，且随波上鸥。",
+      "隄缘九里郭，山面百城楼。",
+      "自顾躬耕者，才非管乐俦。",
+      "闻君荐草泽，从此泛沧洲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "91e92f66-319c-4cf5-b5c0-08938846a812",
+      "recordKey": "/706"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-268aae62-5eac-44ea-8f36-f6ef9314ea6e",
+    "personId": "meng-hao-ran",
+    "title": "与王昌龄宴王道士房",
+    "genre": "诗",
+    "text": [
+      "归来卧青山，常梦游清都。",
+      "漆园有傲吏，惠好在招呼。",
+      "书幌神仙箓，画屏山海图。",
+      "酌霞复对此，宛似入蓬壶。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "268aae62-5eac-44ea-8f36-f6ef9314ea6e",
+      "recordKey": "/690"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-400cfc13-2169-4520-be44-0a5a1bb32567",
+    "personId": "meng-hao-ran",
+    "title": "与颜钱塘登障楼望潮作",
+    "genre": "诗",
+    "text": [
+      "百里闻雷震，鸣弦暂辍弹。",
+      "府中连骑出，江上待潮观。",
+      "照日秋云廻，浮天渤澥宽。",
+      "惊涛来似雪，一坐凛生寒。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "400cfc13-2169-4520-be44-0a5a1bb32567",
+      "recordKey": "/803"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-40f5b51a-791b-4b78-952e-82e288cda0fe",
+    "personId": "meng-hao-ran",
+    "title": "与张折冲游耆阇寺",
+    "genre": "诗",
+    "text": [
+      "释子弥天秀，将军武库才。",
+      "横行塞北尽，独步汉南来。",
+      "贝叶传金口，山楼作赋开。",
+      "因君振嘉藻，江楚气雄哉。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "40f5b51a-791b-4b78-952e-82e288cda0fe",
+      "recordKey": "/817"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-b71d7c9c-7e92-4797-b2c9-8715dd0c2881",
+    "personId": "meng-hao-ran",
+    "title": "与诸子登岘山",
+    "genre": "诗",
+    "text": [
+      "人事有代谢，往来成古今。",
+      "江山留胜迹，我辈复登临。",
+      "水落鱼梁浅，天寒梦泽深。",
+      "羊公碑字在，读罢泪沾襟。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "b71d7c9c-7e92-4797-b2c9-8715dd0c2881",
+      "recordKey": "/796"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-506fb234-a294-4502-805e-3843c053d7f4",
+    "personId": "meng-hao-ran",
+    "title": "越中逢天台太乙子",
+    "genre": "诗",
+    "text": [
+      "仙穴逢羽人，停舻向前拜。",
+      "问余涉风水，何处远行迈。",
+      "登陆寻天台，顺流下吴会。",
+      "兹山夙所尚，安得问灵怪。",
+      "上逼青天高，俯临沧海大。",
+      "鸡鸣见日出，常觌仙人斾。",
+      "往来赤城中，逍遥白云外。",
+      "莓苔异人间，瀑布当空界。",
+      "福庭长自然，华顶旧称最。",
+      "永此从之游，何当济所届。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "506fb234-a294-4502-805e-3843c053d7f4",
+      "recordKey": "/709"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-893eee5a-08bd-4308-b019-b7d6a692db95",
+    "personId": "meng-hao-ran",
+    "title": "云门寺西六七里闻符公兰若最幽与薛八同往",
+    "genre": "诗",
+    "text": [
+      "谓予独迷方，逢子亦在野。",
+      "结交指松柏，问法寻兰若。",
+      "小溪劣容舟，怪石屡惊马。",
+      "所居最幽绝，所住皆静者。",
+      "云簇兴座隅，天空落阶下。",
+      "上人亦何闻，尘念都已舍。",
+      "四禅合真如，一切是虚假。",
+      "愿承甘露润，喜得惠风洒。",
+      "依止托山门，谁能效丘也。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "893eee5a-08bd-4308-b019-b7d6a692db95",
+      "recordKey": "/693"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-c2763c49-0c78-482f-abd0-bc341079771b",
+    "personId": "meng-hao-ran",
+    "title": "早春润州送从弟还乡",
+    "genre": "诗",
+    "text": [
+      "兄弟游吴国，庭闱恋楚关。",
+      "已多新岁感，更饯白眉还。",
+      "归泛西江水，离筵北固山。",
+      "乡园欲有赠，梅柳著先攀。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "c2763c49-0c78-482f-abd0-bc341079771b",
+      "recordKey": "/768"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-81e1e6c2-2dbb-4650-b7a7-1ec27257fe25",
+    "personId": "meng-hao-ran",
+    "title": "早发渔浦潭",
+    "genre": "诗",
+    "text": [
+      "东旭早光芒，渚禽已惊聒。",
+      "卧闻渔浦口，桡声暗相拨。",
+      "日出气象分，始知江湖阔。",
+      "美人常晏起，照影弄流沫。",
+      "饮水畏惊猿，祭鱼时见獭。",
+      "舟行自无闷，况值晴景豁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "81e1e6c2-2dbb-4650-b7a7-1ec27257fe25",
+      "recordKey": "/715"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-8e18183e-5a58-4805-b672-1726969d6526",
+    "personId": "meng-hao-ran",
+    "title": "早寒江上有怀",
+    "genre": "诗",
+    "text": [
+      "木落雁南度，北风江上寒。",
+      "我家襄水上，遥隔楚云端。",
+      "乡泪客中尽，孤帆天际看。",
+      "迷津欲有问，平海夕漫漫。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "8e18183e-5a58-4805-b672-1726969d6526",
+      "recordKey": "/759"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-55031508-e6f7-4322-b449-f4e23d321e4d",
+    "personId": "meng-hao-ran",
+    "title": "早梅",
+    "genre": "诗",
+    "text": [
+      "园中有早梅，年例犯寒开。",
+      "少妇曾攀折，将归插镜台。",
+      "犹言看不足，更欲剪刀裁。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "55031508-e6f7-4322-b449-f4e23d321e4d",
+      "recordKey": "/722"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d917d875-586b-414c-842f-753be5c6341d",
+    "personId": "meng-hao-ran",
+    "title": "赠道士参寥",
+    "genre": "诗",
+    "text": [
+      "蜀琴久不弄，玉匣细尘生。",
+      "丝脆弦将断，金徽色尚荣。",
+      "知音徒自惜，聋俗本相轻。",
+      "不遇钟期听，谁知鸾凤声。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d917d875-586b-414c-842f-753be5c6341d",
+      "recordKey": "/736"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1119b1f3-956b-4caf-aded-b08c89bb1740",
+    "personId": "meng-hao-ran",
+    "title": "赠韩襄客",
+    "genre": "诗",
+    "text": [
+      "只为阳台梦里狂，降来教作神仙客。",
+      "（见《增修诗话总龟前集》卷十三引《诗史》）。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.52000.json",
+      "recordId": "1119b1f3-956b-4caf-aded-b08c89bb1740",
+      "recordKey": "/745"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-950b73a7-fe4b-4602-8464-1879af1808c0",
+    "personId": "meng-hao-ran",
+    "title": "赠王九",
+    "genre": "诗",
+    "text": [
+      "日暮田家远，山中勿久淹。",
+      "归人须早去，稚子望陶潜。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "950b73a7-fe4b-4602-8464-1879af1808c0",
+      "recordKey": "/909"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1060b761-fa9f-4c13-b6ad-da1b8cf43248",
+    "personId": "meng-hao-ran",
+    "title": "赠萧少府",
+    "genre": "诗",
+    "text": [
+      "上德如流水，安仁道若山。",
+      "闻君秉高节，而得奉清颜。",
+      "鸿渐升仪羽，牛刀列下班。",
+      "处腴能不润，居剧体常闲。",
+      "去诈人无谄，除邪吏息奸。",
+      "欲知清与洁，明月照澄湾。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1060b761-fa9f-4c13-b6ad-da1b8cf43248",
+      "recordKey": "/876"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-d50e6d9c-f94f-46e5-95e3-24e745f58681",
+    "personId": "meng-hao-ran",
+    "title": "张郎中梅园中",
+    "genre": "诗",
+    "text": [
+      "绮席铺兰杜，珠盘折芰荷。",
+      "故园留不住，应是恋弦歌。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "d50e6d9c-f94f-46e5-95e3-24e745f58681",
+      "recordKey": "/915"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-58d404f3-989e-464e-843b-380f90c154aa",
+    "personId": "meng-hao-ran",
+    "title": "张七及辛大见寻南亭醉作",
+    "genre": "诗",
+    "text": [
+      "山公能饮酒，居士好弹筝。",
+      "世外交初得，林中契已并。",
+      "纳凉风飒至，逃暑日将倾。",
+      "便就南亭里，余尊惜解酲。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "58d404f3-989e-464e-843b-380f90c154aa",
+      "recordKey": "/835"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-fd9b6623-1ef8-4794-af81-9abb9f0881c1",
+    "personId": "meng-hao-ran",
+    "title": "长安早春",
+    "genre": "诗",
+    "text": [
+      "关戍惟东井，城池起北辰。",
+      "咸歌太平日，共乐建寅春。",
+      "雪尽青山树，冰开黑水滨。",
+      "草迎金埒马，花伴玉楼人。",
+      "鸿渐看无数，莺歌听欲频。",
+      "何当遂荣擢，归及柳条新。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "fd9b6623-1ef8-4794-af81-9abb9f0881c1",
+      "recordKey": "/869"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-1e193b15-1a2b-4c6e-a64a-23c4eadfbab2",
+    "personId": "meng-hao-ran",
+    "title": "长乐宫",
+    "genre": "诗",
+    "text": [
+      "秦城旧来称窈窕，汉家更衣应不少。",
+      "红粉邀君在何处，青楼苦夜长难晓。",
+      "长乐宫中钟暗来，可怜歌舞惯相催。",
+      "欢娱此事今寂寞，惟有年年陵树哀。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "1e193b15-1a2b-4c6e-a64a-23c4eadfbab2",
+      "recordKey": "/729"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-e1d166f6-4858-4516-b4c7-339c6fc620ac",
+    "personId": "meng-hao-ran",
+    "title": "仲夏归汉南园寄京邑耆旧",
+    "genre": "诗",
+    "text": [
+      "尝读高士传，最嘉陶征君。",
+      "日耽田园趣，自谓羲皇人。",
+      "予复何为者，栖栖徒问津。",
+      "中年废丘壑，上国旅风尘。",
+      "忠欲事明主，孝思侍老亲。",
+      "归来当炎夏，耕稼不及春。",
+      "扇枕北窗下，采芝南涧滨。",
+      "因声谢同列，吾慕颍阳真。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "e1d166f6-4858-4516-b4c7-339c6fc620ac",
+      "recordKey": "/674"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f4b0bd05-ca33-4464-b8f3-878cdc829016",
+    "personId": "meng-hao-ran",
+    "title": "重酬李少府见赠",
+    "genre": "诗",
+    "text": [
+      "养疾衡簷下，由来浩气真。",
+      "五行将禁火，十步任寻春。",
+      "致敬惟桑梓，邀欢即主人。",
+      "回看后雕色，青翠有松筠。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f4b0bd05-ca33-4464-b8f3-878cdc829016",
+      "recordKey": "/755"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-f59f3b55-df15-4226-b0bf-4103bb74e1a1",
+    "personId": "meng-hao-ran",
+    "title": "舟中晓望",
+    "genre": "诗",
+    "text": [
+      "挂席东南望，青山水国遥。",
+      "舳舻争利涉，来往接风潮。",
+      "问我今何去，天台访石桥。",
+      "坐看霞色晓，疑是赤城标。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "f59f3b55-df15-4226-b0bf-4103bb74e1a1",
+      "recordKey": "/839"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-02214ffe-3a50-4e2c-8dca-038d928eff3b",
+    "personId": "meng-hao-ran",
+    "title": "自洛之越",
+    "genre": "诗",
+    "text": [
+      "皇皇三十载，书劒两无成。",
+      "山水寻吴越，风尘厌洛京。",
+      "扁舟泛湖海，长揖谢公卿。",
+      "且乐杯中物，谁论世上名。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "02214ffe-3a50-4e2c-8dca-038d928eff3b",
+      "recordKey": "/840"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-ae57919c-2a2a-45a6-b931-f0aad8edacbc",
+    "personId": "meng-hao-ran",
+    "title": "自浔阳泛舟经明海",
+    "genre": "诗",
+    "text": [
+      "大江分九流，淼淼成水乡。",
+      "舟子乘利涉，往来至浔阳。",
+      "因之泛五湖，流浪经三湘。",
+      "观涛壮枚发，吊屈痛沈湘。",
+      "魏阙心恒在，金门诏不忘。",
+      "遥怜上林雁，冰泮也回翔。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "ae57919c-2a2a-45a6-b931-f0aad8edacbc",
+      "recordKey": "/714"
+    },
+    "libraryStatus": "corpus"
+  },
+  {
+    "id": "corpus-meng-hao-ran-5461fb74-6384-4ca7-a500-5e5995c78515",
+    "personId": "meng-hao-ran",
+    "title": "醉后赠马四",
+    "genre": "诗",
+    "text": [
+      "四海重然诺，吾尝闻白眉。",
+      "秦城游侠客，相得半酣时。"
+    ],
+    "sourceRecord": {
+      "sourceId": "chinese-poetry",
+      "file": "全唐诗/poet.tang.7000.json",
+      "recordId": "5461fb74-6384-4ca7-a500-5e5995c78515",
+      "recordKey": "/908"
+    },
+    "libraryStatus": "corpus"
+  }
+]

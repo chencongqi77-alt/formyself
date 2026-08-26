@@ -1,0 +1,43 @@
+{
+  "name": "site-creator-vinext-starter",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "test": "npm run build && node --experimental-strip-types --test tests/rendered-html.test.mjs tests/book-agent-route.test.mjs tests/book-agent-model.test.mjs tests/book-agent-quality.test.mjs tests/book-agent-enrichment.test.mjs tests/story-summary-policy.test.mjs tests/corpus-library.test.mjs tests/work-place-links.test.mjs tests/poetry-modules-data.test.mjs tests/relationship-graph-focus.test.mjs tests/social-graph-visibility.test.mjs tests/knowledge-graph-presentation.test.mjs tests/graph-zoom-controls.test.mjs tests/journey-route-animation.test.mjs tests/poem-world-display.test.mjs tests/poem-world-map-visual.test.mjs tests/poem-world-spotlight.test.mjs tests/public-module-person.test.mjs tests/reading-samples.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .site-artifacts",
+    "data:corpus": "node scripts/build-poet-corpus.mjs"
+  },
+  "dependencies": {
+    "@maplibre/maplibre-gl-leaflet": "^0.1.4",
+    "leaflet": "^1.9.4",
+    "maplibre-gl": "^6.4.1",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

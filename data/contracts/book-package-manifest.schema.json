@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:poetry-knowledge-base:book-package-manifest:1.0.0",
+  "title": "Private ordered book package manifest",
+  "description": "A job-local, reproducible manifest for an ordered directory of source files. It records structure and hashes, never raw source text or absolute paths.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "schemaVersion",
+    "packageId",
+    "jobId",
+    "createdAt",
+    "visibility",
+    "book",
+    "sourceRef",
+    "ordering",
+    "selection",
+    "memberCount",
+    "totalBytes",
+    "packageSha256",
+    "digestSpecification",
+    "members"
+  ],
+  "properties": {
+    "recordType": { "const": "book-package-manifest" },
+    "schemaVersion": { "const": "1.0.0" },
+    "packageId": { "$ref": "#/$defs/packageId" },
+    "jobId": { "$ref": "#/$defs/jobId" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "visibility": { "const": "private" },
+    "book": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 300 }
+      }
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId"],
+      "properties": {
+        "sourceId": { "$ref": "#/$defs/id" },
+        "sourceVersion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "value"],
+          "properties": {
+            "type": { "type": "string", "minLength": 1, "maxLength": 100 },
+            "value": { "type": "string", "minLength": 1, "maxLength": 300 }
+          }
+        }
+      }
+    },
+    "ordering": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "pathFormat"],
+      "properties": {
+        "method": { "const": "relative-path-lexicographic-v1" },
+        "pathFormat": { "const": "posix" }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["includeExtensions", "excludedFileCount"],
+      "properties": {
+        "includeExtensions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^\\.[A-Za-z0-9]+$" }
+        },
+        "excludedFileCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "memberCount": { "type": "integer", "minimum": 1 },
+    "totalBytes": { "type": "integer", "minimum": 1 },
+    "packageSha256": { "$ref": "#/$defs/sha256" },
+    "digestSpecification": {
+      "const": "book-package-digest-v1: ordinal + NUL + path + NUL + size + NUL + file-sha256-bytes + LF"
+    },
+    "members": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/member" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "jobId": { "type": "string", "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+){1,12}$" },
+    "packageId": { "type": "string", "pattern": "^bpm-[a-z0-9]+(?:-[a-z0-9]+){1,12}$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "ordinal",
+        "relativePath",
+        "sizeBytes",
+        "sha256",
+        "mediaTypeHint",
+        "sectionHints"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "ordinal": { "type": "integer", "minimum": 1 },
+        "relativePath": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000,
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+$"
+        },
+        "sizeBytes": { "type": "integer", "minimum": 1 },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "mediaTypeHint": { "const": "text/plain" },
+        "sectionHints": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sectionHint" }
+        }
+      }
+    },
+    "sectionHint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "title", "line", "detector"],
+      "properties": {
+        "kind": { "enum": ["title", "juan", "heading"] },
+        "title": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "line": { "type": "integer", "minimum": 1 },
+        "detector": {
+          "enum": ["org-title-v1", "kanripo-org-juan-v1", "markdown-heading-v1"]
+        }
+      }
+    }
+  }
+}

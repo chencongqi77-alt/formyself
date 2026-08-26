@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "1.0.0",
+  "recordType": "three-map-reading-samples",
+  "reviewStatus": "candidate-preview",
+  "notes": [
+    "故事卡只承载可阅读的叙事，不替代人物、地点、作品和关系实体。",
+    "所有故事卡通过 evidenceIds 连接证据，通过 anchorRefs 连接已有实体。",
+    "传统说法必须使用 claimType=tradition，并明确 disclaimer；不自动生成社会关系边。"
+  ],
+  "evidence": [
+    {
+      "id": "ev-journey-su-shi-hangzhou",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_000.txt",
+        "startLine": 1095,
+        "endLine": 1143
+      },
+      "purpose": "杭州任通判的年谱线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-journey-su-shi-hangzhou-work",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_004.txt",
+        "startLine": 282,
+        "endLine": 287
+      },
+      "purpose": "《饮湖上初晴后雨》与西湖的作品线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-journey-su-shi-xuzhou",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_000.txt",
+        "startLine": 1172,
+        "endLine": 1202
+      },
+      "purpose": "徐州治水与黄楼的年谱线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-journey-su-shi-huangzhou",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_000.txt",
+        "startLine": 1240,
+        "endLine": 1348
+      },
+      "purpose": "黄州谪居、经营东坡与赤壁创作的年谱线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-place-huanghelou-cui-hao",
+      "sourceId": "chinese-poetry",
+      "locator": {
+        "kind": "record",
+        "path": "全唐诗/poet.tang.6000.json",
+        "recordId": "290"
+      },
+      "purpose": "崔颢《黄鹤楼》文本定位；只作作品上下文，不证明诗话相遇",
+      "reviewStatus": "candidate-preview"
+    },
+    {
+      "id": "ev-place-huanghelou-li-bai",
+      "sourceId": "kanripo-kr4c0013",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4c0013_015.txt",
+        "startLine": 263,
+        "endLine": 265
+      },
+      "purpose": "李白《黄鹤楼送孟浩然之广陵》题名与正文定位；只作作品上下文",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-social-su-shi-wang-an-shi-policy",
+      "sourceId": "kanripo-kr2a0032",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR2a0032_338.txt",
+        "startLine": 49,
+        "endLine": 90
+      },
+      "purpose": "《宋史·苏轼传》中的朝议与新法线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-social-su-shi-wang-an-shi-meeting",
+      "sourceId": "kanripo-kr2a0032",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR2a0032_338.txt",
+        "startLine": 210,
+        "endLine": 218
+      },
+      "purpose": "《宋史·苏轼传》中的金陵相见与对话线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-social-su-shi-wang-an-shi-letter",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_075.txt",
+        "startLine": 167,
+        "endLine": 181
+      },
+      "purpose": "《上荆公书》中的请见、求田与荐秦观线索",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-social-su-shi-ci-jinggong-yun",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_014.txt",
+        "startLine": 120,
+        "endLine": 129
+      },
+      "purpose": "《次荆公韵四绝》的版本定位",
+      "reviewStatus": "published"
+    },
+    {
+      "id": "ev-social-su-shi-western-taiyi-jinggong",
+      "sourceId": "kanripo-kr4d0076",
+      "locator": {
+        "kind": "line-range",
+        "path": "KR4d0076_016.txt",
+        "startLine": 138,
+        "endLine": 143
+      },
+      "purpose": "《西太一见王荆公旧诗偶次其韵二首》的版本定位",
+      "reviewStatus": "published"
+    }
+  ],
+  "entities": {
+    "people": [
+      {
+        "id": "cui-hao",
+        "name": "崔颢",
+        "reviewStatus": "candidate-preview"
+      }
+    ],
+    "works": [
+      {
+        "id": "cui-hao-huanghelou",
+        "personId": "cui-hao",
+        "title": "黄鹤楼",
+        "genre": "诗",
+        "text": [
+          "昔人已乘白云去，此地空余黄鹤楼。",
+          "黄鹤一去不复返，白云千载空悠悠。",
+          "晴川历历汉阳树，春草萋萋鹦鹉洲。",
+          "日暮乡关何处是，烟波江上使人愁。"
+        ],
+        "evidenceIds": ["ev-place-huanghelou-cui-hao"],
+        "reviewStatus": "candidate-preview"
+      }
+    ]
+  },
+  "storyCards": [
+    {
+      "id": "story-journey-su-shi-hangzhou",
+      "kind": "journey",
+      "claimType": "fact",
+      "title": "钱塘任通判，西湖入诗",
+      "summary": "苏轼请求外任到杭州任通判，任内处理政务、游西湖并留下诗作；这里是仕途与西湖书写交叠的一站。",
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "place", "id": "hangzhou" },
+        { "type": "work", "id": "su-shi-yin-hu-shang-chu-qing-hou-yu" }
+      ],
+      "evidenceIds": [
+        "ev-journey-su-shi-hangzhou",
+        "ev-journey-su-shi-hangzhou-work"
+      ],
+      "reviewStatus": "published"
+    },
+    {
+      "id": "story-journey-su-shi-xuzhou",
+      "kind": "journey",
+      "claimType": "fact",
+      "title": "治水徐州，黄楼留名",
+      "summary": "苏轼在徐州组织筑堤守城，使城池免于水患；水退后又在东门建黄楼，留下地方治理与城市记忆相连的节点。",
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "place", "id": "xuzhou" }
+      ],
+      "evidenceIds": ["ev-journey-su-shi-xuzhou"],
+      "reviewStatus": "published"
+    },
+    {
+      "id": "story-journey-su-shi-huangzhou",
+      "kind": "journey",
+      "claimType": "fact",
+      "title": "谪居黄州，东坡成形",
+      "summary": "苏轼到黄州后先寓定惠院，后迁临皋，经营东坡、筑雪堂，并在壬戌秋冬游赤壁成赋；贬居由此转入创作生活。",
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "place", "id": "huangzhou" },
+        { "type": "work", "id": "su-shi-chibi-fu" },
+        { "type": "work", "id": "su-shi-hou-chibi-fu" }
+      ],
+      "evidenceIds": ["ev-journey-su-shi-huangzhou"],
+      "reviewStatus": "published"
+    },
+    {
+      "id": "story-place-huanghelou-cui-hao-li-bai",
+      "kind": "place",
+      "claimType": "tradition",
+      "title": "黄鹤楼上的两首诗",
+      "summary": "相传，李白登临黄鹤楼，看到崔颢题写的《黄鹤楼》，诗兴骤减，自愧不如，便搁笔不题。隔着多年的时空，两位诗人以不同笔墨相望：崔颢写江天与乡愁，李白写送友与远帆，共同留下黄鹤楼动人的诗歌回声。",
+      "disclaimer": "“李白读崔颢而搁笔”属于后世诗话传统，不视作可确认的现场史实。两首诗的原文只用于呈现地点与作品的阅读关系。",
+      "anchorRefs": [
+        { "type": "place", "id": "huanghelou" },
+        { "type": "person", "id": "cui-hao" },
+        { "type": "person", "id": "li-bai" },
+        { "type": "work", "id": "cui-hao-huanghelou" },
+        { "type": "work", "id": "li-bai-huanghelou-song-meng-haoran" }
+      ],
+      "evidenceIds": [
+        "ev-place-huanghelou-cui-hao",
+        "ev-place-huanghelou-li-bai"
+      ],
+      "reviewStatus": "candidate-preview"
+    },
+    {
+      "id": "story-social-su-shi-wang-an-shi-policy",
+      "kind": "relationship",
+      "claimType": "fact",
+      "eyebrow": "史传所见",
+      "title": "熙宁朝的上议与新法讨论",
+      "summary": "《宋史·苏轼传》将二人置于科举、学校与新法的朝议中呈现。",
+      "paragraphs": [
+        "传记记王安石执政、欲变科举兴学校时，苏轼上议，主张因仍旧制；文中同时写到神宗召见苏轼，询问政令得失。",
+        "同一段又记王安石创行新法后，苏轼上书论其不便，王安石因此不悦。这保留的是史传中的政论叙述，不据此补写二人的私交状态或完整争论过程。"
+      ],
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "person", "id": "wang-an-shi" }
+      ],
+      "evidenceIds": ["ev-social-su-shi-wang-an-shi-policy"],
+      "reviewStatus": "published"
+    },
+    {
+      "id": "story-social-su-shi-wang-an-shi-meeting",
+      "kind": "relationship",
+      "claimType": "fact",
+      "eyebrow": "史传所见",
+      "title": "道过金陵的一场对话",
+      "summary": "《宋史·苏轼传》记苏轼赴汝州途中道过金陵，与王安石相见。",
+      "paragraphs": [
+        "传文写苏轼上书求居常州、获准后，道过金陵见王安石。他以西方用兵连年不解、东南数起大狱相问。",
+        "王安石答称“二事皆惠卿启之”，二人又就为臣进言往复，末以“安石笑而不言”收束。本卡只整理这段可定位的对话，不延伸为会面日期、情感转折或和解结论。"
+      ],
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "person", "id": "wang-an-shi" },
+        { "type": "place", "id": "jinling" }
+      ],
+      "evidenceIds": ["ev-social-su-shi-wang-an-shi-meeting"],
+      "reviewStatus": "published"
+    },
+    {
+      "id": "story-social-su-shi-wang-an-shi-letter",
+      "kind": "relationship",
+      "claimType": "fact",
+      "eyebrow": "书信线索",
+      "title": "请见、金陵求田与荐秦观",
+      "summary": "《上荆公书》保留了苏轼写给荆公的一封书信及其中的具体请求。",
+      "paragraphs": [
+        "苏轼写道，近来经由时屡获请见，对方“存抚教诲，恩意甚厚”。他原想在金陵买田，得以在钟山之下陪伴；因事不遂，又在仪真求田，并说若田事办成，扁舟来往、相见不难。",
+        "信中还附呈秦观诗文，请对方“少借齿牙，使增重于世”。这封信提供请见、求田与荐人的文本线索，但不以一封信推定两人的长期政治立场或全部交游。"
+      ],
+      "anchorRefs": [
+        { "type": "person", "id": "su-shi" },
+        { "type": "person", "id": "wang-an-shi" },
+        { "type": "person", "id": "qin-guan" },
+        { "type": "place", "id": "jinling" }
+      ],
+      "evidenceIds": ["ev-social-su-shi-wang-an-shi-letter"],
+      "reviewStatus": "published"
+    }
+  ],
+  "views": {
+    "journey": {
+      "eventStoryIds": {
+        "su-shi-xining-hangzhou": ["story-journey-su-shi-hangzhou"],
+        "su-shi-xining-xuzhou-flood": ["story-journey-su-shi-xuzhou"],
+        "su-shi-yuanfeng-huangzhou": ["story-journey-su-shi-huangzhou"]
+      }
+    },
+    "poemWorld": {
+      "spotlights": [
+        {
+          "id": "spotlight-huanghelou",
+          "placeId": "huanghelou",
+          "storyIds": ["story-place-huanghelou-cui-hao-li-bai"],
+          "works": [
+            {
+              "workId": "cui-hao-huanghelou",
+              "contextLabel": "登临与乡关"
+            },
+            {
+              "workId": "li-bai-huanghelou-song-meng-haoran",
+              "contextLabel": "送别与远帆",
+              "evidenceIds": ["ev-place-huanghelou-li-bai"]
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "relationships": [
+        {
+          "pairIds": ["su-shi", "wang-an-shi"],
+          "edgeId": "net-su-shi-wang-an-shi",
+          "storyIds": [
+            "story-social-su-shi-wang-an-shi-policy",
+            "story-social-su-shi-wang-an-shi-meeting",
+            "story-social-su-shi-wang-an-shi-letter"
+          ],
+          "readerSummary": "《宋史·苏轼传》记载了朝议中的不同意见与金陵相见；《上荆公书》又留下请见、金陵求田与荐秦观的书信线索。详情页将三组材料分开阅读，不补写原典未记的交游情节。",
+          "workReferences": [
+            {
+              "id": "su-shi-ci-jinggong-yun",
+              "title": "苏轼《次荆公韵四绝》",
+              "summary": "《东坡全集》收录四首同题作品。“次荆公韵”保留了苏轼追和王安石诗韵的线索，可从全文继续阅读。",
+              "sourceStatus": "approved-source",
+              "workIds": [
+                "corpus-su-shi-5dbbf10a-391c-4d35-9f40-cb6febfb614d",
+                "corpus-su-shi-2e37cf94-62ac-4093-97f2-30c01fc63f4f",
+                "corpus-su-shi-74cf1024-f526-4de4-97e7-5a9396830a12",
+                "corpus-su-shi-ab7599a5-f4c3-4610-9c03-31cc0e1418fd"
+              ],
+              "evidenceIds": ["ev-social-su-shi-ci-jinggong-yun"]
+            },
+            {
+              "id": "su-shi-western-taiyi-jinggong",
+              "title": "苏轼《西太一见王荆公旧诗偶次其韵二首》",
+              "summary": "《东坡全集》收录两首同题作品。题名写明见到王荆公旧诗后偶次其韵，全文可供继续对读。",
+              "sourceStatus": "approved-source",
+              "workIds": [
+                "corpus-su-shi-5763bf94-2ee5-4787-859c-2397d856c641",
+                "corpus-su-shi-793eda2f-95c5-4948-bd3f-b7cf1d6fdaf0"
+              ],
+              "evidenceIds": ["ev-social-su-shi-western-taiyi-jinggong"]
+            },
+            {
+              "id": "wang-an-shi-he-zizhan",
+              "title": "王安石《和子瞻同王胜之游蒋山》",
+              "summary": "题名保留了王安石与子瞻的和作线索；从全文可进一步对读诗中所写的蒋山之游。",
+              "sourceStatus": "corpus-reference",
+              "workIds": ["corpus-wang-an-shi-b5120845-666e-4382-a9cd-2b012f7ad9b1"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

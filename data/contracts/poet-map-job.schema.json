@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:poetry-knowledge-base:poet-map-job:1.0.0",
+  "title": "Poet map job manifest",
+  "description": "A private, reproducible execution record for one uploaded-poet biography workflow. The manifest contains hashes and references, never the upload text or API secrets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "schemaVersion",
+    "jobId",
+    "status",
+    "createdAt",
+    "poet",
+    "input",
+    "referenceSnapshots",
+    "policy",
+    "stages",
+    "artifacts",
+    "transitions"
+  ],
+  "properties": {
+    "recordType": { "const": "poet-map-job" },
+    "schemaVersion": { "const": "1.0.0" },
+    "jobId": { "$ref": "#/$defs/jobId" },
+    "status": {
+      "enum": [
+        "intake-pending",
+        "running",
+        "awaiting-review",
+        "approved-private-preview",
+        "approved-for-curation",
+        "released",
+        "rejected",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "poet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/entityId" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "existingPersonId": { "$ref": "#/$defs/entityId" },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceId",
+        "blobSha256",
+        "contentType",
+        "accessLevel",
+        "registrationStatus",
+        "dataProcessingConsent",
+        "externalTransferConsent"
+      ],
+      "properties": {
+        "sourceId": { "$ref": "#/$defs/entityId" },
+        "blobSha256": { "$ref": "#/$defs/sha256" },
+        "contentType": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "accessLevel": { "enum": ["quarantine", "private"] },
+        "registrationStatus": {
+          "enum": [
+            "unregistered-upload",
+            "pending-rights-review",
+            "pending-quality-review",
+            "approved-private",
+            "approved-public",
+            "blocked"
+          ]
+        },
+        "sourceVersion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "value"],
+          "properties": {
+            "type": { "type": "string", "minLength": 1 },
+            "value": { "type": "string", "minLength": 1 }
+          }
+        },
+        "dataProcessingConsent": { "type": "boolean" },
+        "externalTransferConsent": { "type": "boolean" },
+        "retentionExpiresAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "referenceSnapshots": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/referenceSnapshot" },
+      "uniqueItems": true
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "policyVersion",
+        "allowExternalProviders",
+        "maxApiRequests",
+        "publicationMode"
+      ],
+      "properties": {
+        "policyVersion": { "type": "string", "minLength": 1 },
+        "allowExternalProviders": { "type": "boolean" },
+        "maxApiRequests": { "type": "integer", "minimum": 0 },
+        "maxTokens": { "type": "integer", "minimum": 0 },
+        "maxCostCny": { "type": "number", "minimum": 0 },
+        "publicationMode": {
+          "enum": ["private-preview-only", "human-review", "policy-gated-auto"]
+        }
+      }
+    },
+    "stages": {
+      "type": "array",
+      "minItems": 9,
+      "items": { "$ref": "#/$defs/stage" }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/artifact" }
+    },
+    "transitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/transition" }
+    }
+  },
+  "$defs": {
+    "jobId": {
+      "type": "string",
+      "pattern": "^pmj-[a-z0-9]+(?:-[a-z0-9]+){1,8}$",
+      "minLength": 12,
+      "maxLength": 100
+    },
+    "entityId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 120
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "referenceSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["registry", "referenceId", "manifestPath", "sha256"],
+      "properties": {
+        "registry": { "enum": ["raw-layer", "source-catalog"] },
+        "referenceId": { "$ref": "#/$defs/entityId" },
+        "manifestPath": {
+          "type": "string",
+          "pattern": "^(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+$"
+        },
+        "sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "status"],
+      "properties": {
+        "name": {
+          "enum": [
+            "intake",
+            "extract",
+            "resolve",
+            "claims",
+            "corpus",
+            "enrichment",
+            "events",
+            "review",
+            "map"
+          ]
+        },
+        "status": { "enum": ["pending", "running", "succeeded", "failed", "skipped"] },
+        "fingerprint": { "$ref": "#/$defs/sha256" },
+        "startedAt": { "type": "string", "format": "date-time" },
+        "completedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "stage", "recordType", "relativePath", "sha256"],
+      "properties": {
+        "id": { "$ref": "#/$defs/entityId" },
+        "stage": { "type": "string", "minLength": 1 },
+        "recordType": { "type": "string", "minLength": 1 },
+        "relativePath": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+$"
+        },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "parentArtifactIds": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/entityId" },
+          "uniqueItems": true
+        }
+      }
+    },
+    "transition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["at", "from", "to", "actor"],
+      "properties": {
+        "at": { "type": "string", "format": "date-time" },
+        "from": { "type": ["string", "null"] },
+        "to": { "type": "string", "minLength": 1 },
+        "actor": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "maxLength": 1000 }
+      }
+    }
+  }
+}
