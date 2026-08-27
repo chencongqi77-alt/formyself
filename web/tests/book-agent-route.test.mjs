@@ -20,11 +20,12 @@ test("server renders the private book-agent workbench", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /site-shell module-page/);
-  assert.match(html, /上传书籍，提取可核对的诗人线索/);
-  assert.match(html, /从原文中提取人物、地点、作品和交游线索/);
+  assert.match(html, /上传书籍，让 Agent 先核验关系/);
+  assert.match(html, /低风险关系自动进入私有草稿/);
   assert.match(html, /开始全自动分析/);
   assert.match(html, /启用大模型增强/);
-  assert.match(html, /模型只产出待审核候选/);
+  assert.match(html, /可信度、风险与发布边界仍由核验策略决定/);
+  assert.doesNotMatch(html, /方便你逐条审核/);
   assert.doesNotMatch(html, /AGENT WORKBENCH · PRIVATE DRAFT/);
   assert.doesNotMatch(html, /上传书籍，自动整理三卷候选/);
   assert.doesNotMatch(html, /私有 job/);
@@ -33,20 +34,32 @@ test("server renders the private book-agent workbench", async () => {
   assert.doesNotMatch(html, /自动校验/);
 });
 
-test("private book views reuse the public reading shell and stage components", async () => {
-  const [privateViews, agentPage, agentStyles, publicPoemWorld, publicWorkPage, workReadingTemplate] = await Promise.all([
+test("private book views reuse the public reading templates and stage components", async () => {
+  const [privateViews, agentPage, agentStyles, publicPoemWorld, publicSocial, publicWorkPage, workReadingTemplate, socialGraphReader] = await Promise.all([
     readFile(new URL("../app/components/BookAgentPrivateViews.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/agent/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/agent.module.css", import.meta.url), "utf8"),
     readFile(new URL("../app/poem-world/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/social/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/works/[workId]/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/components/WorkReadingTemplate.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/SocialGraphReader.tsx", import.meta.url), "utf8"),
   ]);
 
   assert.match(privateViews, /ReadingModuleHeader/);
   assert.match(privateViews, /<JourneyStage/);
   assert.match(privateViews, /<ContextAtlasStage/);
-  assert.match(privateViews, /<SocialGraphStage/);
+  assert.match(privateViews, /<SocialGraphReader/);
+  assert.match(publicSocial, /<SocialGraphReader/);
+  assert.doesNotMatch(privateViews, /social-graph-tools|<svg\b/);
+  assert.doesNotMatch(publicSocial, /social-graph-tools|<svg\b/);
+  assert.match(socialGraphReader, /<SocialGraphStage/);
+  assert.match(socialGraphReader, /social-graph-tools/);
+  assert.match(socialGraphReader, /social-mobile-directory/);
+  assert.match(socialGraphReader, /className="social-svg"/);
+  assert.match(socialGraphReader, /<GraphZoomControls/);
+  assert.match(socialGraphReader, /addEventListener\("wheel"/);
+  assert.match(socialGraphReader, /setPointerCapture/);
   assert.match(privateViews, /detail-page-content--works/);
   assert.match(privateViews, /open-works-button/);
   assert.match(privateViews, /PoemWorldWorkCard/);

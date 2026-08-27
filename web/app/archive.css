@@ -2,8 +2,8 @@
  * 墨录 / The Annotated Archive
  *
  * This layer intentionally sits after the legacy stylesheet. It provides the
- * shared visual contract for the migration while the data-rich modules keep
- * their existing, tested interaction code.
+ * shared visual contract while data-rich modules converge on reusable reading
+ * templates without weakening their separate evidence and release policies.
  */
 
 :root {

@@ -7,9 +7,7 @@ import {
   ContextAtlasStage,
   JourneyStage,
   ReadingModuleHeader,
-  SocialGraphStage,
 } from "./ReadingModuleTemplate";
-import { GraphZoomControls } from "./GraphZoomControls";
 import { LocationStoryDirectory } from "./LocationStoryDirectory";
 import { PoemWorldWorkCard, type PoemWorldWorkCardData } from "./PoemWorldWorkCard";
 import { PoetOverviewPanel, type PoetOverviewEvent, type PoetOverviewProfile } from "./PoetOverviewPanel";
@@ -21,16 +19,16 @@ import {
 } from "./WorkReadingTemplate";
 import {
   RelationshipStoryPanel,
-  type RelationshipStoryLink,
-  type RelationshipStoryPerson,
   type RelationshipStoryPilot,
 } from "./RelationshipStoryPanel";
 import {
-  arrangeKnowledgeGraph,
-  knowledgeGraphCardSize,
-  knowledgeGraphStraightLinkGeometry,
   type KnowledgeGraphCluster,
 } from "../../lib/knowledge-graph-presentation";
+import {
+  SocialGraphReader,
+  type SocialGraphReaderEdge,
+  type SocialGraphReaderNode,
+} from "./SocialGraphReader";
 import { addChineseVectorBasemap } from "../../lib/chineseVectorBasemap";
 import { journeyRouteStops } from "../../lib/journey-route-animation";
 import { poemWorldMarkerVisual } from "../../lib/poem-world-map-visual";
@@ -45,6 +43,7 @@ import type {
   PoemWorldItem,
   SocialEdge,
 } from "../../lib/book-agent";
+import { mergePrivateSocialEdges } from "../../lib/private-social-graph";
 import { PRIVATE_VIEW_LABELS, type PrivateViewKey } from "./private-view";
 import styles from "../agent.module.css";
 
@@ -78,21 +77,42 @@ const POEM_RELATION_LABELS: Record<NonNullable<PoemWorldItem["relationType"]>, s
   "mentioned-place": "写到",
 };
 
-const SOCIAL_RELATION_LABELS: Record<SocialEdge["relationTypes"][number], string> = {
+const PRIVATE_SOCIAL_BUCKET: Record<
+  SocialEdge["relationTypes"][number],
+  string
+> = {
+  kin: "kin",
+  "literary-exchange": "literary-exchange",
+  official: "colleague",
+  "teacher-student": "teacher-student",
+  friendship: "friend",
+  other: "other",
+};
+
+const SOCIAL_READER_BUCKET_LABELS: Record<string, string> = {
   kin: "亲属",
   "literary-exchange": "文学唱和",
-  official: "同僚 / 官场",
+  colleague: "同僚 / 官场",
   "teacher-student": "师生",
-  friendship: "交游",
+  friend: "交游",
   other: "往来",
 };
 
-const SOCIAL_CLUSTER_FOR_RELATION: Record<string, KnowledgeGraphCluster> = {
+const SOCIAL_READER_BUCKET_ORDER = [
+  "kin",
+  "teacher-student",
+  "friend",
+  "literary-exchange",
+  "colleague",
+  "other",
+];
+
+const SOCIAL_CLUSTER_FOR_BUCKET: Record<string, KnowledgeGraphCluster> = {
   kin: "kin",
   "teacher-student": "learning",
+  friend: "literary",
   "literary-exchange": "literary",
-  friendship: "reception",
-  official: "other",
+  colleague: "literary",
   other: "other",
 };
 
@@ -1447,40 +1467,12 @@ function PrivatePoemWorldView({
   );
 }
 
-type PrivateGraphNode = {
-  id: string;
-  name: string;
-  degree: number;
-  x: number;
-  y: number;
-  isAnchor: boolean;
-};
-
-type PrivateBookGraphLink = SocialEdge & {
-  sourceKind: "book";
-  sourceNode: PrivateGraphNode;
-  targetNode: PrivateGraphNode;
-};
-
-type PrivateGraphLink = PrivateBookGraphLink;
-
-function relationLabels(edge: Pick<SocialEdge, "relationTypes">): string {
-  return edge.relationTypes.map((type) => SOCIAL_RELATION_LABELS[type]).join(" · ");
-}
-
 function peoplePairKey(
   edge: Pick<SocialEdge, "sourcePersonId" | "targetPersonId">,
 ): string {
   return edge.sourcePersonId < edge.targetPersonId
     ? `${edge.sourcePersonId}|${edge.targetPersonId}`
     : `${edge.targetPersonId}|${edge.sourcePersonId}`;
-}
-
-function samePeopleConnection(
-  left: Pick<SocialEdge, "sourcePersonId" | "targetPersonId">,
-  right: Pick<BookAgentReferenceSocialConnection, "sourcePersonId" | "targetPersonId">,
-): boolean {
-  return peoplePairKey(left) === peoplePairKey(right);
 }
 
 function PrivateSocialView({
@@ -1495,111 +1487,71 @@ function PrivateSocialView({
   acceptedStoryIds: ReadonlySet<string>;
 }) {
   const { draft } = result;
-  const [selectedId, setSelectedId] = useState(draft.poet.id);
-  const [selectedEdgeId, setSelectedEdgeId] = useState("");
-  const [hoveredEdgeId, setHoveredEdgeId] = useState("");
-  const [query, setQuery] = useState("");
-  const [bucketFilter, setBucketFilter] = useState("");
-  const [zoom, setZoom] = useState(1);
-
-  const graph = useMemo(() => {
+  const mergedEdges = useMemo(() => mergePrivateSocialEdges(edges), [edges]);
+  const readerLinks = useMemo<SocialGraphReaderEdge[]>(
+    () =>
+      mergedEdges.map((edge) => {
+        const displayBuckets = edge.relationTypes.map(
+          (relationType) => PRIVATE_SOCIAL_BUCKET[relationType],
+        );
+        return {
+          id: edge.id,
+          source: edge.sourcePersonId,
+          target: edge.targetPersonId,
+          displayBuckets,
+          bucketCounts: Object.fromEntries(
+            displayBuckets.map((bucket) => [bucket, 1]),
+          ),
+          confidence: "possible",
+          evidenceCount: edge.evidenceIds.length,
+          titleSignalCount: 0,
+          years: {
+            startYear: edge.time?.startYear ?? null,
+            endYear: edge.time?.endYear ?? null,
+            precision: edge.time?.precision ?? "unknown",
+          },
+        };
+      }),
+    [mergedEdges],
+  );
+  const readerNodes = useMemo<SocialGraphReaderNode[]>(() => {
     const peopleById = new Map(draft.entities.people.map((person) => [person.id, person]));
     // The graph is text-first: only approved, book-backed edges can create a
     // node or a line. Matching CBDB records remain detail-panel comparisons.
     const nodeIds = new Set<string>([draft.poet.id]);
-    for (const edge of edges) {
-      nodeIds.add(edge.sourcePersonId);
-      nodeIds.add(edge.targetPersonId);
+    for (const edge of readerLinks) {
+      nodeIds.add(edge.source);
+      nodeIds.add(edge.target);
     }
     const degree = new Map<string, number>();
-    for (const edge of edges) {
-      degree.set(edge.sourcePersonId, (degree.get(edge.sourcePersonId) ?? 0) + 1);
-      degree.set(edge.targetPersonId, (degree.get(edge.targetPersonId) ?? 0) + 1);
+    for (const edge of readerLinks) {
+      degree.set(edge.source, (degree.get(edge.source) ?? 0) + 1);
+      degree.set(edge.target, (degree.get(edge.target) ?? 0) + 1);
     }
-    const nodes: PrivateGraphNode[] = [...nodeIds].map((id) => ({
-      id,
-      name: peopleById.get(id)?.name ?? id,
-      degree: degree.get(id) ?? 0,
-      x: 0,
-      y: 0,
-      isAnchor: id === draft.poet.id,
-    }));
-    arrangeKnowledgeGraph(nodes, {
-      anchorId: draft.poet.id,
-      width: 1600,
-      height: 1000,
-      clusterForNode: (node) => {
-        const related = edges
-          .filter((edge) => edge.sourcePersonId === node.id || edge.targetPersonId === node.id)
-          .flatMap((edge) => edge.relationTypes);
-        return related.map((type) => SOCIAL_CLUSTER_FOR_RELATION[type] ?? "other").find((cluster) => cluster !== "other") ?? "other";
-      },
+    return [...nodeIds].map((id) => {
+      const relatedBuckets = readerLinks
+        .filter((edge) => edge.source === id || edge.target === id)
+        .flatMap((edge) => edge.displayBuckets);
+      const cluster = relatedBuckets
+        .map((bucket) => SOCIAL_CLUSTER_FOR_BUCKET[bucket] ?? "other")
+        .find((value) => value !== "other") ?? "other";
+      return {
+        id,
+        name: peopleById.get(id)?.name ?? (id === draft.poet.id ? draft.poet.name : id),
+        birthYear: null,
+        deathYear: null,
+        degree: degree.get(id) ?? 0,
+        isAnchor: id === draft.poet.id,
+        cluster,
+      };
     });
-    const byId = new Map(nodes.map((node) => [node.id, node]));
-    const bookLinks = edges.flatMap((edge) => {
-      const sourceNode = byId.get(edge.sourcePersonId);
-      const targetNode = byId.get(edge.targetPersonId);
-      return sourceNode && targetNode ? [{ ...edge, sourceKind: "book" as const, sourceNode, targetNode }] : [];
-    });
-    return { nodes, links: bookLinks, byId };
-  }, [draft.entities.people, draft.poet.id, edges]);
-
-  const relationBuckets = useMemo(
-    () => [...new Set(graph.links.flatMap((edge) => edge.relationTypes))],
-    [graph.links],
-  );
-  const presentationEdges = useMemo(
-    () => bucketFilter ? graph.links.filter((edge) => edge.relationTypes.includes(bucketFilter as SocialEdge["relationTypes"][number])) : graph.links,
-    [bucketFilter, graph.links],
-  );
-  const selectedPerson = graph.byId.get(selectedId) ?? null;
-  const selectedPersonEdges = useMemo(
-    () => selectedId
-      ? graph.links.filter((edge) => edge.sourcePersonId === selectedId || edge.targetPersonId === selectedId)
-      : [],
-    [graph.links, selectedId],
-  );
-  const queryMatches = query.trim() ? graph.nodes.filter((node) => node.name.includes(query.trim())).slice(0, 8) : [];
-  const connectedToSelected = new Set(selectedPersonEdges.map((edge) => edge.id));
-  const focusedEdgeIds = selectedEdgeId ? new Set([selectedEdgeId]) : connectedToSelected;
-  const directEdgeCount = graph.links.filter((edge) => edge.sourcePersonId === draft.poet.id || edge.targetPersonId === draft.poet.id).length;
-  const bridgeEdgeCount = graph.links.length - directEdgeCount;
-  const isAnchorOverview = Boolean(selectedPerson?.isAnchor && !selectedEdgeId);
-  const readerPeopleById = useMemo<ReadonlyMap<string, RelationshipStoryPerson>>(
-    () => new Map(graph.nodes.map((node) => [node.id, {
-      id: node.id,
-      name: node.name,
-      birthYear: null,
-      deathYear: null,
-      degree: node.degree,
-      isAnchor: node.isAnchor,
-    }])),
-    [graph.nodes],
-  );
-  const readerLinks = useMemo<RelationshipStoryLink[]>(
-    () => selectedPersonEdges.map((edge) => ({
-      id: edge.id,
-      source: edge.sourcePersonId,
-      target: edge.targetPersonId,
-      displayBuckets: edge.relationTypes,
-      bucketCounts: Object.fromEntries(edge.relationTypes.map((relationType) => [relationType, 1])),
-      confidence: "possible",
-      evidenceCount: edge.evidenceIds.length,
-      titleSignalCount: 0,
-      years: {
-        startYear: edge.time?.startYear ?? null,
-        endYear: edge.time?.endYear ?? null,
-        precision: edge.time?.precision ?? "unknown",
-      },
-    })),
-    [selectedPersonEdges],
-  );
+  }, [draft, readerLinks]);
   const referenceEdgesByPair = useMemo(
     () => new Map(referenceEdges.map((edge) => [peoplePairKey(edge), edge])),
     [referenceEdges],
   );
   const readerPilots = useMemo<RelationshipStoryPilot[]>(
-    () => graph.links.map((edge) => {
+    () => mergedEdges.map((edge) => {
       const otherPersonId = edge.sourcePersonId === draft.poet.id ? edge.targetPersonId : edge.sourcePersonId;
       const storyEvents = edge.storyIds.flatMap((storyId) => {
         const story = storyFor(draft, [storyId], acceptedStoryIds);
@@ -1630,12 +1582,12 @@ function PrivateSocialView({
         id: `private-reader-${edge.id}`,
         edgeId: edge.id,
         otherPersonId,
-        otherName: graph.byId.get(otherPersonId)?.name ?? otherPersonId,
+        otherName: readerNodes.find((node) => node.id === otherPersonId)?.name ?? otherPersonId,
         reviewState: "approved-private-preview",
         events: [...storyEvents, sourceEvent, ...comparisonEvent],
       };
     }),
-    [acceptedStoryIds, draft, graph.byId, graph.links, referenceEdgesByPair, result],
+    [acceptedStoryIds, draft, mergedEdges, readerNodes, referenceEdgesByPair, result],
   );
   const overviewProfile = useMemo<PoetOverviewProfile>(() => {
     const person = draft.entities.people.find((record) => record.id === draft.poet.id);
@@ -1659,136 +1611,64 @@ function PrivateSocialView({
     [result.references.journeyByPlace],
   );
 
-  const zoomIn = useCallback(() => setZoom((current) => Math.min(2.4, current * 1.18)), []);
-  const zoomOut = useCallback(() => setZoom((current) => Math.max(0.55, current / 1.18)), []);
-  const chooseNode = useCallback((id: string) => {
-    setSelectedId(id);
-    setSelectedEdgeId("");
-  }, []);
-  const chooseEdge = useCallback((edge: PrivateGraphLink) => {
-    setSelectedEdgeId(edge.id);
-    setSelectedId(edge.sourcePersonId === draft.poet.id ? edge.targetPersonId : edge.sourcePersonId);
-  }, [draft.poet.id]);
+  const graphKey = `${draft.poet.id}:${mergedEdges
+    .flatMap((edge) => edge.sourceEdgeIds)
+    .join("|")}`;
 
   return (
-      <SocialGraphStage>
-        <section className="social-graph" aria-label={`${draft.poet.name}私有交游圈知识图谱`}>
-          <div className="social-graph-tools">
-            <label className="social-search">
-              <span className="sr-only">搜索人物</span>
-              <input type="search" value={query} placeholder="搜索人物姓名…" onChange={(event) => setQuery(event.target.value)} aria-label="搜索私有人物姓名" />
-              {queryMatches.length ? <ul className="social-search-results">{queryMatches.map((node) => <li key={node.id}><button type="button" onClick={() => { chooseNode(node.id); setQuery(""); }}><strong>{node.name}</strong><span>{node.degree} 对关系</span></button></li>)}</ul> : null}
-            </label>
-            <label className="social-bucket-filter">
-              <span className="sr-only">关系类型</span>
-              <select value={bucketFilter} aria-label="按私有关系类型筛选" onChange={(event) => { setBucketFilter(event.target.value); setSelectedEdgeId(""); }}>
-                <option value="">全部关系 · {graph.links.length} 条</option>
-                {relationBuckets.map((bucket) => <option key={bucket} value={bucket}>{SOCIAL_RELATION_LABELS[bucket]} · {graph.links.filter((edge) => edge.relationTypes.includes(bucket)).length}</option>)}
-              </select>
-            </label>
-            <div className="social-graph-line-key" aria-label="关系图说明">
-              <span><i aria-hidden="true" />与{draft.poet.name}直接往来 · {directEdgeCount}</span>
-              <span><i className="is-bridge" aria-hidden="true" />选择人物后显示圈内往来 · {bridgeEdgeCount}</span>
-            </div>
-          </div>
-
-          <section className="social-mobile-directory" aria-label="私有交游人物列表">
-            <div className="social-mobile-directory-heading">
-              <strong>人物索引</strong>
-              <span>点击人物查看关系与证据</span>
-            </div>
-            <ul>
-              {graph.nodes
-                .slice()
-                .sort((left, right) => Number(right.isAnchor) - Number(left.isAnchor) || right.degree - left.degree || left.name.localeCompare(right.name, "zh-CN"))
-                .map((node) => (
-                  <li key={node.id}>
-                    <button type="button" className={selectedId === node.id ? "is-active" : ""} aria-pressed={selectedId === node.id} onClick={() => chooseNode(node.id)}>
-                      <strong>{node.name}</strong>
-                      <span>{node.isAnchor ? "中心人物" : "圈内人物"}</span>
-                      <small>{node.degree} 对关系</small>
-                    </button>
-                  </li>
-                ))}
-            </ul>
-          </section>
-
-          <svg className="social-svg" viewBox="0 0 1600 1000" role="application" aria-label={`私有交游圈知识图谱：${graph.nodes.length} 位人物、${presentationEdges.length} 对关系`}>
-            <g transform={`translate(${800 * (1 - zoom)} ${500 * (1 - zoom)}) scale(${zoom})`}>
-              {presentationEdges.map((edge) => {
-                const geometry = knowledgeGraphStraightLinkGeometry(edge.sourceNode, edge.targetNode);
-                const bridge = !edge.sourceNode.isAnchor && !edge.targetNode.isAnchor;
-                const focused = focusedEdgeIds.has(edge.id);
-                const showLabel = selectedEdgeId === edge.id || hoveredEdgeId === edge.id;
-                const label = relationLabels(edge);
-                const labelWidth = Math.max(58, label.length * 14 + 16);
-                return (
-                  <g key={edge.id} className="kg-edge-interactive" role="button" tabIndex={0} aria-label={`打开${edge.sourceNode.name}与${edge.targetNode.name}的书内关系`} onClick={() => chooseEdge(edge)} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); chooseEdge(edge); } }} onPointerEnter={() => setHoveredEdgeId(edge.id)} onPointerLeave={() => setHoveredEdgeId((current) => current === edge.id ? "" : current)}>
-                    <path className="kg-edge-hit-area" d={geometry.path} fill="none" stroke="transparent" strokeWidth="24" pointerEvents="stroke" />
-                    <path className={`kg-edge${bridge ? " is-bridge" : ""}${focused ? " is-focused" : ""}`} d={geometry.path} stroke="#343b3d" strokeWidth={focused ? 2.2 : 1.5} strokeOpacity={focused ? 0.86 : bridge ? 0.42 : 0.68} />
-                    {showLabel ? <g className="kg-edge-label"><rect x={geometry.labelX - labelWidth / 2} y={geometry.labelY - 13} width={labelWidth} height="24" rx="4" /><text x={geometry.labelX} y={geometry.labelY + 5} textAnchor="middle">{label}</text></g> : null}
-                  </g>
-                );
-              })}
-              {graph.nodes.map((node) => {
-                const size = knowledgeGraphCardSize(node.name);
-                const queryDimmed = Boolean(query.trim() && !node.name.includes(query.trim()));
-                const focusDimmed = Boolean(selectedId && selectedId !== node.id && !selectedPersonEdges.some((edge) => edge.sourcePersonId === node.id || edge.targetPersonId === node.id));
-                const isSelected = selectedId === node.id;
-                return (
-                  <g key={node.id} className={`kg-node kg-node-card${node.isAnchor ? " is-target" : ""}${queryDimmed || focusDimmed ? " is-dimmed" : ""}`} transform={`translate(${node.x} ${node.y})`} role="button" tabIndex={0} aria-label={`选择${node.name}`} onClick={(event) => { event.stopPropagation(); chooseNode(node.id); }} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); chooseNode(node.id); } }}>
-                    {node.isAnchor ? (
-                      <circle className="kg-node-card-shape" r={isSelected ? 52 : 48} fill={isSelected ? "#f6e6ab" : "#d9b7dc"} stroke="#343b3d" strokeWidth={isSelected ? 3 : 2} />
-                    ) : (
-                      <rect className="kg-node-card-shape" x={-size.width / 2} y={-size.height / 2} width={size.width} height={size.height} rx="8" fill={isSelected ? "#f6e6ab" : "#c7e6e7"} stroke="#343b3d" strokeWidth={isSelected ? 3 : 2} />
-                    )}
-                    {isSelected ? (node.isAnchor ? <circle r="57" fill="none" stroke="#a33a2c" strokeWidth="1.6" strokeDasharray="4 4" /> : <rect x={-size.width / 2 - 5} y={-size.height / 2 - 5} width={size.width + 10} height={size.height + 10} rx="11" fill="none" stroke="#a33a2c" strokeWidth="1.5" strokeDasharray="4 4" />) : null}
-                    <text className="kg-node-card-label" textAnchor="middle" y={node.isAnchor ? 7 : 5}>{node.name}</text>
-                  </g>
-                );
-              })}
-            </g>
-          </svg>
-          <GraphZoomControls onZoomIn={zoomIn} onZoomOut={zoomOut} />
-          <details className="social-provenance">
-            <summary>数据说明</summary>
-            <p>关系边仅来自上传书籍中可回读的原文候选；CBDB 只在同一人物对已有书内关系时提供对照，不会单独上图。</p>
-          </details>
-        </section>
-        {selectedPerson && (isAnchorOverview ? (
+    <SocialGraphReader
+      key={graphKey}
+      anchorId={draft.poet.id}
+      anchorName={draft.poet.name}
+      nodes={readerNodes}
+      edges={readerLinks}
+      bucketLabels={SOCIAL_READER_BUCKET_LABELS}
+      bucketOrder={SOCIAL_READER_BUCKET_ORDER}
+      graphAriaLabel={`${draft.poet.name}私有交游圈知识图谱`}
+      directoryAriaLabel="私有交游人物列表"
+      searchAriaLabel="搜索私有人物姓名"
+      provenance="关系边仅来自上传书籍中可回读的原文候选；CBDB 只在同一人物对已有书内关系时提供对照，不会单独上图。"
+      renderInspector={({
+        selectedPerson,
+        selectedEdgeId,
+        relationships,
+        peopleById,
+        close,
+      }) => {
+        if (!selectedPerson) return null;
+        const isAnchorOverview = selectedPerson.isAnchor && !selectedEdgeId;
+        return isAnchorOverview ? (
           <PoetOverviewPanel
             fallbackName={draft.poet.name}
             profile={overviewProfile}
             events={overviewEvents}
-            sourceTitles={{ "published-events": "站内生平资料", "chinese-poetry": "chinese-poetry 作品语料", cbdb: "CBDB 关系资料" }}
+            sourceTitles={{
+              "published-events": "站内生平资料",
+              "chinese-poetry": "chinese-poetry 作品语料",
+              cbdb: "CBDB 关系资料",
+            }}
             statusLabel="私有暂存"
-            onClose={() => { setSelectedEdgeId(""); setSelectedId(""); }}
+            onClose={close}
           />
         ) : (
           <RelationshipStoryPanel
             key={`${selectedPerson.id}:${selectedEdgeId}`}
             anchorId={draft.poet.id}
             anchorName={draft.poet.name}
-            selectedPerson={readerPeopleById.get(selectedPerson.id) ?? {
-              id: selectedPerson.id,
-              name: selectedPerson.name,
-              birthYear: null,
-              deathYear: null,
-              degree: selectedPerson.degree,
-              isAnchor: selectedPerson.isAnchor,
-            }}
-            peopleById={readerPeopleById}
-            relationships={readerLinks}
-            relationshipLabels={SOCIAL_RELATION_LABELS}
+            selectedPerson={selectedPerson}
+            peopleById={peopleById}
+            relationships={relationships}
+            relationshipLabels={SOCIAL_READER_BUCKET_LABELS}
             pilotStories={readerPilots}
             requestedStoryId={selectedEdgeId}
             evidenceSectionLabel="书内候选证据"
             evidenceSectionNote="原文与 CBDB 对照"
             pilotStoryLabel="可回读的书内候选证据与 CBDB 对照"
-            onClose={() => { setSelectedEdgeId(""); setSelectedId(""); }}
+            onClose={close}
           />
-        ))}
-      </SocialGraphStage>
+        );
+      }}
+    />
   );
 }
 
@@ -1821,7 +1701,7 @@ export function BookAgentPrivateViews({
     ? `${journeyStations.length} 个路径站点 · ${journeyItems.length} 条关联 · ${new Set(journeyItems.map((item) => item.placeId)).size} 处地点`
     : activeView === "poemWorld"
       ? `${poemWorldItems.length} 条诗—地关联 · ${new Set(poemWorldItems.map((item) => item.placeId)).size} 处地点`
-      : `${new Set([draft.poet.id, ...socialEdges.flatMap((edge) => [edge.sourcePersonId, edge.targetPersonId])]).size} 位人物 · ${socialEdges.length} 条书内关系`;
+      : `${new Set([draft.poet.id, ...socialEdges.flatMap((edge) => [edge.sourcePersonId, edge.targetPersonId])]).size} 位人物 · ${socialPairs.size} 对书内关系`;
 
   return (
     <>

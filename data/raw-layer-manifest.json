@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-13",
+  "integrityModel": "single files use SHA-256; directories use sorted per-file SHA-256 inventories",
+  "characterPolicy": {
+    "canonicalScript": "Simplified Chinese",
+    "encoding": "UTF-8",
+    "converter": "OpenCC 1.4.1",
+    "configuration": "t2s.json",
+    "stability": "repeat-until-stable"
+  },
+  "datasets": [
+    {
+      "id": "cbdb-20260718",
+      "type": "sqlite",
+      "path": "cbdb/cbdb_20260718.sqlite3",
+      "metadataPath": "cbdb/cbdb_20260718.json",
+      "sizeBytes": 584314880,
+      "sha256": "e32657d9875b9baf0b6c2035acc5377f03b1d4d1c2d64d3162d8354af5a96d0f"
+    },
+    {
+      "id": "chinese-poetry",
+      "type": "directory-snapshot",
+      "path": "chinese-poetry",
+      "inventoryPath": "data/raw-inventories/chinese-poetry.snapshot.json",
+      "fileCount": 2282,
+      "totalBytes": 382570298,
+      "digest": "ef51712df1329f1bc7c4c2bdcc4e1639c81a4c48c46cf1042b9f82ff4b1c8263"
+    },
+    {
+      "id": "source-materials",
+      "type": "governed-catalog",
+      "path": "source-materials/source-manifest.json",
+      "schemaVersion": "3.1.0",
+      "policyVersion": "3.0.0",
+      "sourceCount": 28,
+      "approvedCount": 23,
+      "sha256": "84ea5e3ce3dc9126a5301fdacb8032d89a0bcf7bdfa86bb68ae887e82ebcc59f"
+    }
+  ]
+}

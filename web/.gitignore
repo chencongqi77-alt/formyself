@@ -3,6 +3,7 @@ dist/
 .next/
 .wrangler/
 .site-artifacts/
+test-artifacts/
 /.env
 /.env.*
 !/.env.example
