@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 import {
@@ -58,8 +59,8 @@ function ids(view) {
   return view.groups.flatMap((group) => group.assessmentIds);
 }
 
-test("knowledge graph defaults to unresolved human exceptions", () => {
-  assert.equal(DEFAULT_GRAPH_SCOPE, "exceptions");
+test("knowledge graph defaults to every valid relationship", () => {
+  assert.equal(DEFAULT_GRAPH_SCOPE, "all");
 
   const pending = assessment({ id: "pending" });
   const confirmed = assessment({
@@ -75,11 +76,13 @@ test("knowledge graph defaults to unresolved human exceptions", () => {
     displayStatus: "conflict",
   });
 
-  assert.deepEqual(ids(deriveBookAgentGraphView([confirmed, pending, rejected])), ["pending"]);
+  const defaultView = deriveBookAgentGraphView([confirmed, pending, rejected]);
+  assert.deepEqual(new Set(ids(defaultView)), new Set(["confirmed", "pending"]));
+  assert.equal(defaultView.hiddenByDensityCount, 0);
   assert.deepEqual(
-    ids(deriveBookAgentGraphView([confirmed, pending, rejected], { selectedId: "confirmed" })),
+    ids(deriveBookAgentGraphView([confirmed, pending, rejected], { scope: "exceptions" })),
     ["pending"],
-    "a previously selected confirmed relation must not leak into the default exception scope",
+    "the explicit exception scope must not include an already confirmed relation",
   );
   assert.deepEqual(
     new Set(ids(deriveBookAgentGraphView([confirmed, pending, rejected], { scope: "all" }))),
@@ -124,6 +127,29 @@ test("graph density is capped while an explicitly selected relation remains visi
   assert.equal(view.truncated, true);
 });
 
+test("comprehensive overview interleaves pending and confirmed relations at the density limit", () => {
+  const pending = Array.from({ length: MAX_VISIBLE_RELATION_GROUPS }, (_, index) =>
+    assessment({ id: `pending-${index}` }),
+  );
+  const confirmed = Array.from({ length: MAX_VISIBLE_RELATION_GROUPS }, (_, index) =>
+    assessment({
+      id: `confirmed-${index}`,
+      reviewState: "approved-private-preview",
+      risk: "low",
+      policyStatus: "confirmed",
+      displayStatus: "confirmed",
+    }),
+  );
+  const view = deriveBookAgentGraphView([...pending, ...confirmed]);
+  const visible = ids(view);
+
+  assert.equal(view.groups.length, MAX_VISIBLE_RELATION_GROUPS);
+  assert.equal(view.totalGroupCount, pending.length + confirmed.length);
+  assert.equal(view.hiddenByDensityCount, pending.length + confirmed.length - MAX_VISIBLE_RELATION_GROUPS);
+  assert.ok(visible.some((id) => id.startsWith("pending-")));
+  assert.ok(visible.some((id) => id.startsWith("confirmed-")));
+});
+
 test("duplicate relations aggregate evidence and stories without consuming extra density slots", () => {
   const first = assessment({
     id: "duplicate-a",
@@ -163,14 +189,14 @@ test("scope and risk filters run before duplicate relations aggregate", () => {
     displayStatus: "confirmed",
   });
 
-  const exceptionView = deriveBookAgentGraphView([pending, confirmed]);
+  const exceptionView = deriveBookAgentGraphView([pending, confirmed], { scope: "exceptions" });
   assert.deepEqual(exceptionView.groups[0].assessmentIds, ["pending-copy"]);
 
   const lowRiskView = deriveBookAgentGraphView([pending, confirmed], { scope: "all", risk: "low" });
   assert.deepEqual(lowRiskView.groups[0].assessmentIds, ["confirmed-copy"]);
 });
 
-test("explicit expansion stays inside the current scope and semantic subgraph", () => {
+test("explicit expansion stays inside the selected scope and semantic subgraph", () => {
   const journeyPending = assessment({ id: "journey-pending", kind: "journey" });
   const journeyConfirmed = assessment({
     id: "journey-confirmed",
@@ -182,11 +208,18 @@ test("explicit expansion stays inside the current scope and semantic subgraph", 
   });
   const socialPending = assessment({ id: "social-pending", kind: "social", targetId: "friend" });
 
-  const view = deriveBookAgentGraphView([journeyPending, journeyConfirmed, socialPending], {
+  const comprehensiveView = deriveBookAgentGraphView([journeyPending, journeyConfirmed, socialPending], {
     subgraph: "journey",
     expandedEntityId: "su-shi",
   });
-  assert.deepEqual(ids(view), ["journey-pending"]);
+  assert.deepEqual(new Set(ids(comprehensiveView)), new Set(["journey-pending", "journey-confirmed"]));
+
+  const exceptionView = deriveBookAgentGraphView([journeyPending, journeyConfirmed, socialPending], {
+    scope: "exceptions",
+    subgraph: "journey",
+    expandedEntityId: "su-shi",
+  });
+  assert.deepEqual(ids(exceptionView), ["journey-pending"]);
 });
 
 test("inclusive time filtering keeps overlapping dated relations and hides unknown dates", () => {
@@ -225,4 +258,71 @@ test("separate duplicate dates never create a synthetic time span", () => {
     includeUndated: true,
   });
   assert.deepEqual(ids(withUndated), ["undated"]);
+});
+
+test("verification UI presents a comprehensive graph without a low-risk pseudo node", async () => {
+  const [graphSource, workbenchSource, shellSource, stylesSource] = await Promise.all([
+    readFile(new URL("../app/components/BookAgentKnowledgeGraph.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/BookAgentVerificationWorkbench.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/BookAgentWorkbench.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/agent.module.css", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(graphSource, /label: "综合图谱"/);
+  assert.match(graphSource, /scope: DEFAULT_GRAPH_SCOPE/);
+  assert.match(graphSource, /function positionOverviewNodes/);
+  assert.match(graphSource, /function positionJourneyNodes/);
+  assert.match(graphSource, /function positionSocialNodes/);
+  assert.match(graphSource, /function positionPoemWorldNodes/);
+  assert.match(graphSource, /data-node-kind/);
+  assert.match(graphSource, /rx=\{placeHalfHeight\}/, "places use rounded seal or capsule nodes");
+  assert.match(graphSource, /graphEdgeLabelGroup/);
+  assert.match(graphSource, /graphEdgeCountBadge/);
+  assert.match(graphSource, /graphNodeFaded/);
+  assert.match(graphSource, /graphNodeFoldBadge/);
+  assert.match(graphSource, /graphNodeHitArea/);
+  assert.match(graphSource, /graphFoldButton/);
+  assert.match(graphSource, /role: "button"/);
+  assert.match(graphSource, /"aria-pressed": active/);
+  assert.match(graphSource, /setActiveNodeId\(node\.id\)/);
+  assert.match(graphSource, /GRAPH_CONTENT_CENTER_X = GRAPH_WIDTH \/ 2/);
+  assert.match(graphSource, /x: GRAPH_CONTENT_CENTER_X, y: GRAPH_CONTENT_CENTER_Y/);
+  assert.match(graphSource, /preserveAspectRatio="xMidYMid meet"/);
+  assert.match(graphSource, /const stableRawNodes = \[\.\.\.rawNodes\.values\(\)\]\.sort/);
+  assert.match(graphSource, /const nextAssessmentId = nextEdge \? assessmentIdForEdge\(nextEdge\) : null/);
+  assert.doesNotMatch(graphSource, /expandedNodeId|setExpandedNodeId/);
+  const stableViewMemo = graphSource.match(/const view = useMemo\(\(\) => deriveBookAgentGraphView[\s\S]*?\n  \]\);/);
+  assert.ok(stableViewMemo, "the rendered graph view memo must be present");
+  assert.doesNotMatch(stableViewMemo[0], /selectedId|expandedEntityId/, "selection must not change graph topology or layout");
+  assert.match(graphSource, /EXPANDED_GRAPH_GROUP_LIMIT = 10/);
+  assert.doesNotMatch(graphSource, /__collapsed-low-risk__|低风险已折叠|低风险（折叠查看）|异常关系分层知识图谱/);
+  assert.doesNotMatch(graphSource, /RiskFilter|graphFilterBar|graphFocusBar|graphDensityNote|graphCanvasFooter|storyDrawerOpen|graphStatusSummary/);
+  assert.doesNotMatch(graphSource, /graphNodeAction/);
+  assert.match(workbenchSource, /useState<string \| null>\(\(\) => summary\.pendingExceptions\[0\]\?\.id \?\? null\)/);
+  assert.match(workbenchSource, /reviewConsole/);
+  assert.match(workbenchSource, /reviewQueue/);
+  assert.match(workbenchSource, /reviewSummaryMetrics/);
+  assert.match(workbenchSource, /evidenceSourceCount/);
+  assert.match(workbenchSource, /data-review-collapsed/);
+  assert.match(workbenchSource, /reviewConsoleCollapsed/);
+  assert.match(workbenchSource, /aria-label="收起右侧核验卡片"/);
+  assert.match(workbenchSource, /aria-label="展开右侧核验卡片"/);
+  assert.match(workbenchSource, /className=\{styles\.reviewConsoleContent\} hidden=\{reviewCollapsed\}/);
+  assert.match(workbenchSource, /<details className=\{styles\.reviewVerificationDetails\}>/);
+  assert.match(workbenchSource, /原文证据/);
+  assert.match(workbenchSource, /站内资料/);
+  assert.match(workbenchSource, /联网结果/);
+  assert.match(workbenchSource, /详细 Agent 判断/);
+  assert.doesNotMatch(workbenchSource, /exceptionRail|exceptionFilters|graphStatusFooter|searchRequests/);
+  assert.doesNotMatch(workbenchSource, /Agent 已完成本轮初筛|仅异常需人工处理|verificationStatusBar|modelNotice/);
+  assert.doesNotMatch(shellSource, /setNotice|notice=\{notice\}/);
+  assert.match(stylesSource, /\.reviewConsole/);
+  assert.match(stylesSource, /\.graphEdge:hover \.graphEdgeLabelGroup/);
+  assert.match(stylesSource, /\.graphNodeFaded/);
+  assert.match(stylesSource, /\.graphInteractionNote/);
+  assert.match(stylesSource, /\.graphFoldButton/);
+  assert.match(stylesSource, /\.graphNode:hover/);
+  assert.match(stylesSource, /\.reviewConsole\.reviewConsoleCollapsed/);
+  assert.match(stylesSource, /data-review-collapsed="true"/);
+  assert.doesNotMatch(stylesSource, /\.verificationStatusBar|\.verificationPipeline|\.modelNotice/);
 });

@@ -15,35 +15,11 @@ import {
 import { BookAgentKnowledgeGraph } from "./BookAgentKnowledgeGraph";
 import styles from "../agent.module.css";
 
-type ExceptionFilter = "all" | "high" | "insufficient" | "conflict";
-type SearchRequestState = "idle" | "requested";
-
 const RISK_LABELS: Record<VerificationRisk, string> = {
   low: "低",
   medium: "中",
   high: "高",
 };
-
-const FILTER_LABELS: Array<{ id: ExceptionFilter; label: string }> = [
-  { id: "all", label: "全部" },
-  { id: "high", label: "高风险" },
-  { id: "insufficient", label: "证据不足" },
-  { id: "conflict", label: "冲突" },
-];
-
-function filterException(assessment: RelationshipAssessment, filter: ExceptionFilter): boolean {
-  if (filter === "high") return assessment.risk === "high";
-  if (filter === "insufficient") return assessment.reasonCode === "evidence-insufficient";
-  if (filter === "conflict") return assessment.reasonCode === "conflict";
-  return true;
-}
-
-function countForFilter(
-  assessments: RelationshipAssessment[],
-  filter: ExceptionFilter,
-): number {
-  return assessments.filter((assessment) => filterException(assessment, filter)).length;
-}
 
 function relationValue(result: BookAnalysisResult, assessment: RelationshipAssessment): string {
   if (assessment.kind === "journey") {
@@ -61,14 +37,6 @@ function relationOptions(assessment: RelationshipAssessment): ReadonlyArray<read
   return SOCIAL_RELATION_OPTIONS;
 }
 
-function statusCopy(assessment: RelationshipAssessment): string {
-  if (assessment.reviewState === "approved-private-preview") return assessment.decisionActor === "agent" ? "Agent 自动通过" : "人工已通过";
-  if (assessment.reviewState === "rejected") return "人工已驳回";
-  if (assessment.reasonCode === "conflict") return "资料冲突";
-  if (assessment.policyStatus === "low-confidence") return "低可信";
-  return "待人工处理";
-}
-
 function reasonLabel(code: VerificationReasonCode): string {
   if (code === "cross-verified") return "交叉核验通过";
   if (code === "conflict") return "来源冲突";
@@ -80,24 +48,58 @@ function assessmentReasonLabel(assessment: RelationshipAssessment): string {
   return reasonLabel(assessment.reasonCode);
 }
 
+function sourceStateLabel(state: RelationshipAssessment["existingChecks"][number]["state"]): string {
+  if (state === "supporting") return "支持";
+  if (state === "not-found") return "未找到";
+  if (state === "unavailable") return "不可用";
+  return "不适用";
+}
+
 function SourceStateMark({ state }: { state: RelationshipAssessment["existingChecks"][number]["state"] }) {
-  const text = state === "supporting" ? "支持" : state === "not-found" ? "未找到" : state === "unavailable" ? "不可用" : "不适用";
-  return <span className={styles[`verificationSource${state.replace(/(^|-)([a-z])/g, (_match, _dash, letter: string) => letter.toUpperCase())}`]}>{text}</span>;
+  const className = "verificationSource" + state.replace(/(^|-)([a-z])/g, (_match, _dash, letter: string) => letter.toUpperCase());
+  return <span className={styles[className]}>{sourceStateLabel(state)}</span>;
 }
 
-function AgentStatusIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="9" />
-      <path d="m8 12 2.5 2.5L16.5 8.5" />
-    </svg>
-  );
+function conciseAgentJudgment(assessment: RelationshipAssessment): string {
+  if (assessment.decisionAction === "modified" && assessment.reviewState === "needs-review") {
+    return "关系类型已经修改，需要确认新语义后再通过。";
+  }
+  if (assessment.reasonCode === "cross-verified") {
+    return "原文与既有资料相互印证，可进入私有草稿。";
+  }
+  if (assessment.reasonCode === "conflict") {
+    return "来源之间存在冲突，当前关系不宜直接通过。";
+  }
+  return `现有证据尚不足以确认“${assessment.relationLabel}”，建议人工复核。`;
 }
 
-function ChevronIcon({ open }: { open: boolean }) {
+function evidenceSourceCount(result: BookAnalysisResult, assessment: RelationshipAssessment): number {
+  const evidenceById = new Map(result.draft.evidence.map((evidence) => [evidence.id, evidence]));
+  const sourceIds = new Set<string>();
+  for (const evidenceId of assessment.evidenceIds) {
+    const evidence = evidenceById.get(evidenceId);
+    if (evidence) sourceIds.add(`book:${evidence.sourceFileId}`);
+  }
+  for (const check of assessment.existingChecks) {
+    if (check.state !== "supporting") continue;
+    if (check.sourceIds.length) {
+      check.sourceIds.forEach((sourceId) => sourceIds.add(`reference:${sourceId}`));
+    } else {
+      sourceIds.add(`reference:${check.id.split(":")[0]}`);
+    }
+  }
+  return sourceIds.size;
+}
+
+function displayRelationshipTitle(title: string): string {
+  return title.replace(/《《/g, "《").replace(/》》/g, "》");
+}
+
+function ReviewPanelToggleIcon({ direction }: { direction: "collapse" | "expand" }) {
   return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" className={open ? styles.chevronOpen : ""}>
-      <path d="m5 3 5 5-5 5" />
+    <svg viewBox="0 0 20 20" aria-hidden="true">
+      <path d={direction === "collapse" ? "M7 4l6 6-6 6" : "M13 4l-6 6 6 6"} />
+      <path d={direction === "collapse" ? "M16 3v14" : "M4 3v14"} />
     </svg>
   );
 }
@@ -105,147 +107,122 @@ function ChevronIcon({ open }: { open: boolean }) {
 function EvidenceInspector({
   result,
   assessment,
-  searchState,
-  onSearch,
   onDecision,
   onModify,
 }: {
   result: BookAnalysisResult;
   assessment: RelationshipAssessment;
-  searchState: SearchRequestState;
-  onSearch: () => void;
   onDecision: (state: "approved-private-preview" | "rejected") => void;
   onModify: (value: string) => void;
 }) {
-  const [showContext, setShowContext] = useState(false);
-  const [expandedSourceId, setExpandedSourceId] = useState<string | null>(null);
   const [editing, setEditing] = useState(false);
   const [nextRelationValue, setNextRelationValue] = useState(() => relationValue(result, assessment));
   const primaryEvidence = result.draft.evidence.find((item) => assessment.evidenceIds.includes(item.id));
+  const sourceCount = evidenceSourceCount(result, assessment);
   const context = primaryEvidence
     ? result.sourceText
       .slice(Math.max(0, primaryEvidence.locator.startOffset - 100), Math.min(result.sourceText.length, primaryEvidence.locator.endOffset + 100))
       .replace(/\s+/g, " ")
       .trim()
     : assessment.evidenceExcerpt;
-  const reviewFinished = assessment.reviewState === "approved-private-preview" || assessment.reviewState === "rejected";
 
   return (
-    <aside className={styles.evidenceInspector} aria-label="所选关系的异常处理与证据">
-      <header className={styles.evidenceInspectorHeader}>
-        <div className={styles.inspectorTitleRow}>
-          <p>{reviewFinished ? "关系证据" : "异常处理"}</p>
-          <span className={styles[`inspectorState${assessment.displayStatus.replace(/(^|-)([a-z])/g, (_match, _dash, letter: string) => letter.toUpperCase())}`]}>{statusCopy(assessment)}</span>
-        </div>
-        <h2>{assessment.title}</h2>
-        <dl className={styles.inspectorMetrics}>
-          <div><dt>可信度</dt><dd>{assessment.confidence}%</dd></div>
-          <div><dt>风险</dt><dd>{RISK_LABELS[assessment.risk]}</dd></div>
-          <div><dt>异常</dt><dd>{assessmentReasonLabel(assessment)}</dd></div>
-        </dl>
+    <div className={styles.reviewDetails} aria-label="所选关系的证据与处理">
+      <header className={styles.reviewDetailsHeader}>
+        <h2>{displayRelationshipTitle(assessment.title)}</h2>
       </header>
 
-      <div className={styles.evidenceInspectorScroll}>
-        <section className={styles.evidenceSection}>
-          <div className={styles.evidenceSectionHeading}>
-            <span aria-hidden="true">一</span>
-            <div><p>原文证据</p><small>{assessment.evidenceLocator} · {assessment.evidenceIds.length} 个 evidenceId</small></div>
-          </div>
-          <blockquote>“{assessment.evidenceExcerpt}”</blockquote>
-          <button type="button" className={styles.evidenceTextAction} onClick={() => setShowContext((current) => !current)}>
-            {showContext ? "收起上下文" : "查看上下文"}<ChevronIcon open={showContext} />
-          </button>
-          {showContext ? <p className={styles.evidenceContext}>{context}</p> : null}
-        </section>
-
-        <section className={styles.evidenceSection}>
-          <div className={styles.evidenceSectionHeading}>
-            <span aria-hidden="true">二</span>
-            <div><p>已有资料</p><small>先核对站内数据、CBDB 与 chinese-poetry</small></div>
-          </div>
-          <div className={styles.verificationSourceList}>
-            {assessment.existingChecks.map((check) => {
-              const expanded = expandedSourceId === check.id;
-              return (
-                <div key={check.id} className={styles.verificationSourceRow}>
-                  <button type="button" onClick={() => setExpandedSourceId(expanded ? null : check.id)} aria-expanded={expanded}>
-                    <span><strong>{check.label}</strong><small>{check.detail}</small></span>
-                    <span className={styles.verificationSourceMeta}><SourceStateMark state={check.state} /><ChevronIcon open={expanded} /></span>
-                  </button>
-                  {expanded ? <p>{check.sourceIds.length ? `来源标识：${check.sourceIds.join("、")}` : "当前没有可展示的来源标识。"}</p> : null}
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        <section className={styles.evidenceSection}>
-          <div className={styles.evidenceSectionHeading}>
-            <span aria-hidden="true">三</span>
-            <div><p>联网结果</p><small>仅在内部资料不足时触发</small></div>
-          </div>
-          <div className={styles.webSearchResult}>
-            {searchState === "requested" ? (
-              <>
-                <strong>已记录继续检索请求</strong>
-                <p>当前环境未配置独立联网检索源，因此没有把无来源摘要写入判断；接入检索服务后可在此追加标题、站点与检索时间。</p>
-              </>
-            ) : assessment.webSearchRequired ? (
-              <>
-                <strong>尚未联网 · 内部资料不足</strong>
-                <p>Agent 已停在内部核验阶段，等待人工决定是否继续检索。</p>
-              </>
-            ) : (
-              <>
-                <strong>未触发 · 内部资料已足够</strong>
-                <p>本条关系没有逐条联网，现有来源已经满足自动核验或人工判断所需。</p>
-              </>
-            )}
-          </div>
-        </section>
-
-        <section className={styles.evidenceSection}>
-          <div className={styles.evidenceSectionHeading}>
-            <span aria-hidden="true">四</span>
-            <div><p>Agent 判断</p><small>风险与可信度分开计算</small></div>
-          </div>
-          <p className={styles.agentReason}>{assessment.reason}</p>
-          <div className={styles.agentReasonFactors}>
-            <span>原文直证 {assessment.evidenceIds.length ? "✓" : "—"}</span>
-            <span>内部支持 {assessment.existingChecks.some((check) => check.state === "supporting") ? "✓" : "—"}</span>
-            <span>联网 {assessment.webSearchRequired ? "按需" : "未触发"}</span>
-          </div>
-        </section>
+      <div className={styles.reviewSummaryMetrics} aria-label="关系核验摘要">
+        <div>
+          <span>可信度</span>
+          <strong>{assessment.confidence}%</strong>
+        </div>
+        <div className={assessment.reasonCode === "cross-verified" ? styles.reviewRiskMetric : `${styles.reviewRiskMetric} ${styles.reviewRiskMetricAlert}`}>
+          <span>风险状态</span>
+          <strong>{assessmentReasonLabel(assessment)}</strong>
+          <small>风险 {RISK_LABELS[assessment.risk]}</small>
+        </div>
+        <div>
+          <span>证据来源</span>
+          <strong>{sourceCount} 处</strong>
+        </div>
       </div>
 
-      <footer className={styles.inspectorActions}>
+      <section className={styles.reviewAgentSummary}>
+        <span>Agent 判断</span>
+        <p>{conciseAgentJudgment(assessment)}</p>
+      </section>
+
+      <details className={styles.reviewVerificationDetails}>
+        <summary>
+          <span>查看核验详情</span>
+          <small>原文 · 站内 · 联网 · 判断</small>
+        </summary>
+        <div className={styles.reviewVerificationBody}>
+          <section className={styles.reviewSection}>
+            <h3>原文证据</h3>
+            <blockquote>“{assessment.evidenceExcerpt}”</blockquote>
+            <p className={styles.reviewEvidenceLocator}>{assessment.evidenceLocator}</p>
+            <p className={styles.reviewContext}>{context}</p>
+          </section>
+
+          <section className={styles.reviewSection}>
+            <h3>站内资料</h3>
+            {assessment.existingChecks.length ? (
+              <ul className={styles.reviewSourceList}>
+                {assessment.existingChecks.map((check) => (
+                  <li key={check.id}>
+                    <div><strong>{check.label}</strong><SourceStateMark state={check.state} /></div>
+                    <p>{check.detail}</p>
+                  </li>
+                ))}
+              </ul>
+            ) : <p className={styles.reviewEmptyCopy}>暂无可核验资料。</p>}
+          </section>
+
+          <section className={styles.reviewSection}>
+            <h3>联网结果</h3>
+            <p className={styles.reviewWebResult} data-search-required={assessment.webSearchRequired}>
+              <strong>{assessment.webSearchRequired ? "待检索" : "未触发"}</strong>
+              {assessment.webSearchRequired
+                ? "内部资料不足，尚未产生联网结果。"
+                : "当前内部证据已满足核验条件。"}
+            </p>
+          </section>
+
+          <section className={styles.reviewSection}>
+            <h3>详细 Agent 判断</h3>
+            <p className={styles.reviewAgentReason}>{assessment.reason}</p>
+          </section>
+        </div>
+      </details>
+
+      <footer className={styles.reviewActions}>
         {editing ? (
-          <div className={styles.relationEditor}>
+          <div className={styles.reviewRelationEditor}>
             <label htmlFor={`relation-editor-${assessment.id}`}>修改关系类型</label>
             <select id={`relation-editor-${assessment.id}`} value={nextRelationValue} onChange={(event) => setNextRelationValue(event.target.value)}>
               {relationOptions(assessment).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
             </select>
             <div>
               <button type="button" onClick={() => setEditing(false)}>取消</button>
-              <button type="button" className={styles.relationEditorSave} onClick={() => { onModify(nextRelationValue); setEditing(false); }}>保存并重新核验</button>
+              <button type="button" className={styles.reviewSaveButton} onClick={() => { onModify(nextRelationValue); setEditing(false); }}>保存</button>
             </div>
           </div>
         ) : (
-          <div className={styles.inspectorActionGrid}>
-            <button type="button" className={styles.inspectorApproveButton} onClick={() => onDecision("approved-private-preview")} disabled={assessment.reviewState === "approved-private-preview"}>通过</button>
+          <div className={styles.reviewActionGrid}>
+            <button type="button" className={styles.reviewApproveButton} onClick={() => onDecision("approved-private-preview")} disabled={assessment.reviewState === "approved-private-preview"}>通过</button>
             <button type="button" onClick={() => { setNextRelationValue(relationValue(result, assessment)); setEditing(true); }}>修改</button>
-            <button type="button" className={styles.inspectorRejectButton} onClick={() => onDecision("rejected")} disabled={assessment.reviewState === "rejected"}>驳回</button>
-            <button type="button" onClick={onSearch} disabled={searchState === "requested"}>{searchState === "requested" ? "已请求检索" : "继续检索"}</button>
+            <button type="button" className={styles.reviewRejectButton} onClick={() => onDecision("rejected")} disabled={assessment.reviewState === "rejected"}>驳回</button>
           </div>
         )}
       </footer>
-    </aside>
+    </div>
   );
 }
 
 export function BookAgentVerificationWorkbench({
   result,
-  notice,
   onDecision,
   onModify,
   onDownload,
@@ -254,7 +231,6 @@ export function BookAgentVerificationWorkbench({
   releaseReady,
 }: {
   result: BookAnalysisResult;
-  notice?: string;
   onDecision: (targetId: string, state: "approved-private-preview" | "rejected") => void;
   onModify: (targetId: string, value: string) => void;
   onDownload: () => void;
@@ -263,102 +239,125 @@ export function BookAgentVerificationWorkbench({
   releaseReady: boolean;
 }) {
   const summary = useMemo(() => summarizeVerification(result), [result]);
-  const [filter, setFilter] = useState<ExceptionFilter>("all");
   const [selectedId, setSelectedId] = useState<string | null>(() => summary.pendingExceptions[0]?.id ?? null);
-  const [searchRequests, setSearchRequests] = useState<Record<string, SearchRequestState>>({});
-  const filteredExceptions = summary.pendingExceptions.filter((assessment) => filterException(assessment, filter));
-  const activeAssessment = summary.assessments.find((assessment) => assessment.id === selectedId)
-    ?? null;
+  const [reviewCollapsed, setReviewCollapsed] = useState(false);
+  const assessmentById = useMemo(() => new Map(summary.assessments.map((assessment) => [assessment.id, assessment])), [summary.assessments]);
+  const activeAssessment = selectedId ? assessmentById.get(selectedId) ?? null : null;
+  const pendingIndex = activeAssessment
+    ? summary.pendingExceptions.findIndex((assessment) => assessment.id === activeAssessment.id)
+    : -1;
+
+  const selectRelativePending = (offset: number): void => {
+    const count = summary.pendingExceptions.length;
+    if (!count) return;
+    const nextIndex = pendingIndex < 0 ? 0 : (pendingIndex + offset + count) % count;
+    setSelectedId(summary.pendingExceptions[nextIndex].id);
+  };
+
+  const decideAndAdvance = (state: "approved-private-preview" | "rejected"): void => {
+    if (!activeAssessment) return;
+    const nextAssessment = summary.pendingExceptions.find((assessment) => assessment.id !== activeAssessment.id);
+    onDecision(activeAssessment.id, state);
+    setSelectedId(nextAssessment?.id ?? null);
+  };
 
   return (
-    <section className={styles.verificationWorkbench} aria-label="Agent 自动核验知识图谱工作台">
-      <header className={styles.verificationStatusBar}>
-        <div className={styles.verificationStatusLead}>
-          <AgentStatusIcon />
-          <div><strong>Agent 已完成本轮初筛</strong><span>{summary.autoApprovedCount} 条低风险关系已自动通过</span></div>
-        </div>
-        <div className={styles.verificationPipeline} aria-label="自动核验顺序">
-          <span>原文</span><i aria-hidden="true" />
-          <span>站内资料</span><i aria-hidden="true" />
-          <span>CBDB / chinese-poetry</span><i aria-hidden="true" />
-          <span>必要时联网</span>
-        </div>
-        <div className={styles.verificationStatusAside}>
-          <strong>仅异常需人工处理</strong>
-          <span>{summary.pendingExceptions.length} 条待处理 · {summary.rejectedCount} 条已驳回</span>
-        </div>
-      </header>
-      {notice ? <p className={styles.modelNotice} role="status">{notice}</p> : null}
-
+    <section
+      className={styles.verificationWorkbench}
+      data-review-collapsed={reviewCollapsed ? "true" : "false"}
+      aria-label="Agent 自动核验知识图谱工作台"
+    >
       <div className={styles.verificationMainGrid}>
-        <aside className={styles.exceptionRail} aria-label="异常关系列表">
-          <header className={styles.exceptionRailHeader}>
-            <div><h2>异常关系</h2><span>{summary.pendingExceptions.length}</span></div>
-            <p>低风险关系不进入此列</p>
-          </header>
-          <div className={styles.exceptionFilters} role="tablist" aria-label="异常筛选">
-            {FILTER_LABELS.map((item) => (
-              <button key={item.id} type="button" role="tab" aria-selected={filter === item.id} className={filter === item.id ? styles.exceptionFilterActive : ""} onClick={() => setFilter(item.id)}>
-                {item.label}<span>{countForFilter(summary.pendingExceptions, item.id)}</span>
-              </button>
-            ))}
-          </div>
-          <ol className={styles.exceptionList}>
-            {filteredExceptions.length ? filteredExceptions.map((assessment, index) => (
-              <li key={assessment.id}>
-                <button type="button" className={activeAssessment?.id === assessment.id ? styles.exceptionItemActive : styles.exceptionItem} onClick={() => setSelectedId(assessment.id)}>
-                  <span className={styles.exceptionItemIndex}>{String(index + 1).padStart(2, "0")}</span>
-                  <span className={styles.exceptionItemBody}>
-                    <strong>{assessment.title}</strong>
-                    <small>{assessmentReasonLabel(assessment)} · 可信度 {assessment.confidence}%</small>
-                  </span>
-                  <span className={styles.exceptionItemRisk}>风险 {RISK_LABELS[assessment.risk]}</span>
-                </button>
-              </li>
-            )) : (
-              <li className={styles.exceptionEmpty}>当前筛选下没有待处理关系。</li>
-            )}
-          </ol>
-          <footer className={styles.exceptionRailFooter}>
-            <div><strong>{summary.autoApprovedCount}</strong><span>条低风险关系已自动通过</span></div>
-            <div><strong>{summary.pendingExceptions.length}</strong><span>条转人工异常处理</span></div>
-            <div className={styles.exceptionUtilityActions}>
-              <button type="button" onClick={onDownload}>下载 draft 与校验报告</button>
-              <button type="button" onClick={onReset}>重新上传</button>
-            </div>
-          </footer>
-        </aside>
-
         <div className={styles.knowledgeGraphColumn}>
           <BookAgentKnowledgeGraph result={result} assessments={summary.assessments} selectedId={activeAssessment?.id ?? null} onSelect={setSelectedId} />
-          <div className={styles.graphStatusFooter}>
-            <span>本次新增关系 {summary.assessments.length}</span>
-            <span>已确认 {summary.assessments.filter((assessment) => assessment.displayStatus === "confirmed").length}</span>
-            <span>待处理 {summary.pendingExceptions.length}</span>
-            {summary.complete ? <button type="button" onClick={onCreateRelease} disabled={!releaseReady}>生成私有发布包</button> : <em>处理完异常后可生成私有发布包</em>}
-          </div>
         </div>
 
-        {activeAssessment ? (
-          <EvidenceInspector
-            key={activeAssessment.id}
-            result={result}
-            assessment={activeAssessment}
-            searchState={searchRequests[activeAssessment.id] ?? "idle"}
-            onSearch={() => setSearchRequests((current) => ({ ...current, [activeAssessment.id]: "requested" }))}
-            onDecision={(state) => { onDecision(activeAssessment.id, state); setSelectedId(null); }}
-            onModify={(value) => onModify(activeAssessment.id, value)}
-          />
-        ) : (
-          <aside className={styles.evidenceInspector} aria-label="请选择关系查看证据">
-            <div className={styles.inspectorEmpty}>
-              <strong>{summary.assessments.length ? "点选一条关系" : "本次没有生成关系"}</strong>
-              <p>{summary.assessments.length
-                ? "在异常列表或中间图谱中选择关系，查看原文、已有资料、联网结果与 Agent 判断理由。"
-                : "请下载 draft 检查原始分析结果，或重新上传包含明确人物、地点与作品关系的文本。"}</p>
-            </div>
-          </aside>
-        )}
+        <aside
+          id="agent-review-console"
+          className={`${styles.reviewConsole} ${reviewCollapsed ? styles.reviewConsoleCollapsed : ""}`}
+          aria-label="异常关系与处理"
+        >
+          <button
+            type="button"
+            className={styles.reviewConsoleExpand}
+            aria-controls="agent-review-console-content"
+            aria-expanded={!reviewCollapsed}
+            aria-label="展开右侧核验卡片"
+            title="展开核验卡片"
+            hidden={!reviewCollapsed}
+            onClick={() => setReviewCollapsed(false)}
+          >
+            <ReviewPanelToggleIcon direction="expand" />
+            <small>展开核验</small>
+          </button>
+
+          <div id="agent-review-console-content" className={styles.reviewConsoleContent} hidden={reviewCollapsed}>
+            <header className={styles.reviewQueueHeader}>
+              <details className={styles.reviewQueueDisclosure}>
+                <summary>
+                  <strong>{summary.pendingExceptions.length
+                    ? pendingIndex >= 0 ? `待核验 ${summary.pendingExceptions.length}` : "图中关系"
+                    : "核验完成"}</strong>
+                  {summary.pendingExceptions.length ? <span>·</span> : null}
+                  {summary.pendingExceptions.length ? (
+                    <small>{pendingIndex >= 0 ? `${pendingIndex + 1} / ${summary.pendingExceptions.length}` : `待核验 ${summary.pendingExceptions.length}`}</small>
+                  ) : null}
+                </summary>
+                {summary.pendingExceptions.length ? (
+                  <ol className={styles.reviewQueue} aria-label="待处理异常关系">
+                    {summary.pendingExceptions.map((assessment, index) => (
+                      <li key={assessment.id}>
+                        <button type="button" className={activeAssessment?.id === assessment.id ? styles.reviewQueueItemActive : styles.reviewQueueItem} onClick={() => setSelectedId(assessment.id)}>
+                          <span className={styles.reviewQueueNumber}>{String(index + 1).padStart(2, "0")}</span>
+                          <strong>{displayRelationshipTitle(assessment.title)}</strong>
+                          <small>{assessment.confidence}%</small>
+                        </button>
+                      </li>
+                    ))}
+                  </ol>
+                ) : null}
+              </details>
+              <div className={styles.reviewQueueNavigation}>
+                <button type="button" aria-label="上一条待核验关系" onClick={() => selectRelativePending(-1)} disabled={!summary.pendingExceptions.length}>‹</button>
+                <button type="button" aria-label="下一条待核验关系" onClick={() => selectRelativePending(1)} disabled={!summary.pendingExceptions.length}>›</button>
+                <button
+                  type="button"
+                  className={styles.reviewConsoleCollapse}
+                  aria-controls="agent-review-console-content"
+                  aria-expanded={!reviewCollapsed}
+                  aria-label="收起右侧核验卡片"
+                  title="收起核验卡片"
+                  onClick={() => setReviewCollapsed(true)}
+                >
+                  <ReviewPanelToggleIcon direction="collapse" />
+                </button>
+                <details className={styles.reviewUtilityMenu}>
+                  <summary aria-label="更多操作"><span aria-hidden="true">···</span></summary>
+                  <div>
+                    <button type="button" onClick={onDownload}>下载 draft 与校验报告</button>
+                    <button type="button" onClick={onReset}>重新上传</button>
+                  </div>
+                </details>
+              </div>
+            </header>
+
+            {activeAssessment ? (
+              <EvidenceInspector
+                key={activeAssessment.id}
+                result={result}
+                assessment={activeAssessment}
+                onDecision={decideAndAdvance}
+                onModify={(value) => onModify(activeAssessment.id, value)}
+              />
+            ) : (
+              <div className={styles.reviewCompleteState}>
+                <strong>{summary.complete ? "异常已处理完毕" : "请选择一条异常关系"}</strong>
+                <p>{summary.complete ? "全部关系均已有明确处理结果，可生成私有发布包。" : "从图谱中选择关系即可查看证据与判断。"}</p>
+                {summary.complete ? <button type="button" onClick={onCreateRelease} disabled={!releaseReady}>生成私有发布包</button> : null}
+              </div>
+            )}
+          </div>
+        </aside>
       </div>
     </section>
   );

@@ -20,6 +20,49 @@ const catalogs = {
   works: await loadJson("works.json"),
 };
 
+const emptyModelOutput = {
+  people: [],
+  places: [],
+  works: [],
+  journey: [],
+  poemWorld: [],
+  social: [],
+};
+
+const emptyModelText = JSON.stringify(emptyModelOutput);
+
+function analyzeApiRequest() {
+  return new Request("http://localhost/api/agent/analyze", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      text: "苏轼到达杭州。",
+      fileName: "model-api-fixture.txt",
+      bookTitle: "模型接口测试",
+      poetName: "苏轼",
+      fileSha256: "d".repeat(64),
+      catalogs,
+    }),
+  });
+}
+
+function providerJsonResponse(payload) {
+  return new Response(JSON.stringify(payload), {
+    status: 200,
+    headers: { "Content-Type": "application/json" },
+  });
+}
+
+async function withMockFetch(mockFetch, action) {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = mockFetch;
+  try {
+    return await action();
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+}
+
 const journeyFixtureCatalogs = {
   people: [{ id: "su-shi", name: "苏轼", aliases: [] }],
   places: [
@@ -166,4 +209,140 @@ test("model status never exposes an API key", async () => {
   const status = await response.json();
   assert.deepEqual(status, { configured: true, provider: "deepseek", model: "test-model" });
   assert.doesNotMatch(JSON.stringify(status), /test-secret/);
+});
+
+test("DeepSeek disables thinking and retries one HTTP 200 empty chat response", async () => {
+  const calls = [];
+  const splitAt = Math.floor(emptyModelText.length / 2);
+  const response = await withMockFetch(async (input, init) => {
+    calls.push({ url: String(input), body: JSON.parse(init.body) });
+    if (calls.length === 1) {
+      return providerJsonResponse({
+        object: "chat.completion",
+        choices: [{ finish_reason: "stop", message: { content: "" } }],
+      });
+    }
+    return providerJsonResponse({
+      object: "chat.completion",
+      choices: [{
+        finish_reason: "stop",
+        message: {
+          content: [
+            { type: "text", text: emptyModelText.slice(0, splitAt) },
+            { type: "text", text: emptyModelText.slice(splitAt) },
+          ],
+        },
+      }],
+    });
+  }, () => handleBookAgentApi(analyzeApiRequest(), {
+    DEEPSEEK_API_KEY: "deepseek-secret",
+    DEEPSEEK_MODEL: "deepseek-v4-flash",
+    DEEPSEEK_BASE_URL: "https://deepseek.test",
+  }));
+
+  assert.equal(response.status, 200);
+  assert.equal(calls.length, 2);
+  assert.deepEqual(calls.map((call) => call.url), [
+    "https://deepseek.test/chat/completions",
+    "https://deepseek.test/chat/completions",
+  ]);
+  assert.deepEqual(calls[0].body.thinking, { type: "disabled" });
+  assert.deepEqual(calls[1].body.thinking, { type: "disabled" });
+  assert.equal(calls[0].body.max_tokens, 5000);
+  assert.equal(calls[1].body.max_tokens, 8000);
+  const payload = await response.json();
+  assert.equal(payload.analysis.model.engine, "llm-hybrid");
+  assert.equal(payload.analysis.model.provider, "deepseek");
+});
+
+test("a repeated length finish retries only once and returns actionable diagnostics", async () => {
+  const calls = [];
+  const response = await withMockFetch(async (input, init) => {
+    calls.push({ url: String(input), body: JSON.parse(init.body) });
+    return providerJsonResponse({
+      object: "chat.completion",
+      choices: [{ finish_reason: "length", message: { content: "{" } }],
+    });
+  }, () => handleBookAgentApi(analyzeApiRequest(), {
+    DEEPSEEK_API_KEY: "deepseek-secret",
+    DEEPSEEK_MODEL: "deepseek-v4-flash",
+    DEEPSEEK_BASE_URL: "https://deepseek.test",
+  }));
+
+  assert.equal(calls.length, 2);
+  assert.equal(calls[0].body.max_tokens, 5000);
+  assert.equal(calls[1].body.max_tokens, 8000);
+  assert.equal(response.status, 502);
+  const payload = await response.json();
+  assert.match(payload.error, /token 上限/);
+  assert.match(payload.error, /finish_reason=length/);
+});
+
+test("generic compatible chat requests omit DeepSeek-only thinking controls", async () => {
+  const calls = [];
+  const response = await withMockFetch(async (input, init) => {
+    calls.push({ url: String(input), body: JSON.parse(init.body) });
+    return providerJsonResponse({
+      object: "chat.completion",
+      choices: [{ finish_reason: "stop", message: { content: emptyModelText } }],
+    });
+  }, () => handleBookAgentApi(analyzeApiRequest(), {
+    LLM_API_KEY: "compatible-secret",
+    LLM_MODEL: "compatible-model",
+    LLM_BASE_URL: "https://compatible.test/v1",
+  }));
+
+  assert.equal(response.status, 200);
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].url, "https://compatible.test/v1/chat/completions");
+  assert.equal(Object.hasOwn(calls[0].body, "thinking"), false);
+  assert.equal(calls[0].body.max_tokens, 5000);
+});
+
+test("OpenAI Responses retries incomplete output and joins output_text content parts", async () => {
+  const calls = [];
+  const splitAt = Math.floor(emptyModelText.length / 2);
+  const response = await withMockFetch(async (input, init) => {
+    calls.push({ url: String(input), body: JSON.parse(init.body) });
+    if (calls.length === 1) {
+      return providerJsonResponse({
+        object: "response",
+        status: "incomplete",
+        incomplete_details: { reason: "max_output_tokens" },
+        output: [{ type: "reasoning", content: [{ type: "reasoning_text", text: "ignore this" }] }],
+      });
+    }
+    return providerJsonResponse({
+      object: "response",
+      status: "completed",
+      output: [
+        { type: "reasoning", content: [{ type: "reasoning_text", text: "ignore this too" }] },
+        {
+          type: "message",
+          status: "completed",
+          content: [
+            { type: "output_text", text: emptyModelText.slice(0, splitAt) },
+            { type: "output_text", text: emptyModelText.slice(splitAt) },
+          ],
+        },
+      ],
+    });
+  }, () => handleBookAgentApi(analyzeApiRequest(), {
+    OPENAI_API_KEY: "openai-secret",
+    OPENAI_MODEL: "gpt-test",
+    OPENAI_BASE_URL: "https://openai.test/v1",
+  }));
+
+  assert.equal(response.status, 200);
+  assert.equal(calls.length, 2);
+  assert.deepEqual(calls.map((call) => call.url), [
+    "https://openai.test/v1/responses",
+    "https://openai.test/v1/responses",
+  ]);
+  assert.equal(calls[0].body.max_output_tokens, 5000);
+  assert.equal(calls[1].body.max_output_tokens, 8000);
+  assert.equal(Object.hasOwn(calls[0].body, "thinking"), false);
+  assert.equal(calls[0].body.text.format.type, "json_schema");
+  const payload = await response.json();
+  assert.equal(payload.analysis.model.provider, "openai");
 });

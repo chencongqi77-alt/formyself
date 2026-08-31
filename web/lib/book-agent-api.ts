@@ -46,6 +46,8 @@ const MAX_BOOK_CHARS = 800_000;
 const MODEL_WINDOW_CHARS = 7_500;
 const MAX_MODEL_WINDOWS = 32;
 const MODEL_TIMEOUT_MS = 55_000;
+const MODEL_OUTPUT_TOKENS = 5_000;
+const MODEL_RETRY_OUTPUT_TOKENS = 8_000;
 
 const JOURNEY_PREDICATES: JourneyItem["predicate"][] = [
   "born-at",
@@ -265,23 +267,66 @@ function normalizeModelOutput(value: unknown): BookAgentModelOutput {
   return { people: parsePeople, places: parsePlaces, works: parseWorks, journey, poemWorld, social };
 }
 
-function modelOutputFromResponse(value: unknown): string {
+interface ModelResponseOutput {
+  text: string;
+  status: string;
+  finishReason: string;
+  refusal: string;
+}
+
+function contentPartText(value: unknown): string {
+  if (typeof value === "string") return value;
+  const part = recordValue(value);
+  const type = textValue(part.type);
+  if (type && type !== "text" && type !== "output_text") return "";
+  if (typeof part.text === "string") return part.text;
+  const nestedText = recordValue(part.text);
+  return typeof nestedText.value === "string" ? nestedText.value : "";
+}
+
+function contentText(value: unknown): string {
+  if (typeof value === "string") return value.trim();
+  if (!Array.isArray(value)) return "";
+  return value.map(contentPartText).join("").trim();
+}
+
+function modelOutputFromResponse(value: unknown): ModelResponseOutput {
   const root = recordValue(value);
-  if (typeof root.output_text === "string") return root.output_text;
   const choices = Array.isArray(root.choices) ? root.choices : [];
   const firstChoice = recordValue(choices[0]);
   const message = recordValue(firstChoice.message);
-  if (typeof message.content === "string") return message.content;
+  const incompleteDetails = recordValue(root.incomplete_details);
+  const finishReason = textValue(firstChoice.finish_reason) || textValue(incompleteDetails.reason);
+  const status = textValue(root.status) || textValue(firstChoice.status);
+  const refusal = textValue(message.refusal);
+  const rootText = contentText(root.output_text);
+  const messageText = contentText(message.content);
+  if (rootText || messageText) return { text: rootText || messageText, status, finishReason, refusal };
+
   const output = Array.isArray(root.output) ? root.output : [];
+  const outputParts: string[] = [];
   for (const item of output) {
     const content = recordValue(item).content;
     if (!Array.isArray(content)) continue;
     for (const part of content) {
-      const partRecord = recordValue(part);
-      if (typeof partRecord.text === "string") return partRecord.text;
+      outputParts.push(contentPartText(part));
     }
   }
-  return "";
+  return { text: outputParts.join("").trim(), status, finishReason, refusal };
+}
+
+function modelResponseFailure(output: ModelResponseOutput): Error {
+  const diagnostics = [
+    output.status ? `status=${output.status}` : "",
+    output.finishReason ? `finish_reason=${output.finishReason}` : "",
+  ].filter(Boolean).join("，");
+  if (output.finishReason === "length" || output.finishReason === "max_output_tokens") {
+    return new Error(`模型输出达到 token 上限，未生成完整文本${diagnostics ? `（${diagnostics}）` : ""}`);
+  }
+  if (output.refusal) {
+    return new Error(`模型拒绝生成分析结果${diagnostics ? `（${diagnostics}）` : ""}`);
+  }
+  return new Error(`模型服务没有返回文本结果${diagnostics ? `（${diagnostics}）` : ""}`);
 }
 
 function parseJsonObject(text: string): unknown {
@@ -360,49 +405,64 @@ async function callModel(config: ModelConfig, prompt: string): Promise<BookAgent
   try {
     const isOpenAi = config.provider === "openai";
     const url = isOpenAi ? `${config.baseUrl}/responses` : `${config.baseUrl}/chat/completions`;
-    const body = isOpenAi
-      ? {
-          model: config.model,
-          instructions: "你是严格的古籍知识抽取器。输出必须可被 JSON Schema 校验；不要输出分析过程。",
-          input: prompt,
-          reasoning: { effort: "low" },
-          max_output_tokens: 5000,
-          store: false,
-          text: {
-            format: {
-              type: "json_schema",
-              name: "book_agent_extract",
-              strict: true,
-              schema: MODEL_OUTPUT_SCHEMA,
+    let lastOutput: ModelResponseOutput = { text: "", status: "", finishReason: "", refusal: "" };
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const maxOutputTokens = attempt === 0 ? MODEL_OUTPUT_TOKENS : MODEL_RETRY_OUTPUT_TOKENS;
+      const body = isOpenAi
+        ? {
+            model: config.model,
+            instructions: "你是严格的古籍知识抽取器。输出必须可被 JSON Schema 校验；不要输出分析过程。",
+            input: prompt,
+            reasoning: { effort: "low" },
+            max_output_tokens: maxOutputTokens,
+            store: false,
+            text: {
+              format: {
+                type: "json_schema",
+                name: "book_agent_extract",
+                strict: true,
+                schema: MODEL_OUTPUT_SCHEMA,
+              },
             },
-          },
-        }
-      : {
-          model: config.model,
-          messages: [
-            { role: "system", content: "你是严格的古籍知识抽取器。只返回 JSON，不要输出分析过程。" },
-            { role: "user", content: prompt },
-          ],
-          temperature: 0.1,
-          max_tokens: 5000,
-          response_format: { type: "json_object" },
-        };
-    const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${config.apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(body),
-      signal: controller.signal,
-    });
-    if (!response.ok) {
-      throw new Error(`模型服务返回 ${response.status}`);
+          }
+        : {
+            model: config.model,
+            messages: [
+              { role: "system", content: "你是严格的古籍知识抽取器。只返回 JSON，不要输出分析过程。" },
+              { role: "user", content: prompt },
+            ],
+            temperature: 0.1,
+            max_tokens: maxOutputTokens,
+            response_format: { type: "json_object" },
+            ...(config.provider === "deepseek" ? { thinking: { type: "disabled" } } : {}),
+          };
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${config.apiKey}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(body),
+        signal: controller.signal,
+      });
+      if (!response.ok) {
+        throw new Error(`模型服务返回 HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ""}`);
+      }
+      let payload: unknown;
+      try {
+        payload = await response.json() as unknown;
+      } catch {
+        throw new Error("模型服务返回 HTTP 200，但响应不是可解析的 JSON");
+      }
+      lastOutput = modelOutputFromResponse(payload);
+      const incomplete = lastOutput.finishReason === "length"
+        || lastOutput.finishReason === "max_output_tokens"
+        || lastOutput.status === "incomplete";
+      if (lastOutput.text && !incomplete) return normalizeModelOutput(parseJsonObject(lastOutput.text));
+      if (attempt === 0) continue;
+      throw modelResponseFailure(lastOutput);
     }
-    const payload = await response.json() as unknown;
-    const text = modelOutputFromResponse(payload);
-    if (!text) throw new Error("模型服务没有返回文本结果");
-    return normalizeModelOutput(parseJsonObject(text));
+    throw modelResponseFailure(lastOutput);
   } finally {
     clearTimeout(timeout);
   }

@@ -5,7 +5,7 @@ import type {
   VerificationStatus,
 } from "./book-agent-verification";
 
-export const DEFAULT_GRAPH_SCOPE = "exceptions" as const;
+export const DEFAULT_GRAPH_SCOPE = "all" as const;
 export const MAX_VISIBLE_RELATION_GROUPS = 8;
 export const MAX_VISIBLE_NODES = 9;
 export const MAX_VISIBLE_EDGES = 8;
@@ -66,8 +66,6 @@ export interface BookAgentGraphView {
   groups: BookAgentGraphRelationGroup[];
   totalGroupCount: number;
   truncated: boolean;
-  collapsedGroupCount: number;
-  collapsedLowRiskCount: number;
   hiddenByDensityCount: number;
   expandedRelatedCount: number;
   storyIds: string[];
@@ -206,6 +204,30 @@ function groupPriority(
   };
 }
 
+function interleaveComprehensiveGroups(
+  groups: BookAgentGraphRelationGroup[],
+  selectedId: string | null,
+  expandedEntityId: string | null,
+): BookAgentGraphRelationGroup[] {
+  const pinned = groups.filter((group) => (
+    (selectedId && group.assessmentIds.includes(selectedId))
+    || (expandedEntityId && (group.sourceId === expandedEntityId || group.targetId === expandedEntityId))
+  ));
+  const pinnedKeys = new Set(pinned.map((group) => group.key));
+  const remaining = groups.filter((group) => !pinnedKeys.has(group.key));
+  const pending = remaining.filter(groupPending);
+  const confirmed = remaining.filter((group) => !groupPending(group));
+  const interleaved: BookAgentGraphRelationGroup[] = [];
+  const length = Math.max(pending.length, confirmed.length);
+
+  for (let index = 0; index < length; index += 1) {
+    if (pending[index]) interleaved.push(pending[index]);
+    if (confirmed[index]) interleaved.push(confirmed[index]);
+  }
+
+  return [...pinned, ...interleaved];
+}
+
 function limitByNodeDensity(
   groups: BookAgentGraphRelationGroup[],
   maxGroups: number,
@@ -272,19 +294,17 @@ export function deriveBookAgentGraphView(
     : [];
   const candidateAssessments = unique([...scoped, ...expanded, ...selected]);
   const candidates = aggregateGraphAssessments(candidateAssessments);
-  const ordered = [...candidates].sort(groupPriority(selectedId, expandedEntityId));
+  const priorityOrdered = [...candidates].sort(groupPriority(selectedId, expandedEntityId));
+  const ordered = scope === "all"
+    && (options.risk === undefined || options.risk === "all")
+    && subgraph === "overview"
+    ? interleaveComprehensiveGroups(priorityOrdered, selectedId, expandedEntityId)
+    : priorityOrdered;
   const groups = limitByNodeDensity(
     ordered,
     options.maxGroups ?? MAX_VISIBLE_RELATION_GROUPS,
     options.maxNodes ?? MAX_VISIBLE_NODES,
   );
-  const structuralGroups = aggregateGraphAssessments(structurallyFiltered);
-  const visibleKeys = new Set(groups.map((group) => group.key));
-  const collapsedLowRiskCount = scope === "exceptions"
-    ? structuralGroups
-      .filter((group) => group.risk === "low" && group.displayStatus === "confirmed" && !visibleKeys.has(group.key))
-      .reduce((total, group) => total + group.occurrenceCount, 0)
-    : 0;
   const expandableGroups = aggregateGraphAssessments(
     scopeFiltered.filter((assessment) => inCurrentSubgraph(assessment)),
   );
@@ -303,8 +323,6 @@ export function deriveBookAgentGraphView(
     groups,
     totalGroupCount: candidates.length,
     truncated: groups.length < candidates.length,
-    collapsedGroupCount: Math.max(0, structuralGroups.length - groups.length),
-    collapsedLowRiskCount,
     hiddenByDensityCount: Math.max(0, candidates.length - groups.length),
     expandedRelatedCount,
     storyIds: unique(groups.flatMap((group) => group.linkedStoryIds)),

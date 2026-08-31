@@ -75,7 +75,6 @@ export function BookAgentWorkbench({
   const [phase, setPhase] = useState<Phase>("idle");
   const [result, setResult] = useState<BookAnalysisResult | null>(null);
   const [error, setError] = useState("");
-  const [notice, setNotice] = useState("");
   const [modelConsent, setModelConsent] = useState(false);
   const [modelStatus, setModelStatus] = useState<ModelStatus | null>(null);
   const [privateReleaseManifest, setPrivateReleaseManifest] = useState<Record<string, unknown> | null>(null);
@@ -101,7 +100,6 @@ export function BookAgentWorkbench({
 
   const chooseFile = (nextFile: File | null) => {
     setError("");
-    setNotice("");
     setPrivateReleaseManifest(null);
     if (!nextFile) return;
     const extension = nextFile.name.toLowerCase().slice(nextFile.name.lastIndexOf("."));
@@ -161,7 +159,6 @@ export function BookAgentWorkbench({
         const payload = await response.json() as { analysis?: BookAnalysisResult; error?: string };
         if (!response.ok || !payload.analysis) throw new Error(payload.error || "大模型分析接口没有返回结果。");
         analysis = enrichBookAnalysisReferences(payload.analysis, catalogs);
-        if (analysis.model?.warning) setNotice(analysis.model.warning);
       } else {
         analysis = await analyzeBook({ text, fileName: file.name, bookTitle, poetName, fileSha256, catalogs });
         analysis.model = { engine: "local-rules" };
@@ -180,7 +177,6 @@ export function BookAgentWorkbench({
             engine: "local-fallback",
             warning: caught instanceof Error ? caught.message : "大模型分析失败，已回退本地规则分析。",
           };
-          setNotice(fallback.model.warning ?? "大模型分析失败，已回退本地规则分析。");
           setResult(applyAutomaticVerificationPolicy(fallback));
           setPhase("ready");
           return;
@@ -227,7 +223,6 @@ export function BookAgentWorkbench({
     setResult(null);
     setPhase("idle");
     setError("");
-    setNotice("");
     setPrivateReleaseManifest(null);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
@@ -343,7 +338,6 @@ export function BookAgentWorkbench({
         <BookAgentVerificationWorkbench
           key={result.draft.bundleId}
           result={result}
-          notice={notice}
           onDecision={updateTarget}
           onModify={modifyTarget}
           onDownload={downloadDraft}
